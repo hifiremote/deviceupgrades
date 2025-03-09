@@ -1,0 +1,197 @@
+Name:,Kenmore AC,,,,v9.17,,,,,,,,CURRENT DATA
+Devices:,Manual Settings,,,,88,,,,,,,,
+Manual:,01FF,2 = after cmd,MSB,87,NO,,,,,,,,
+Setup:,2000,99 = URC-8820 / 10820 / 6820,11 - Home Auto,OBC,USE,88,2,No,,,,,
+URC-8820 / 10820 / 6820 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 3F D0 (Home Auto/2000) Kenmore AC (KM v9.17),,,,,,,,,,,,,
+FF 00 FE FE BE FF 88 28 7A 36 28 32 12 28 3A 16 28 42 1A 28 4A 1E 28 52 22 28 5A 26 28 62 2A 28 6A 2E 28 72 32 28 0A 3E 28 04 0A 28 04 92 C0 00 32 C0 04 12 20 0E 3E A0 3C 26 A0 96 26 A0 1E 26 A0 5A 26 A0 B4 26 A0 78 26 A0 D2 26 A0 00 2A 92 4A 22 90 78 22 90 3C 22 92 68 22 90 00 26 92 0E 22 28 06 1A 90 96 22 90 B4 22 90 D2 22 90 F0 22 C0 02 46 90 5A 22 90 1E 22 92 2C 22,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 FF (HCS08) Custom Protocol for Home Auto/2000 Kenmore AC (KM v9.17),,,,,,,,,,,,,
+20 15 23 46 13 8D 04 08 07 01 13 03 39 01 13 01 13 00 00 10 81 08 4D CC FF 5F,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,0,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+"Fan=Low, temp=65",020,30 02,0,"42 - Mode=Cool, temp=74",,Protocol ID,Fixed Data,,,,,,1F
+"Fan=Low, temp=66",020,38 06,1,"33 - Mode=Cool, temp=65",,,,,,,,,15
+"Fan=Low, temp=67",020,40 0A,2,"34 - Mode=Cool, temp=66",,,,,,,,,16
+"Fan=Low, temp=68",020,48 0E,3,"35 - Mode=Cool, temp=67",,,,,,,,,17
+"Fan=Low, temp=69",020,50 12,4,"36 - Mode=Cool, temp=68",,,,,,,,,19
+"Fan=Low, temp=70",020,58 16,5,"37 - Mode=Cool, temp=69",,,,,,,,,1A
+"Fan=Low, temp=71",020,60 1A,6,"38 - Mode=Cool, temp=70",,,,,,,,,1B
+"Fan=Low, temp=72",020,68 1E,7,"39 - Mode=Cool, temp=71",,,,,,,,,1C
+"Fan=Low, temp=73",020,70 22,8,"40 - Mode=Cool, temp=72",,,,,,,,,1D
+"Fan=Low, temp=74",020,78 26,9,"41 - Mode=Cool, temp=73",,,,,,,,,1E
+"Fan=Low, temp=75",020,04 0A,vol up,"32 - Fan=High, temp=75",,,,,,,,,04
+,,,vol down,"10 - Fan=Low, temp=75",,,,,,,,,05
+"Fan=Med, temp=65",020,30 8A,mute,"21 - Fan=Med, temp=75",,,,,,,,,08
+"Fan=Med, temp=66",020,38 8E,channel up,69 - Air Purifier - On,,,,,,,,,06
+"Fan=Med, temp=67",020,40 92,channel down,68 - Air Purifier - Off,,,,,,,,,07
+"Fan=Med, temp=68",020,48 96,power,66 - AC Power - On,,,,,,,,,03
+"Fan=Med, temp=69",020,50 9A,enter,"43 - Mode=Cool, temp=75",,,,,,,,,12
+"Fan=Med, temp=70",020,58 9E,,,,,,,,,,,
+"Fan=Med, temp=71",020,60 A2,prev,89 - Timer - 11,,,,,,,,,13
+"Fan=Med, temp=72",020,68 A6,menu,80 - Timer - 2,,,,,,,,,27
+"Fan=Med, temp=73",020,70 AA,guide,79 - Timer - 1,,,,,,,,,2C
+"Fan=Med, temp=74",020,78 AE,up arrow,83 - Timer - 5,,,,,,,,,31
+"Fan=Med, temp=75",020,04 92,down arrow,84 - Timer - 6,,,,,,,,,32
+,,,left arrow,85 - Timer - 7,,,,,,,,,33
+"Fan=High, temp=65",020,32 12,right arrow,86 - Timer - 8,,,,,,,,,34
+"Fan=High, temp=66",020,3A 16,ok,87 - Timer - 9,,,,,,,,,35
+"Fan=High, temp=67",020,42 1A,sleep,67 - AC Power - Off,,,,,,,,,28
+"Fan=High, temp=68",020,4A 1E,pip,,,,,,,,,,36
+"Fan=High, temp=69",020,52 22,info,82 - Timer - 4,,,,,,,,,26
+"Fan=High, temp=70",020,5A 26,swap,,,,,,,,,,37
+"Fan=High, temp=71",020,62 2A,move,,,,,,,,,,14
+"Fan=High, temp=72",020,6A 2E,play,72 - Sleep - 2,,,,,,,,,0C
+"Fan=High, temp=73",020,72 32,pause,75 - Sleep - 5,,,,,,,,,0F
+"Fan=High, temp=74",020,7A 36,rewind,71 - Sleep - 1,,,,,,,,,0B
+"Fan=High, temp=75",020,0A 3E,fast fwd,73 - Sleep - 3,,,,,,,,,0D
+,,,stop,76 - Sleep - 6,,,,,,,,,0E
+"Mode=Cool, temp=65",020,32 12,record,74 - Sleep - 4,,,,,,,,,10
+"Mode=Cool, temp=66",020,3A 16,exit,78 - Timer - 0 = Off,,,,,,,,,2B
+"Mode=Cool, temp=67",020,42 1A,,,,,,,,,,,
+"Mode=Cool, temp=68",020,4A 1E,input,90 - Timer - 12,,,,,,,,,20
+"Mode=Cool, temp=69",020,52 22,+100,,,,,,,,,,38
+"Mode=Cool, temp=70",020,5A 26,fav,,,,,,,,,,18
+"Mode=Cool, temp=71",020,62 2A,,,,,,,,,,,
+"Mode=Cool, temp=72",020,6A 2E,skip+,77 - Sleep - 7,,,,,,,,,2D
+"Mode=Cool, temp=73",020,72 32,skip-,70 - Sleep - 0 = Off,,,,,,,,,2E
+"Mode=Cool, temp=74",020,7A 36,,,,,,,,,,,
+"Mode=Cool, temp=75",020,06 1A,,,,,,,,,,,
+,,,,,,,,,,,,,
+"Mode=Saver, temp=65",023,32 2A,,,,,,,,,,,
+"Mode=Saver, temp=66",023,3A 2E,,,,,,,,,,,
+"Mode=Saver, temp=67",023,42 32,,,,,,,,,,,
+"Mode=Saver, temp=68",023,4A 36,,,,,,,,,,,
+"Mode=Saver, temp=69",023,52 3A,,,,,,,,,,,
+"Mode=Saver, temp=70",023,5A 3E,,,,,,,,,,,
+"Mode=Saver, temp=71",023,62 02,,,,,,,,,,,
+"Mode=Saver, temp=72",023,6A 06,phantom1,,,,,,,,,,3B
+"Mode=Saver, temp=73",023,72 0A,phantom2,,,,,,,,,,3F
+"Mode=Saver, temp=74",023,7A 0E,phantom3,,,,,,,,,,40
+"Mode=Saver, temp=75",023,06 32,phantom4,,,,,,,,,,41
+,,,,,,,,,,,,,
+"Mode=Fan Only, temp=65",021,32 1A,,,,,,,,,,,
+"Mode=Fan Only, temp=66",021,3A 1E,,,,,,,,,,,
+"Mode=Fan Only, temp=67",021,42 22,,,,,,,,,,,
+"Mode=Fan Only, temp=68",021,4A 26,,,,,,,,,,,
+"Mode=Fan Only, temp=69",021,52 2A,,,,,,,,,,,
+"Mode=Fan Only, temp=70",021,5A 2E,setup,,,,,,,,,,02
+"Mode=Fan Only, temp=71",021,62 32,,,,,,,,,,,
+"Mode=Fan Only, temp=72",021,6A 36,,,,,,,,,,,
+"Mode=Fan Only, temp=73",021,72 3A,M1,,,,,,,,,,3C
+"Mode=Fan Only, temp=74",021,7A 3E,M2,,,,,,,,,,3D
+"Mode=Fan Only, temp=75",021,06 22,(M3),,,,,,,,,,3E
+,,,,,,,,,,,,,
+,,,L1,,,,,,,,,,23
+AC Power - On,016,0E 3E,L2,,,,,,,,,,24
+,,,L3,,,,,,,,,,25
+AC Power - Off,096,02 46,,,,,,,,,,,
+Air Purifier - Off,096,04 12,,,,,,,,,,,
+Air Purifier - On,096,00 32,,,,,,,,,,,
+,,,,,,,,,,,,,
+Sleep - 0 = Off,080,00 2A,,,,,,,,,,,
+,,,,,,,,,,,,,
+Sleep - 1,080,1E 26,,,,,,,,,,,
+Sleep - 2,080,3C 26,,,,,,,,,,,
+Sleep - 3,080,5A 26,,,,,,,,,,,
+Sleep - 4,080,78 26,,,,,,,,,,,
+Sleep - 5,080,96 26,,,,,,,,,,,
+Sleep - 6,080,B4 26,,,,,,,,,,,
+Sleep - 7,080,D2 26,,,,,,,,,,,
+,,,,,,,,,,,,,
+Timer - 0 = Off,072,00 26,,,,,,,,,,,
+,,,,,,,,,,,,,
+Timer - 1,072,1E 22,,,,,,,,,,,
+Timer - 2,072,3C 22,CC,88 - Timer - 10,,,,,,,,,30
+Timer - 3,072,5A 22,format,81 - Timer - 3,,,,,,,,,2F
+Timer - 4,072,78 22,,,,,,,,,,,
+Timer - 5,072,96 22,,,,,,,,,,,
+Timer - 6,072,B4 22,,,,,,,,,,,
+Timer - 7,072,D2 22,,,,,,,,,,,
+Timer - 8,072,F0 22,,,,,,,,,,,
+Timer - 9,073,0E 22,,,,,,,,,,,
+Timer - 10,073,2C 22,,,,,,,,,,,
+Timer - 11,073,4A 22,,,,,,,,,,,
+Timer - 12,073,68 22,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (S3C8+) Kenmore AC (PB v4.01),,,,,,,,,,,,,
+ 43 8C 13 8B 12 8D 04 08 07 01 13 03 25 01 13 00 ,,,,,,,,,,,,,
+ FF 00 00 10 81 08 39 8D 01 46 ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (HCS08) Kenmore AC (PB v4.01),,,,,,,,,,,,,
+ 20 15 23 46 13 8D 04 08 07 01 13 03 39 01 13 01 ,,,,,,,,,,,,,
+ 13 00 00 10 81 08 4D CC FF 5F ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE
