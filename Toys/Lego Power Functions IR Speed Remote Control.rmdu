@@ -1,0 +1,37 @@
+Description=Lego Power Functions IR Speed Remote Control
+Remote.name=URC-6131(Old) PVR Remote 2K
+Remote.signature=PVR0PVR0
+Notes=The device code \= the channel minus 1 (eg, 0 \= ch1)\nOutput A \= red\nOutput B \= blue\n\nIf you're interested in how this upgrade was developed, see the following thread\:\nhttp\://www.hifi-remote.com/forums/viewtopic.php?t\=16630
+DeviceType=Cable
+DeviceIndex=0
+SetupCode=2000
+Protocol=01 FF
+Protocol.name=Manual Settings
+ProtocolParms=0
+FixedData=00
+DevParms=Device 1\=0
+DeviceTranslator=Translator(0)
+CmdParms=OBC
+CmdTranslator=Translator(0)
+DefaultCmd=00
+CmdIndex=0
+FixedData=00
+Code.S3C80=43 8C 11 8B 12 85 44 08 08 00 4F 01 00 00 4F 00 6F 74 36 00 4F 01 ED 76 00 01 6B 03 B6 03 08 E4 03 05 E4 04 06 6C 05 28 03 F0 03 B4 04 C2 F0 04 B4 04 C2 18 04 56 C1 0F 44 C1 03 56 04 F0 60 C2 56 C2 0F 44 C2 04 F6 01 46 48 05 56 C4 03 4E C6 F8 50 14 F6 01 58 4A F7 6A EC E4 05 03 E4 06 04 F6 01 0A 7B B7 AF
+Function.0.name=blue brake
+Function.0.hex=58
+Function.1.name=blue wheel left
+Function.1.hex=75
+Function.2.name=blue wheel right
+Function.2.hex=74
+Function.3.name=red brake
+Function.3.hex=48
+Function.4.name=red wheel left
+Function.4.hex=65
+Function.5.name=red wheel right
+Function.5.hex=64
+Button.4=red wheel right|null|null
+Button.5=red wheel left|null|null
+Button.8=red brake|null|null
+Button.6=blue wheel right|null|null
+Button.7=blue wheel left|null|null
+Button.23=blue brake|null|null

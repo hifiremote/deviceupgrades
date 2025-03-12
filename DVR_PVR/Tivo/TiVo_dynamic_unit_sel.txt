@@ -1,0 +1,132 @@
+SA/DTiVo Protocols for Dynamic Unit Selection
+=============================================
+
+April 24, 2005 by Hal Takahara
+
+
+With these custom upgrade protocols, you can reuse a single TiVo
+device upgrade for multiple units of the same type by dynamically
+switching unit code (aka remote address) instead of having similar
+copies of device upgrade for every unit.
+
+
+An unused register of the remote control's processor is used to keep
+track of the current unit code, then you create key moves with the
+Advanced Select special protocol to change value of the register.
+
+I chose the register RBF in the examples below.  This is unused in
+most of the s3c8/s3c8+ based remotes with or without the extender, but
+any unused  register can be used instead of RBF if there's a conflict.
+
+
+There are two versions of the protocols, one for Sony standalone /
+DirecTiVo and another for all non-Sony TiVo.  You will need these two
+protocol upgrades and three device upgrades (Sony SA, Sony DTiVo and
+non-Sony TiVo) minimum if you want to control all the possible
+models and unit code combinations.
+
+
+Device/Protocol Upgrade Setup
+-----------------------------
+
+1. Use your existing TiVo device upgrade or get one from the Device
+   Codes folder in the Files section.  The device upgrades for all
+   Sony SA/DTiVo, 1-byte TiVo (Official) and TiVo (Advanced) should
+   work.  2-byte TiVo upgrades will NOT work.
+
+2. Load it into KM. (RM may be used if Manual Settings is fully
+   supported already.)
+
+3. Specify the values as follows on the Setup tab:
+
+  Protocol Name: Manual Settings
+  Device1: (blank)
+  Device2: (blank)
+  Device3: (blank)
+  Raw Fixed Data:
+    Sony:     5A 10 BF
+    Non-Sony: 5E F3 BF
+
+    (The 3rd byte is the register number for switching the unit code.
+     Change it accordingly if you chose other register.)
+
+  PID: (anything that does not conflict)
+  2nd Cmd Byte: None
+
+  (Sony)
+  Signal Style: LSB
+  Bits/Dev: 8
+  Bits/Cmd: 7
+
+  (Non-Sony)
+  Signal Style: LSB-COMP
+  Bits/Dev: 8
+  Bits/Cmd: 8
+
+
+  Notes / 3rd-Party Protocol Code:
+
+  (Sony)
+Upgrade protocol 0 = 01 DE (S3C8+) Sony SA/DTiVo Unit Sel
+ 3A 8A 31 8B 14 F6 15 08 07 02 58 01 18 01 2C 01
+ 18 57 D0 04 B0 01 18 05 03 25 05 04 7B 07 E6 03
+ ED EB 02 00 28 8D 01 46
+End
+
+  (Non-Sony)
+Upgrade protocol 0 = 00 41 (S3C8+) TiVo (Advanced) Unit Sel
+ 43 8D 31 8B 12 CF 44 08 08 01 1A 01 06 01 1A 03 
+ 31 D7 42 11 A7 08 B7 E5 05 C0 E4 06 05 60 06 46 
+ 06 F0 54 C0 06 F6 01 46 46 29 0D 8D 01 49
+End
+
+4. Modify other settings such as Remote type, button assignments,
+   etc. as needed.
+
+5. Copy and paste the Device/Protocol upgrades into IR.exe.
+
+
+Creating Unit Code Selection Key Moves
+--------------------------------------
+
+6. Install the Advance Select special protocol shown below.  This is
+   the same as the one in the special protocols spreadsheet, so you
+   don't have to modify or install it again if you have already
+   installed it.
+
+   (You can change the Setup Code from TV/1105 to something else to
+   match other special protocols.)
+
+Upgrade code 0 = 1C 51 (TV/1105) Advanced Select (Special)
+ FA 00 01
+End
+
+Upgrade protocol 0 = 01 FA (S3C8+) Advanced Select (Special)
+ 00 00 02 F5 04 03 AF
+End
+
+
+7. Create the key moves.
+
+  Bound Key: (use Device/Key of your choice)
+  Device Type/Setup Code: TV/1105
+  Hex Cmd: $BF $XX
+
+   $XX: value for the unit code of your choice
+
+   Sony:
+     SA1:$48, SA2:$E8, SA3:$68
+     DT1:$10, DT2:$08, DT3:$00
+
+   Non-Sony:
+     0:$FF, 1:$7F, 2:$BF, 3:$3F, 4:$DF,
+     5:$5F, 6:$9F, 7:$1F, 8:$EF, 9:$6F
+
+
+Other Notes
+-----------
+
+ - Initial state of the current unit code is not guaranteed to be any
+   specific value.  Make sure to execute one of the unit code
+   selection key moves after resetting the remote.
+

@@ -1,0 +1,197 @@
+Name:,YamahaRX-V567(RCRP05B-1112),,,,v9.21,,,,,,,,CURRENT DATA
+Devices:,NEC 4DEV Yamaha Combo,122,,126,,127,1,124,,1,,,
+Manual:,01 1A,2 = after cmd,LSB-COMP,88,NO,,,,,,,,
+Setup:,1112,99 = RCA RCRP05B,15 - Amp,OBC,USE,A1 5E 81 7E 01 7F C1 3E,2,No,,,,,
+RCA RCRP05B Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code2 0 = 34 58 (Amp/1112) YamahaRX-V567(RCRP05B-1112) (KM v9.21),,,,,,,,,,,,,
+01 1A 00 F0 1E F8 08 12 C0 05 A1 5E 81 7E 01 7F C1 3E B2 20 58 20 98 20 18 20 E8 20 68 20 A8 20 28 20 C8 20 72 20 A7 20 27 20 C7 20 25 A2 85 A2 AB 60 07 22 1B 22 DE 20 46 20 C6 20 06 20 86 20 84 20 AA 20 32 20 29 22 D6 20 4E 20 6E 20 87 20,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 9F F0 04 34 58 97 20«Tuner: 1 1 (122)»¦95 F0 04 34 58 35 22«AV 1: 1 1 (122)» ¦96 F0 04 34 58 95 22«AV 2: 1 1 (122)» ¦97 F0 04 34 58 65 22«AV 3: 1 1 (122)» ¦99 F0 04 34 58 C5 22«AV 4: 1 1 (122)» ¦9A F0 04 34 58 59 22«AUD 1: 1 1 (122)»¦9B F0 04 34 58 1D 22«HDMI 1: 1 1 (122)»  ¦9C F0 04 34 58 AD 22«HDMI 2: 1 1 (122)»  ¦9D F0 04 34 58 4D 22«HDMI 3: 1 1 (122)»  ¦9E F0 04 34 58 F5 22«HDMI 4: 1 1 (122)»  ¦86 F0 04 34 58 79 A2«tune up: 3 1 (127.1)»  ¦87 F0 04 34 58 D9 A2«tune down: 3 1 (127.1)»¦BF F0 04 34 58 47 20«Power on: 1 1 (122)»,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 1A (S3C8+) NEC 4DEV Yamaha Combo (KM v9.21),,,,,,,,,,,,,
+43 8B 82 8B 14 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 08 CA E6 10 02 08 0C 18 C0 56 C1 C0 F0 C1 E0 C1 06 C1 03 93 C1 03 E5 C1 04 E4 0B 05 E4 0B 06 60 06 37 02 03 B6 06 01 37 04 03 B6 06 80 37 06 05 F6 01 04 7B 09 37 09 0C 37 01 03 46 29 0D 46 29 01 8D 01 49 C4 22 1E 37 01 EE F6 01 49 E6 28 C1 60 03 E6 12 01 8B E7,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,439,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+V-Aux,085,1 1,0,20 - 0,1 1 (122),Protocol ID,Fixed Data,,,,,01 - Tuner,1F
+Tuner,022,1 1,1,21 - 1,1 1 (122),,,,,,,48 - AV 1,15
+Movie,136,1 1,2,22 - 2,1 1 (122),,,,,,,49 - AV 2,16
+Music,137,1 1,3,23 - 3,1 1 (122),,,,,,,50 - AV 3,17
+Enhancer Stereo,148,1 1,4,24 - 4,1 1 (122),,,,,,,51 - AV 4,19
+Surround decoder,141,1 1,5,25 - 5,1 1 (122),,,,,,,54 - AUD 1,1A
+Straight,086,1 1,6,26 - 6,1 1 (122),,,,,,,44 - HDMI 1,1B
+Direct,221,1 1,7,27 - 7,1 1 (122),,,,,,,45 - HDMI 2,1C
+Setup,132,1 1,8,28 - 8,1 1 (122),,,,,,,46 - HDMI 3,1D
+Return,170,1 1,9,29 - 9,1 1 (122),,,,,,,47 - HDMI 4,1E
+Enter,222,1 1,vol up,15 - Volume up,1 1 (122) in Tuner mode,,,,,,,,04
+Arrow up,157,1 1,vol down,16 - Volume down,1 1 (122) in Tuner mode,,,,,,,,05
+Arrow down,156,1 1,mute,17 - Mute,1 1 (122) in Tuner mode,,,,,,,,33
+Arrow right,158,1 1,channel up,39 - preset up,1 1 (122) in Tuner mode,,,,,,,41 - tune up,06
+Arrow left,159,1 1,channel down,40 - preset down,1 1 (122) in Tuner mode,,,,,,,42 - tune down,07
+Volume up,026,1 1,power,31 - Power toggle,1 1 (122),,,,,,,,03
+Volume down,027,1 1,,,1 1 (122),,,,,,,,
+Mute,028,1 1,,,1 1 (122),,,,,,,,
+Top menu,174,1 1,last,,1 1 (122) in Tuner mode,,,,,,,,08
+Pop-up menu,171,1 1,menu,08 - Setup,1 1 (122) in Tuner mode,,,,,,,,2E
+0,178,1 1,guide,70 - Option,1 1 (122) in Tuner mode,,,,,,,,21
+1,229,1 1,up arrow,11 - Arrow up,1 1 (122) in Tuner mode,,,,,,,,29
+2,230,1 1,down arrow,12 - Arrow down,1 1 (122) in Tuner mode,,,,,,,,2A
+3,231,1 1,left arrow,14 - Arrow left,1 1 (122) in Tuner mode,,,,,,,,2B
+4,232,1 1,right arrow,13 - Arrow right,1 1 (122) in Tuner mode,,,,,,,,2C
+5,233,1 1,ok,10 - Enter,1 1 (122) in Tuner mode,,,,,,,,2D
+6,234,1 1,,,1 1 (122) in Tuner mode,,,,,,,,
+7,235,1 1,pip on/off,04 - Enhancer Stereo,1 1 (122) in Tuner mode,,,,,,,,38
+8,236,1 1,info,61 - info,1 1 (122) in Tuner mode,,,,,,,,13
+9,177,1 1,pip swap,05 - Surround decoder,1 1 (122) in Tuner mode,,,,,,,,39
+Numeric enter(Ent),179,1 1,pip move,03 - Music,1 1 (122),,,,,,,,3A
+Power toggle,042,2 1,play,,2 1 (126),,,,,,,,0C
+Display,021,3 1,pause,,3 1 (127.1),,,,,,,,0F
+Dock,074,3 1,rewind,,3 1 (127.1),,,,,,,,0B
+Sleep,048,1 1,fast fwd,,1 1 (122),,,,,,,,0D
+Power on,029,1 1,stop,,1 1 (122),,,Power on,(upgrade),phantom1,Yes,,0E
+Power off,030,1 1,record,,1 1 (122),,,Power off,(upgrade),phantom1,,,10
+,,,exit,09 - Return,Yamaha Gap Helper functions,,,,,,,,14
+fm,088,3 1 Y1,,,3 1 (127.1),,,,,,,,
+am,085,3 1 Y1,input,56 - Input toggle,3 1 (127.1),,,,,,,,30
+preset up,091,3 1 Y1,dash,30 - Numeric enter(Ent),3 1 (127.1),,,,,,,,20
+preset down,094,3 1 Y1,fav,,3 1 (127.1),,,,,,,,22
+tune up,097,3 1 Y1,,,3 1 (127.1),,,,,,,,
+tune down,100,3 1 Y1,,,3 1 (127.1),,,,,,,,
+memory,103,3 1 Y1,,,3 1 (127.1),,,,,,,,
+,,,,,,,,,,,,,
+HDMI 1,071,1 1 Y1,,,1 1 (122),,,,,,,,
+HDMI 2,074,1 1 Y1,,,1 1 (122),,,,,,,,
+HDMI 3,077,1 1 Y1,,,1 1 (122),,,,,,,,
+HDMI 4,080,1 1 Y1,,,1 1 (122),,,,,,,,
+AV 1,083,1 1 Y1,,,1 1 (122),,,,,,,,
+AV 2,086,1 1 Y1,,,1 1 (122),,,,,,,,
+AV 3,089,1 1 Y1,,,1 1 (122),,,,,,,,
+AV 4,092,1 1 Y1,,,1 1 (122),,,,,,,,
+AV 5,095,1 1 Y1,,,1 1 (122),,,,,,,,
+AV 6,098,1 1 Y1,phantom1,36 - Power off,1 1 (122),,,,,,,35 - Power on,3F
+AUD 1,101,1 1 Y1,phantomF1,,1 1 (122),,,,,,,,F1
+AUD 2,104,1 1 Y1,phantomF2,,1 1 (122),,,,,,,,F2
+Input toggle,031,1 1 Y1,,,1 1 (122),,,,,,,,
+Scene 1: BD/DVD1,000,1 1 Y1,,,1 1 (122),,,,,,,,
+Scene 2: TV,003,1 1 Y1,,,1 1 (122),,,,,,,,
+Scene 3: CD,006,1 1 Y1,,,1 1 (122),,,,,,,,
+Scene 4: Radio,009,1 1 Y1,,,1 1 (122),,,,,,,,
+info,039,1 1 Y1,,,1 1 (122),,,,,,,,
+No protect (service menu?),223,1 1 Y1,,,1 1 (122),,,,,,,,
+,,,setup,,,,,,,,,,02
+Adaptive DSP ON,118,2 1 Y1,,,2 1 (126),,,,,,,,
+Adaptive DSP Off,119,2 1 Y1,,,2 1 (126),,,,,,,,
+HDMI AUTO Lipsync ON,131,2 1 Y1,macro1,,2 1 (126),,,,,,,,34
+HDMI AUTO Lipsync OFF,132,2 1 Y1,macro2,,2 1 (126),,,,,,,,36
+,,,on demand,,,,,,,,,,35
+SourcePower,,,,,,,,,,,,,
++10,,,,,codes vary wildly for inputs,,,,,,,,
+[A],020,1 1,,,1 1 (122),,,,,,,,
+[B],063,3 1,,,3 1 (127.1),,,,,,,,
+Display2,096,3 1,,,"3 1 (127.1)-my code, varies with input",,,,,,,,
+Option,107,1 1 Y1,pip channel up,,1 1 (122),,,,,,,,3B
+,,,pip channel down,,,,,,,,,,3C
+,,,page up,,DVD-C996 functions,,,,,,,,23
+NORMAL PLAY MODE,240,,page down,,4 1 (124),,,,,,,,24
+RANDOM PLAY MODE,241,,day+,,4 1 (124),,,,,,,,31
+PROGRAM MODE,242,,day-,,4 1 (124),,,,,,,,32
+REPEAT MODE OFF,243,,A/yellow,,4 1 (124),,,,,,,,25
+ALL DISC REPEAT,245,,B/blue,,4 1 (124),,,,,,,,26
+,,,C/red,,,,,,,,,,27
+Mute -20db,242,2 1,D/green,,no workie & cant match code,,,,,,,,3D
+Stereo 2ch,173,2 1,list,,no workie & cant match code,,,,,,,,28
+Stereo enh 7ch,018,2 1,skip back,,no workie & cant match code,,,,,,,,37
+,,,skip fwd,,,,,,,,,,3E
+,,,live,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,aspect,,,,,,,,,,18
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,CBL,,,,,,,,,,09
+,,,TV,,,,,,,,,,01
+,,,DVD,,,,,,,,,,0A
+,,,AUD,,,,,,,,,,11
+,,,(dev4),,,,,,,,,,12
+,,,(dev5),,,,,,,,,,40
+,,,(dev6),,,,,,,,,,41
+,,,DVR,,,,,,,,,,42
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Slightly edited Rob's file Yamaha combo special 4,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+code discrete on in IR amp/1112 $47 20 on xhift-phantom2,,,,,,,,,,,,,
+code discrete off in IR amp/1112 $87 20 on xhift-phantom2,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Scene codes differ depending what sound style there,,,,,,,,,,,,,
+"Digits, display, arrows depend on what scene pressed",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+don't forget to move on/off from phantom1,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

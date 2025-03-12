@@ -1,0 +1,176 @@
+Name:,0873 - Nokia9600,,,,v5.05
+Devices:,Manual Settings,71,,,
+Manual:,bd,0 = 1-byte,LSB-COMP,,NO
+Setup,873,12 = Topline 5/8,07 - SAT,EFC,USE
+,,,,,
+Topline 5/8 Code,,,,,
+Upgrade code 0 = 03 69 (SAT/0873),,,,,
+BD 09 76 FA 8E 81 1D B4 F4 8A 95 E5 98 82 F2 EE,,,,,
+B8 F8 FA BA 86 86 DA D5 A5 EE,,,,,
+End,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+Protocol Code,,,,,
+0B 19 11 80 0F E1 90 20 14 08 01 01 7F 01 7E 8D 
+E9 14 04 32 A5 5D 85 5F FF 60 A9 BF 85 61 A9 FF 
+85 62 EF 63 20 69 01 A2 10 A0 11 22 44 46 69 3C 
+01 5B 3C D2 7F 22 00 3F 7F 3C 06 69 3C 04 5B 4C 
+00 FF
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,,,
+Functions,EFC,byte2,Buttons,Functions,,Device Combiner (max 16):,
+num 0,014,,0,00 - num 0,,Protocol ID,Fixed Data
+num 1,012,,1,01 - num 1,,,
+num 2,015,,2,02 - num 2,,,
+num 3,013,,3,03 - num 3,,,
+num 4,142,,4,04 - num 4,,,
+num 5,140,,5,05 - num 5,,,
+num 6,143,,6,06 - num 6,,,
+num 7,141,,7,07 - num 7,,,
+num 8,078,,8,08 - num 8,,,
+num 9,076,,9,09 - num 9,,,
+vol up,111,,vol up,10 - vol up,,,
+vol down,109,,vol down,11 - vol down,,,
+mute,094,,mute,12 - mute,,,
+channel up,358,,channel up,13 - channel up,,,
+channel down,485,,channel down,14 - channel down,,,
+power,206,,power,15 - power,,,
+enter,254,,normalize,16 - enter,,,
+tv/vcr,220,,tv/vcr,17 - tv/vcr,,,
+Rembobine,,,PP,18 - last (prev ch),,,
+menu,061,,menu,19 - menu,,,
+program guide,,,guide,20 - program guide,,,
+up arrow,207,,up arrow,21 - up arrow,,,
+down arrow,205,,down arrow,22 - down arrow,,,
+left arrow,221,,left arrow,23 - left arrow,,,
+right arrow,223,,right arrow,24 - right arrow,,,
+select,,,enter,25 - select,,,
+sleep,,,sleep,26 - sleep,,,
+pip on/off,,,pip on/off,27 - pip on/off,,,
+display,,,display,28 - display,,,
+pip swap,,,pip swap,29 - pip swap,,,
+pip move,,,pip move,30 - pip move
+play,254,,play,31 - play
+pause,,,pause,32 - pause
+rewind,,,rewind,33 - rewind
+fast fwd,,,fast fwd,34 - fast fwd
+stop,100,,stop,35 - stop
+record,231,,record,36 - record
+exit,,,exit,37 - exit
+surround,,,surround,38 - surround
+20,669,,20 / av,39 - input toggle
+10,286,,10,40 - +100
+device button,,,,
+shift-up,,,device button,41 - device button
+shift-down,,,shift-up,42 - shift-up
+shift-left,,,shift-down,43 - shift-down
+shift-right,,,shift-left,44 - shift-left
+pip freeze,,,shift-right,45 - shift-right
+slow,061,,pip freeze,46 - pip freeze
+eject,,,slow,47 - slow
+slow+,,,shift-vol+,48 - eject
+slow-,,,shift-vol-,49 - slow+
+eject,,,shift-ch+,50 - slow-
+X2,,,shift-ch-,51 - eject
+center,,,X2,52 - X2
+rear,,,center,53 - center
+Phantom1,,,rear,54 - rear
+Phantom2,,,Phantom1,55 - Phantom1
+,,,Phantom2,56 - Phantom2
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+*** bottom ***,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

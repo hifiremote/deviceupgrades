@@ -1,0 +1,197 @@
+Name:,LG 47LH40 tv,,,,v9.16,,,,,,,,CURRENT DATA
+Devices:,NEC1,4,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,2000,99 = URC-6131 PVR,02 - TV,OBC,USE,00 DF DF,1,No,,,,,
+URC-6131 PVR Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 17 D0 (TV/2000) LG 47LH40 tv (KM v9.16),,,,,,,,,,,,,
+5A 0A 7E FE 8D 00 DF DF BF 3F 6F FF 7F EF A7 2F AA 3D 8F FD 7D 1F 9F DD EB DD 5D,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (S3C8+) NEC1 (KM v9.16),,,,,,,,,,,,,
+43 8B 31 8B 12 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 20 01 08 03 37 04 15 F6 01 46 FB 10 37 0B 07 E4 05 04 60 05 8B 0E B6 04 80 B6 05 80 37 0B 05 E4 04 05 60 05 E4 06 07 60 07 20 11 37 06 05 F6 01 04 7B 12 37 09 15 37 02 06 F6 01 49 F6 01 46 37 01 03 46 29 0D 46 29 01 8D 01 49 E4 20 1E E4 21 1F 37 01 EB F6 01 49 E6 28 C1 60 04 E6 12 01 8B E4,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,226,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+arrow right,006,,0,28 - Number 0,,Protocol ID,Fixed Data,,,,,,1F
+arrow left,007,,1,29 - Number 1,,,,,,,,,15
+arrow up,064,,2,30 - Number 2,,,,,,,,,16
+arrow down,065,,3,31 - Number 3,,,,,,,,,17
+(Dash - )/LIST,076,,4,32 - Number 4,,,,,,,,,19
+AV MODE,048,,5,33 - Number 5,,,,,,,,,1A
+AV1,090,,6,34 - Number 6,(Discrete AV1 Input Selection),,,,,,,,1B
+AV2,208,,7,35 - Number 7,(Discrete AV2 Input Selection),,,,,,,,1C
+BLUE (l l),097,,8,36 - Number 8,,,,,,,,,1D
+CH+,000,,9,37 - Number 9,,,,,,,,,1E
+CH-,001,,vol up,53 - VOL +,,,,,,,,,04
+COMPONENT1,191,,vol down,52 - VOL -,(Discrete Component1 Input Selection),,,,,,,,05
+COMPONENT2,212,,mute,27 - MUTE,(Discrete Component2 Input Selection),,,,,,,,08
+ENERGY SAVING,149,,channel up,09 - CH+,,,,,,,,,06
+ENTER,068,,channel down,10 - CH-,,,,,,,,,07
+FAV/MARK,030,,power,38 - power,,,,,,,,,03
+FF,143,,enter,14 - ENTER,,,,,,,,,12
+FLASHBK,026,,tv/vid,25 - INPUT,,,,,,,,,13
+GG,142,,prev,17 - FLASHBK,,,,,,,,,23
+GREEN (A),113,,menu,26 - MENU,,,,,,,,,21
+HDMI1,206,,guide,41 - Q.MENU,(Discrete HDMI1 Input Selection),,,,,,,,14
+HDMI2,204,,up arrow,02 - arrow up,(Discrete HDMI2 Input Selection),,,,,,,,31
+HDMI3,233,,down arrow,03 - arrow down,(Discrete HDMI3 Input Selection),,,,,,,,32
+HDMI4,218,,left arrow,01 - arrow left,(Discrete HDMI4 Input Selection),,,,,,,,33
+INFO,170,,right arrow,00 - arrow right,,,,,,,,,34
+INPUT,011,,select,14 - ENTER,,,,,,,,,35
+MENU,067,,angle/sleep,50 - SLEEP,,,,,,,,,26
+MUTE,009,,pip,,,,,,,,,,2F
+Number 0,016,,info,24 - INFO,,,,,,,,,18
+Number 1,017,,swap,,,,,,,,,,20
+Number 2,018,,move,,,,,,,,,,30
+Number 3,019,,play,,,,,,,,,,0C
+Number 4,020,,pause (yellow),,,,,,,,,,0F
+Number 5,021,,rewind,,,,,,,,,,0B
+Number 6,022,,fast fwd,,,,,,,,,,0D
+Number 7,023,,stop,,,,,,,,,,0E
+Number 8,024,,record,,,,,,,,,,10
+Number 9,025,,exit,47 - RETURN,,,,,,,,,24
+POWER,008,,,,(Power On/Off),,,,,,,,
+POWER OFF,197,,,,(Discrete Only Power Off),,,,,,,,
+POWER ON,196,,,,(Discrete Only Power On),,,,,,,,
+Q.MENU,069,,,,,,,,,,,,
+RATIO,121,,,,,,,,,,,,
+Ratio 16:9,119,,next track,,(Discrete Only 16:9 Mode),,,,,,,,2B
+Ratio 4:3,118,,prev track,,(Discrete Only 4:3 Mode),,,,,,,,2A
+Ratio Zoom,175,,,,(Discrete Only Zoom Mode) ,,,,,,,,
+RED,114,,,,,,,,,,,,
+RETURN,040,,,,,,,,,,,,
+RGB-PC,213,,slow,,(Discrete RGB-PC Input Selection),,,,,,,,2E
+SIMPLINK,126,,,,,,,,,,,,
+SLEEP,014,,,,,,,,,,,,
+TV,214,,,,(Discrete TV Input Selection),,,,,,,,
+VOL -,003,,,,,,,,,,,,
+VOL +,002,,,,,,,,,,,,
+YELLOW (G),099,,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,3D
+,,,phantom2,,,,,,,,,,3E
+pip swap,,,phantom3,,,,,,,,,,3F
+pip move,,,phantom4,,,,,,,,,,40
+pip freeze,,,,,,,,,,,,,
+pip channel up,,,,,,,,,,,,,
+pip channel down,,,,,,,,,,,,,
+caption,,,,,,,,,,,,,
+aspect,,,,,,,,,,,,,
+zoom,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,subtitle,,,,,,,,,,25
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,PVR menu (blue),,,,,,,,,,36
+,,,replay,,,,,,,,,,27
+,,,advance,,,,,,,,,,29
+,,,,,,,,,,,,,
+,,,thumbs up (green),,,,,,,,,,2C
+,,,thumbs down (red),,,,,,,,,,2D
+,,,audio/CC,,,,,,,,,,37
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

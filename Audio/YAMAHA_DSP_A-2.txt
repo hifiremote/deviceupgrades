@@ -1,0 +1,197 @@
+Name:,YAMAHA DSP A-2,,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,NEC1,122,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,0030,99 = Dreambox v2,15 - Amp,EFC,USE,00 A1 A1,1,No,,,,,
+Dreambox v2 Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 30 00 (Amp/0030) YAMAHA DSP A-2 (KM v9.19),,,,,,,,,,,,,
+5A 00 DE FC 87 00 A1 A1 B6 EE 6E AE 2E CE 4E 8E 0E F6 A7 27 C7 47 36 76 5E 9E 97 5C DC 1C 9C 95 D5 57,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 26 F3 30 00 BC«Yamaha ON SCREEN»¦27 F3 30 00 17«Yamaha DVD/LD»¦83 F3 30 00 87«Yamaha Stand By» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (S3C8) NEC1 (KM v9.19),,,,,,,,,,,,,
+43 8B 31 8B 12 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 20 01 08 03 37 04 15 F6 01 33 FB 10 37 0B 07 E4 05 04 60 05 8B 0E B6 04 80 B6 05 80 37 0B 05 E4 04 05 60 05 E4 06 07 60 07 20 11 37 06 05 F6 01 04 7B 12 37 09 15 37 02 06 F6 01 36 F6 01 33 37 01 03 46 29 0D 46 29 01 8D 01 36 E4 20 1E E4 21 1F 37 01 EB F6 01 36 E6 28 C1 60 04 E6 12 01 8B E4,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,227,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fEFC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,,,0,15 - Yamaha Movie Theater 2 (11),,Protocol ID,Fixed Data,,AUX,,,,1F
+num 1,,,1,05 - Yamaha Hall 1 (1),,,,,AUX,,,,15
+num 2,,,2,06 - Yamaha Hall 2 (2),,,,,AUX,,,,16
+num 3,,,3,07 - Yamaha Church (3),,,,,AUX,,,,17
+num 4,,,4,08 - Yamaha Jazz Club (4),,,,,AUX,,,,19
+num 5,,,5,09 - Yamaha Rock Concert (5),,,,,,,,,1A
+num 6,,,6,10 - Yamaha Entertaiment (6),,,,,,,,,1B
+num 7,,,7,11 - Yamaha Stadium (7),,,,,,,,,1C
+num 8,,,8,12 - Yamaha Concert Video (8),,,,,,,,,1D
+num 9,,,9,13 - Yamaha TV-Theater (9),,,,,,,,,1E
+vol up,,,vol up,02 - Yamaha Laut+,,,,,,,,,04
+vol down,,,vol down,03 - Yamaha Laut-,,,,,,,,,05
+mute,,,mute,04 - Yamaha Mute,,,,,,,,,08
+channel up,,,bouquet+,,,,,,,,,,06
+channel down,,,bouquet-,,,,,,,,,,07
+power,,,power,00 - Yamaha Power ON,,,,,,,,01 - Yamaha Stand By,03
+menu,,,,,,,,,,,,,
+program/guide,,,back (av),14 - Yamaha Movie Theater 1 (10),,,,,,,,,11
+display/info,,,,,,,,,,,,,
+exit,,,dream (menu),29 - Yamaha LEVEL,,,,,,,,,14
+up arrow,,,audio,28 - Yamaha EFFECT,,,,,,,,,25
+down arrow,,,up arrow,33 - Yamaha Parameter UP,,,,,,,,,21
+left arrow,,,down arrow,34 - Yamaha Parameter DOWN,,,,,,,,,22
+right arrow,,,left arrow,36 - Yamaha Parameter LEFT,,,,,,,,,23
+select,,,right arrow,35 - Yamaha Parameter RIGHT,,,,,,,,,24
+enter,,,ok,,,,,,,,,,12
+tv/vcr,,,,,,,,,,,,,
+last/prev ch,,,,,,,,,,,,,
+sleep,,,info,30 - Yamaha TEST,,,,,,,,,13
+play,,,,,,,,,,,,,
+pause,,,,,,,,,,,,,
+rewind,,,green (play),,,,,,,,,,0C
+fast fwd,,,yellow (pause),,,,,,,,,,0F
+stop,,,red (rewind),,,,,,,,,,0B
+record,,,blue (fast fwd),,,,,,,,,,0D
+f.fwd/next track,,,tv (stop),22 - Yamaha TV/DBS,,,,,,,,,0E
+f.rew/prev track,,,radio (record),19 - Yamaha TUNER,,,,,,,,,28
++100,,,video,32 - Yamaha ON SCREEN,,,,,,,,,26
+pip on/off,,,shift-tv (stop),,,,,,,,,,8E
+pip swap,,,,,,,,,,,,,
+pip move,,,forward (-/--),16 - Yamaha DTS/Surround (12),,,,,,,,,18
+pip freeze,,,,,,,,,,,,,
+Yamaha Power ON,248,,,,,,,,,,,,
+Yamaha Stand By,246,,,,,,,,,,,,
+Yamaha Laut+,247,,,,,,,,,,,,
+Yamaha Laut-,251,,shift-bouquet+,,,,,,,,,,86
+Yamaha Mute,244,,shift-bouquet-,,,,,,,,,,87
+Yamaha Hall 1 (1),061,,,,,,,,,,,,
+Yamaha Hall 2 (2),065,,text,21 - Yamaha DVD/LD,,,,,,,,,27
+Yamaha Church (3),063,,,,,,,,,,,,
+Yamaha Jazz Club (4),067,,shift-left arrow,,,,,,,,,,A3
+Yamaha Rock Concert (5),060,,shift-right arrow,,,,,,,,,,A4
+Yamaha Entertaiment (6),064,,shift-mute,,,,,,,,,,88
+Yamaha Stadium (7),062,,shift-forward (-/--),,,,,,,,,,98
+Yamaha Concert Video (8),066,,shift-back (av),,,,,,,,,,91
+Yamaha TV-Theater (9),125,,phantom1,,,,,,,,,,F0
+Yamaha Movie Theater 1 (10),129,,phantom2,,,,,,,,,,54
+Yamaha Movie Theater 2 (11),127,,phantom3,,,,,,,,,,55
+Yamaha DTS/Surround (12),131,,phantom4,,,,,,,,,,56
+Yamaha TAPE/MD,245,,phantom5,,,,,,,,,,57
+Yamaha CD,120,,phantom6,,,,,,,,,,58
+Yamaha TUNER,118,,phantom7,,,,,,,,,,59
+Yamaha VCR 1,058,,phantom8,,,,,,,,,,5A
+Yamaha DVD/LD,122,,,,,,,,,,,,
+Yamaha TV/DBS,100,,,,,,,,,,,,
+Yamaha VCR 2,123,,shift (setup),,,,,,,,,,02
+Yamaha CD 2,120,,,,,,,,,,,,
+Yamaha V-AUX,104,,,,,,,,,,,,
+Yamaha PHONO,116,,,,,,,,,,,,
+Yamaha EXT.DEC,194,,,,,,,,,,,,
+Yamaha EFFECT,102,,,,,,,,,,,,
+Yamaha LEVEL,190,,,,,,,,,,,,
+Yamaha TEST,192,,,,,,,,,,,,
+Yamaha SLEEP,106,,help,18 - Yamaha CD,,,,,,,,,10
+Yamaha ON SCREEN,175,,lame,,,,,,,,,,20
+Yamaha Parameter UP,176,,shift-lame,,,,,,,,,,A0
+Yamaha Parameter DOWN,172,,,,,,,,,,,,
+Yamaha Parameter RIGHT,174,,,,,,,,,,,,
+Yamaha Parameter LEFT,178,,,,,,,,,,,,
+Yamaha SETUP UP,000,,,,,,,,,,,,
+Yamaha SETUP DOWN,252,,,,,,,,,,,,
+Yamaha SETUP RIGHT,254,,,,,,,,,,,,
+Yamaha SETUP LEFT,002,,shift-yellow (pause),,,,,,,,,,8F
+,,,shift-blue (fast fwd),,,,,,,,,,8D
+,,,shift-red (rewind),,,,,,,,,,8B
+,,,shift-green (play),,,,,,,,,,8C
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,shift-vol up,,,,,,,,,,84
+,,,shift-vol down,,,,,,,,,,85
+,,,shift-up arrow,,,,,,,,,,A1
+,,,shift-down arrow,,,,,,,,,,A2
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,shift-0,,,,,,,,,,9F
+,,,shift-1,,,,,,,,,,95
+,,,shift-2,,,,,,,,,,96
+,,,shift-3,,,,,,,,,,97
+,,,shift-4,,,,,,,,,,99
+,,,shift-5,,,,,,,,,,9A
+,,,shift-6,,,,,,,,,,9B
+,,,shift-7,,,,,,,,,,9C
+,,,shift-8,,,,,,,,,,9D
+,,,shift-9,,,,,,,,,,9E
+,,,shift-info,,,,,,,,,,93
+,,,shift-dream (menu),,,,,,,,,,94
+,,,shift-audio,,,,,,,,,,A5
+,,,shift-video,,,,,,,,,,A6
+,,,shift-radio (record),,,,,,,,,,A8
+,,,shift-ok,,,,,,,,,,92
+,,,shift-text,,,,,,,,,,A7
+,,,shift-help,,,,,,,,,,90
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

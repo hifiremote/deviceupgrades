@@ -1,0 +1,197 @@
+Name:,Sharp Aquos LC-52D92U,,,,v9.17,,,,,,,,CURRENT DATA
+Devices:,Sharp Combo (Official),,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,58,NO,,,,,,,,
+Setup:,1093,99 = 15-2117 / 15-2116,01 - Cable,OBC,USE,,2,No,,,,,
+15-2117 / 15-2116 Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 64 45 (Cable/1093) Sharp Aquos LC-52D92U (KM v9.17),,,,,,,,,,,,,
+9C 00 FE FE FE F5 7C AF 7C 7F 7C BF 7C 3F 7C DF 7C 5F 7C 9F 7C 1F 7C EF 7C 6F 7C D7 7C 57 7C 17 7C 77 7C B7 7C 97 7C 27 7C 0B 7C 10 7C 37 7C FB 7C 15 7C E5 7C 50 7C 90 7C D0 7C 30 7C B2 7C D2 7C 72 7C 32 74 0E 7C FA 7C A7 7C 2F 7C 8B 7C 5D 7C 35,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 2F F4 64 45 74 A3«dot: …to the left of zero»¦2A F4 64 45 74 AD«discrete on»  ¦2B F4 64 45 74 2D«discrete off: Display K in green square and create 3 levels of volume» ¦9F F4 64 45 7C 77«channel up»¦95 F4 64 45 7C 53«input 1 select: Component/Composite (OBC=050)» ¦96 F4 64 45 7C 93«input 2 select: Svideo/Composite (OBC=051)» ¦97 F4 64 45 7C 13«input 3 select: Component (OBC=052)»  ¦99 F4 64 45 7C 4C«input 4 select: HDMI (OBC=211)» ¦9A F4 64 45 74 CD«input 5 select: HDMI»  ¦9B F4 64 45 74 F5«input 6 select: HDMI»  ¦9C F4 64 45 74 56«input 7 select: DVI»¦9D F4 64 45 74 16«input 8 select»  ¦9E F4 64 45 74 AA«input 9 select»  ¦88 F4 64 45 7C AD«close caption»¦8E F4 64 45 7C E0«av mode»¦90 F4 64 45 7C FD«service mode: Reboot and recover from evil K»  ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 9C (S3C8+) Sharp Combo (Official) (KM v9.17),,,,,,,,,,,,,
+3D 92 02 8B 0D 49 05 08 00 84 01 75 00 84 03 87 83 C2 E6 24 03 20 10 0C 05 E4 03 05 60 05 90 05 0A FC B0 C6 A6 0D 02 EB 03 E6 0D 05 F6 01 46 60 04 60 05 F6 01 0A 7B 02 60 C6 F6 01 46 37 61 09 60 04 60 05 F6 01 0A 7B E3 AF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,205,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,010,1,0,00 - num 0,,Protocol ID,Fixed Data,,,,,15 - channel up,1F
+num 1,001,1,1,01 - num 1,,,,,,,,42 - input 1 select,15
+num 2,002,1,2,02 - num 2,,,,,,,,43 - input 2 select,16
+num 3,003,1,3,03 - num 3,,,,,,,,44 - input 3 select,17
+num 4,004,1,4,04 - num 4,,,,,,,,45 - input 4 select,19
+num 5,005,1,5,05 - num 5,,,,,,,,46 - input 5 select,1A
+num 6,006,1,6,06 - num 6,,,,,,,,47 - input 6 select,1B
+num 7,007,1,7,07 - num 7,,,,,,,,48 - input 7 select,1C
+num 8,008,1,8,08 - num 8,,,,,,,,49 - input 8 select,1D
+num 9,009,1,9,09 - num 9,,,,,,,,50 - input 9 select,1E
+enter,011,1,vol up,12 - vol up,"For numeric entry, to the right of zero",,,,,,,,04
+dot,058,17,vol down,13 - vol down,…to the left of zero,,,,,,,,05
+vol up,020,1,mute,14 - mute,,,,,,,,34 - close caption,08
+vol down,021,1,channel up,15 - channel up,,,,,,,,,06
+mute,023,1,channel down,16 - channel down,,,,,,,,,07
+channel up,017,1,power,51 - power toggle,,,,,,,,,03
+channel down,018,1,enter,10 - enter,,,,,,,,,18
+,,,tv/video,41 - input,,,,,,,,,20
+menu,032,1,last,25 - flashback,,,,,,,,,38
+return,244,1,menu,17 - menu,pop one level in menu,,,,,,,,14
+exit,243,1,guide,18 - return,exit all menu selections,,,,,,,,36
+up arrow,087,1,up arrow,20 - up arrow,,,,,,,,,31
+down arrow,088,1,down arrow,21 - down arrow,,,,,,,,,32
+left arrow,245,1,left arrow,22 - left arrow,,,,,,,,,33
+right arrow,246,1,right arrow,23 - right arrow,,,,,,,,,34
+select,247,1,select,24 - select,menu select,,,,,,,,35
+,,,sleep,26 - sleep,,,,,,,,,30
+flashback,047,1,pip,32 - surround,undo last select or channel change,,,,,,,,25
+sleep,026,1,info,39 - display,,,,,,,,,13
+favorite a,177,1,swap,,,,,,,,,,27
+favorite b,178,1,move,37 - opc,,,,,,,,,26
+favorite c,179,1,play,28 - favorite b,,,,,,,,,0C
+favorite d,180,1,pause,40 - view mode,,,,,,,,,0F
+favorite,143,17,rewind,27 - favorite a,Favorite creation menu,,,,,,,,0B
+surround,046,1,fast fwd,29 - favorite c,(OBC=110),,,,,,,,0D
+audio only,227,1,stop,30 - favorite d,disable video display,,,,,,,36 - av mode,0E
+close caption,074,1,record,31 - favorite,,,,,,,,54 - service mode,10
+audio,024,1,exit,19 - exit,,,,,,,,,37
+av mode,248,1,,,,,,,,,,,
+,,,,,,,,,,,,,
+opc,069,1,+100,11 - dot,Automatic brightness control,,,,,,,,2F
+freeze,083,1,,,,,,,,,,,
+display,027,1,,,,,,,,,,,
+view mode,160,1,,,,,,,,,,,
+input,019,1,,,toggle through input selections,,,,,,,,
+input tuner select,,,,,"hack: use ""CH+""",,,,,,,,
+input 1 select,053,1,,,Component/Composite (OBC=050),,,,,,,,
+input 2 select,054,1,freeze,38 - freeze,Svideo/Composite (OBC=051),,,,,,,,28
+input 3 select,055,1,,,Component (OBC=052),,,,,,,,
+input 4 select,205,1,,,HDMI (OBC=211),,,,,,,,
+input 5 select,076,17,,,HDMI,,,,,,,,
+input 6 select,080,17,,,HDMI,,,,,,,,
+input 7 select,149,17,,,DVI,,,,,,,,
+input 8 select,151,17,,,,,,,,,,,
+input 9 select,170,17,,,,,,,,,,,
+power toggle,022,1,phantom1,,,,,,,,,,2D
+discrete on,074,17,phantom2,,,,,,,,,,2E
+discrete off,075,17,phantom3,,Display K in green square and create 3 levels of volume,,,,,,,,39
+service mode,064,1,phantom4,,Reboot and recover from evil K,,,,,,,,3A
+evil K mode,119,1,phantom5,,,,,,,,,,3B
+industrial initialization,235,1,,,Redundant codes start here,,,,,,,,
+,,,,,Alternate OBC codes listed above in comments,,,,,,,,
+input 1 select again,050,1,,,,,,,,,,,
+input 2 select again,051,1,,,,,,,,,,,
+input 3 select again,052,1,,,,,,,,,,,
+input 4 select again,211,1,setup,,,,,,,,,,02
+surround again,110,1,light,,,,,,,,,,29
+,,,my system,,,,,,,,,,24
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,discreteON,52 - discrete on,,,,,,,,,2A
+,,,discreteOFF,53 - discrete off,,,,,,,,,2B
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Originally created and tested using LC-45GD4U and LC-45GX6U,,,,,,,,,,,,,
+"Modified for LC-52D92U, removing PIP, adding more input discretes, etc.",,,,,,,,,,,,,
+Discrete on/off and input select 1-9 have all been tested,,,,,,,,,,,,,
+"Sharp uses multiple device #s to control this unit, so this",,,,,,,,,,,,,
+device upgrade is built using Sharp Combo (Official) protocol.,,,,,,,,,,,,,
+"The device #s are listed in ""byte2""",,,,,,,,,,,,,
+"Some keymap versions incorrectly(?) calculate EFCs in combo protocol, so ",,,,,,,,,,,,,
+"ignore them, or switch to using ""Sharp"" protocol to see what they should be.",,,,,,,,,,,,,
+"Discrete ""select input""s 1-9 are mapped onto shifted Num 1-9. ",,,,,,,,,,,,,
+"Use ""Channel up"" to simulate input select from ""tuner"" (see shifted Num 0)",,,,,,,,,,,,,
+"For a non-extended 15-2117 (15-2116) you need to press ""P"" twice to ",,,,,,,,,,,,,
+"""shift"" or the remote will assume you want to send an EFC.",,,,,,,,,,,,,
+"Redundant ""select input 1-4"" and ""surround"" are listed for completeness",,,,,,,,,,,,,
+Reduntant codes *might* work better on some (untested) similar models.,,,,,,,,,,,,,
+Note on Service Mode - use at your own risk (mapped to Shift-Rec),,,,,,,,,,,,,
+"Added Evil K Mode- don't use it: you'll need to ""Industry init' to recover",,,,,,,,,,,,,
+Evil K Mode is some funky setup mode that puts a 2-inch white letter K,,,,,,,,,,,,,
+on a 2 inch square green background.  It also enables a few (unmentioned),,,,,,,,,,,,,
+"keycodes.  Not even power cycling will get rid of this K.  You must ""Industry",,,,,,,,,,,,,
+"Init"" and unplug. After init, you go direct to a guided setup (on power-up).",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Internal rev number 8 (lists redundant codes at end of function list),,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

@@ -1,0 +1,197 @@
+Name:,Pioneer CLD-M450 (Laserdisc/CD chgr),,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,Pioneer,168,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,0059,99 = URC-6131 PVR,09 - Laserdisc,OBC,USE,EA,1,Yes,,,,,
+URC-6131 PVR Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 20 3B (Laserdisc/0059) Pioneer CLD-M450 (Laserdisc/CD chgr) (KM v9.19),,,,,,,,,,,,,
+E2 04 1E DA FC 74 B9 EA C7 17 E7 77 F7 97 0F 3D 5D 1D 9D 55 E5 37 47 07 B5 35 CF CD DD D5 F5,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 95 F3 20 3B 73«CD Disc 1» ¦96 F3 20 3B B3«CD Disc 2» ¦97 F3 20 3B 33«CD Disc 3» ¦99 F3 20 3B D3«CD Disc 4» ¦9A F3 20 3B 53«CD Disc 5» ¦B7 F3 20 3B 87«Audio»  ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 E2 (S3C8+) Pioneer (KM v9.19),,,,,,,,,,,,,
+40 84 11 8B 12 E5 45 08 08 00 FF 00 FF 00 FF 03 16 AD 90 10 A9 08 43 8D 01 46,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,898,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+0,000,,0,00 - 0,,Protocol ID,Fixed Data,,,,,,1F
+1,001,,1,01 - 1,,,,,,,,40 - CD Disc 1,15
+2,002,,2,02 - 2,,,,,,,,41 - CD Disc 2,16
+3,003,,3,03 - 3,,,,,,,,42 - CD Disc 3,17
+4,004,,4,04 - 4,,,,,,,,43 - CD Disc 4,19
+5,005,,5,05 - 5,,,,,,,,44 - CD Disc 5,1A
+6,006,,6,06 - 6,,,,,,,,,1B
+7,007,,7,07 - 7,,,,,,,,,1C
+8,008,,8,08 - 8,,,,,,,,,1D
+9,009,,9,09 - 9,,,,,,,,,1E
+audio digital / analog (CX),012,,vol up,,,,,,,,,,04
+CX*,014,,vol down,,not on OEM remote,,,,,,,,05
+tv/ldp*,015,,mute,,not on OEM remote,,,,,,,,08
+fast forward,016,,channel up,,,,,,,,,,06
+rewind,017,,channel down,,,,,,,,,,07
+Chapter-Frame-Time,019,,power,20 - power,,,,,,,,,03
+Disc Side Toggle*,021,,enter,23 - +10,not on OEM remote,,,,,,,,12
+Stop/Eject,022,,tv/vid,12 - tv/ldp*,,,,,,,,,13
+play,023,,prev,,,,,,,,,,23
+pause,024,,menu,,,,,,,,,,21
+power,028,,guide,15 - Chapter-Frame-Time,,,,,,,,,14
+edit,029,,up arrow,51 - Multi-Speed +,,,,,,,,,31
+Audio,030,,down arrow,50 - Multi-Speed -,,,,,,,,,32
++10,031,,left arrow,64 - Multi-Speed <,,,,,,,,,33
+Jog Forward*,032,,right arrow,66 - Multi-Speed >,not on OEM remote,,,,,,,,34
+Jog Forward x2*,033,,select,21 - edit,not on OEM remote,,,,,,,,35
+Jog Forward x3*,034,,angle/sleep,,not on OEM remote,,,,,,,,26
+Jog Forward x4*,035,,pip,,not on OEM remote,,,,,,,,2F
+Jog Reverse*,036,,info,47 - Display,not on OEM remote,,,,,,,,18
+Jog Reverse x2*,037,,swap,,not on OEM remote,,,,,,,,20
+Jog Reverse x3*,038,,move,,not on OEM remote,,,,,,,,30
+Jog Reverse x4*,039,,play,18 - play,not on OEM remote,,,,,,,,0C
+shuttle forward,040,,pause (yellow),19 - pause,,,,,,,,,0F
+shuttle forward x2,041,,rewind,14 - rewind,,,,,,,,,0B
+shuttle forward x3,042,,fast fwd,13 - fast forward,,,,,,,,,0D
+shuttle forward x4,043,,stop,17 - Stop/Eject,,,,,,,,,0E
+shuttle back,044,,record,,,,,,,,,,10
+shuttle back x2,045,,exit,49 - Clear,,,,,,,,,24
+shuttle back x3,046,,,,,,,,,,,,
+shuttle back x4,047,,,,,,,,,,,,
+CD Disc 1,049,,,,,,,,,,,,
+CD Disc 2,050,,,,,,,,,,,,
+CD Disc 3,051,,,,,,,,,,,,
+CD Disc 4,052,,next track,61 - Skip >>|,,,,,,,,,2B
+CD Disc 5,053,,prev track,62 - Skip |<<,,,,,,,,,2A
+Frame/Time Search*,065,,,,not on OEM remote,,,,,,,,
+search memory*,066,,,,not on OEM remote,,,,,,,,
+Display,067,,,,,,,,,,,,
+Repeat (B),068,,slow,,,,,,,,,,2E
+Clear,069,,,,,,,,,,,,
+Multi-Speed -,070,,,,,,,,,,,,
+Multi-Speed +,071,,,,,,,,,,,,
+Repeat A*,072,,,,not on OEM remote,,,,,,,,
+2/R ch*,073,,,,not on OEM remote,,,,,,,,
+Stereo*,074,,,,not on OEM remote,,,,,,,,
+1/L ch*,075,,phantom1,,not on OEM remote,,,,,,,,3D
+Program,076,,phantom2,,,,,,,,,,3E
+A*,077,,phantom3,,not on OEM remote,,,,,,,,3F
+B*,078,,phantom4,,not on OEM remote,,,,,,,,40
+C*,079,,,,not on OEM remote,,,,,,,,
+step -,080,,,,,,,,,,,,
+Skip >>|,082,,,,,,,,,,,,
+Skip |<<,083,,,,,,,,,,,,
+step +,084,,,,,,,,,,,,
+Multi-Speed <,085,,,,,,,,,,,,
+D*,087,,setup,,not on OEM remote,,,,,,,,02
+Multi-Speed >,088,,,,,,,,,,,,
+still / strobe*,091,,,,not on OEM remote,,,,,,,,
+digital effect*,092,,,,not on OEM remote,,,,,,,,
+1shot memory*,093,,,,not on OEM remote,,,,,,,,
+random play,094,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,subtitle,,,,,,,,,,25
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,PVR menu (blue),56 - Program,,,,,,,,,36
+,,,replay,48 - Repeat (B),,,,,,,,,27
+,,,advance,,,,,,,,,,29
+,,,,,,,,,,,,,
+,,,thumbs up (green),63 - step +,,,,,,,,,2C
+,,,thumbs down (red),60 - step -,,,,,,,,,2D
+,,,audio/CC,10 - audio digital / analog (CX),,,,,,,,22 - Audio,37
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Standard Pioneer Laserdisc upgrade that includes CD changer,,,,,,,,,,,,,
+functions for CLD-M5/90/301/401/403/430/460 combination ,,,,,,,,,,,,,
+LD player-5 CD changers.  I have included all other Pioneer 168,,,,,,,,,,,,,
+"Laserdisc functions gleaned from other upgrades that I could find,",,,,,,,,,,,,,
+many of which do nothing on the 450.  (Obviously the side A/B/Disc,,,,,,,,,,,,,
+Side Toggle functions only may apply to those players that can ,,,,,,,,,,,,,
+"play both sides of an LD, whilst the side C/D functions would ",,,,,,,,,,,,,
+only apply to the 2-disc LD players).,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+OEM remote refers to CU-CLD063 Pioneer LaserDisc SR remote.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

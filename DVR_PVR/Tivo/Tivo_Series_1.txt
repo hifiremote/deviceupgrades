@@ -1,0 +1,197 @@
+Name:,Tivo_Unit1,,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,TiVo (Official),,,1,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1001,24 = URC-881x / 801x / 601x,16 - PVR,EFC,USE,5E F3 7F,1,No,,,,,
+URC-881x / 801x / 601x Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 1B E9 (PVR/1001) Tivo_Unit1 (KM v9.19),,,,,,,,,,,,,
+A1 00 FE FE FE E1 5E F3 7F 73 EB 6B AB 2B CB 4B 8B 0B F3 A7 E7 53 87 07 FF 97 B3 DB 93 17 9D 3B 7B FB BB 57 67 5B D7 37 33 B7 77 1B 9B,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 A1 (S3C8+) TiVo (Official) (KM v9.19),,,,,,,,,,,,,
+43 8D 31 8B 15 CA 5D 08 08 01 21 01 06 01 21 03 31 D4 FD 11 A7 08 B7 08 02 08 E4 05 07 56 07 F0 08 06 60 C0 56 C0 0F 44 C0 07 8D 01 46,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,220,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fEFC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+up,116,,0,15 - num0,Code 0,Protocol ID,Fixed Data,,,,,,1F
+down,118,,1,16 - num1,Code 1,,,,,,,,15
+left,122,,2,17 - num2,Code 2,,,,,,,,16
+right,120,,3,18 - num3,Code 3,,,,,,,,17
+select,249,,4,19 - num4,Code 4,,,,,,,,19
+tivo,181,,5,20 - num5,Code 5,,,,,,,,1A
+livetv,121,,6,21 - num6,Code 6,,,,,,,,1B
+thumbsup,247,,7,22 - num7,Code 7,,,,,,,,1C
+thumbsdown,245,,8,23 - num8,Code 8,,,,,,,,1D
+surfup,246,,9,24 - num9,Code 9,,,,,,,,1E
+surfdown,250,,vol up,07 - thumbsup,Code 10,,,,,,,,04
+bookmark,213,,vol down,08 - thumbsdown,Code 11,,,,,,,,05
+display,123,,mute,32 - standby,Code 12 (34 button remote),,,,,,,,08
+directv,119,,channel up,09 - surfup,Code 13 (Not on TiVo remote),,,,,,,,06
+pip,164,,channel down,10 - surfdown,Code 53 (34 button remote_ Documented as Code 15),,,,,,,,07
+num0,153,,power,05 - tivo,Code 16,,,,,,,,03
+num1,085,,enter,25 - enter,Code 17,,,,,,,,12
+num2,089,,tv/vid,06 - livetv,Code 18,,,,,,,,13
+num3,087,,prev,13 - directv,Code 19,,,,,,,,23
+num4,091,,menu,33 - nowshowing,Code 20,,,,,,,,21
+num5,084,,guide,36 - guide,Code 21,,,,,,,,14
+num6,088,,up arrow,00 - up,Code 22,,,,,,,,31
+num7,086,,down arrow,01 - down,Code 23,,,,,,,,32
+num8,090,,left arrow,02 - left,Code 24,,,,,,,,33
+num9,149,,right arrow,03 - right,Code 25,,,,,,,,34
+enter,155,,select,04 - select,Code 26,,,,,,,,35
+clear,151,,sleep,,Code 27,,,,,,,,22
+play,217,,pip,,Code 28,,,,,,,,3B
+pause,219,,info,12 - display,Code 29,,,,,,,,18
+playslow,216,,swap,,Code 30,,,,,,,,20
+forward,212,,move,,Code 31,,,,,,,,3C
+reverse,215,,play,27 - play,Code 32,,,,,,,,0C
+standby,152,,pause,28 - pause,Code 33 (Not on TiVo remote),,,,,,,,0F
+nowshowing,166,,rewind,31 - reverse,Code 34 (Not on TiVo remote),,,,,,,,0B
+replay,214,,fwd,30 - forward,Code 35,,,,,,,,0D
+catchup,218,,stop,29 - playslow,Code 36,,,,,,,,0E
+guide,150,,record,11 - bookmark,Code 38 (34 button remote),,,,,,,,10
+auxbypass,021,,exit,26 - clear,Code 39 (Not on TiVo remote),,,,,,,,24
+vcrbypass,025,,,,Code 40 (Not on TiVo remote),,,,,,,,
+tvstandby,023,,,,Code 41 (Not on TiVo remote),,,,,,,,
+power,117,,,,Code 46 (TV Control),,,,,,,,
+volumeup,244,,,,Code 47 (TV Control),,,,,,,,
+volumedown,248,,,,Code 48 (TV Control),,,,,,,,
+mute,251,,f fwd,35 - catchup,Code 49 (TV Control),,,,,,,,2B
+input,148,,f rew,34 - replay,Code 50 (TV Control_ 34 button remote_ TiVo can't decode),,,,,,,,2A
+aoltv,169,,,,Code 51 (Not on TiVo remote),,,,,,,,
+code54,168,,,,Code 54 (Not on Tivo remote_ Undocumented),,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,3D
+,,,phantom2,,,,,,,,,,3E
+,,,phantom3,,,,,,,,,,3F
+,,,phantom4,,,,,,,,,,40
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,light,,,,,,,,,,39
+,,,home theater,,,,,,,,,,38
+,,,M1,,,,,,,,,,2C
+,,,M2,,,,,,,,,,2D
+,,,M3,,,,,,,,,,2E
+,,,M4,,,,,,,,,,2F
+,,,L1,,,,,,,,,,25
+,,,L2,,,,,,,,,,26
+,,,L3,,,,,,,,,,27
+,,,L4,,,,,,,,,,28
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

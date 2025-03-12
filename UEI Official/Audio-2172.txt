@@ -1,0 +1,197 @@
+Name:,RCVR/2172,,,,v9.16,,,,,,,,CURRENT DATA
+Devices:,Sony Combo (12/15/20),250,11,40,8,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,87,NO,,,,,,,,
+Setup:,1172,99 = URC-8206 (Euro Kameleon),05 - Tuner,OBC,USE,5F D0 14 10,2,No,,,,,
+URC-8206 (Euro Kameleon) Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 54 94 (Tuner/1172) RCVR/2172 (KM v9.16),,,,,,,,,,,,,
+27 00 FE FE FE FE FE FE C1 5F D0 14 10 91 0C 01 0C 81 0C 41 0C C1 0C 21 0C A1 0C 61 0C E1 0C 11 0C 49 0C C9 0C 29 0C 09 0C 89 0C A9 0C 68 0D 45 0C 79 0C 43 0C B9 0C 85 0C 57 0C BF 0C C1 0D 74 5B 4C 59 9C 59 CC 59 2C 59 1C 59 98 59 48 59 CE 0F 14 0D 31 0C 1F 0D 9F 0D 5F 0D DF 0D 58 0D D8 0D 3A 59 28 5B EF 0C EF 0D 8C 59 0C 59 C6 59 07 0C 71 0C CA 59 26 59 98 0D D5 0D 35 0D,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 0E F0 04 54 94 96 5B«Yellow / Chapter Mark» ¦0D F0 04 54 94 66 5B«Blue / Mark Erase»  ¦0B F0 04 54 94 E6 5B«Red / Top Menu»  ¦0C F0 04 54 94 16 5B«Green»  ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 27 (HCS08) Sony Combo (12/15/20) (KM v9.16),,,,,,,,,,,,,
+20 18 1E 46 42 F8 15 05 07 02 57 01 31 01 2B 01 31 57 E4 04 AF 01 31 08 03 08 00 64 12 01 65 0C 10 A2 6E 08 6A B6 65 46 A4 03 B7 AC 6E 05 7C CC FF 5C,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,995,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+1,000,48,0,09 - 0 / 10,,Protocol ID,Fixed Data,,,,,,1F
+2,001,48,1,00 - 1,,,,,,,,,15
+3,002,48,2,01 - 2,,,,,,,,,16
+4,003,48,3,02 - 3,,,,,,,,,17
+5,004,48,4,03 - 4,,,,,,,,,19
+6,005,48,5,04 - 5,,,,,,,,,1A
+7,006,48,6,05 - 6,,,,,,,,,1B
+8,007,48,7,06 - 7,,,,,,,,,1C
+9,008,48,8,07 - 8,,,,,,,,,1D
+0 / 10,009,48,9,08 - 9,,,,,,,,,1E
+OK / Select,012,48,vol up,14 - Volume Up,,,,,,,,,04
+Digit Enter / memory,014,48,vol down,15 - Volume Down,,,,,,,,,05
+Preset Up,016,48,mute,16 - Muting,,,,,,,,,08
+Preset Down,017,48,channel up,12 - Preset Up,,,,,,,,,06
+Volume Up,018,48,channel down,13 - Preset Down,,,,,,,,,07
+Volume Down,019,48,power,17 - power,,,,,,,,,03
+Muting,020,48,+10,11 - Digit Enter / memory,,,,,,,,,20
+Power,021,48,tv/vcr,,,,,,,,,,18
+Dual Mono,023,48,,,,,,,,,,,
+Aux,029,48,menu,42 - Amp Menu,,,,,,,,,14
+Video 2,030,48,guide,,,,,,,,,,25
+Tuner,033,48,up arrow,43 - Menu Up,,,,,,,,,29
+Video 1,034,48,down arrow,44 - Menu Down,,,,,,,,,2A
+SA-CD/CD,037,48,left arrow,45 - Menu Left,,,,,,,,,2B
+Power On,046,48,right arrow,46 - Menu Right,,,,,,,,,2C
+Power Off,047,48,ok,10 - OK / Select,,,,,,,,,3B
+Video 3,066,48,sleep,28 - sleep,,,,,,,,,83
+Display,075,48,,,,,,,,,,,
+Sleep,096,48,info,,,,,,,,,,32
+TV,106,48,,,,,,,,,,,
+Clear,119,48,,,,,,,,,,,
+DVD,125,48,play,55 - play,,,,,,,,,34
+SAT,003,176,pause,59 - pause,,,,,,,,,37
+Direct Tuning,040,176,rewind,56 - rewind,,,,,,,,,33
+Tuning Up,043,176,fast fwd,57 - Fast Forward,,,,,,,,,35
+Tuning Down,044,176,stop,58 - stop,,,,,,,,,36
+FM Mode,045,176,record,51 - record,,,,,,,,,38
+2Ch,065,176,exit,30 - Clear,,,,,,,,,10
+AFD,066,176,surround,82 - Options,,,,,,,,,7B
+Movie,067,176,av,,,,,,,,,,12
+Music,073,176,-/--,,,,,,,,,,60
+Function,105,176,fav,,,,,,,,,,28
+Amp Menu,119,176,scroll,,,,,,,,,,30
+Menu Up,120,176,skip+,54 - Day+ / Skip+,,,,,,,,,24
+Menu Down,121,176,skip-,53 - Day- / Skip-,,,,,,,,,23
+Menu Left,122,176,center+,67 - Page+ / Quick Skip,,,,,,,,,6C
+Menu Right,123,176,center-,63 - Page- / Instant Replay,,,,,,,,,6B
+Input Select,018,1 26,,,,,,,,,,,
+Program Up,019,1 26,subt,64 - Subtitle,,,,,,,,,3A
+Program Down,020,1 26,,,,,,,,,,,
+Open/Close,022,1 26,bright+,,,,,,,,,,86
+Record,025,1 26,bright-,,,,,,,,,,87
+Record Mode,030,1 26,random,80 - Auto Calibration,,,,,,,,,71
+Day- / Skip-,048,1 26,audio,65 - Audio,,,,,,,,,39
+Day+ / Skip+,049,1 26,dsp,77 - Category Mode,,,,,,,,,65
+Play,050,1 26,,,,,,,,,,,
+Rewind,051,1 26,,,,,,,,,,,
+Fast Forward,052,1 26,,,,,,,,,,,
+Stop,056,1 26,,,,,,,,,,,
+Pause,057,1 26,txt-on,,,,,,,,,,74
+Record Stop,061,1 26,txt-off,,,,,,,,,,78
+TV/DVD,081,1 26,txt-mix,,,,,,,,,,77
+System Menu,083,1 26,txt-index,,,,,,,,,,76
+Page- / Instant Replay,092,1 26,back\txt-expand,,,,,,,,,,73
+Subtitle,099,1 26,txt-hold/stop,,,,,,,,,,75
+Audio,100,1 26,magic,,,,,,,,,,02
+Title List,016,2 26,,,,,,,,,,,
+Page+ / Quick Skip,020,2 26,,,,,,,,,,,
+TV Guide,022,2 26,A,,,,,,,,,,2D
+Schedule,031,2 26,B,,,,,,,,,,2E
+HDD,046,2 26,C,,,,,,,,,,2F
+Blue / Mark Erase,102,2 26,,,,,,,,,,,
+Red / Top Menu,103,2 26,preset,,,,,,,,,,67
+Green,104,2 26,prog,62 - System Menu,,,,,,,,,53
+Yellow / Chapter Mark,105,2 26,,,,,,,,,,,
+Sychro Record,119,2 26,sel,47 - Input Select,,,,,,,,,52
+BD,022,3 16,tune+,34 - Tuning Up,,,,,,,,,7A
+Category Mode,025,3 16,tune-,35 - Tuning Down,,,,,,,,,79
+Category Up,026,3 16,,67 - Page+ / Quick Skip,,,,,,,,,
+Category Down,027,3 16,,63 - Page- / Instant Replay,,,,,,,,,
+Auto Calibration,040,3 16,,54 - Day+ / Skip+,,,,,,,,,
+DM Port,048,3 16,,53 - Day- / Skip-,,,,,,,,,
+Options,115,4 16,yellow,74 - Yellow / Chapter Mark,,,,,,,,,0E
+Return,125,4 16,blue,71 - Blue / Mark Erase,,,,,,,,,0D
+,,,red,72 - Red / Top Menu,,,,,,,,,0B
+,,,green,73 - Green,,,,,,,,,0C
+,,,,,,,,,,,,,
+,,,,63 - Page- / Instant Replay,,,,,,,,,
+,,,,67 - Page+ / Quick Skip,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,rear+,78 - Category Up,,,,,,,,,69
+,,,rear-,79 - Category Down,,,,,,,,,6A
+,,,color+,,,,,,,,,,84
+,,,color-,,,,,,,,,,85
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,tuner-1,22 - Video 1,,,,,,,,,55
+,,,tuner-2,20 - Video 2,,,,,,,,,56
+,,,tuner-3,26 - Video 3,,,,,,,,,57
+,,,tuner-4,19 - Aux,,,,,,,,,59
+,,,tuner-5,21 - Tuner,,,,,,,,,5A
+,,,tuner-6,29 - TV,,,,,,,,,5B
+,,,tuner-7,31 - DVD,,,,,,,,,5C
+,,,tuner-8,32 - SAT,,,,,,,,,5D
+,,,tuner-9,70 - HDD,,,,,,,,,5E
+,,,tuner-0,76 - BD,,,,,,,,,5F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

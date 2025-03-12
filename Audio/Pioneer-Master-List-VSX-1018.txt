@@ -1,0 +1,197 @@
+Name:,Pioneer Receiver,,,,v9.13,,,,,,,CURRENT DATA,
+Devices:,Pioneer 4DEV,163,165,164,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1023,27 = URC-9910 / 8910 / UEI HTPro,01 - Cable,OBC,USE,C5 A5 25 05,2,No,,,,,
+URC-9910 / 8910 / UEI HTPro Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 6B FF (Cable/1023) Pioneer Receiver (KM v9.13),,,,,,,,,,,,,
+D0 00 FA FA 00 31 C5 A5 25 05 E2 E6 B0 B4 70 74 F0 F4 08 0C 88 8C 68 6C E8 EC 32 36 F2 F6 50 54 D0 D4 48 4C 0C 08 8C 88 38 3C BA 94 01 05 81 85 C1 C5 41 45 21 25 02 06 BA 94 C6 C2 12 16,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 D0 (S3C8+) Pioneer 4DEV (KM v9.13),,,,,,,,,,,,,
+40 84 42 8B 12 E5 44 08 08 01 09 03 16 01 09 00 FF AD 90 10 A9 08 43 B0 C0 76 07 04 6B 02 77 03 76 08 04 6B 01 0E 87 20 03 29 03 56 07 FB 56 08 FB F6 01 46 20 10 F6 01 46 00 10 F6 01 0A 7B F1 AF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,198,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+Tuner 0/10,000,3,0,37 - INPUT: Tuner / band,Tuner functions,Protocol ID,Fixed Data,,,,,,1F
+Tuner 1,001,3,1,30 - INPUT: LD,,,,,,,,,15
+Tuner 2,002,3,2,31 - INPUT: VCR2,,,,,,,,,16
+Tuner 3 / Arrow Left,003,3,3,32 - INPUT: VCR1/DVR,,,,,,,,,17
+Tuner 4 / Arrow Right,004,3,4,33 - INPUT: SAT,,,,,,,,,19
+Tuner 5,005,3,5,34 - INPUT: TAPE,,,,,,,,,1A
+Tuner 6,006,3,6,35 - INPUT: VIDEO 1,,,,,,,,,1B
+Tuner 7,007,3,7,36 - INPUT: VIDEO 2,,,,,,,,,1C
+Tuner 8 / Menu Down,008,3,8,38 - INPUT: CD,,,,,,,,,1D
+Tuner 9 / Menu Up,009,3,9,40 - INPUT: AUX/DVD,,,,,,,,,1E
+Tuner Station +,016,3,vol up,74 - RCVR Volume +,,,,,,,,,04
+Tuner Station -,017,3,vol down,75 - RCVR Volume -,,,,,,,,,05
+Tuner Band am/fm,019,3,mute,76 - RCVR mute,,,,,,,,,08
+Tuner power,028,3,channel up,10 - Tuner Station +,,,,,,,,,06
+Tuner MPX return,030,3,channel down,11 - Tuner Station -,,,,,,,,,07
+Tuner Class,064,3,power,79 - RCVR Power toggle,,,,,,,,,03
+Tuner PTY Search,066,3 90,enter,17 - Tuner Direct Access,new +,,,,,,,,18
+Tuner Direct Access,067,3,tv/vid,,,,,,,,,,20
+Tuner Menu,070,3,prev,106- RCVR exit (return),,,,,,,,,38
+Tuner Display,074,3,menu,81 - RCVR DSP,,,,,,,,,14
+Tuner Text/RDS,074,3,guide,,duplicate?,,,,,,,,36
+Tuner Scan,077,3,up arrow,93 - RCVR Arrow1 up,,,,,,,,,31
+Tuner HITS,078,3,down arrow,94 - RCVR Arrow1 down,,,,,,,,,32
+Tuner Frequency +,086,3,left arrow,96 - RCVR Arrow1 left,,,,,,,,,33
+Tuner Frequency -,087,3,right arrow,95 - RCVR Arrow1 right,,,,,,,,,34
+Tuner edit,088,3,select,97 - RCVR select/enter,,,,,,,,,35
+Tuner Enter,089,3,sleep,85 - RCVR Sleep,,,,,,,,,30
+Tuner EON,090,3,pip,,new +,,,,,,,,3A
+Tuner Custom,092,3,info,,,,,,,,,,13
+,,,swap,,,,,,,,,,3C
+INPUT: TV/SAT,012,2,move,,,,,,,,,,3B
+INPUT: LD,013,2,play,,,,,,,,,,0C
+INPUT: VCR2,014,2,pause,,,,,,,,,,0F
+INPUT: VCR1/DVR,015,2,rewind,,,,,,,,,,0B
+INPUT: SAT,016,2,fwd,,,,,,,,,,0D
+INPUT: TAPE,017,2,stop,,,,,,,,,,0E
+INPUT: VIDEO 1,022,2,record,,,,,,,,,,10
+INPUT: VIDEO 2,023,2,exit,106- RCVR exit (return),,,,,,,,,37
+INPUT: Tuner / band,071,2,,,,,,,,,,,
+INPUT: CD,076,2,,,,,,,,,,,
+INPUT: Phono,077,2,,,,,,,,,,,
+INPUT: AUX/DVD,079,2,,,,,,,,,,,
+INPUT: video select,084,2,,,"recategorized as ""INPUT""",,,,,,,,
+INPUT: toggle increment,085,2,f fwd,,"recategorized as ""INPUT""",,,,,,,,2A
+INPUT: toggle decrement,086,2 193,f rew,,new +,,,,,,,,29
+INPUT: Multichannel,094,2,,,"recategorized as ""INPUT""",,,,,,,,
+INPUT: MULTI-CN IN,094,2 6,,,new + decoded from Pronto by Herbie,,,,,,,,
+INPUT: HDMI1,094,2 202,,,new +,,,,,,,,
+INPUT: HDMI2,094,2 203,,,new +,,,,,,,,
+INPUT: DVD/LD,133,2,,,,,,,,,,,
+INPUT: CD-R/TAPE/MD,136,2,,,,,,,,,,,
+INPUT: DVR/VCR,137,2,,,,,,,,,,,
+INPUT: AM,138,2,,,,,,,,,,,
+INPUT: FM,139,2,,,,,,,,,,,
+INPUT: DVR2,158,2 202,,,new +,,,,,,,,
+INPUT: iPod,158,2 203,phantom1,,new +,,,,,,,,3D
+INPUT: XM RADIO,158,2 204,phantom2,,new + decoded from Pronto by Herbie,,,,,,,,3E
+INPUT: USB,158,2 205,phantom3,,new +,,,,,,,,3F
+INPUT: BD,092,2 192,,,new + decoded from Pronto by Herbie,,,,,,,,
+INPUT: SIRIUS,092,2 194,,,new + decoded from Pronto by Herbie,,,,,,,,
+AUTO PWR + DVD/LD,155,2 203,,,new + decoded from Pronto by Herbie,,,,,,,,
+AUTO PWR + BD,155,2 000,,,new + decoded from Pronto by Herbie,,,,,,,,
+AUTO PWR + TV,155,2 205,,,new + decoded from Pronto by Herbie,,,,,,,,
+AUTO PWR + DVR1/VCR1,155,2 222,,,new + decoded from Pronto by Herbie,,,,,,,,
+AUTO PWR + DVR2/VCR2,094,2 212,,,new + decoded from Pronto by Herbie,,,,,,,,
+AUTO PWR + VIDEO/GAME,155,2 201,setup,,new + decoded from Pronto by Herbie,,,,,,,,02
+AUTO PWR + HDMI1,094,2 215,light,,new + decoded from Pronto by Herbie,,,,,,,,39
+AUTO PWR + HDMI2,094,2 216,home theater,,new + decoded from Pronto by Herbie,,,,,,,,24
+AUTO PWR + USB iPod,094,2 218,M1,,new + decoded from Pronto by Herbie,,,,,,,,2D
+AUTO PWR + XM,094,2 214,M2,,new + decoded from Pronto by Herbie,,,,,,,,2E
+AUTO PWR + SIRIUS,155,2 002,M3,,new + decoded from Pronto by Herbie,,,,,,,,2F
+AUTO PWR + CD,155,2 192,,,new + decoded from Pronto by Herbie,,,,,,,,
+AUTO PWR + CD-R/TAPE,155,2 207,L1,,new + decoded from Pronto by Herbie,,,,,,,,25
+AUTO PWR + TUNER,155,2 196,L2,,new + decoded from Pronto by Herbie,,,,,,,,26
+AUTO PWR + i.LINK,094,2 209,L3,,new + decoded from Pronto by Herbie,,,,,,,,27
+,,,L4,,,,,,,,,,28
+RCVR Volume +,010,2,,,,,,,,,,,
+RCVR Volume -,011,2,,,,,,,,,,,
+RCVR mute,018,2,,,,,,,,,,,
+RCVR Power on (discrete),026,2,,,,,,,,,,,
+RCVR Power off (discrete),027,2,,,,,,,,,,,
+RCVR Power toggle,028,2,,,,,,,,,,,
+RCVR monitor on/off,029,2,,,,,,,,,,,
+RCVR DSP,064,2,,,,,,,,,,,
+RCVR Rear Level +,065,2,,,,,,,,,,,
+RCVR Rear Level -,066,2,,,,,,,,,,,
+RCVR loudness,068,2,,,,,,,,,,,
+RCVR Sleep,072,2,,,,,,,,,,,
+RCVR Arrow3 RIGHT,073,2,com/skip,,,,,,,,,,2B
+RCVR Arrow3 LEFT,075,2,,,,,,,,,,,
+RCVR mute on (discrete),081,2,,,,,,,,,,,
+RCVR mute off (discrete),082,2,,,,,,,,,,,
+RCVR speaker a/b,086,2,,,,,,,,,,,
+RCVR bass +,087,2,,,,,,,,,,,
+RCVR multi ch input,094,2,,,,,,,,,,,
+RCVR Arrow1 up,128,2,,,,,,,,,,,
+RCVR Arrow1 down,129,2,,,,,,,,,,,
+RCVR Arrow1 right,130,2,,,,,,,,,,,
+RCVR Arrow1 left,131,2,,,,,,,,,,,
+RCVR select/enter,132,2,,,,,,,,,,,
+,,,,,,,,,,,,,
+RCVR (Digit 9),019,2 208,,,new + (see note 4 on setup page),,,,,,,,
+RCVR signal select,086,2 3,,,OBCs reversed,,,,,,,,
+RCVR effect/ch sel,086,2 4,,,OBCs reversed,,,,,,,,
+RCVR dimmer,086,2 6,,,OBCs reversed,,,,,,,,
+RCVR AV Parameter,090,2 202,,,new +,,,,,,,,
+RCVR Phase,090,2 203,,,new +,,,,,,,,
+RCVR MCACC,090,2 204,,,new + varies from master file,,,,,,,,
+RCVR S. Retriever,090,2 205,,,new +,,,,,,,,
+RCVR exit (return),093,2 9,,,OBCs reversed,,,,,,,,
+RCVR input att,094,2 7,,,OBCs reversed,,,,,,,,
+RCVR STANDARD/Dolby DD/DTS,094,2 8,,,OBCs reversed,,,,,,,,
+RCVR S. Direct,154,2 195,,,new +,,,,,,,,
+RCVR Menu/System Setup,155,2 214,,,OBCs reversed,,,,,,,,
+RCVR Status,155,2 221,,,OBCs reversed,,,,,,,,
+RCVR SR+,158,2 199,,,new +,,,,,,,,
+RCVR stereo/direct,159,2 192,,,OBCs reversed,,,,,,,,
+RCVR midnight,159,2 203,,,OBCs reversed,,,,,,,,
+RCVR THX,159,2 209,,,OBCs reversed,,,,,,,,
+RCVR Advanced surround,159,2 211,,,OBCs reversed,,,,,,,,
+RCVR sb ch mode,159,2 212,,,OBCs reversed,,,,,,,,
+RCVR Dialog Enhancement,159,2 222,,,new +? OBCs 007/159 in Master,,,,,,,,
+,,,,,,,,,,,,,
+iPod: Play,152,2,,,new +,,,,,,,,
+iPod: Pause,152,2 193,,,new +,,,,,,,,
+iPod: FRev,152,2 194,,,new +,,,,,,,,
+iPod: FFwd,152,2 195,,,new +,,,,,,,,,
+iPod: Rev,152,2 196,,,new +,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,,
+Capn Trips' notes on modified file (based on learns from VSX2016):,,,,,,,,,,,,,,
+"new functions identified with a ""+"" somewhere in the notes column",,,,,,,,,,,,,,
+(1) Deleted all CD functions; re-sorted by OBC (mostly) - but kept INPUT section,,,,,,,,,,,,,,
+(2) 6 new INPUTs identified,,,,,,,,,,,,,,
+(3) 2 new Tuner functions,,,,,,,,,,,,,,
+"(4) RCVR (Digit 9) is UNLABELED as a RCVR function, yet sent the listed signal.",,,,,,,,,,,,,,
+(5) Many 2-byte functions discovered to be listed in REVERSE order!,,,,,,,,,,,,,,
+"     These are annotated as ""OBCs reversed"" (others suspected)",,,,,,,,,,,,,,
+"(6) All iPod functions are ""new +"" (I have no iPod, so can't test them)",,,,,,,,,,,,,,
+(7) Herbie: Added several new INPUTs as decoded from Pioneer Pronto files,,,,,,,,,,,,,,
+(8) Herbie: Added AUTO PWR+Input codes from VSX-1018AH Pronto files,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE,

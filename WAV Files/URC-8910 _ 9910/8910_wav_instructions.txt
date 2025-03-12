@@ -1,0 +1,21 @@
+Instructions for loading a .wav file into a URC-8910 or 9910
+
+0) Before starting, be aware that any .wav file replaces the entire contents of whatever sections of the remote's memory it affectes.  (Most .wav files affect just the upgrade section, but .wav files can be constructed to affect other or all sections).
+
+You cannot add an upgrade to existing upgrades with a .wav file for just the new upgrade.  It would instead replace any existing upgrades, leaving you with the built-in setup codes plus just the new upgrade.
+
+To have multiple upgrades, they must be merged within the data from which the .wav file is created.  If using JP1 software to create the .wav file, the upgrades must be loaded together in IR.exe into one eeprom image before a .wav file is created from that eeprom image.
+
+1) Press and hold the SET button until LCD reads CODE SET
+
+2) Press the up button.  The LCD should read UPGRADE
+
+3) Press the SELECT button.  The LCD should read DOWNLOAD
+
+4) Press the SELECT button.  The red LED above the LCD should come on and stay on.
+
+5) Quickly after step 4, hold the back of the remote up to your PC speakers and play the .wav file.
+
+6) At the end of the .wav file, watch the LCD.  The red LED should go out, then the LCD should briefly read COMPLETE, then EXIT SETUP, then the LCD should return to its normal contents.
+
+7) Installing an upgrade does not assign it to any device key.  So you should do that next.

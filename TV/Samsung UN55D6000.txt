@@ -1,0 +1,197 @@
+Name:,TV/0060 (1060),,,,v9.22,,,,,,,,CURRENT DATA
+Devices:,NECx2,7,7,31,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1060,27 = URC-9910 / 8910 / UEI HTPro,02 - TV,EFC,USE,31 1F 1F,1,No,,,,,
+URC-9910 / 8910 / UEI HTPro Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 04 24 (TV/1060) TV/0060 (1060) (KM v9.22),,,,,,,,,,,,,
+5A 18 7E FE FD 31 1F 1F 1F 2F 0F B7 F7 BF A7 7F 37 F9 79 59 B9 E9 3F 07 4B FB 04 2E 2D 83,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 0C F3 04 24 1D«(play): play» ¦0F F3 04 24 AD«(pause): still (WAS EFC=167)»¦0B F3 04 24 5D«(rewind): rew»¦0D F3 04 24 ED«(fast fwd): ff»  ¦0E F3 04 24 9D«(stop): stop» ¦10 F3 04 24 6D«(record): Record»¦2A F3 04 24 CE«Smart Hub: Smart Hub (WAS WISELINK)»  ¦29 F3 04 24 84«Movie Mode»¦2B F3 04 24 42«Dynamic Mode: Dynamic Mode»  ¦25 F3 04 24 C9«Red/A: Red/A» ¦26 F3 04 24 D7«Green/B: Green/B»¦27 F3 04 24 57«Yellow/C: Yellow/C» ¦28 F3 04 24 97«Blue/D: Blue/D»  ¦2D F3 04 24 27«TV Input: TV Input» ¦2E F3 04 24 28«AV2 Input: AV2 Input»  ¦2F F3 04 24 BC«HDMI3 Input: HDMI3 Input» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (S3C8+) NECx2 (KM v9.22),,,,,,,,,,,,,
+43 8B 31 8B 12 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 20 01 08 03 37 04 15 F6 01 46 FB 10 37 0B 07 E4 05 04 60 05 8B 0E B6 04 80 B6 05 80 37 0B 05 E4 04 05 60 05 E4 06 07 60 07 20 11 37 06 05 F6 01 04 7B 12 37 09 15 37 02 06 F6 01 49 F6 01 46 37 01 03 46 29 0D 46 29 01 8D 01 49 E4 20 1E E4 21 1F 37 01 EB F6 01 49 E6 28 C1 60 04 E6 12 01 8B E4,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,198,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fEFC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,121,,0,00 - num 0,,Protocol ID,Fixed Data,,,,,,1F
+num 1,180,,1,01 - num 1,,,,,,,,,15
+num 2,184,,2,02 - num 2,,,,,,,,,16
+num 3,182,,3,03 - num 3,,,,,,,,,17
+num 4,053,,4,04 - num 4,,,,,,,,,19
+num 5,057,,5,05 - num 5,,,,,,,,,1A
+num 6,055,,6,06 - num 6,,,,,,,,,1B
+num 7,052,,7,07 - num 7,,,,,,,,,1C
+num 8,056,,8,08 - num 8,,,,,,,,,1D
+num 9,054,,9,09 - num 9,,,,,,,,,1E
+Vol UP,186,,vol up,10 - Vol UP,,,,,,,,,04
+Vol DOWN,059,,vol down,11 - Vol DOWN,,,,,,,,,05
+MUTE,058,,mute,12 - MUTE,,,,,,,,,08
+Channel UP,119,,channel up,13 - Channel UP,,,,,,,,,06
+Channel DOWN,117,,channel down,14 - Channel DOWN,,,,,,,,,07
+POWER,183,,power,15 - POWER,,,,,,,,,03
+ENTER,022,,enter,52 - Picture Size,,,,,,,,,18
+TV/VID,185,,tv/vid,17 - TV/VID,,,,,,,,,20
+PREV,123,,prev,18 - PREV,,,,,,,,,38
+MENU,247,,menu,19 - MENU,,,,,,,,,14
+GUIDE,043,,guide,20 - GUIDE,Tools,,,,,,,,36
+ARROW UP,197,,up arrow,21 - ARROW UP,up,,,,,,,,31
+ARROW DOWN,201,,down arrow,22 - ARROW DOWN,dn,,,,,,,,32
+ARROW LEFT,200,,left arrow,23 - ARROW LEFT,left,,,,,,,,33
+ARROW RIGHT,199,,right arrow,24 - ARROW RIGHT,rt,,,,,,,,34
+SELECT,069,,select,25 - SELECT,enter,,,,,,,,35
+SLEEP,187,,sleep,26 - SLEEP,,,,,,,,,30
+PIP,213,,pip,27 - PIP,PIP,,,,,,,,3A
+INFO,250,,info,28 - INFO,,,,,,,,,13
+SWAP,067,,swap,30 - Standard Mode,PIP Swap,,,,,,,,3C
+Standard Mode,242,,move,29 - SWAP,,,,,,,,,3B
+(play),170,,play,31 - (play),play,,,,,,,,0C
+(pause),039,,pause,32 - (pause),still (WAS EFC=167),,,,,,,,0F
+(rewind),168,,rewind,33 - (rewind),rew,,,,,,,,0B
+(fast fwd),037,,fwd,34 - (fast fwd),ff,,,,,,,,0D
+(stop),166,,stop,35 - (stop),stop,,,,,,,,0E
+(record),041,,record,36 - (record),Record,,,,,,,,10
+EXIT,088,,exit,37 - EXIT,exit,,,,,,,,37
+Red/A,068,,,,Red/A,,,,,,,,
+Green/B,116,,,,Green/B,,,,,,,,
+Yellow/C,120,,,,Yellow/C,,,,,,,,
+Blue/D,118,,,,Blue/D,,,,,,,,
+TV Input,251,,,,TV Input,,,,,,,,
+AV2 Input,083,,f fwd,46 - Smart Hub,AV2 Input,,,,,,,,2A
+HDMI3 Input,175,,f rew,59 - Movie Mode,HDMI3 Input,,,,,,,,29
+Dynamic Mode,032,,,,Dynamic Mode,,,,,,,,
+Smart Hub,060,,,,Smart Hub (WAS WISELINK),,,,,,,,
+Channel Menu,021,,,,Channel Menu,,,,,,,,
+Discrete Off,253,,,,,,,,,,,,
+AV1 Input,188,,,,,,,,,,,,
+16:9,204,,,,,,,,,,,,
+4:3,211,,,,,,,,,,,,
+Picture Size,022,,,,,,,,,,,,
+HDMI1 Input,081,,,,,,,,,,,,
+HDMI2 Input,030,,,,,,,,,,,,
+HDMI4 Input,176,,phantom1,,,,,,,,,,3D
+Component,190,,phantom2,,,,,,,,,,3E
+Sound 3D,070,,phantom3,,,,,,,,,,3F
+Picture Mode,085,,,,Standard/Dynamic/etc,,,,,,,,
+Movie Mode,238,,,,,,,,,,,,
+Account Login,196,,,,,,,,,,,,
+DMA,203,,,,???,,,,,,,,
+Search,141,,,,Smart Hub Search,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,light,,,,,,,,,,39
+,,,home theater,,,,,,,,,,24
+,,,M1,42 - TV Input,,,,,,,,,2D
+,,,M2,43 - AV2 Input,,,,,,,,,2E
+,,,M3,44 - HDMI3 Input,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,L1,38 - Red/A,,,,,,,,,25
+,,,L2,39 - Green/B,,,,,,,,,26
+,,,L3,40 - Yellow/C,,,,,,,,,27
+,,,L4,41 - Blue/D,,,,,,,,,28
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,com/skip,45 - Dynamic Mode,,,,,,,,,2B
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+TV/0060 (1060),,,,,,,,,,,,,
+For Samsung HL-S5686,,,,,,,,,,,,,
+"Learned commands are in ""Description/notes"" on Functions tab",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

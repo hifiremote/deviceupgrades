@@ -1,0 +1,197 @@
+Name:,0176 Yamaha Rcvr,,,,v9.22,,,,,,,,CURRENT DATA
+Devices:,NEC 4DEV Yamaha Combo,122,,126,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,0177,99 = Comcast URC-1067B JP1.3,05 - Tuner,OBC,USE,A1 5E 81 7E FF 00 FF 00,2,No,,,,,
+Comcast URC-1067B JP1.3 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code2 0 = 30 B1 (Tuner/0177) 0176 Yamaha Rcvr (KM v9.22),,,,,,,,,,,,,
+01 1A 00 FE F2 F0 08 02 11 A1 5E 81 7E FF 00 FF 00 00 00 FF 22 3F 22 9F 22 6F 22 00 00 00 00 00 00 00 00 00 00 A7 20 27 20 C7 20 F7 20 77 20 AB 60 FF 20 DF 20 7F 20 BF 20 3F 20 5F 20 EE 20 85 20 05 20 7E 20 FE 20 E7 20 6E 20 65 20 E5 20,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 1A (S3C8+) NEC 4DEV Yamaha Combo (KM v9.22),,,,,,,,,,,,,
+43 8B 82 8B 14 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 08 CA E6 10 02 08 0C 18 C0 56 C1 C0 F0 C1 E0 C1 06 C1 03 93 C1 03 E5 C1 04 E4 0B 05 E4 0B 06 60 06 37 02 03 B6 06 01 37 04 03 B6 06 80 37 06 05 F6 01 04 7B 09 37 09 0C 37 01 03 46 29 0D 46 29 01 8D 01 49 C4 22 1E 37 01 EE F6 01 49 E6 28 C1 60 03 E6 12 01 8B E7,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,478,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,021,,0,,,Protocol ID,Fixed Data,,,,,,1F
+num 1,022,,1,49 - Scene-BD/DVD,,,,,,,,,15
+num 2,015,,2,50 - Scene-TV,,,,,,,,,16
+num 3,019,,3,51 - Scene-CD,,,,,,,,,17
+num 4,006,,4,52 - Scene-Radio,,,,,,,,,19
+num 5,023,,5,,,,,,,,,,1A
+num 6,024,,6,,,,,,,,,,1B
+num 7,085,,7,,,,,,,,,,1C
+num 8,020,,8,,,,,,,,,,1D
+num 9,025,,9,,,,,,,,,,1E
+vol up,026,,vol up,10 - vol up,,,,,,,,,04
+vol down,027,,vol down,11 - vol down,,,,,,,,,05
+mute,028,,mute,12 - mute,,,,,,,,,33
+channel up,016,,channel up,13 - channel up,,,,,,,,,06
+channel down,017,,channel down,14 - channel down,,,,,,,,,07
+power,042,2 1,power,15 - power,,,,,,,,,03
+enter,,,enter,54 - Music,,,,,,,,,18
+Straight,086,,tv/video,53 - Movie,,,,,,,,,20
+last (prev ch),,,last,,,,,,,,,,08
+menu,,,menu,,,,,,,,,,2E
+program guide,,,guide,,,,,,,,,,21
+up arrow,094,,up arrow,17 - up arrow,,,,,,,,,29
+down arrow,095,,down arrow,18 - down arrow,,,,,,,,,2A
+left arrow,129,,left arrow,19 - left arrow,,,,,,,,,2B
+right arrow,128,,right arrow,20 - right arrow,,,,,,,,,2C
+select,024,,ok/select,21 - select,,,,,,,,,2D
+sleep,087,,,,,,,,,,,,
+pip on/off,,,pip,,,,,,,,,,25
+display,,,info,,,,,,,,,,13
+pip swap,,,swap,,,,,,,,,,26
+pip move,,,move,,,,,,,,,,27
+play,000,,play,23 - play,,,,,,,,,0C
+pause,004,,pause,24 - pause,,,,,,,,,0F
+rewind,001,,rewind,25 - rewind,,,,,,,,,0B
+fast fwd,002,,fast fwd,26 - fast fwd,,,,,,,,,0D
+stop,003,,stop,27 - stop,,,,,,,,,0E
+record,005,,record,28 - record,,,,,,,,,10
+exit,132,,exit,,,,,,,,,,14
+surround,086,,,,,,,,,,,,
+input toggle,,,,,,,,,,,,,
++100,,,,,,,,,,,,,
+device button,,,fav,,,,,,,,,,22
+shift-up,,,,,,,,,,,,,
+shift-down,,,,,,,,,,,,,
+shift-left,,,,,,,,,,,,,
+shift-right,,,,,,,,,,,,,
+pip freeze,,,,,,,,,,,,,
+slow,,,,,,,,,,,,,
+eject,,,,,,,,,,,,,
+slow+,,,,,,,,,,,,,
+slow-,,,,,,,,,,,,,
+X2,,,,,,,,,,,,,
+center,,,,,,,,,,,,,
+rear,,,,,,,,,,,,,
+Phantom1,,,,,,,,,,,,,
+Phantom2,,,phantom1,,,,,,,,,,3A
+S1-Hall,136,,phantom2,,Surrond - Button 1,,,,,,,,3B
+S2-Church,137,,phantom3,,Surrond - Button 2,,,,,,,,3C
+S3-Jazz Club,138,,phantom4,,Surrond - Button 3,,,,,,,,3D
+S4-Rock Concert,139,,phantom5,,Surrond - Button 4,,,,,,,,3E
+S5-Disco,140,,phantom6,,Surrond - Button 5,,,,,,,,3F
+S6-TV Sports,141,,,,Surrond - Button 6,,,,,,,,
+S7-Mono Movie,142,,,,Surrond - Button 7,,,,,,,,
+S8-Theater 1,143,,,,Surrond - Button 8,,,,,,,,
+S9-Theater 2,144,,,,Surrond - Button 9,,,,,,,,
+S0-DTS/Surround,145,,setup,,Surrond - Button 0,,,,,,,,02
+I2-CD,021,,,,Input Select,,,,,,,,
+I3-Tuner,022,,my dvr,,Input Select,,,,,,,,28
+I4-VCR1,015,,all on,,Input Select,,,,,,,,36
+I6-TV/DBS,084,,,,Input Select,,,,,,,,
+I5-VCR2,019,,,,Input Select,,,,,,,,
+I7-Tape/MD,024,,,,Input Select,,,,,,,,
+I8-DVD/LD,023,,,,Input Select,,,,,,,,
+I9-VAUX,085,,help,,Input Select,,,,,,,,38
+Scene-BD/DVD,000,1 Y1,,,,,,,,,,,
+Scene-TV,003,1 Y1,,,,,,,,,,,
+Scene-CD,006,1 Y1,pip channel up,55 - Program UP,,,,,,,,,35
+Scene-Radio,009,1 Y1,pip channel down,56 - Program DOWN,,,,,,,,,39
+Movie,136,,page up,,,,,,,,,,23
+Music,137,,page down,,,,,,,,,,24
+Program UP,088,,,,,,,,,,,,
+Program DOWN,089,,,,,,,,,,,,
+,,,A,,,,,,,,,,30
+,,,B,,,,,,,,,,32
+,,,C,,,,,,,,,,31
+,,,,,,,,,,,,,
+,,,on demand,,,,,,,,,,34
+,,,replay,,,,,,,,,,37
+,,,,,,,,,,,,,
+,,,live,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

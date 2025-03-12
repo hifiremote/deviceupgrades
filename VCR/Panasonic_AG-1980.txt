@@ -1,0 +1,197 @@
+Name:,Panasonic AG-1980,,,,v9.22,,,,,,,,CURRENT DATA
+Devices:,Panasonic Combo,144,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1062,99 = URC-8820 / 10820 / 6820,03 - VCR,OBC,USE,BF FB F6,2,No,,,,,
+URC-8820 / 10820 / 6820 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 24 26 (VCR/1062) Panasonic AG-1980 (KM v9.22),,,,,,,,,,,,,
+CD 00 BE EE FA DE 61 BF FB F6 FF 67 FF F7 FF 77 FF B7 FF 37 FF D7 FF 57 FF 97 FF 17 FF E7 FF D3 FF 53 FF 43 FF AF FF FF FF BF FF 3F FF 9F FF EF FF 5E FF DE FF AE FF 2E FF 36 FF FE FF FC 7F 05 FF AD FF 6D FF D5 FF 58 7F AF FF 33 7F EF FF F2 FF 93,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 CD (HCS08) Panasonic Combo (KM v9.22),,,,,,,,,,,,,
+20 15 23 4A 32 8F 45 08 08 00 D7 00 DC 00 D7 02 91 90 DD 06 CF 03 68 B6 62 B8 63 B8 64 B7 65 3C A9 CC FF 5F,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,477,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+stop,000,0,0,23 - 0,,Protocol ID,Fixed Data,,,,,,1F
+eject,001,0,1,14 - 1,,,,,,,,,15
+rewind,002,0,2,15 - 2,,,,,,,,,16
+fast forward,003,0,3,16 - 3,,,,,,,,,17
+reverse search,004,0,4,17 - 4,,,,,,,,,19
+forward search,005,0,5,18 - 5,,,,,,,,,1A
+pause,006,0,6,19 - 6,,,,,,,,,1B
+record,008,0,7,20 - 7,,,,,,,,,1C
+audio dub,009,0,8,21 - 8,,,,,,,,,1D
+play,010,0,9,22 - 9,,,,,,,,,1E
+reverse play,011,0,vol up,,,,,,,,,,04
+frame advance,012,0,vol down,,,,,,,,,,05
+frame reverse,013,0,mute,,,,,,,,,,08
+slow,015,0,channel up,25 - channel up,,,,,,,,,06
+1,016,0,channel down,26 - channel down,,,,,,,,,07
+2,017,0,power,30 - power,,,,,,,,,03
+3,018,0,enter,,,,,,,,,,12
+4,019,0,,,,,,,,,,,
+5,020,0,prev,35 - counter reset,,,,,,,,,13
+6,021,0,menu,,,,,,,,,,27
+7,022,0,guide,,,,,,,,,,2C
+8,023,0,up arrow,53 - shuttle +1,,,,,,,,,31
+9,024,0,down arrow,46 - shuttle -1,,,,,,,,,32
+0,025,0,left arrow,41 - jog-,,,,,,,,,33
+audio output,051,0,right arrow,42 - jog+,,,,,,,,,34
+channel up,052,0,ok,40 - jog/shuttle,,,,,,,,,35
+channel down,053,0,sleep,83 - off timer,,,,,,,,,28
+tv/vcr,054,0,pip,66 - tracking auto,,,,,,,,,36
+discrete tv,055,0,info,99 - counter/clock/remaining,,,,,,,,,26
+discrete vcr,056,0,swap,27 - tv/vcr,,,,,,,,,37
+,,,move,,,,,,,,,,14
+power,061,0,play,09 - play,,,,,,,,,0C
+discrete on,062,0,pause,06 - pause,,,,,,,,,0F
+discrete off,063,0,rewind,02 - rewind,,,,,,,,,0B
+index search back,073,0,fast fwd,03 - fast forward,,,,,,,,,0D
+index search forward,074,0,stop,00 - stop,,,,,,,,,0E
+counter reset,084,0,record,07 - record,,,,,,,,,10
+tape remaining,085,0,exit,57 - jog/shuttle exit,,,,,,,,,2B
+clock,086,0,,,,,,,,,,,
+,,,input,72 - input,,,,,,,,,20
+paused play,129,0,+100,76 - +100,,,,,,,,,38
+tension tape?,145,0,fav,,,,,,,,,,18
+jog/shuttle,128,0,,,,,,,,,,,
+jog-,138,0,skip+,34 - index search forward,,,,,,,,,2D
+jog+,139,0,skip-,33 - index search back,,,,,,,,,2E
+shuttle -9,140,0,,,,,,,,,,,
+shuttle -7,136,0,,,,,,,,,,,
+shuttle -5,134,0,,,,,,,,,,,
+shuttle -1,132,0,,,,,,,,,,,
+shuttle -1/5,130,0,,,,,,,,,,,
+shuttle -1/10,152,0,,,,,,,,,,,
+shuttle -1/30,150,0,,,,,,,,,,,
+shuttle +1/30,151,0,,,,,,,,,,,
+shuttle +1/10,153,0,,,,,,,,,,,
+shuttle +1/5,131,0,,,,,,,,,,,
+shuttle +1,133,0,phantom1,,,,,,,,,,3B
+shuttle +5,135,0,phantom2,,,,,,,,,,3F
+shuttle +7,137,0,phantom3,,,,,,,,,,40
+shuttle +9,141,0,phantom4,,,,,,,,,,41
+jog/shuttle exit,147,0,,,,,,,,,,,
+insert momentary,157,0,,,,,,,,,,,
+record momentary,158,0,,,,,,,,,,,
+back up and play momentary,159,0,,,,,,,,,,,
+audio dub momentary,169,0,,,,,,,,,,,
+insert/dub momentary,170,0,,,,,,,,,,,
+audio dub momentary alternate,171,0,setup,,,,,,,,,,02
+insert/dub momentary alternate,172,0,,,,,,,,,,,
+insert momentary alternate,173,0,,,,,,,,,,,
+tracking auto,176,0,M1,,,,,,,,,,3C
+tracking+,177,0,M2,,,,,,,,,,3D
+tracking-,178,0,(M3),,,,,,,,,,3E
+insert,179,0,,,,,,,,,,,
+timer rec,180,0,L1,,,,,,,,,,23
+timer rec alternate,181,0,L2,,,,,,,,,,24
+input,192,0,L3,,,,,,,,,,25
+discrete tuner input,202,0,,,,,,,,,,,
+discrete a1 input,203,0,,,,,,,,,,,
+discrete a2 input,204,0,,,,,,,,,,,
++100,229,0,,,,,,,,,,,
+seek to 0:00:00,245,0,,,,,,,,,,,
+reset channel memory,250,0,,,,,,,,,,,
+secret info,252,0,,,,,,,,,,,
+clock set,000,1,,,,,,,,,,,
+program,001,1,,,,,,,,,,,
+discrete a1 input alternate,007,1,,,,,,,,,,,
+off timer,008,1,,,,,,,,,,,
+program clear,009,1,,,,,,,,,,,
+sp/slp,010,1,,,,,,,,,,,
+discrete sp,011,1,,,,,,,,,,,
+discrete slp,013,1,,,,,,,,,,,
+channel preset/fine/normal,044,1,,,,,,,,,,,
+channel preset,045,1,,,,,,,,,,,
+channel fine adjust,046,1,CC,24 - audio output,,,,,,,,,30
+channel normal,047,1,format,85 - sp/slp,,,,,,,,,2F
+channel add/del,049,1,,,,,,,,,,,
+channel add,050,1,,,,,,,,,,,
+channel del,051,1,,,,,,,,,,,
+channel tuning mode,052,1,,,,,,,,,,,
+channel tuning mode alternate,059,1,,,,,,,,,,,
+channel fine+,062,1,,,,,,,,,,,
+channel fine-,063,1,,,,,,,,,,,
+counter/clock/remaining,095,1,,,,,,,,,,,
+otr on+,192,1,,,,,,,,,,,
+otr on-,193,1,,,,,,,,,,,
+otr off+,194,1,,,,,,,,,,,
+otr off-,195,1,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Based on 1062.,,,,,,,,,,,,,
+"1162, 1262, 1362, 1462, 1562, 1762 include TV functions.",,,,,,,,,,,,,
+144.0 codes are also in 0162; 144.1 codes are also in 0454.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Common Panasonic 144 OBCs confirmed not to work:,,,,,,,,,,,,,
+"0.057, 0.059, 0.064, 0.087, 0.093, 0.248",,,,,,,,,,,,,
+"1.002, 1.003, 1.004, 1.005, 1.006, 1.056",,,,,,,,,,,,,
+"1.088, 1.093, 1.102, 1.230, 5.090",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

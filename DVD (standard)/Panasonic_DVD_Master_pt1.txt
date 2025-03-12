@@ -1,0 +1,197 @@
+Name:,Panasonic DVD Master (part1),,,,v9.13,,,,,,,CURRENT DATA,
+Devices:,Panasonic,176,0,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1490,99 = URC-6131 PVR,06 - DVD,OBC,USE,F2 BF FB F2 FF,1,No,,,,,
+URC-6131 PVR Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 25 D2 (DVD/1490) Panasonic DVD Master (part1) (KM v9.13),,,,,,,,,,,,,
+C9 0F 3E FE FE FE E1 F2 BF FB F2 FF D3 53 43 AF 9F DF 5F FF EF CB B6 FE 3E 5E 9E 1E EE D6 BE 7E 76 6E AD 6D 1F 33 28 26 CD 2E,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 C9 (S3C8+) Panasonic (KM v9.13),,,,,,,,,,,,,
+45 91 51 8B 12 8F 44 08 08 00 DA 00 C6 00 DA 02 7B 90 C9 06 D0 03 54 E6 0C E8 60 03 20 01 E4 08 09 B4 03 09 20 10 F6 01 46 F6 01 0A FB 0D 00 0C EB F4 C6 3E 00 00 B0 4A F6 01 0A AF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,226,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+stop,000,,0,20 - 0,,Protocol ID,Fixed Data,,,,,,1F
+Eject,001,,1,11 - 1,,,,,,,,,15
+Rewind,004,,2,12 - 2,,,,,,,,,16
+FastFwd,005,,3,13 - 3,,,,,,,,,17
+pause,006,,4,14 - 4,,,,,,,,,19
+Slow Down,007,,5,15 - 5,,,,,,,,,1A
+Record,008,,6,16 - 6,,,,,,,,,1B
+play,010,,7,17 - 7,,,,,,,,,1C
+Frame+,012,,8,18 - 8,,,,,,,,,1D
+Frame-,013,,9,19 - 9,,,,,,,,,1E
+Slow Up,015,,vol up,,,,,,,,,,04
+1,016,,vol down,,,,,,,,,,05
+2,017,,mute,,,,,,,,,,08
+3,018,,channel up,25 - Channel +,,,,,,,,,06
+4,019,,channel down,26 - Channel -,,,,,,,,,07
+5,020,,power,28 - power,,,,,,,,,03
+6,021,,enter,63 - 10+,,,,,,,,,12
+7,022,,tv/vid,23 - HDD/SD/DVD,,,,,,,,,13
+8,023,,prev,56 - Exit / Return,,,,,,,,,23
+9,024,,menu,55 - DVD Menu,,,,,,,,,21
+0,025,,guide,72 - Setup Menu,,,,,,,,,14
+12,027,,up arrow,59 - arrow up,,,,,,,,,31
+EXT Link (2),035,,down arrow,60 - arrow down,,,,,,,,,32
+HDD/SD/DVD,044,,left arrow,61 - arrow left,,,,,,,,,33
+Audio,051,,right arrow,62 - arrow right,,,,,,,,,34
+Channel +,052,,select,57 - select,,,,,,,,,35
+Channel -,053,,angle/sleep,100- sleep,,,,,,,,,26
+Add/Edit,054,,pip,,,,,,,,,,2F
+Power,061,,info,70 - display,,,,,,,,,18
+Power On,062,,swap,,,,,,,,,,20
+Power Off,063,,move,,,,,,,,,,30
+Erase,068,,play,07 - play,,,,,,,,,0C
+hpvss,069,,pause (yellow),04 - pause,,,,,,,,,0F
+Position memory,070,,rewind,02 - rewind,,,,,,,,,0B
+a-b repeat,072,,fast fwd,03 - FastFwd,,,,,,,,,0D
+Skip-,073,,stop,00 - stop,,,,,,,,,0E
+Skip+,074,,record,06 - record,,,,,,,,,10
+Time Slip,075,,exit,58 - Cancel,,,,,,,,,24
+Comm. Skip,076,,,,,,,,,,,,
+Random,077,,,,,,,,,,,,
+Input Select,080,,,,,,,,,,,,
+Record Mode,081,,,,,,,,,,,,
+Functions,087,,,,,,,,,,,,
+Green / Create Chapter,088,,next track,36 - Skip+,,,,,,,,,2B
+SD,091,,prev track,35 - Skip-,,,,,,,,,2A
+Blue / Dubbing,094,,,,,,,,,,,,
+DVD Status,095,,,,,,,,,,,,
+TV Guide,096,,,,,,,,,,,,
+TV Info,102,,slow,05 - Slow Down,,,,,,,,,2E
+Timer,120,,,,,,,,,,,,
+Record List,121,,,,,,,,,,,,
+PC (TV),122,,,,,,,,,,,,
+Record Schedule,124,,,,,,,,,,,,
+100,125,,,,,,,,,,,,
+VCR+ (G-code),127,,,,,,,,,,,,
+DVD Menu,128,,phantom1,,,,,,,,,,3D
+Exit / Return,129,,phantom2,,,,,,,,,,3E
+select,130,,phantom3,,,,,,,,,,3F
+Cancel,131,,phantom4,,,,,,,,,,40
+Arrow Up,133,,,,,,,,,,,,
+Arrow Down,134,,,,,,,,,,,,
+Arrow Left,135,,,,,,,,,,,,
+Arrow Right,136,,,,,,,,,,,,
+10+,137,,,,,,,,,,,,
+program,138,,,,,,,,,,,,
+quick replay,139,,setup,,,,,,,,,,02
+repeat,140,,,,,,,,,,,,
+Play Mode,141,,,,,,,,,,,,
+angle,144,,,,,,,,,,,,
+subtitle,145,,,,,,,,,,,,
+display,146,,,,,,,,,,,,
+Subtitle On/Off,147,,,,,,,,,,,,
+Setup Menu,148,,subtitle,69 - subtitle,,,,,,,,,25
+Top Menu / Title,155,,,,,,,,,,,,
+VSS / SRD,158,,,,,,,,,,,,
+HDDwierd?,170,,,,,,,,,,,,
+Clear Time,181,,,,,,,,,,,,
+fl select,182,,,,,,,,,,,,
+disc,183,,,,,,,,,,,,
+Disc 1,184,,,,,,,,,,,,
+Disc 2,185,,,,,,,,,,,,
+Disc 3,186,,,,,,,,,,,,
+Disc 4,187,,,,,,,,,,,,
+Disc 5,188,,,,,,,,,,,,
+Disc Skip,189,,,,,,,,,,,,
+Disc Exchange,190,,,,,,,,,,,,
+sequential,191,,PVR menu (blue),73 - Top Menu / Title,,,,,,,,,36
+cinema / concert,192,,replay,65 - quick replay,,,,,,,,,27
+zoom,193,,advance,38 - Comm. Skip,,,,,,,,,29
+HDD,194,,,,,,,,,,,,
+DVD,195,,thumbs up (green),,,,,,,,,,2C
+Flex Record,199,,thumbs down (red),,,,,,,,,,2D
+bass,212,,audio/CC,24 - Audio,,,,,,,,,37
+Dialogue Enhance,213,,,,,,,,,,,,
+one touch memory,214,,,,,,,,,,,,
+Group,224,,,,,,,,,,,,
+Audio Only,225,,,,,,,,,,,,
+Page,229,,,,,,,,,,,,
+Text,232,,,,,,,,,,,,
+Remaster,233,,,,,,,,,,,,
+sleep,235,,,,,,,,,,,,
+ResetGuide,237,,,,,,,,,,,,
+shift,242,,,,,,,,,,,,
+EXT Link (1),244,,,,,,,,,,,,
+RSV Mistake,253,,,,,,,,,,,,
+DVD Mode (VCR combo),255,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Blue,,,,,Use 'part2' file for these buttons,,,,,,,,
+Red,,,,,Use 'part2' file for these buttons,,,,,,,,
+Green,,,,,Use 'part2' file for these buttons,,,,,,,,
+Yellow,,,,,Use 'part2' file for these buttons,,,,,,,,
+Pop-Up Menu,,,,,Use 'part2' file for these buttons,,,,,,,,
+PIP,,,,,Use 'part2' file for these buttons,,,,,,,,
+Secondary Audio,,,,,Use 'part2' file for these buttons,,,,,,,,
+Dial CW,,,,,Use 'part2' file for these buttons,,,,,,,,
+Dial CCW,,,,,Use 'part2' file for these buttons,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,,
+DVD1 mode uses sub-devices 0 and 1,,,,,,,,,,,,,,
+DVD2 mode uses sub-devices 16 and 17,,,,,,,,,,,,,,
+DVD3 mode uses sub-devices 32 and 33,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE,

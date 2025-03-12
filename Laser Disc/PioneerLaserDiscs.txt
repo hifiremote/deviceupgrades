@@ -1,0 +1,180 @@
+Name:,Pioneer_LaserDiscs,,,,v6.00b7,
+Devices:,Pioneer MIX,168,175,25,,
+Manual:,FF,0 = 1-byte,LSB-COMP,,NO,
+Setup,1059,02 = URC-7800/6800,03 - VCR,OBC,USE,
+,,,,,,
+URC-7800/6800 Device Upgrade Code:,,,,,,
+Upgrade code 0 = 3C 23 (VCR/1059),,,,,,
+7F 00 FE FE FE F9 EA 67 0A 7A FF 00 7F 00 BF 00,,,,,,
+3F 00 DF 00 5F 00 9F 00 1F 00 EF 00 6F 00 E5 00,,,,,,
+55 00 13 00 B5 00 35 00 C7 00 77 00 17 00 F7 00,,,,,,
+97 00 E7 00 25 00 07 00 5D 00 F8 01 CF 00 87 00,,,,,,
+37 00 3D 00 47 00 B8 01 4D 00 8D 00 CD 00 EB 00,,,,,,
+CB 00 DB 00 FB 00,,,,,,
+End,,,,,,
+,,,,,,
+,,,,,,
+Protocol Code:,,,,,
+Upgrade protocol 0 = 01 7F (S3C8),,,,,
+40 84 42 8B 12 E5 44 08 08 01 09 00 FA 01 09 03,,,,,
+16 C3 3C 10 A9 08 43 76 08 02 6B 03 E4 06 04 76,,,,,
+08 01 EB 06 46 29 01 8D 01 33 B0 01 68 07 E4 04,,,,,
+07 F6 01 33 E6 01 02 69 07 F6 01 33 F6 01 0A 7B,,,,,
+E9 AF,,,,,
+End,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,,,
+Functions,OBC,byte2,Buttons,Functions,Notes,Device Combiner (max 16):,
+0,000,0,0,00 - 0,CLD-D704,Protocol ID,Fixed Data
+1,001,0,1,01 - 1,CLD-D704,,
+2,002,0,2,02 - 2,CLD-D704,,
+3,003,0,3,03 - 3,CLD-D704,,
+4,004,0,4,04 - 4,CLD-D704,,
+5,005,0,5,05 - 5,CLD-D704,,
+6,006,0,6,06 - 6,CLD-D704,,
+7,007,0,7,07 - 7,CLD-D704,,
+8,008,0,8,08 - 8,CLD-D704,,
+9,009,0,9,09 - 9,CLD-D704,,
+D/A/CX,012,0,vol up,59 - Multi-Speed FWD,CLD-D704,,
+CX,014,0,vol down,58 - Multi-Speed REV,CLD-D704,,
+Scan FWD,016,0,mute,37 - Dig-Level,CLD-D704,,
+Scan REV,017,0,channel up,55 - Chapter +,CLD-D704,,
+Chap/Time,019,0,channel down,56 - Chapter -,CLD-D704,,
+Disc Side A/B,021,0,power,21 - Power on/off,CLD-D704,,
+Stop/Eject,022,0,enter,24 - +10,CLD-D704,,
+Play,023,0,tv/vcr,72 - V-DNR or Memo,CLD-D704,,
+Pause,024,0,prev ch,43 - Clear,CLD-D704,,
+Power on (discrete),026,0,menu,10 - D/A/CX,CLD-D704,,
+Power off (discrete),027,0,prog/guide,50 - Program,CLD-D704,,
+Power on/off,028,0,up arrow,29 - Shuttle Fwd (x2 speed),CLD-D704,,
+Edit,029,0,down arrow,33 - Shuttle Rev (x2 speed),CLD-D704,,
+Audio,030,0,left arrow,27 - Jog Rev (Slow),CLD-D704,,
++10,031,0,right arrow,25 - Jog Fwd (Slow),CLD-D704,,
+Jog Fwd (Slow),032,0,select,14 - Chap/Time,CLD-D704,,
+Jog Fwd (Fast),034,0,sleep,26 - sleep,CLD-D704,,
+Jog Rev (Slow),036,0,pip on/off,71 - Open,CLD-D704,,
+Jog Rev (Fast),038,0,display,41 - Display,CLD-D704,,
+Shuttle Fwd (x2 speed),040,0,pip swap,51 - Disc Side A,CLD-D704,,
+Shuttle Fwd (x5 speed),041,0,pip move,52 - Disc Side B,CLD-D704
+Shuttle Fwd (Low Scan x10),042,0,play,17 - Play,CLD-D704
+Shuttle Fwd (High Scan x20),043,0,pause,18 - Pause,CLD-D704
+Shuttle Rev (x2 speed),044,0,rewind,13 - Scan REV,CLD-D704
+Shuttle Rev (x5 speed),045,0,fast fwd,12 - Scan FWD,CLD-D704
+Shuttle Rev (Low Scan x10),046,0,stop,16 - Stop/Eject,CLD-D704
+Shuttle Rev (High Scan x20),047,0,record,62 - Strobe w/Sound,CLD-D704
+Dig-Level,055,0,exit,22 - Edit,CLD-D704
+Chapter Search,064,0,surround,23 - Audio,CLD-D704
+Frame/Time Search,065,0,input,39 - input toggle,CLD-D704
+Enter,066,0,+100,40 - +100,CLD-D704
+Display,067,0,,,CLD-D704
+B Repeat,068,0,device button,41 - device button,CLD-D704
+Clear,069,0,shift-up,42 - shift-up,CLD-D704
+Multi-Speed (-),070,0,shift-down,43 - shift-down,CLD-D704
+Multi-Speed (+),071,0,shift-left,44 - shift-left,CLD-D704
+A Repeat,072,0,shift-right,45 - shift-right,CLD-D704
+2/Rch,073,0,pip freeze,46 - pip freeze,CLD-D704
+Stereo,074,0,slow,47 - slow,CLD-D704
+1/Lch,075,0,eject,48 - eject,CLD-D704
+Program,076,0,slow+,49 - slow+,CLD-D704
+Disc Side A,077,0,slow-,50 - slow-,CLD-D704
+Disc Side B,078,0,X2,51 - X2,CLD-D704
+Step REV,080,0,center,52 - center,CLD-D704
+3x Fast FWD,081,0,rear,53 - rear,CLD-D704
+Chapter +,082,0,Phantom1,54 - Phantom1,CLD-D704
+Chapter -,083,0,Phantom2,55 - Phantom2,CLD-D704
+Step FWD,084,0,,,CLD-D704
+Multi-Speed REV,085,0,,,CLD-D704
+Multi-Speed FWD,088,0,,,CLD-D704
+3x Fast REV,089,0,,,CLD-D704
+Hilite/Intro,090,0,,,CLD-D704
+Strobe w/Sound,091,0,,,CLD-D704
+One Shot Memo,093,0,,,CLD-D704
+Random,094,0,,,CLD-D704
+TV/LDP,015,0,,,CLD-1070
+PITCH -,058,0,,,Karaoke
+PITCH +,056,0,,,Karaoke
+PITCH FLAT,057,0,,,Karaoke
+ONE TOUCH,060,0,,,Karaoke
+SURROUND,062,0,,,Karaoke
+Open,226,1,,,CLD-V860 CLD-D505
+V-DNR or Memo,224,1,,,CLD-D704
+Select,225,1,,,Unknown Player
+Last,227,1,,,Unknown Player
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+Notes:,,,,
+Most codes from CLD-D704. Others from CLD-1070 CLD-V860 and,,,,
+a few from the JP1 group. Functions where byte2 is 0 can be used,,,,
+with the standard NEC2 protocol. If codes where byte 2 is 1 are,,,,
+"desired the Pioneer Mix protocol with ""First Command"" set to 25",,,,
+above must be used. These codes don't work with Pioneer Combo,,,,
+players like DVL-700 DVL-919.,,,,

@@ -1,0 +1,151 @@
+# Mon Sep 15 2003 13:37:25
+
+[Setup]
+Description=Sigma Designs Real Magic
+KM_Version=v7.48a
+Remote.name=15-2117 / 15-2116
+DeviceType=DVD
+DeviceIndex=2
+SetupCode=2000
+ButtonCodes=OBC
+P8_Select=NO
+DigitMap=True
+Protocol.name=NEC1
+Protocol=00 5A
+ProtocolParms=128 null null 
+FixedData=00 FE FE 
+Notes=
+
+[Functions]
+Function.0.hex=cd
+Function.0.name=num 0
+Function.1.hex=97
+Function.1.name=num 1
+Function.2.hex=17
+Function.2.name=num 2
+Function.3.hex=07
+Function.3.name=num 3
+Function.4.hex=a7
+Function.4.name=num 4
+Function.5.hex=27
+Function.5.name=num 5
+Function.6.hex=e7
+Function.6.name=num 6
+Function.7.hex=fd
+Function.7.name=num 7
+Function.8.hex=dd
+Function.8.name=num 8
+Function.9.hex=c7
+Function.9.name=num 9
+Function.10.hex=2f
+Function.10.name=Angle
+Function.11.hex=9f
+Function.11.name=Down Arrow
+Function.12.hex=f7
+Function.12.name=Eject
+Function.13.hex=d5
+Function.13.name=Enter
+Function.14.hex=af
+Function.14.name=Language
+Function.15.hex=df
+Function.15.name=Left Arrow
+Function.16.hex=1f
+Function.16.name=Menu
+Function.17.hex=5f
+Function.17.name=OK
+Function.18.hex=6f
+Function.18.name=OSD
+Function.19.hex=4f
+Function.19.name=play / pause
+Function.20.hex=ff
+Function.20.name=Power Toggle
+Function.21.hex=7f
+Function.21.name=Program
+Function.22.hex=3f
+Function.22.name=Right Arrow
+Function.23.hex=77
+Function.23.name=Scan Backward
+Function.24.hex=b7
+Function.24.name=Scan Forward
+Function.25.hex=0f
+Function.25.name=Step Forward
+Function.26.hex=8f
+Function.26.name=Stop
+Function.27.hex=cf
+Function.27.name=Subtitle
+Function.28.hex=ef
+Function.28.name=Title
+Function.29.hex=37
+Function.29.name=Track Back
+Function.30.hex=d7
+Function.30.name=Track Forward
+Function.31.hex=bf
+Function.31.name=Up Arrow
+Function.32.hex=ed
+Function.32.name=VGA/TV
+Function.33.name=
+Function.34.hex=57
+Function.34.name=Up Arrow2
+Function.35.hex=67
+Function.35.name=Down Arrow2
+Function.36.name=
+Function.37.hex=47
+Function.37.name=unknown1
+Function.38.hex=87
+Function.38.name=unknown2
+
+[Buttons]
+Button.1f=num 0|null
+Button.15=num 1|null
+Button.16=num 2|null
+Button.17=num 3|null
+Button.19=num 4|null
+Button.1a=num 5|null
+Button.1b=num 6|null
+Button.1c=num 7|null
+Button.1d=num 8|null
+Button.1e=num 9|null
+Button.6=Track Forward|null
+Button.7=Track Back|null
+Button.3=Power Toggle|null
+Button.18=enter|null
+Button.20=VGA/TV|null
+Button.14=menu|null
+Button.36=Program|null
+Button.31=up arrow|null
+Button.32=down arrow|null
+Button.33=left arrow|null
+Button.34=right arrow|null
+Button.35=OK|null
+Button.13=OSD|null
+Button.c=play / pause|null
+Button.f=play / pause|null
+Button.b=Scan Backward|null
+Button.d=Scan Forward|null
+Button.e=stop|null
+Button.37=Eject|null
+
+[Key Moves]
+
+[Device Upgrade Code]
+Upgrade Code 0 = 27 D0 (DVD/2000)
+5A 00 BE FE FD 00 FE FE CD 97 17 07 A7 27 E7 FD
+DD C7 D7 37 FF 4F 8F 77 B7 4F 1F BF 9F DF 3F 5F
+7F 6F F7 D5 ED
+End
+
+[Protocol Code]
+Upgrade Protocol 0 = 00 5A (S3C8+)
+43 8B 31 8B 12 CF 44 08 08 01 18 01 06 01 18 03
+39 D2 DC 11 94 08 B6 20 01 08 03 37 04 15 F6 01
+46 FB 10 37 0B 07 E4 05 04 60 05 8B 0E B6 04 80
+B6 05 80 37 0B 05 E4 04 05 60 05 E4 06 07 60 07
+20 11 37 06 05 F6 01 04 7B 12 37 09 15 37 02 06
+F6 01 49 F6 01 46 37 01 03 46 29 0D 46 29 01 8D
+01 49 E4 20 1E E4 21 1F 37 01 EB F6 01 49 E6 28
+C1 60 04 E6 12 01 8B E4
+End
+
+[Key Move Code]
+
+# End

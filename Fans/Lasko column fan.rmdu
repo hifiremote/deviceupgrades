@@ -1,0 +1,35 @@
+Description=Lasko column fan
+Remote.name=URC-8820
+Remote.signature=10631063
+Notes=Upgrade protocol 0 \= 01 91 (S3C8)\n3D 92 11 8B 14 C5 11 06 06 02 79 00 C1 00 D5 02\n65 34 E3 FF FF FF FF FF 03 8D 01 46\nEnd\nUpgrade protocol 0 \= 01 91 (HCS08) Manual Settings (RM v2.04 build 1)\n20 17 1F 4A 11 C5 11 06 06 02 79 00 D5 00 D5 02\n79 34 E3 FF FF FF FF FF 03 CC FF 5F\nEnd\nUpgrade protocol 0 \= 01 91 (P8/740) Lasko_PB (PB v4.00)\n0B 19 11 80 12 E0 82 09 30 06 06 01 7C 02 93 1A\n7B 00 00 00 00 00 10 4C 00 FF\nEnd\nUpgrade protocol 0 \= 01 91 (M6805-RC16/18) Lasko_PB (PB v4.00)\n10 25 11 20 12 C5 11 06 06 10 3B 6A 01 69 3C 1A\n7B 00 00 00 00 00 03 CC 01 AF\nEnd\nUpgrade protocol 0 \= 01 91 (SST) Lasko_PB (PB v4.00)\n10 25 11 20 12 C5 11 06 06 10 3B 6A 01 69 3C 1A\n7B 00 00 00 00 00 03 CC C0 2F\nEnd
+DeviceType=Cable
+DeviceIndex=0
+SetupCode=1999
+Protocol=01 91
+Protocol.name=Manual Settings
+ProtocolParms=27
+FixedData=D8
+DevParms=Device 1\=0
+DeviceTranslator=Translator(lsb,0)
+CmdParms=OBC
+CmdTranslator=Translator(lsb,0)
+DefaultCmd=00
+CmdIndex=0
+FixedData=1B
+Code.S3C80=3D 92 11 8B 14 C5 11 06 06 02 79 00 C1 00 D5 02 65 34 E3 FF FF FF FF FF 03 8D 01 46
+Code.740=0B 19 11 80 12 E0 82 09 30 06 06 01 7C 02 93 1A 7B 00 00 00 00 00 10 4C 00 FF
+Code.SST=10 25 11 20 12 C5 11 06 06 10 3B 6A 01 69 3C 1A 7B 00 00 00 00 00 03 CC C0 2F
+Code.HCS08=20 17 1F 4A 11 C5 11 06 06 02 79 00 D5 00 D5 02 79 34 E3 FF FF FF FF FF 03 CC FF 5F
+Code.6805-RC16/18=10 25 11 20 12 C5 11 06 06 10 3B 6A 01 69 3C 1A 7B 00 00 00 00 00 03 CC 01 AF
+Function.0.name=Power on/off
+Function.0.hex=04
+Function.1.name=Oscillate on/off
+Function.1.hex=40
+Function.2.name=Fan Speed
+Function.2.hex=08
+Function.3.name=Timer
+Function.3.hex=20
+Button.3=Power on/off|null|null
+Button.13=Timer|null|null
+Button.2f=Fan Speed|null|null
+Button.30=Oscillate on/off|null|null

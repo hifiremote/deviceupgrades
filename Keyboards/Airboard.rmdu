@@ -1,0 +1,288 @@
+Description=Airboard
+Remote.name=RS 15-1994 6-in-1 Smart
+Remote.signature=RSL6RSL0
+Notes=Upgrade protocol 0 \= 01 90 (S3C8)\n42 89 01 8B 12 84 04 08 08 00 00 01 90 01 6F 00\n20 03 48 01 6F 00 20 F6 01 46 B6 03 1F 8D 01 46\nEnd
+DeviceType=Cable
+DeviceIndex=0
+SetupCode=1999
+Protocol=01 90
+Protocol.name=Manual Settings
+FixedData=
+CmdParms=OBC
+CmdTranslator=Translator(lsb,0)
+DefaultCmd=00
+CmdIndex=0
+FixedData=
+Code.S3C80=42 89 01 8B 12 84 04 08 08 00 00 01 90 01 6F 00 20 03 48 01 6F 00 20 F6 01 46 B6 03 1F 8D 01 46
+Function.0.name=0 / )-Dn
+Function.0.hex=1B
+Function.0.notes=OBC\=088 0 / )-Up
+Function.1.name=1 / \!-Dn
+Function.1.hex=8B
+Function.1.notes=OBC\=081 1 / \!-Up
+Function.2.name=2 / @-Dn
+Function.2.hex=0B
+Function.2.notes=OBC\=080 2 / @-Up
+Function.3.name=3 / \#-Dn
+Function.3.hex=EB
+Function.3.notes=OBC\=087 3 / \#-Up
+Function.4.name=4 / $-Dn
+Function.4.hex=6B
+Function.4.notes=OBC\=086 4 / $-Up
+Function.5.name=5 / %-Dn
+Function.5.hex=AB
+Function.5.notes=OBC\=085 5 / %-Up
+Function.6.name=6 / ^-Dn
+Function.6.hex=2B
+Function.6.notes=OBC\=084 6 / ^-Up
+Function.7.name=7 / &-Dn
+Function.7.hex=DB
+Function.7.notes=OBC\=091 7 / &-Up
+Function.8.name=8 / *-Dn
+Function.8.hex=5B
+Function.8.notes=OBC\=090 8 / *-Up
+Function.9.name=9 / (-Dn
+Function.9.hex=9B
+Function.9.notes=OBC\=089 9 / (-Up
+Function.10.name=**53**
+Function.10.hex=CA
+Function.11.name=**5D**
+Function.11.hex=BA
+Function.12.name=PgDn-Dn
+Function.12.hex=A1
+Function.12.notes=OBC\=005 PgDn-Up
+Function.13.name=PgUp-Dn
+Function.13.hex=61
+Function.13.notes=OBC\=006 PgUp-Up
+Function.14.name=Win9x-Dn
+Function.14.hex=B9
+Function.14.notes=OBC\=029 Win9x-Up
+Function.15.name=enter-Dn
+Function.15.hex=1F
+Function.15.notes=OBC\=120 enter-Up
+Function.16.name=esc-Dn
+Function.16.hex=BD
+Function.16.notes=OBC\=061 esc-Up
+Function.17.name=Menu-Dn
+Function.17.hex=D1
+Function.17.notes=OBC\=011 Menu-Up
+Function.18.notes=OBC\=000
+Function.19.name=UP^-Dn
+Function.19.hex=01
+Function.19.notes=OBC\=000 �U-Up
+Function.20.name=�D-Dn
+Function.20.hex=E1
+Function.20.notes=OBC\=007 �D-Up
+Function.21.name=<-Dn
+Function.21.hex=39
+Function.21.notes=OBC\=028 <-Up
+Function.22.name=>-Dn
+Function.22.hex=51
+Function.22.notes=OBC\=010 >-Up
+Function.23.name=shift-Dn
+Function.23.hex=FF
+Function.23.notes=OBC\=127 shift-Up
+Function.24.notes=OBC\=000
+Function.25.name=Home-Dn
+Function.25.hex=C1
+Function.25.notes=OBC\=003 Home-Up
+Function.26.name=Left "l click"-Dn
+Function.26.hex=3D
+Function.26.notes=OBC\=060 Left "l click"-Up
+Function.27.name=Right "r click"-Dn
+Function.27.hex=1D
+Function.27.notes=OBC\=056 Right "r click"-Up
+Function.28.name=Fn-Dn
+Function.28.hex=81
+Function.28.notes=OBC\=001 Fn-Up
+Function.29.name=End-Dn
+Function.29.hex=41
+Function.29.notes=OBC\=002 End-Up
+Function.30.name=bkspc-Dn
+Function.30.hex=3B
+Function.30.notes=OBC\=092 bkspc-Up
+Function.31.name=space-Dn
+Function.31.hex=77
+Function.31.notes=OBC\=110 space-Up
+Function.32.name=del-Dn
+Function.32.hex=F9
+Function.32.notes=OBC\=031 del-Up
+Function.33.name=F1-Dn
+Function.33.hex=C5
+Function.33.notes=OBC\=035 F1-Up
+Function.34.name=F2-Dn
+Function.34.hex=45
+Function.34.notes=OBC\=034 F2-Up
+Function.35.name=F3-Dn
+Function.35.hex=85
+Function.35.notes=OBC\=033 F3-Up
+Function.36.name=F4-Dn
+Function.36.hex=05
+Function.36.notes=OBC\=032 F4-Up
+Function.37.name=F5-Dn
+Function.37.hex=E5
+Function.37.notes=OBC\=039 F5-Up
+Function.38.name=F6-Dn
+Function.38.hex=65
+Function.38.notes=OBC\=038 F6-Up
+Function.39.name=F7-Dn
+Function.39.hex=A5
+Function.39.notes=OBC\=037 F7-Up
+Function.40.name=F8-Dn
+Function.40.hex=25
+Function.40.notes=OBC\=036 F8-Up
+Function.41.name=F9-Dn
+Function.41.hex=D5
+Function.41.notes=OBC\=043 F9-Up
+Function.42.name=F10-Dn
+Function.42.hex=55
+Function.42.notes=OBC\=042 F10-Up
+Function.43.name=F11-Dn
+Function.43.hex=95
+Function.43.notes=OBC\=041 F11-Up
+Function.44.name=F12-Dn
+Function.44.hex=15
+Function.44.notes=OBC\=040 F12-Up
+Function.45.name=A-Dn
+Function.45.hex=33
+Function.45.notes=OBC\=076 A-Up
+Function.46.name=B-Dn
+Function.46.hex=87
+Function.46.notes=OBC\=097 B-Up
+Function.47.name=C-Dn
+Function.47.hex=C7
+Function.47.notes=OBC\=099 C-Up
+Function.48.name=D-Dn
+Function.48.hex=4F
+Function.48.notes=OBC\=114 D-Up
+Function.49.name=E-Dn
+Function.49.hex=03
+Function.49.notes=OBC\=064 E-Up
+Function.50.name=F-Dn
+Function.50.hex=8F
+Function.50.notes=OBC\=113 F-Up
+Function.51.name=G-Dn
+Function.51.hex=0F
+Function.51.notes=OBC\=112 G-Up
+Function.52.name=H-Dn
+Function.52.hex=EF
+Function.52.notes=OBC\=119 H-Up
+Function.53.name=I-Dn
+Function.53.hex=D3
+Function.53.notes=OBC\=075 I-Up
+Function.54.name=J-Dn
+Function.54.hex=6F
+Function.54.notes=OBC\=118 J-Up
+Function.55.name=K-Dn
+Function.55.hex=AF
+Function.55.notes=OBC\=117 K-Up
+Function.56.name=L-Dn
+Function.56.hex=2F
+Function.56.notes=OBC\=116 L-Up
+Function.57.name=M-Dn
+Function.57.hex=E7
+Function.57.notes=OBC\=103 M-Up
+Function.58.name=N-Dn
+Function.58.hex=07
+Function.58.notes=OBC\=096 N-Up
+Function.59.name=O-Dn
+Function.59.hex=53
+Function.59.notes=OBC\=074 O-Up
+Function.60.name=P-Dn
+Function.60.hex=93
+Function.60.notes=OBC\=073 P-Up
+Function.61.name=Q-Dn
+Function.61.hex=43
+Function.61.notes=OBC\=066 Q-Up
+Function.62.name=R-Dn
+Function.62.hex=E3
+Function.62.notes=OBC\=071 R-Up
+Function.63.name=S-Dn
+Function.63.hex=CF
+Function.63.notes=OBC\=115 S-Up
+Function.64.name=T-Dn
+Function.64.hex=63
+Function.64.notes=OBC\=070 T-Up
+Function.65.name=U-Dn
+Function.65.hex=23
+Function.65.notes=OBC\=068 U-Up
+Function.66.name=V-Dn
+Function.66.hex=47
+Function.66.notes=OBC\=098 V-Up
+Function.67.name=W-Dn
+Function.67.hex=83
+Function.67.notes=OBC\=065 W-Up
+Function.68.name=X-Dn
+Function.68.hex=3F
+Function.68.notes=OBC\=124 X-Up
+Function.69.name=Y-Dn
+Function.69.hex=A3
+Function.69.notes=OBC\=069 Y-Up
+Function.70.name=Z-Dn
+Function.70.hex=BF
+Function.70.notes=OBC\=125 Z-Up
+Function.71.name=drag-Dn
+Function.71.hex=7D
+Function.71.notes=OBC\=062 drag-Up
+Function.72.name=- / _-Dn
+Function.72.hex=FB
+Function.72.notes=OBC\=095 - / _-Up
+Function.73.name=_ / <-Dn
+Function.73.hex=67
+Function.73.notes=OBC\=102 _ / <-Up
+Function.74.name=. / >-Dn
+Function.74.hex=A7
+Function.74.notes=OBC\=101 . / >-Up
+Function.75.name=/ / ?-Dn
+Function.75.hex=27
+Function.75.notes=OBC\=100 / / ?-Up
+Function.76.name=_-Dn
+Function.76.hex=DF
+Function.76.notes=OBC\=123 _-Up
+Function.77.name=[-Dn
+Function.77.hex=13
+Function.77.notes=OBC\=072 [-Up
+Function.78.name=\\ / |-Dn
+Function.78.hex=73
+Function.78.notes=OBC\=078 \\ / |-Up
+Function.79.name=] / }-Dn
+Function.79.hex=F3
+Function.79.notes=OBC\=079 ] / }-Up
+Function.80.name=` / ~-Dn
+Function.80.hex=4B
+Function.80.notes=OBC\=082 ` / ~-Up
+Function.81.name=\= / +-Dn
+Function.81.hex=7B
+Function.81.notes=OBC\=094 \= / +-Up
+Function.82.name=Alt-Dn
+Function.82.hex=F7
+Function.82.notes=OBC\=111 Alt-Up
+Function.83.name=Ctl-Dn
+Function.83.hex=97
+Function.83.notes=OBC\=105 Ctl-Up
+Function.84.name='-Dn
+Function.84.hex=5F
+Function.84.notes=OBC\=122 '-Up
+Function.85.name=Mystery Command 1-Dn
+Function.85.hex=C9
+Function.85.notes=OBC\=019 Mystery Command 1-Up
+Function.86.name=Mystery Command 2-Dn
+Function.86.hex=57
+Function.86.notes=OBC\=106 Mystery Command 2-Up
+Function.87.name=Tab-Dn
+Function.87.hex=C3
+Function.87.notes=OBC\=067 Tab-Up
+Button.1f=0 / )-Dn|null|null
+Button.15=1 / \!-Dn|null|null
+Button.16=2 / @-Dn|null|null
+Button.17=3 / \#-Dn|null|null
+Button.19=4 / $-Dn|null|null
+Button.1a=5 / %-Dn|null|null
+Button.1b=6 / ^-Dn|null|null
+Button.1c=7 / &-Dn|null|null
+Button.1d=8 / *-Dn|null|null
+Button.1e=9 / (-Dn|null|null
+Button.4=**53**|null|null
+Button.5=**5D**|null|null
+Button.8=Mystery Command 1-Dn|null|null
+Button.18=Mystery Command 2-Dn|null|null

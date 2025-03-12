@@ -1,0 +1,197 @@
+Name:,Yamaha HTR-5790/RX-V1400 (Remote RAV238),,,,v9.13,,,,,,,CURRENT DATA,
+Devices:,NEC 2DEV Combo,122,,126,,1,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,2000,99 = 15-2117 / 15-2116,05 - Tuner,OBC,USE,A1 5E 81 7E,2,No,,,,,
+15-2117 / 15-2116 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = AF D0 (Tuner/2000) Yamaha HTR-5790/RX-V1400 (Remote RAV238) (KM v9.13),,,,,,,,,,,,,
+1A 00 F0 06 E3 A1 5E 81 7E 78 20 58 20 98 20 18 20 E8 20 68 20 A8 20 28 20 C8 20 F8 20 A7 20 27 20 C7 20 F7 20 77 20 47 20 96 20 E6 20 66 20 35 20 B5 20 C6 20,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 1A (S3C8+) NEC 2DEV Combo (KM v9.13),,,,,,,,,,,,,
+43 8B 42 8B 14 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 08 CA E6 10 02 08 08 37 0E 06 E4 05 03 E4 06 04 E4 07 05 E4 07 06 60 06 37 0B 05 E4 03 04 60 04 37 06 05 F6 01 04 7B 09 37 09 0C 37 01 03 46 29 0D 46 29 01 8D 01 49 E4 22 1E E4 23 1F 37 01 EB F6 01 49 E6 28 C1 60 03 E6 12 01 8B E4,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,205,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+VCR1,015,1,0,"58 - Tuner-Bank ""B""",,Protocol ID,Fixed Data,,,,,,1F
+Tuner Preset +,016,1,1,62 - Tuner Preset 1,,,,,,,,,15
+Tuner Preset -,017,1,2,63 - Tuner Preset 2,,,,,,,,,16
+A / B / C / D / E,018,1,3,64 - Tuner Preset 3,,,,,,,,,17
+DVR/VCR2,019,1,4,65 - Tuner Preset 4,,,,,,,,,19
+Phono,020,1,5,66 - Tuner Preset 5,,,,,,,,,1A
+CD,021,1,6,67 - Tuner Preset 6,,,,,,,,,1B
+Tuner,022,1,7,68 - Tuner Preset 7,,,,,,,,,1C
+MD/Tape,024,1,8,69 - Tuner Preset 8,,,,,,,,,1D
+CD-R,025,1,9,"57 - Tuner-Bank ""A""",,,,,,,,,1E
+Volume +,026,1,vol up,10 - Volume +,,,,,,,,,04
+Volume -,027,1,vol down,11 - Volume -,,,,,,,,,05
+Vol-Mute Toggle,028,1,mute,12 - Vol-Mute Toggle,,,,,,,,,08
+Power ON,029,1,channel up,01 - Tuner Preset +,,,,,,,,,06
+Power OFF,030,1,channel down,02 - Tuner Preset -,,,,,,,,,07
+right,082,1,power,13 - Power ON,,,,,,,,,03
+left,083,1,enter,,,,,,,,,,18
+DTV / LD,084,1,tv/video,,,,,,,,,,20
+V-Aux,085,1,last,,,,,,,,,,38
+Surround / Effect Toggle,086,1,menu,28 - menu,,,,,,,,,14
+Sleep,087,1,guide,,,,,,,,,,36
+Test,133,1,up arrow,26 - up,,,,,,,,,31
+Select Audio Adjustment,134,1,down arrow,27 - down,,,,,,,,,32
+6 Chan In-Toggle,135,1,left arrow,16 - left,,,,,,,,,33
+Select,150,1,right arrow,15 - right,,,,,,,,,34
+6.1 ES-Toggle,151,1,select,24 - select,,,,,,,,,35
+up,152,1,sleep,,,,,,,,,,30
+down,153,1,pip,,,,,,,,,,25
+Menu,156,1,info,,,,,,,,,,13
+Set Menu Down (Parameter Down),156,1,swap,,,,,,,,,,27
+Set Menu Up (Parameter Up),157,1,move,,,,,,,,,,26
+Set Menu + (Parameter Right),158,1,play,,,,,,,,,,0C
+Set Menu - (Parameter Left),159,1,pause,,,,,,,,,,0F
+CBL/SAT,192,1,rewind,,,,,,,,,,0B
+DVD,193,1,fast fwd,,,,,,,,,,0D
+Display,194,1,stop,,,,,,,,,,0E
+Set Menu Down,196,1,record,,,,,,,,,,10
+Set Menu Up,197,1,exit,,,,,,,,,,37
+Set Menu Right,198,1,,,,,,,,,,,
+Set Menu Left,199,1,,,,,,,,,,,
+Z2 In-Sat,203,1,+100,,,,,,,,,,2F
+Z2 In-CBL/Sat,204,1,,,,,,,,,,,
+Z2 In-DVD,205,1,,,,,,,,,,,
+Z2 In-VCR 3,206,1,,,,,,,,,,,
+Z2 In-MD/Tape,207,1,,,,,,,,,,,
+Z2 In-Phono,208,1,,,,,,,,,,,
+Z2 In-CD,209,1,,,,,,,,,,,
+Z2 In-Tuner,210,1,freeze,,,,,,,,,,28
+Z2 In-Tape,211,1,,,,,,,,,,,
+Z2 In-CDR,212,1,,,,,,,,,,,
+Z2 In-LD,213,1,,,,,,,,,,,
+Z2 In-VCR1,214,1,,,,,,,,,,,
+Z2 In-VCR2/DVR,215,1,,,,,,,,,,,
+Z2 In-V Aux,216,1,,,,,,,,,,,
+Z2 In-DTV/LD,217,1,,,,,,,,,,,
+Z2 Volume +,218,1,phantom1,,,,,,,,,,2D
+Z2 Volume -,219,1,phantom2,,,,,,,,,,2E
+"Tuner-Bank ""A""",224,1,phantom3,,,,,,,,,,39
+"Tuner-Bank ""B""",225,1,phantom4,,,,,,,,,,3A
+"Tuner-Bank ""C""",226,1,phantom5,,,,,,,,,,3B
+"Tuner-Bank ""D""",227,1,,,,,,,,,,,
+"Tuner-Bank ""E""",228,1,,,,,,,,,,,
+Tuner Preset 1,229,1,,,,,,,,,,,
+Tuner Preset 2,230,1,,,,,,,,,,,
+Tuner Preset 3,231,1,,,,,,,,,,,
+Tuner Preset 4,232,1,setup,,,,,,,,,,02
+Tuner Preset 5,233,1,light,,,,,,,,,,29
+Tuner Preset 6,234,1,my system,,,,,,,,,,24
+Tuner Preset 7,235,1,,,,,,,,,,,
+Tuner Preset 8,236,1,,,,,,,,,,,
+Home Bank-Main,032,2,,,,,,,,,,,
+"Home-Bank ""A""",033,2,,,,,,,,,,,
+"Home-Bank ""B""",034,2,,,,,,,,,,,
+"Home-Bank ""C""",035,2,,,,,,,,,,,
+Effect ON,039,2,,,,,,,,,,,
+Effect ON,039,2,,,,,,,,,,,
+"Home-Mem ""A""",043,2,,,,,,,,,,,
+"Home-Mem ""B""",044,2,,,,,,,,,,,
+"Home-Mem ""C""",045,2,,,,,,,,,,,
+"Home-Recall ""A""",053,2,,,,,,,,,,,
+"Home-Recall ""B""",054,2,,,,,,,,,,,
+"Home-Recall ""C""",055,2,,,,,,,,,,,
+Vol Bank-Main,096,2,,,,,,,,,,,
+"Vol-Bank ""A""",097,2,,,,,,,,,,,
+"Vol-Bank ""B""",098,2,,,,,,,,,,,
+"Vol-Bank ""C""",099,2,,,,,,,,,,,
+Prologic II Movie,103,2,,,,,,,,,,,
+Prologic II Music,104,2,,,,,,,,,,,
+Neo:6 Cinema,105,2,,,,,,,,,,,
+Neo:6 Music,106,2,,,,,,,,,,,
+"Vol-Memory ""A""",107,2,,,,,,,,,,,
+"Vol-Memory ""B""",108,2,,,,,,,,,,,
+"Vol-Memory ""C""",109,2,,,,,,,,,,,
+DC Trigger ON,115,2,,,,,,,,,,,
+DC Trigger OFF,116,2,,,,,,,,,,,
+"Vol-Recall ""A""",117,2,,,,,,,,,,,
+"Vol-Recall ""B""",118,2,,,,,,,,,,,
+"Vol-Recall ""C""",119,2,,,,,,,,,,,
+ES Discrete ON,125,2,discreteON,,,,,,,,,,2A
+Input Mode-AUTO,166,2,discreteOFF,,,,,,,,,,2B
+Input Mode-DD RF,167,2,,,,,,,,,,,
+Input Mode-DTS,168,2,,,,,,,,,,,
+Input Mode-Digital,169,2,,,,,,,,,,,
+Input Mode-Analog,170,2,,,,,,,,,,,
+Speaker A-ON,171,2,,,,,,,,,,,
+Speaker A-OFF,172,2,,,,,,,,,,,
+Speaker B-ON,173,2,,,,,,,,,,,
+Speaker B-OFF,174,2,,,,,,,,,,,
+Tuner Band-FM,188,2,,,,,,,,,,,
+Tuner Band-AM,189,2,,,,,,,,,,,
+Auto Tune-UP,190,2,,,,,,,,,,,
+Auto Tune-DN,191,2,,,,,,,,,,,
+Effect OFF,224,2,,,,,,,,,,,
+Hall,230,2,,,,,,,,,,,
+Church,232,2,,,,,,,,,,,
+Jazz Club,236,2,,,,,,,,,,,
+Rock Concert,237,2,,,,,,,,,,,
+Disco,240,2,,,,,,,,,,,
+Game,242,2,,,,,,,,,,,
+Mono Movie,247,2,,,,,,,,,,,
+TV Sports,248,2,,,,,,,,,,,
+Spectacle,249,2,,,,,,,,,,,
+Sci-Fi,250,2,,,,,,,,,,,
+Adventure,251,2,,,,,,,,,,,
+General,252,2,,,,,,,,,,,
+Dolby/Normal,253,2,,,,,,,,,,,
+Dolby/Enhanced,254,2,,,,,,,,,,,,
+(6) Chan Stereo,255,2,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE,

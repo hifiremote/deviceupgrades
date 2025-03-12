@@ -1,0 +1,197 @@
+Name:,Samsung LN32A650,,,,v9.16,,,,,,,,CURRENT DATA
+Devices:,NECx2,7,7,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1060,24 = URC-881x / 801x / 601x,02 - TV,OBC,USE,31 1F 1F,1,No,,,,,
+URC-881x / 801x / 601x Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 04 24 (TV/1060) Samsung LN32A650 (KM v9.16),,,,,,,,,,,,,
+5A 13 7E FE FD 31 1F 1F 1F 2F 0F B7 F7 BF 79 4B 29 59 A7 B9 E9 F9 07 3B 37 7F 3F 5B FF 83,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 0C F3 04 24 1D«play/pause»¦0F F3 04 24 AD«Pause»  ¦0B F3 04 24 5D«rewind» ¦0D F3 04 24 ED«fast fwd»  ¦0E F3 04 24 9D«stop»¦10 F3 04 24 6D«record» ¦25 F3 04 24 C9«Red» ¦26 F3 04 24 D7«Green»  ¦27 F3 04 24 57«Yellow» ¦28 F3 04 24 97«Blue»¦2C F3 04 24 CE«wiselink»  ¦2D F3 04 24 16«anynet» ¦2E F3 04 24 EB«P. Mode»¦2F F3 04 24 2B«S. Mode»¦3D F3 04 24 66«DiscreteOn»¦3E F3 04 24 E6«DiscreteOff»  ¦02 F3 04 24 2D«Tools»  ¦39 F3 04 24 D6«E.Mode» ¦9F F3 04 24 27«select tv» ¦95 F3 04 24 3D«select digital tv»  ¦96 F3 04 24 68«select HDMI 1»¦97 F3 04 24 82«select HDMI 2/DVI»  ¦99 F3 04 24 BC«select HDMI 3»¦9A F3 04 24 5C«select HDMI 4»¦9B F3 04 24 9E«select component 1» ¦9C F3 04 24 EE«select component 2» ¦9D F3 04 24 DE«Select AV1»¦9E F3 04 24 28«select AV 2»  ¦92 F3 04 24 69«select PC» ¦A3 F3 04 24 93«Antenna»¦93 F3 04 24 5E«select S-video»  ¦94 F3 04 24 DD«Fav. Ch.»  ¦A4 F3 04 24 E5«return» ¦8F F3 04 24 BD«Still»  ¦A5 F3 04 24 38«Aspect 4:3»¦A6 F3 04 24 D8«Aspect 16:9»  ¦A7 F3 04 24 35«Aspect Zoom 1»¦A8 F3 04 24 78«Aspect Zoom 2»¦AF F3 04 24 89«SRS» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (S3C8+) NECx2 (KM v9.16),,,,,,,,,,,,,
+43 8B 31 8B 12 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 20 01 08 03 37 04 15 F6 01 46 FB 10 37 0B 07 E4 05 04 60 05 8B 0E B6 04 80 B6 05 80 37 0B 05 E4 04 05 60 05 E4 06 07 60 07 20 11 37 06 05 F6 01 04 7B 12 37 09 15 37 02 06 F6 01 49 F6 01 46 37 01 03 46 29 0D 46 29 01 8D 01 49 E4 20 1E E4 21 1F 37 01 EB F6 01 49 E6 28 C1 60 04 E6 12 01 8B E4,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,220,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,017,,0,00 - num 0,,Protocol ID,Fixed Data,,,,,36 - select tv,1F
+num 1,004,,1,01 - num 1,,,,,,,,37 - select digital tv,15
+num 2,005,,2,02 - num 2,,,,,,,,38 - select HDMI 1,16
+num 3,006,,3,03 - num 3,,,,,,,,39 - select HDMI 2/DVI,17
+num 4,008,,4,04 - num 4,,,,,,,,40 - select HDMI 3,19
+num 5,009,,5,05 - num 5,,,,,,,,41 - select HDMI 4,1A
+num 6,010,,6,06 - num 6,,,,,,,,42 - select component 1,1B
+num 7,012,,7,07 - num 7,,,,,,,,43 - select component 2,1C
+num 8,013,,8,08 - num 8,,,,,,,,46 - Select AV1,1D
+num 9,014,,9,09 - num 9,,,,,,,,47 - select AV 2,1E
+vol up,007,,vol up,10 - vol up,,,,,,,,,04
+vol down,011,,vol down,11 - vol down,,,,,,,,,05
+mute,015,,mute,12 - mute,,,,,,,,,08
+channel up,018,,channel up,13 - channel up,,,,,,,,,06
+channel down,016,,channel down,14 - channel down,,,,,,,,,07
+power,002,,power,15 - power,,,,,,,,,03
+menu,026,,enter,25 - enter/-,,,,,,,,44 - select PC,12
+channel list,107,,tv/vid,26 - source,,,,,,,,45 - select S-video,13
+info,031,,prev,27 - previous channel,,,,,,,,61 - Antenna,23
+exit,045,,menu,16 - menu,,,,,,,,,21
+up arrow,096,,guide,17 - channel list,,,,,,,,60 - Fav. Ch.,14
+down arrow,097,,up arrow,20 - up arrow,,,,,,,,,31
+left arrow,101,,down arrow,21 - down arrow,,,,,,,,,32
+right arrow,098,,left arrow,22 - left arrow,,,,,,,,,33
+select,104,,right arrow,23 - right arrow,,,,,,,,,34
+enter/-,035,,select,24 - select,,,,,,,,,35
+source,001,,sleep,28 - sleep,,,,,,,,,22
+previous channel,019,,pip,50 - caption,,,,,,,,,3B
+sleep,003,,info,18 - info,,,,,,,,,18
+play/pause,071,,swap,70 - P. Size (aspect),,,,,,,,,20
+MTS,000,,move,30 - MTS,,,,,,,,,3C
+rewind,069,,play,29 - play/pause,,,,,,,,,0C
+fast fwd,072,,pause,69 - Pause,,,,,,,,51 - Still,0F
+stop,070,,rewind,31 - rewind,,,,,,,,,0B
+record,073,,fwd,32 - fast fwd,,,,,,,,,0D
+pip on/off,032,,stop,33 - stop,,,,,,,,,0E
+select tv,027,,record,34 - record,,,,,,,,,10
+select digital tv,067,,exit,19 - exit,,,,,,,,52 - return,24
+select HDMI 1,233,,,,,,,,,,,,
+select HDMI 2/DVI,190,,,,,,,,,,,,
+select HDMI 3,194,,,,,,,,,,,,
+select HDMI 4,197,,,,,,,,,,,,
+select component 1,134,,,,,,,,,,,,
+select component 2,136,,f fwd,,,,,,,,,,2B
+select PC,105,,f rew,,,,,,,,,,2A
+select S-video,133,,,,,,,,,,,,
+select AV1,132,,,,,,,,,,,,
+select AV 2,235,,,,,,,,,,,,
+DiscreteOn,153,,,,,,,,,,,,
+DiscreteOff,152,,,,,,,,,,,,
+caption,037,,,,,,,,,,,,
+Still,066,,,,,,,,,,,,
+return,088,,,,,,,,,,,,
+pip ch+,050,,,,,,,,,,,,
+pip ch-,051,,,,,,,,,,,,
+wiselink,140,,phantom1,48 - DiscreteOn,,,,,,,,,3D
+anynet,151,,phantom2,49 - DiscreteOff,,,,,,,,,3E
+P. Mode,040,,phantom3,,,,,,,,,,3F
+S. Mode,043,,phantom4,,,,,,,,,,40
+SRS,110,,,,,,,,,,,,
+Fav. Ch.,068,,,,,,,,,,,,
+Antenna,054,,,,,,,,,,,,
+Tools,075,,,,,,,,,,,,
+Red,108,,,,,,,,,,,,
+Green,020,,,,,,,,,,,,
+Yellow,021,,setup,62 - Tools,,,,,,,,,02
+Blue,022,,light,68 - E.Mode,,,,,,,,,39
+DMA,099,,home theater,,,,,,,,,,38
+E.Mode,148,,M1,55 - wiselink,,,,,,,,,2C
+Pause,074,,M2,56 - anynet,,,,,,,,,2D
+P. Size (aspect),062,,M3,57 - P. Mode,,,,,,,,,2E
+Aspect 4:3,227,,M4,58 - S. Mode,,,,,,,,59 - SRS,2F
+Aspect 16:9,228,,L1,63 - Red,,,,,,,,71 - Aspect 4:3,25
+Aspect Zoom 1,083,,L2,64 - Green,,,,,,,,72 - Aspect 16:9,26
+Aspect Zoom 2,225,,L3,65 - Yellow,,,,,,,,73 - Aspect Zoom 1,27
+,,,L4,66 - Blue,,,,,,,,74 - Aspect Zoom 2,28
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+For 8910 Remote,,,,,,,,,,,,,
+For Extended Remote(not included in this upgrade):,,,,,,,,,,,,,
+Fav=Return,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

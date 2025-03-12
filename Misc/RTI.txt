@@ -1,0 +1,197 @@
+Name:,RTI,,,,v9.17,,,,,,,,CURRENT DATA
+Devices:,Manual Settings,,,,00 0E BC 20 FF 00 FF 00,,,,,,,,
+Manual:,,0 = 1-byte,LSB,88,NO,,,,,,,,
+Setup:,2000,99 = URC-8820 / 10820 / 6820,01 - Cable,OBC,USE,00 0E BC 20 FF 00 FF 00,1,No,,,,,
+URC-8820 / 10820 / 6820 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 0F D0 (Cable/2000) RTI (KM v9.17),,,,,,,,,,,,,
+FF 00 F0 00 00 03 00 0E BC 20 FF 00 FF 00 00 C0 20 A0 60 E0 10 90 50 00 98 58 E8 D0 30 80 64,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 FF (HCS08) Custom Protocol for Cable/2000 RTI (KM v9.17),,,,,,,,,,,,,
+20 12 21 44 81 8F 81 10 07 08 00 CD 00 CD 00 CD 00 CD 27 42 6E 04 A9 6E 06 AA 4E 68 69 33 68 CC FF 5F,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,477,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+Nextier Power On,001,,0,,,Protocol ID,Fixed Data,,,,,,1F
+Nextier Power OFF,002,,1,02 - Nextier Input TV,,,,,,,,,15
+Nextier Input TV,003,,2,03 - Nextier Input Scart 1,,,,,,,,,16
+Nextier Input Scart 1,004,,3,04 - Nextier Input Scart 2,,,,,,,,,17
+Nextier Input Scart 2,005,,4,05 - Nextier Input Video,,,,,,,,,19
+Nextier Input Video,006,,5,06 - Nextier Input S-Video,,,,,,,,,1A
+Nextier Input S-Video,007,,6,07 - Nextier Input Component,,,,,,,,,1B
+Nextier Input Component,008,,7,08 - Nextier Input RGB,,,,,,,,,1C
+Nextier Input RGB,009,,8,09 - Nextier Input DVI,,,,,,,,,1D
+Nextier Input DVI,010,,9,,,,,,,,,,1E
+Nextier Channel Up,011,,vol up,23 - Nextier Volume - 50,,,,,,,,,04
+Nextier Channel Down,012,,vol down,24 - Nextier Volume - 18,,,,,,,,,05
+Nextier PIP Mode Normal,013,,mute,22 - Nextier Volume 0,,,,,,,,,08
+Nextier PIP Mode PIP,014,,channel up,10 - Nextier Channel Up,,,,,,,,,06
+Nextier PIP Mode PBP,015,,channel down,11 - Nextier Channel Down,,,,,,,,,07
+Nextier PIP Input TV,016,,power,00 - Nextier Power On,,,,,,,,,03
+Nextier PIP Input Scart 1,017,,enter,,,,,,,,,,12
+Nextier PIP Input Scart 2,018,,,,,,,,,,,,
+Nextier PIP Input Video,019,,prev,,,,,,,,,,13
+Nextier PIP Input S-Video,020,,menu,,,,,,,,,,27
+Nextier Teletext Off,021,,guide,,,,,,,,,,2C
+Nextier Teletext On,022,,up arrow,,,,,,,,,,31
+Nextier Volume 0,023,,down arrow,,,,,,,,,,32
+Nextier Volume - 50,025,,left arrow,,,,,,,,,,33
+Nextier Volume - 18,026,,right arrow,,,,,,,,,,34
+Nextier Volume - 20,027,,ok,,,,,,,,,,35
+Nextier Volume - 22,028,,sleep,36 - SYSTEM OFF,,,,,,,,,28
+Nextier Volume - 24,029,,pip,,,,,,,,,,36
+Nextier Volume - 40,030,,info,,,,,,,,,,26
+Watch Select,031,,swap,,,,,,,,,,37
+SAT Select,032,,move,,,,,,,,,,14
+DVD Select,033,,play,,,,,,,,,,0C
+VCR Select,034,,pause,,,,,,,,,,0F
+SAT/VCR Amp On,035,,rewind,,,,,,,,,,0B
+CD On,036,,fast fwd,,,,,,,,,,0D
+Tuner On,037,,stop,,,,,,,,,,0E
+SYSTEM OFF,038,,record,,,,,,,,,,10
+SAT/VCR Amp Off,039,,exit,,,,,,,,,,2B
+Listen Select,040,,,,,,,,,,,,
+TV Select with Nex Pwr,041,,input,,,,,,,,,,20
+DVD Select with Nex Pwr,042,,+100,,,,,,,,,,38
+VCR Select with Nex Pwr,043,,fav,,,,,,,,,,18
+Prime Select,045,,,,,,,,,,,,
+DVDR/HDD Select,046,,skip+,,,,,,,,,,2D
+DVDR/HDD Amp On,047,,skip-,,,,,,,,,,2E
+stop,,,,,,,,,,,,,
+record,,,,,,,,,,,,,
+skip+/next+,,,,,,,,,,,,,
+skip-/next-,,,,,,,,,,,,,
+list/PVR menu,,,,,,,,,,,,,
+replay,,,,,,,,,,,,,
+advance/jump,,,,,,,,,,,,,
+live TV,,,,,,,,,,,,,
+thumbs up,,,,,,,,,,,,,
+thumbs down,,,,,,,,,,,,,
+open-close/eject,,,phantom1,,,,,,,,,,3B
+pip on/off,,,phantom2,,,,,,,,,,3F
+pip swap,,,phantom3,,,,,,,,,,40
+pip move,,,phantom4,,,,,,,,,,41
+pip freeze,,,,,,,,,,,,,
+pip channel up,,,,,,,,,,,,,
+pip channel down,,,,,,,,,,,,,
+caption,,,,,,,,,,,,,
+aspect,,,,,,,,,,,,,
+zoom,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,M1,,,,,,,,,,3C
+,,,M2,,,,,,,,,,3D
+,,,(M3),,,,,,,,,,3E
+,,,,,,,,,,,,,
+,,,L1,,,,,,,,,,23
+,,,L2,,,,,,,,,,24
+,,,L3,,,,,,,,,,25
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,CC,,,,,,,,,,30
+,,,format,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (HCS08) RTI (PB v4.01),,,,,,,,,,,,,
+ 20 12 21 44 81 8F 81 10 07 08 00 CD 00 CD 00 CD ,,,,,,,,,,,,,
+ 00 CD 27 42 6E 04 A9 6E 06 AA 4E 68 69 33 68 CC ,,,,,,,,,,,,,
+ FF 5F,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

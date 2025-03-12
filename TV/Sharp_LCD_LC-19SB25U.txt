@@ -1,0 +1,197 @@
+Name:,Sharp LCD LC-19SB25U,,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,Sharp Combo (Official),,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,58,NO,,,,,,,,
+Setup:,1093,99 = Comcast URC-1067A JP1.2,01 - Cable,OBC,USE,,2,No,,,,,
+Comcast URC-1067A JP1.2 Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 04 45 (Cable/1093) Sharp LCD LC-19SB25U (KM v9.19),,,,,,,,,,,,,
+9C 00 FE FE 0E C1 7C AF 7C 7F 7C BF 7C 3F 7C DF 7C 5F 7C 9F 7C 1F 7C EF 7C 6F 7C D7 7C 57 7C 17 7C 77 7C B7 7C 97 7C FB 7C 37 7C 15 7C E5 7C 50 7C 90 7C 30 7C 27 7C D0 7C 0B 7C B2 7C FA 7C 72 7C 32 7C D2,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ AA F0 04 04 45 E9 B2«channel up»¦8A F0 04 04 45 E9 68«close caption»¦AE F0 04 04 45 E9 25«av mode»¦AC F0 04 04 45 E9 38«service mode» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 9C (HCS08) Sharp Combo (Official) (KM v9.19),,,,,,,,,,,,,
+20 12 1F 4B 02 49 05 08 00 81 01 8B 00 81 03 9D 83 D6 5F B4 AE 03 33 61 3C A9 A6 05 01 60 08 BF 6A 55 76 35 74 AE 02 BF 7C BE 60 58 4B FD BF 62 3F 56 33 61 33 62 CD FF 5F 33 56 26 F5 CD FF 92 25 EE 81,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,494,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,010,1,0,00 - num 0,,Protocol ID,Fixed Data,,,,,15 - channel up,2A
+num 1,001,1,1,01 - num 1,,,,,,,,,11
+num 2,002,1,2,02 - num 2,,,,,,,,,12
+num 3,003,1,3,03 - num 3,,,,,,,,,13
+num 4,004,1,4,04 - num 4,,,,,,,,,19
+num 5,005,1,5,05 - num 5,,,,,,,,,1A
+num 6,006,1,6,06 - num 6,,,,,,,,,1B
+num 7,007,1,7,07 - num 7,,,,,,,,,21
+num 8,008,1,8,08 - num 8,,,,,,,,,22
+num 9,009,1,9,09 - num 9,,,,,,,,,23
+ent,011,1,vol up,12 - vol up,"For numeric entry, to the right of zero",,,,,,,,01
+dot,058,17,vol down,13 - vol down,…to the left of zero,,,,,,,,09
+vol up,020,1,mute,14 - mute,,,,,,,,31 - close caption,0A
+vol down,021,1,channel up,15 - channel up,,,,,,,,,03
+mute,023,1,channel down,16 - channel down,,,,,,,,,0B
+channel up,017,1,power,43 - power toggle,,,,,,,,,10
+channel down,018,1,enter,,,,,,,,,,2B
+,,,tv/video,37 - input,,,,,,,,,29
+menu,032,1,last,25 - flashback,,,,,,,,,04
+return,244,1,menu,17 - menu,pop one level in menu,,,,,,,,0C
+exit,243,1,guide,18 - return,exit all menu selections,,,,,,,,0E
+up arrow,087,1,up arrow,20 - up arrow,,,,,,,,,1D
+down arrow,088,1,down arrow,21 - down arrow,,,,,,,,,0D
+left arrow,245,1,left arrow,22 - left arrow,,,,,,,,,16
+right arrow,246,1,right arrow,23 - right arrow,,,,,,,,,14
+Enter/select,247,1,ok/select,,menu select,,,,,,,,15
+,,,,26 - sleep,,,,,,,,,
+flashback,047,1,pip,,undo last select or channel change,,,,,,,,34
+sleep,026,1,info,35 - display,,,,,,,,,05
+favorite a,177,1,swap,,,,,,,,,,35
+favorite b,178,1,move,,,,,,,,,,36
+favorite c,179,1,play,28 - favorite b,,,,,,,,,1F
+favorite d,180,1,pause,36 - view mode,,,,,,,,,2F
+,,,rewind,27 - favorite a,,,,,,,,,27
+,,,fast fwd,29 - favorite c,,,,,,,,,17
+,,,stop,30 - favorite d,,,,,,,,33 - av mode,2E
+close caption,074,1,record,,,,,,,,,46 - service mode,2C
+audio,024,1,exit,19 - exit,,,,,,,,,06
+av mode,248,1,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,11 - dot,,,,,,,,,
+freeze,083,1,fav,,,,,,,,,,02
+display,027,1,,,,,,,,,,,
+view mode,160,1,,,,,,,,,,,
+input,019,1,,,toggle through input selections,,,,,,,,
+input tuner select,017,1,,,"hack: use ""CH+""",,,,,,,,
+input 1 select (RGB),053,1,,,,,,,,,,,
+input 2 select (AV),054,1,,34 - freeze,,,,,,,,,
+input 3 select (hdmi),055,1,,,,,,,,,,,
+input 4 select (pc),205,1,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+power toggle,022,1,,,,,,,,,,,
+discrete on,074,17,,,,,,,,,,,
+discrete off,075,17,,,,,,,,,,,
+service mode,064,1,,,,,,,,,,,
+evil K mode,119,1,,,Display K in green square and create 3 levels of volume,,,,,,,,
+industrial initialization,235,1,,,Reboot and recover from evil K,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,18
+input 4 select (PC),129,30,,,,,,,,,,,
+,,,my dvr,,,,,,,,,,32
+,,,all on,,,,,,,,,,07
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,help,,,,,,,,,,2D
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,pip ch up,,,,,,,,,,37
+,,,pip ch down,,,,,,,,,,38
+,,,page up,,,,,,,,,,1E
+,,,page down,,,,,,,,,,1C
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,A,,,,,,,,,,26
+,,,B,,,,,,,,,,25
+,,,C,,,,,,,,,,24
+,,,,,,,,,,,,,
+,,,on demand,,,,,,,,,,0F
+,,,replay,,,,,,,,,,31
+,,,,,,,,,,,,,
+,,,live,,,,,,,,,,33
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,44 - discrete on,,,,,,,,,
+,,,,45 - discrete off,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+"Sharp uses multiple device #s to control this unit, so this",,,,,,,,,,,,,
+device upgrade is built using Sharp Combo (Official) protocol.,,,,,,,,,,,,,
+"The device #s are listed in ""byte2""",,,,,,,,,,,,,
+"Some keymap versions incorrectly(?) calculate EFCs in combo protocol, so ",,,,,,,,,,,,,
+"ignore them, or switch to using ""Sharp"" protocol to see what they should be.",,,,,,,,,,,,,
+"Discrete ""select input""s 1-7 are mapped onto shifted Num 1-7. ",,,,,,,,,,,,,
+"Use ""Channel up"" to simulate input select from ""tuner"" (see shifted Num 0)",,,,,,,,,,,,,
+"For a non-extended 15-2117 (15-2116) you need to press ""P"" twice to ",,,,,,,,,,,,,
+"""shift"" or the remote will assume you want to send an EFC.",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+"I didn't actuall use the evil K and service mode, but left them in as a warningl",,,,,,,,,,,,,
+Note on Service Mode - use at your own risk (mapped to Shift-Rec),,,,,,,,,,,,,
+"Added Evil K Mode- don't use it: you'll need to ""Industry init' to recover",,,,,,,,,,,,,
+Evil K Mode is some funky setup mode that puts a 2-inch white letter K,,,,,,,,,,,,,
+on a 2 inch square green background.  It also enables a few (unmentioned),,,,,,,,,,,,,
+"keycodes.  Not even power cycling will get rid of this K.  You must ""Industry",,,,,,,,,,,,,
+"Init"" and unplug. After init, you go direct to a guided setup (on power-up).",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+This was started from the Sharp Aqus upgrade.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

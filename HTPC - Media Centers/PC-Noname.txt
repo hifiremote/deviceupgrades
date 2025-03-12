@@ -1,0 +1,197 @@
+Name:,PC - Noname,,,,v9.20,,,,,,,,CURRENT DATA
+Devices:,Manual Settings,71,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,2001,99 = Comcast URC-1067B JP1.3,01 - Cable,OBC,USE,1D,1,No,,,,,
+Comcast URC-1067B JP1.3 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code2 0 = 07 D1 (Cable/2001) PC - Noname (KM v9.20),,,,,,,,,,,,,
+01 FF 00 FE F6 3E 42 61 1D 17 27 37 2F E7 F7 EF 87 97 8F 5F AF B7 FF 9F 1B CC 4C 7F BF 4F CF DB 5B 6B FF 9F 67 67 47 77 3B 7B BB,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 FF (S3C8+) Custom Protocol for Cable/2001 PC - Noname (KM v9.20),,,,,,,,,,,,,
+3D 90 11 8B 0E C5 41 08 08 00 82 01 7C 00 82 03 95 5B 04 8D 01 46,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,478,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+0 (switch windows),023,,0,00 - 0 (switch windows),,Protocol ID,Fixed Data,,,,,,1F
+1 (tab),027,,1,01 - 1 (tab),,,,,,,,,15
+2 (up arrow),019,,2,02 - 2 (up arrow),,,,,,,,,16
+3 (start),011,,3,03 - 3 (start),,,,,,,,,17
+4 (left arrow),024,,4,04 - 4 (left arrow),,,,,,,,,19
+5 (enter),016,,5,05 - 5 (enter),,,,,,,,,1A
+6 (right arrow),008,,6,06 - 6 (right arrow),,,,,,,,,1B
+7 (open),030,,7,07 - 7 (open),,,,,,,,,1C
+8 (down arrow),022,,8,08 - 8 (down arrow),,,,,,,,,1D
+9 (esc),014,,9,09 - 9 (esc),,,,,,,,,1E
+backspace,003,,vol up,42 - vol up,,,,,,,,,04
+blue (C),033,,vol down,41 - vol down,,,,,,,,,05
+close,036,,mute,28 - mute,,,,,,,,,33
+desktop,007,,channel up,34 - page up,,,,,,,,,06
+email,038,,channel down,33 - page down,,,,,,,,,07
+forward,021,,power,36 - power,,,,,,,,,03
+fullscreen,026,,enter,,,,,,,,,,18
+green (A),035,,tv/video,,,,,,,,,,20
+left mouse button,009,,last,,,,,,,,,,08
+mouse down,002,,menu,21 - mouse down/right,,,,,,,,,2E
+mouse down/left,205,,guide,27 - move window,,,,,,,,,21
+mouse down/right,204,,up arrow,24 - mouse up,,,,,,,,,29
+mouse left,013,,down arrow,19 - mouse down,,,,,,,,,2A
+mouse right,012,,left arrow,22 - mouse left,,,,,,,,,2B
+mouse up,001,,right arrow,23 - mouse right,,,,,,,,,2C
+mouse up/left,141,,ok/select,20 - mouse down/left,,,,,,,,,2D
+mouse up/right,140,,,,,,,,,,,,
+move window,041,,pip,,,,,,,,,,25
+mute,018,,info,43 - www,,,,,,,,,13
+my pc,015,,swap,,,,,,,,,,26
+next,020,,move,,,,,,,,,,27
+numlock,031,,play,35 - play/pause,,,,,,,,,0C
+orange (B),034,,pause,35 - play/pause,,,,,,,,,0F
+page down,006,,rewind,38 - rewind,,,,,,,,,0B
+page up,000,,fast fwd,,,,,,,,,,0D
+play/pause,025,,stop,40 - stop,,,,,,,,,0E
+power,039,,record,,,,,,,,,,10
+previous,028,,exit,12 - close,,,,,,,,,14
+rewind,029,,,,,,,,,,,,
+right mouse button,004,,,,,,,,,,,,
+stop,017,,,,,,,,,,,,
+vol down,010,,fav,,,,,,,,,,22
+vol up,005,,,,,,,,,,,,
+www,037,,,,,,,,,,,,
+yellow (D),032,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,3A
+,,,phantom2,,,,,,,,,,3B
+,,,phantom3,,,,,,,,,,3C
+,,,phantom4,,,,,,,,,,3D
+,,,phantom5,,,,,,,,,,3E
+,,,phantom6,,,,,,,,,,3F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,,,,,,,,,,,
+,,,my dvr,,,,,,,,,,28
+,,,all on,,,,,,,,,,36
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,help,,,,,,,,,,38
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,pip channel up,,,,,,,,,,35
+,,,pip channel down,,,,,,,,,,39
+,,,page up,34 - page up,,,,,,,,,23
+,,,page down,33 - page down,,,,,,,,,24
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,A,17 - green (A),,,,,,,,,30
+,,,B,32 - orange (B),,,,,,,,,32
+,,,C,11 - blue (C),,,,,,,,,31
+,,,,,,,,,,,,,
+,,,on demand,,,,,,,,,,34
+,,,replay,,,,,,,,,,37
+,,,,,,,,,,,,,
+,,,live,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+This upgrade is for a noname PC controller.  The protocol ,,,,,,,,,,,,,
+"decoded as Mitubishi, but the timings are different enough that a ",,,,,,,,,,,,,
+protocol replacement need to be added.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (S3C8+) Noname PC like Mitsubishi (PB v4.01),,,,,,,,,,,,,
+ 3D 90 11 8B 0E C5 41 08 08 00 82 01 7C 00 82 03 ,,,,,,,,,,,,,
+ 95 5B 04 8D 01 46 ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (HCS08) Noname PC like Mitsubishi (PB v4.01),,,,,,,,,,,,,
+ 20 11 20 48 11 C5 41 08 08 00 82 01 90 00 82 03 ,,,,,,,,,,,,,
+ A9 5B 04 CC FF 5F ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

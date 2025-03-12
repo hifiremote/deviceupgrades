@@ -1,0 +1,197 @@
+Name:,DENON AVR1910,,,,v9.17,,,,,,,,CURRENT DATA
+Devices:,Denon Combo,,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,58,NO,,,,,,,,
+Setup:,2000,99 = 15-2117 / 15-2116,15 - Amp,OBC,USE,,2,No,,,,,
+15-2117 / 15-2116 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = B7 D0 (Amp/2000) DENON AVR1910 (KM v9.17),,,,,,,,,,,,,
+47 00 D0 02 E1 C8 53 C8 83 C8 43 C8 C3 C8 23 C8 A3 C8 63 C8 E3 C8 13 C8 93 B8 8F B8 4F B8 0F B8 83 C8 C5 C8 25 C8 FE B8 BB,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 47 (S3C8+) Denon Combo (KM v9.17),,,,,,,,,,,,,
+3D 92 02 8B 16 49 05 08 00 84 01 75 00 84 03 87 83 C2 00 00 00 00 00 00 03 5F A0 20 10 0C 05 76 03 01 6B 0D E4 25 1C E4 26 1D 0C 03 09 12 E6 24 02 18 03 90 C1 0A FC 19 05 B0 C6 60 04 60 05 F6 01 46 60 C6 EB F5 F6 01 0A 7B EE AF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,205,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+0(ANALOG TUNER),202,12,0,00 - 0(ANALOG TUNER),,Protocol ID,Fixed Data,,,,,,1F
+7CH STEREO,168,12,1,62 - PRESET1(ANALOG TUNER),,,,,,,,,15
+9(ANALOG TUNER),201,12,2,63 - PRESET2(ANALOG TUNER),,,,,,,,,16
+ALL BASS DOWN,128,12,3,64 - PRESET3 (ANALOG TUNER),,,,,,,,,17
+ALL BASS UP,191,12,4,65 - PRESET4(ANALOG TUNER),,,,,,,,,19
+ALL TREBLE DOWN,184,12,5,66 - PRESET5(ANALOG TUNER),,,,,,,,,1A
+ALL TREBLE UP,183,12,6,67 - PRESET6(ANALOG TUNER),,,,,,,,,1B
+ANALOG,220,2,7,68 - PRESET7(ANALOG TUNER),,,,,,,,,1C
+BAND (ANALOG TUNER),215,12,8,69 - PRESET8(ANALOG TUNER),,,,,,,,,1D
+CD,196,2,9,02 - 9(ANALOG TUNER),,,,,,,,,1E
+CENTER LEVEL DOWN,246,2,vol up,47 - MASTER VOLUME UP,,,,,,,,,04
+CENTER LEVEL UP,245,2,vol down,46 - MASTER VOLUME DOWN,,,,,,,,,05
+CH SELECT,175,12,mute,54 - Muting,,,,,,,,,08
+CH VOLUME DOWN,177,12,channel up,,,,,,,,,,06
+CH VOLUME UP,176,12,channel down,,,,,,,,,,07
+CINEMA,149,4,power,57 - POWER,,,,,,,,,03
+CURSOR DOWN,164,12,enter,,,,,,,,,,18
+Cursor Left,127,12,tv/video,,,,,,,,,,20
+CURSOR RIGHT,221,2,last,,,,,,,,,,38
+CURSOR UP,163,12,menu,,,,,,,,,,14
+DIMMER,223,12,guide,,,,,,,,,,36
+DIRECT,158,12,up arrow,19 - Cursor Up,,,,,,,,,31
+DOLBY PL? CINEMA,143,4,down arrow,16 - Cursor Down,,,,,,,,,32
+DOLBY PL? MUSIC,144,4,left arrow,17 - Cursor Left,,,,,,,,,33
+DOLBY PROLOGIC,145,4,right arrow,18 - Cursor Right,,,,,,,,,34
+DSP SIMULATION,230,2,select,,,,,,,,,,35
+DTS NEO:6 CINEMA,141,4,sleep,,,,,,,,,,30
+DTS NEO:6 MUSIC,142,4,pip,,,,,,,,,,25
+DVD,227,2,info,,,,,,,,,,13
+DVR,206,2,swap,,,,,,,,,,27
+EXT.IN,181,12,move,,,,,,,,,,26
+FL LEVEL DOWN,199,2,play,,,,,,,,,,0C
+FL LEVEL UP,194,2,pause,,,,,,,,,,0F
+FR LEVEL DOWN,208,2,rewind,,,,,,,,,,0B
+FR LEVEL UP,203,2,fast fwd,,,,,,,,,,0D
+GAME,151,4,stop,,,,,,,,,,0E
+HDP,202,2,record,,,,,,,,,,10
+INPUT MODE,182,12,exit,,,,,,,,,,37
+INPUT MODE: AUTO,179,2,,,,,,,,,,,
+INPUT MODE: EXT IN1,183,2,,,,,,,,,,,
+JAZZ CLUB,132,4,+100,,,,,,,,,,2F
+MAIN ZONE OFF,123,2,,,,,,,,,,,
+MAIN ZONE ON,122,2,,,,,,,,,,,
+MASTER VOL PRESET1 (0dB),131,12,,,,,,,,,,,
+MASTER VOL PRESET2 (-20dB),133,12,,,,,,,,,,,
+MASTER VOL PRESET3 (-40dB),134,12,,,,,,,,,,,
+MASTER VOLUME DOWN,242,2,,,,,,,,,,,
+MASTER VOLUME UP,241,2,freeze,,,,,,,,,,28
+MATRIX,135,4,,,,,,,,,,,
+MEMORY(ANALOG TUNER),204,12,,,,,,,,,,,
+MODEAUTO/MANUAL(ANALOG,216,12,,,,,,,,,,,
+MONO MOVIE,134,4,,,,,,,,,,,
+Mult EQ,157,4,,,,,,,,,,,
+MUSIC,150,4,,,,,,,,,,,
+MUTING,240,2,,,,,,,,,,,
+ON SCREEN,223,2,phantom1,,,,,,,,,,2D
+OSD ENTER,224,2,phantom2,,,,,,,,,,2E
+POWER,193,2,phantom3,,,,,,,,,,39
+POWER OFF,226,2,phantom4,,,,,,,,,,3A
+POWER ON,225,2,phantom5,,,,,,,,,,3B
+PRESET DOWN(ANALOG TUNER),213,12,,,,,,,,,,,
+PRESET UP(ANALOG TUNER),214,12,,,,,,,,,,,
+PRESET1(ANALOG TUNER),193,12,,,,,,,,,,,
+PRESET2(ANALOG TUNER),194,12,,,,,,,,,,,
+PRESET3 (ANALOG TUNER),195,12,,,,,,,,,,,
+PRESET4(ANALOG TUNER),196,12,setup,,,,,,,,,,02
+PRESET5(ANALOG TUNER),197,12,light,,,,,,,,,,29
+PRESET6(ANALOG TUNER),198,12,my system,,,,,,,,,,24
+PRESET7(ANALOG TUNER),199,12,,,,,,,,,,,
+PRESET8(ANALOG TUNER),200,12,,,,,,,,,,,
+PTY(ANALOG TUNER),212,12,,,,,,,,,,,
+PURE DIRECT,106,2,,,,,,,,,,,
+RDS(ANALOG TUNER),210,12,,,,,,,,,,,
+ROCK ARENA,131,4,,,,,,,,,,,
+RT(ANALOG TUNER),206,12,,,,,,,,,,,
+SAT/CBL,200,2,,,,,,,,,,,
+SB/SBL LEVEL DOWN,235,2,,,,,,,,,,,
+SB/SBL LEVEL UP,231,2,,,,,,,,,,,
+SBR LEVEL DOWN,248,2,,,,,,,,,,,
+SBR LEVEL UP,247,2,,,,,,,,,,,
+SHIFT A(ANALOG TUNER),185,12,,,,,,,,,,,
+SHIFT B(ANALOG TUNER),186,12,,,,,,,,,,,
+SHIFT C(ANALOG TUNER),187,12,,,,,,,,,,,
+SHIFT D(ANALOG TUNER),188,12,,,,,,,,,,,
+SHIFT E(ANALOG TUNER),189,12,,,,,,,,,,,
+SHIFT F(ANALOG TUNER),171,12,,,,,,,,,,,
+SHIFT G(ANALOG TUNER),174,12,,,,,,,,,,,
+SHIFT(ANALOG TUNER),205,12,,,,,,,,,,,
+SL LEVEL DOWN,244,2,,,,,,,,,,,
+SL LEVEL UP,243,2,,,,,,,,,,,
+SP-A FRONT,238,2,,,,,,,,,,,
+SP-B,239,2,,,,,,,,,,,
+SPEAKER,237,2,,,,,,,,,,,
+SR LEVEL DOWN,215,2,,,,,,,,,,,
+SR LEVEL UP,214,2,,,,,,,,,,,
+STANDARD,228,2,,,,,,,,,,,
+STATUS,222,2,,,,,,,,,,,
+STEREO,157,12,,,,,,,,,,,
+SURROUND BACK,130,12,discreteON,,,,,,,,,,2A
+SURROUND PARAMETER,161,12,discreteOFF,,,,,,,,,,2B
+SW LEVEL DOWN,229,2,,,,,,,,,,,
+SW LEVEL UP,236,2,,,,,,,,,,,
+SYSTEM SET UP,160,12,,,,,,,,,,,
+TONE CONTROL OFF,249,2,,,,,,,,,,,
+TONE CONTROL ON,250,2,,,,,,,,,,,
+TUNER,197,2,,,,,,,,,,,
+TUNING DOWN (ANALOG TUNER),218,12,,,,,,,,,,,
+TUNING UP(ANALOG TUNER),217,12,,,,,,,,,,,
+TV,201,2,,,,,,,,,,,
+V.AUX,204,2,,,,,,,,,,,
+VCR,205,2,,,,,,,,,,,
+VERSION ON,255,2,,,,,,,,,,,
+VIDEO GAME,136,4,,,,,,,,,,,
+VIDEO SELECT,216,2,,,,,,,,,,,
+VIRTURAL,137,4,,,,,,,,,,,
+ZONE2 CD,144,12,,,,,,,,,,,
+ZONE2 DVD,190,12,,,,,,,,,,,
+ZONE2 DVR,153,12,,,,,,,,,,,
+ZONE2 HDP,146,12,,,,,,,,,,,
+ZONE2 OFF,125,2,,,,,,,,,,,
+ZONE2 ON,124,2,,,,,,,,,,,
+ZONE2 ON/OFF,093,2,,,,,,,,,,,
+ZONE2 PRESET DOWN,151,12,,,,,,,,,,,
+ZONE2 PRESET UP,150,12,,,,,,,,,,,
+ZONE2 SAT/CBL,138,12,,,,,,,,,,,
+ZONE2 TUNER,145,12,,,,,,,,,,,
+ZONE2 TV,155,12,,,,,,,,,,,
+ZONE2 V.AUX,147,12,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+This upgrade file is based on the codes found here:,,,,,,,,,,,,,
+http://www.denon.fr/scripts/bo/admin/documents/anti_leech.asp?download_file=Code%20IR.pdf&disk_file=18104.byupload,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+"Additional Functions (dev, obc, function)",,,,,,,,,,,,,
+12 148 ZONE2 VCR,,,,,,,,,,,,,
+12 135 ZONE2 VOL P1 (0dB),,,,,,,,,,,,,
+12 136 ZONE2 VOL P2 (-20dB),,,,,,,,,,,,,
+12 137 ZONE2 VOL P3 (-40dB),,,,,,,,,,,,,
+12 142 ZONE2 VOLUME DOWN,,,,,,,,,,,,,
+12 141 ZONE2 VOLUME UP,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

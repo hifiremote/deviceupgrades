@@ -1,0 +1,197 @@
+Name:,RX-V365 122 126 dev Test,,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,NEC 2DEV Combo,122,,126,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1076,99 = URC-8820N / 10820N / 6820N,15 - Amp,EFC,USE,A1 5E 81 7E,2,No,,,,,
+URC-8820N / 10820N / 6820N Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code2 0 = 54 34 (Amp/1076) RX-V365 122 126 dev Test (KM v9.19),,,,,,,,,,,,,
+01 1A 00 F0 1E BE FF A1 5E 81 7E 00 00 37 20 55 20 D5 20 7C 20 6C 20 97 20 57 20 1E 20 00 00 A7 20 27 20 C7 20 F7 20 77 20 81 A0 82 A0 02 A0 AA 20 E5 20 65 20 8A 20 95 20 84 20 84 20 46 20 C6 20 06 20 86 20 15 20 2A 20 56 20 9E 20,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 86 F0 04 54 34 C9 20«Tuner Page Right ->»¦87 F0 04 54 34 CA 20«Tuner Page Left <-» ¦83 F0 04 54 34 01 A0«Power OFF» ¦93 F0 04 54 34 71 20«Tuner Preset Memory Set»  ¦A7 F0 04 54 34 DE 20«Menu (Amp mode)» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 1A (HCS08) NEC 2DEV Combo (KM v9.19),,,,,,,,,,,,,
+20 15 22 47 42 CF 44 08 08 01 17 01 1A 01 17 03 4D D2 F0 11 93 08 CA 45 00 02 BF A9 B6 65 42 58 9E CE 60 0A 65 03 8B 88 53 35 60 B6 64 B7 62 43 B7 63 07 65 05 CD FF 8F 25 08 08 65 0A 00 65 02 16 A3 10 A3 CC FF 5C 45 08 C9 35 76 00 65 F3 AD F3 6E C1 A2 33 60 6E 01 6A 20 E7,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,477,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fEFC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+Balance Select,190,1,0,,,Protocol ID,Fixed Data,,,,,,1F
+Input AUX,104,1,1,05 - Input DVR,,,,,,,,,15
+Input CD,120,1,2,01 - Input AUX,,,,,,,,,16
+Input DTV/Cable,100,1,3,03 - Input DTV/Cable,,,,,,,,,17
+Input DVD,177,1,4,04 - Input DVD,,,,,,,,,19
+Input DVR,123,1,5,06 - Input MD/CDR,,,,,,,,,1A
+Input MD/CDR,049,1,6,08 - Input Tuner,,,,,,,,,1B
+Input Multi-Channel,194,1,7,02 - Input CD,,,,,,,,,1C
+Input Tuner,118,1,8,07 - Input Multi-Channel,,,,,,,,,1D
+Menu (Amp mode),188,1,9,,,,,,,,,,1E
+Power OFF,010,2,vol up,34 - Volume up,,,,,,,,,04
+Power ON,006,2,vol down,32 - Volume Down,,,,,,,,,05
+Set Menu - (Parameter LEFT) <-,002,1,mute,33 - Volume Mute,,,,,,,,,08
+Set Menu + (Parameter Right) ->,254,1,channel up,29 - Tuner Preset Up,,,,,,,,26 - Tuner Page Right ->,06
+Set Menu DOWN (Parameter DOWN) v,252,1,channel down,27 - Tuner preset Down,,,,,,,,25 - Tuner Page Left <-,07
+Set Menu Enter,238,1,power,11 - Power ON,,,,,,,,10 - Power OFF,03
+Set Menu Return,095,1,enter,15 - Set Menu Enter,,,,,,,,,12
+Set Menu UP (Parameter UP) ^,000,1,,,,,,,,,,,
+SF Effect Straight/Surround,102,1,prev,16 - Set Menu Return,SF= Soundd Field type functions,,,,,,,28 - Tuner Preset Memory Set,13
+SF Night,128,1,menu,20 - SF Program Left <-,,,,,,,,09 - Menu (Amp mode),27
+SF Program Left <-,233,1,guide,19 - SF Night,,,,,,,,,2C
+SF Program Right ->,229,1,up arrow,17 - Set Menu UP (Parameter UP) ^,,,,,,,,,31
+Sleep Toggle,106,1,down arrow,14 - Set Menu DOWN (Parameter DOWN) v,,,,,,,,,32
+Tuner Auto/Man (Menu Button),099,1,left arrow,12 - Set Menu - (Parameter LEFT) <-,,,,,,,,,33
+Tuner Band Toggle AM/FM,094,1,right arrow,13 - Set Menu + (Parameter Right) ->,,,,,,,,,34
+Tuner Page Left <-,092,1,ok,15 - Set Menu Enter,,,,,,,,,35
+Tuner Page Right ->,068,1,sleep,22 - Sleep Toggle,,,,,,,,,28
+Tuner preset Down,121,1,pip,,,,,,,,,,36
+Tuner Preset Memory Set,137,1,info,21 - SF Program Right ->,,,,,,,,,26
+Tuner Preset Up,117,1,swap,,,,,,,,,,37
+Tuner Scan Down,034,2,move,,,,,,,,,,14
+Tuner Scan Up,030,2,play,,,,,,,,,,0C
+Volume Down,251,1,pause,,,,,,,,,,0F
+Volume Mute,244,1,rewind,,,,,,,,,,0B
+Volume up,247,1,fast fwd,,,,,,,,,,0D
+,,,stop,,,,,,,,,,0E
+Set Menu Return,095,1,record,,,,,,,,,,10
+Tuner PresetMemory Set (Return key),098,1,exit,18 - SF Effect Straight/Surround,,,,,,,,,2B
+Diag (No Protect),242,1,,,,,,,,,,,
+Input Multi Channel,220,2,input,24 - Tuner Band Toggle AM/FM,,,,,,,,,20
+Parameter/Tuner Preset Increase,071,1,+100,,,,,,,,,,38
+SF 2CH Stereo Select,173,2,fav,,,,,,,,,,18
+SF Enhancer Toggle,124,1,,,,,,,,,,,
+SF Entertain Game/Sports Toggle,065,1,skip+,31 - Tuner Scan Up,,,,,,,,,2D
+SF Entertain: Game,143,2,skip-,30 - Tuner Scan Down,,,,,,,,,2E
+SF Entertain: TV/Sports,013,2,,,,,,,,,,,
+SF Movie Toggle,063,1,,,,,,,,,,,
+SF Movie: Dramatic,012,2,,,,,,,,,,,
+SF Movie: Spacious,017,2,,,,,,,,,,,
+SF Music ENH 2 CH,237,2,,,,,,,,,,,
+SF Music Toggle,061,1,,,,,,,,,,,
+SF Music: Hall,209,2,,,,,,,,,,,
+SF Music: Jazz,079,2,,,,,,,,,,,
+SF Music: Pop/Rock,147,2,,,,,,,,,,,
+SF Night OFF,252,2,,,,,,,,,,,
+SF Night: Cinema,003,2,phantom1,,,,,,,,,,3B
+SF Night: Music,050,2,phantom2,,,,,,,,,,3F
+SF Stereo 2/5 Channel,067,1,phantom3,,,,,,,,,,40
+SF Stereo 5CH,018,2,phantom4,,,,,,,,,,41
+SF Straight Select,205,2,,,,,,,,,,,
+SF Surr Decode PLII Music,069,2,,,,,,,,,,,
+SF Surr Decode Pro Logic,049,2,,,,,,,,,,,
+SF Surr Decode Toggle,064,1,,,,,,,,,,,
+SF Surround PLII Game,178,2,,,,,,,,,,,
+SF Surround PLII Movie,202,2,,,,,,,,,,,
+Sleep 120 min,156,2,setup,,,,,,,,,,02
+Sleep 30 min,162,2,,,,,,,,,,,
+Sleep 60 min,158,2,,,,,,,,,,,
+Sleep 90 min,160,2,M1,,,,,,,,,,3C
+Sleep OFF,163,2,M2,,,,,,,,,,3D
+Tuner Auto/Man (Menu Button),135,1,(M3),,,,,,,,,,3E
+Tuner Band AM,032,2,,,,,,,,,,,
+Tuner Band FM,028,2,L1,,,,,,,,,,23
+Tuner Page A,205,1,L2,,,,,,,,,,24
+Tuner Page B,209,1,L3,,,,,,,,,,25
+Tuner Page C,207,1,,,,,,,,,,,
+Tuner Page D,211,1,,,,,,,,,,,
+Tuner Page Left <-,070,1,,,,,,,,,,,
+Tuner Page Right ->,119,1,,,,,,,,,,,
+Tuner Preset 1,208,1,,,,,,,,,,,
+Tuner Preset 2,206,1,,,,,,,,,,,
+Tuner Preset 3,210,1,,,,,,,,,,,
+Tuner Preset 5,081,1,,,,,,,,,,,
+Tuner Preset 6,079,1,,,,,,,,,,,
+Tuner Preset 7,083,1,,,,,,,,,,,
+Tuner Preset 8,076,1,,,,,,,,,,,
+Tuner preset Down,075,1,,,,,,,,,,,
+"Tuner Preset/Scan "":"" toggle",072,1,,,,,,,,,,,
+Volume Mute OFF,227,2,,,,,,,,,,,
+Volume Mute ON,223,2,,,,,,,,,,,
+Volume Mute ON,242,2,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,CC,00 - Balance Select,,,,,,,,,30
+,,,format,23 - Tuner Auto/Man (Menu Button),,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Yamaha RX-V365 includes all functions found using EFC search protocol ,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

@@ -1,0 +1,197 @@
+Name:,Scientific Atlanta Explorer,,,,v9.17,,,,,,,,CURRENT DATA
+Devices:,Panasonic (old),27,27,27,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,66,NO,,,,,,,,
+Setup:,0477,99 = URC-6131 PVR,16 - PVR,OBC,USE,90 90 90,1,No,,,,,
+URC-6131 PVR Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 21 DD (PVR/0477) Scientific Atlanta Explorer (KM v9.17),,,,,,,,,,,,,
+00 00 FE FE FE 7A F9 90 90 90 9A 0A 8A 4A CA 2A AA 6A EA 1A 06 86 46 BA 7A E2 CE A2 96 16 2E AE B2 12 52 36 42 D2 C2 22 62 32 72 5E 6E EE E6 92 9E 5A E6 82 02,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 2F F4 21 DD 00 BC«pip on/off»¦20 F4 21 DD 00 C3«pip swap»  ¦30 F4 21 DD 00 BF«pip move»  ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 00 (S3C8+) Panasonic (old) (KM v9.17),,,,,,,,,,,,,
+28 60 31 8B 12 D5 45 05 06 01 A4 01 90 01 A4 04 E2 C4 CC 06 90 06 7C 60 06 08 06 56 C0 03 09 01 87 10 03 90 C1 97 10 03 8D 01 46,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,229,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+Previous Day,000,1,0,25 - num 0,,Protocol ID,Fixed Data,,,,,,1F
+Next Day,001,1,1,16 - num 1,,,,,,,,,15
+up arrow,002,1,2,17 - num 2,,,,,,,,,16
+left arrow,003,1,3,18 - num 3,,,,,,,,,17
+right arrow,004,1,4,19 - num 4,,,,,,,,,19
+pause,005,1,5,20 - num 5,Use << and >> to move frame by frame,,,,,,,,1A
+guide,006,1,6,21 - num 6,,,,,,,,,1B
+power,007,1,7,22 - num 7,,,,,,,,,1C
+display,008,1,8,23 - num 8,,,,,,,,,1D
+Sleep / Message,009,1,9,24 - num 9,,,,,,,,,1E
+Menu,010,1,vol up,30 - vol up,,,,,,,,,04
+down arrow,011,1,vol down,31 - vol down,,,,,,,,,05
+select,012,1,mute,32 - mute,,,,,,,,,08
+Cable Bypass,013,1,channel up,27 - channel up,Video Source,,,,,,,,06
+Last Channel,014,1,channel down,28 - channel down,,,,,,,,,07
+Pay Per View,015,1,power,07 - power,,,,,,,,,03
+num 1,016,1,enter,49 - Aspect (#),,,,,,,,,12
+num 2,017,1,tv/vid,13 - Cable Bypass,,,,,,,,,13
+num 3,018,1,prev,14 - Last Channel,,,,,,,,,23
+num 4,019,1,menu,10 - Menu,,,,,,,,,21
+num 5,020,1,guide,06 - guide,,,,,,,,,14
+num 6,021,1,up arrow,02 - up arrow,,,,,,,,,31
+num 7,022,1,down arrow,11 - down arrow,,,,,,,,,32
+num 8,023,1,left arrow,03 - left arrow,,,,,,,,,33
+num 9,024,1,right arrow,04 - right arrow,,,,,,,,,34
+num 0,025,1,select,12 - select,,,,,,,,,35
+live,026,1,angle/sleep,09 - Sleep / Message,,,,,,,,,26
+channel up,029,1,pip,50 - pip on/off,,,,,,,,,2F
+channel down,030,1,info,08 - display,,,,,,,,,18
+Favorite,031,1,swap,51 - pip swap,,,,,,,,,20
+vol up,032,1,move,52 - pip move,,,,,,,,,30
+vol down,033,1,play,43 - play,,,,,,,,,0C
+mute,034,1,pause (yellow),05 - pause,,,,,,,,,0F
+list,038,1,rewind,36 - rewind,recorded shows,,,,,,,,0B
+instant replay / slow,039,1,fast fwd,35 - fast fwd,,,,,,,,,0D
+fast fwd,040,1,stop,44 - stop,,,,,,,,,0E
+rewind,041,1,record,45 - record,,,,,,,,,10
+exit,044,1,exit,37 - exit,,,,,,,,,24
+help,045,1,,,,,,,,,,,
+pip chan up,046,1,,,Mark,,,,,,,,
+a / lock,047,1,,,,,,,,,,,
+b,048,1,,,,,,,,,,,
+c / #,049,1,,,,,,,,,,,
+play,051,1,next track,46 - page up,,,,,,,,,2B
+stop,052,1,prev track,47 - page down,,,,,,,,,2A
+record,053,1,,,,,,,,,,,
+page up,054,1,,,,,,,,,,,
+page down,055,1,,,,,,,,,,,
+settings,057,1,slow,34 - instant replay / slow,,,,,,,,,2E
+Aspect (#),058,1,,,"normal, stretch, zoom1, zoom2",,,,,,,,
+pip on/off,059,1,,,,,,,,,,,
+pip swap,060,1,,,,,,,,,,,
+pip move,061,1,,,,,,,,,,,
+Menu2,062,1,,,,,,,,,,,
+pip chan down,063,1,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,3D
+OBC 27,027,1,phantom2,,,,,,,,,,3E
+OBC 35,035,1,phantom3,,,,,,,,,,3F
+OBC 42,042,1,phantom4,,,,,,,,,,40
+OBC 50,050,1,,,,,,,,,,,
+OBC 56,056,1,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,subtitle,,,,,,,,,,25
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,PVR menu (blue),48 - settings,,,,,,,,,36
+,,,replay,34 - instant replay / slow,,,,,,,,,27
+,,,advance,26 - live,,,,,,,,,29
+,,,,,,,,,,,,,
+,,,thumbs up (green),01 - Next Day,,,,,,,,,2C
+,,,thumbs down (red),00 - Previous Day,,,,,,,,,2D
+,,,audio/CC,,,,,,,,,,37
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+This upgrade was made by combining the codes from several,,,,,,,,,,,,,
+"sources. One was an upgrade for a 2000, another was for an",,,,,,,,,,,,,
+8000. Also used were the codes from UEI and the hifi-remote.com,,,,,,,,,,,,,
+web site.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

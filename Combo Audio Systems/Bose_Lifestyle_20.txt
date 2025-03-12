@@ -1,0 +1,197 @@
+Name:,Bose Lifestyle 20,,,,v9.18,,,,,,,,CURRENT DATA
+Devices:,NEC1,186,85,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,2000,99 = URC-8820 / 10820 / 6820,05 - Tuner,OBC,USE,20 A2 55,1,No,,,,,
+URC-8820 / 10820 / 6820 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 57 D0 (Tuner/2000) Bose Lifestyle 20 (KM v9.18),,,,,,,,,,,,,
+5A 00 FE DE BE EE E1 20 A2 55 F7 8F 2D 0D 4F 8D 9F 35 B5 0F 3F BF 7F 67 E7 CD 55 95 15 E5 A7 6F EF 45 8D 0D 9F 04 8D CF 2F AF EF 6F 04 2D C5 2D 0D 8D,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (HCS08) NEC1 (KM v9.18),,,,,,,,,,,,,
+20 15 22 47 31 CF 44 08 08 01 17 01 1A 01 17 03 4D D2 F0 11 93 08 CA 3C AC 05 60 1D CD FF 98 24 18 0A 60 07 4E 62 61 33 62 20 16 B6 61 A8 80 B7 61 B6 62 A8 80 B7 62 20 08 0A 60 05 4E 61 62 33 62 4E 63 64 33 64 6E 02 AA 07 60 05 CD FF 8F 25 10 08 60 12 03 60 05 AD 0A CD FF 5F 00 60 02 16 A3 10 A3 CC FF 5C 55 78 35 76 00 60 F4 AD F4 6E C1 A2 33 61 6E 01 6A 20,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,477,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+Power,076,,0,13 - INPUT: FM,,Protocol ID,Fixed Data,,,,,,1F
+Mute,001,,1,11 - INPUT: VIDEO1 (TV),,,,,,,,,15
+Vol Down,002,,2,25 - Stereo (2SP),,,,,,,,,16
+Vol Up,003,,3,26 - Stereo & Center (3SP),,,,,,,,,17
+CD Skip Back / Center Vol-,008,,4,10 - INPUT: VIDEO2,,,,,,,,,19
+CD Skip Next / Center Vol+,009,,5,27 - Surround (5SP),,,,,,,,,1A
+Surround Down,010,,6,08 - INPUT: FM/AM,,,,,,,,,1B
+Surround Up,011,,7,15 - INPUT: CD / DVD,,,,,,,,,1C
+INPUT: FM/AM,006,,8,14 - INPUT: Tape,,,,,,,,,1D
+INPUT: AM,012,,9,12 - INPUT: AUX,,,,,,,,,1E
+INPUT: VIDEO2,013,,vol up,03 - vol up,,,,,,,,,04
+INPUT: VIDEO1 (TV),014,,vol down,02 - vol down,,,,,,,,,05
+INPUT: AUX,015,,mute,01 - mute,,,,,,,,,08
+INPUT: FM,016,,channel up,17 - CH+ / Preset Up / Next Track,,,,,,,,,06
+INPUT: Tape,082,,channel down,16 - CH- / Preset Down / Prev track,,,,,,,,,07
+INPUT: CD / DVD,083,,power,00 - power,,,,,,,,,03
+CH- / Preset Down / Prev track,024,,enter,09 - INPUT: AM,,,,,,,,,12
+CH+ / Preset Up / Next Track,025,,,,,,,,,,,,
+Stop,026,,prev,28 - CD Next Disc,,,,,,,,,13
+Play,085,,menu,26 - Stereo & Center (3SP),,,,,,,,,27
+Pause,086,,guide,25 - Stereo (2SP),,,,,,,,,2C
+Scan Back (rewind),087,,up arrow,07 - Surround Up,,,,,,,,,31
+Scan Forward (ffwd),088,,down arrow,06 - Surround Down,,,,,,,,,32
+Random ALL Toggle (Shuffle),092,,left arrow,04 - CD Skip Back / Center Vol-,,,,,,,,,33
+Mute All,223,,right arrow,05 - CD Skip Next / Center Vol+,,,,,,,,,34
+,,,ok,27 - Surround (5SP),,,,,,,,,35
+Group A - CD only,,,sleep,,,,,,,,,,28
+Stereo (2SP),075,,pip,26 - Stereo & Center (3SP),,,,,,,,,36
+Stereo & Center (3SP),079,,info,27 - Surround (5SP),,,,,,,,,26
+Surround (5SP),078,,swap,27 - Surround (5SP),,,,,,,,,37
+CD Next Disc,093,,move,25 - Stereo (2SP),,,,,,,,,14
+right arrow,,,play,19 - play,,,,,,,,,0C
+ok/select,,,pause,20 - pause,,,,,,,,,0F
+yellow/A,,,rewind,21 - Scan Back (rewind),,,,,,,,,0B
+blue/B,,,fast fwd,22 - Scan Forward (ffwd),,,,,,,,,0D
+red/C,,,stop,18 - stop,,,,,,,,,0E
+green/D,,,record,,,,,,,,,,10
+page up,,,exit,24 - Mute All,,,,,,,,,2B
+page down,,,,,,,,,,,,,
+day+,,,input,08 - INPUT: FM/AM,,,,,,,,,20
+day-,,,+100,,,,,,,,,,38
+play,,,fav,,,,,,,,,,18
+pause,,,,,,,,,,,,,
+rewind,,,skip+,05 - CD Skip Next / Center Vol+,,,,,,,,,2D
+fast fwd,,,skip-,04 - CD Skip Back / Center Vol-,,,,,,,,,2E
+stop,,,,,,,,,,,,,
+record,,,,,,,,,,,,,
+skip+/next+,,,,,,,,,,,,,
+skip-/next-,,,,,,,,,,,,,
+list/PVR menu,,,,,,,,,,,,,
+replay,,,,,,,,,,,,,
+advance/jump,,,,,,,,,,,,,
+live TV,,,,,,,,,,,,,
+thumbs up,,,,,,,,,,,,,
+thumbs down,,,,,,,,,,,,,
+open-close/eject,,,phantom1,,,,,,,,,,3B
+pip on/off,,,phantom2,,,,,,,,,,3F
+pip swap,,,phantom3,,,,,,,,,,40
+pip move,,,phantom4,,,,,,,,,,41
+pip freeze,,,,,,,,,,,,,
+pip channel up,,,,,,,,,,,,,
+pip channel down,,,,,,,,,,,,,
+caption,,,,,,,,,,,,,
+aspect,,,,,,,,,,,,,
+zoom,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,M1,,,,,,,,,,3C
+,,,M2,,,,,,,,,,3D
+,,,(M3),,,,,,,,,,3E
+,,,,,,,,,,,,,
+,,,L1,,,,,,,,,,23
+,,,L2,,,,,,,,,,24
+,,,L3,,,,,,,,,,25
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,CC,23 - Random ALL Toggle (Shuffle),,,,,,,,,30
+,,,format,24 - Mute All,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+For use with C-1024 IR-to-RF box.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

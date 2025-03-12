@@ -1,0 +1,197 @@
+Name:,Control 4,,,,v9.16,,,,,,,,CURRENT DATA
+Devices:,Manual Settings,67,52,,,,,,,,,,
+Manual:,01FF,1 = b4 cmd,MSB,88,NO,,,,,,,,
+Setup:,2000,99 = URC-6131 PVR,01 - Cable,OBC,USE,43 34,2,No,,,,,
+URC-6131 PVR Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 0F D0 (Cable/2000) Control 4 (KM v9.16),,,,,,,,,,,,,
+FF 00 FC E0 F0 1E C1 43 34 00 0A 00 0B 00 0C 00 0D 00 0E 00 0F 00 10 00 11 00 12 00 13 00 6A 00 6B 00 8B 00 68 00 69 00 67 00 6C 00 7D 00 7A 00 8E 00 6D 00 7C 00 6F 00 04 00 05 00 01 00 03 00 07 00 06 00 02 00 08,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 FF (S3C8+) Custom Protocol for Cable/2000 Control 4 (KM v9.16),,,,,,,,,,,,,
+40 84 22 8B 12 8F 45 08 08 01 13 02 FF 01 13 00 FF 31 A8 06 40 00 FF 8D 01 46,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,0,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+PLAY,001,0,0,08 - NUMBER_0,,Protocol ID,Fixed Data,,,,,,1F
+STOP,002,0,1,09 - NUMBER_1,,,,,,,,,15
+PAUSE,003,0,2,10 - NUMBER_2,,,,,,,,,16
+SKIP_FWD,004,0,3,11 - NUMBER_3,,,,,,,,,17
+SKIP_REV,005,0,4,12 - NUMBER_4,,,,,,,,,19
+SCAN_FWD,006,0,5,13 - NUMBER_5,,,,,,,,,1A
+SCAN_REV,007,0,6,14 - NUMBER_6,,,,,,,,,1B
+RECORD,008,0,7,15 - NUMBER_7,,,,,,,,,1C
+NUMBER_0,010,0,8,16 - NUMBER_8,,,,,,,,,1D
+NUMBER_1,011,0,9,17 - NUMBER_9,,,,,,,,,1E
+NUMBER_2,012,0,vol up,68 - VOLUME_UP,,,,,,,,,04
+NUMBER_3,013,0,vol down,69 - VOLUME_DOWN,,,,,,,,,05
+NUMBER_4,014,0,mute,100- MUTE_TOGGLE,,,,,,,,,08
+NUMBER_5,015,0,channel up,66 - CHANNEL_UP,,,,,,,,,06
+NUMBER_6,016,0,channel down,67 - CHANNEL_DOWN,,,,,,,,,07
+NUMBER_7,017,0,power,65 - POWER_TOGGLE,,,,,,,,,03
+NUMBER_8,018,0,enter,73 - enter,,,,,,,,,12
+NUMBER_9,019,0,tv/vid,103- TOGGLE_AM_FM,,,,,,,,,13
+NUMBER_10_PLUS,020,0,prev,84 - RECALL,,,,,,,,,23
+NUMBER_100_PLUS,021,0,menu,70 - menu,,,,,,,,,21
+STAR,022,0,guide,86 - guide,,,,,,,,,14
+POUND,023,0,up arrow,,,,,,,,,,31
+INPUT_TOGGLE,030,0,down arrow,,,,,,,,,,32
+LINE_INPUT_1,031,0,left arrow,,,,,,,,,,33
+LINE_INPUT_2,032,0,right arrow,,,,,,,,,,34
+LINE_INPUT_3,033,0,select,,,,,,,,,,35
+LINE_INPUT_4,034,0,angle/sleep,,,,,,,,,,26
+LINE_INPUT_5,035,0,pip,,,,,,,,,,2F
+LINE_INPUT_6,036,0,info,87 - DISPLAY,,,,,,,,,18
+LINE_INPUT_7,037,0,swap,,,,,,,,,,20
+LINE_INPUT_8,038,0,move,,,,,,,,,,30
+LINE_INPUT_9,039,0,play,00 - play,,,,,,,,,0C
+LINE_INPUT_10,040,0,pause (yellow),02 - pause,,,,,,,,,0F
+LINE_INPUT_11,041,0,rewind,06 - SCAN_REV,,,,,,,,,0B
+LINE_INPUT_12,042,0,fast fwd,05 - SCAN_FWD,,,,,,,,,0D
+LINE_INPUT_13,043,0,stop,01 - stop,,,,,,,,,0E
+LINE_INPUT_14,044,0,record,07 - record,,,,,,,,,10
+LINE_INPUT_15,045,0,exit,71 - BACK,,,,,,,,,24
+LINE_INPUT_16,046,0,,,,,,,,,,,
+LINE_INPUT_17,047,0,,,,,,,,,,,
+LINE_INPUT_18,048,0,,,,,,,,,,,
+LINE_INPUT_19,049,0,,,,,,,,,,,
+LINE_INPUT_20,050,0,,,,,,,,,,,
+RF_INPUT_TOGGLE,060,0,next track,03 - SKIP_FWD,,,,,,,,,2B
+RF_INPUT_1,061,0,prev track,04 - SKIP_REV,,,,,,,,,2A
+RF_INPUT_2,062,0,,,,,,,,,,,
+RF_INPUT_3,063,0,,,,,,,,,,,
+RF_INPUT_4,064,0,,,,,,,,,,,
+RF_INPUT_5,065,0,slow,,,,,,,,,,2E
+RF_INPUT_6,066,0,,,,,,,,,,,
+RF_INPUT_7,067,0,,,,,,,,,,,
+RF_INPUT_8,068,0,,,,,,,,,,,
+RF_INPUT_9,069,0,,,,,,,,,,,
+RF_INPUT_10,070,0,,,,,,,,,,,
+UNKNOWN,071,0,,,,,,,,,,,
+RADIO,072,0,phantom1,,,,,,,,,,3D
+MUSIC,073,0,phantom2,,,,,,,,,,3E
+TV,074,0,phantom3,,,,,,,,,,3F
+VIDEOS,075,0,phantom4,,,,,,,,,,40
+PICTURES,076,0,,,,,,,,,,,
+LIGHTS,077,0,,,,,,,,,,,
+HOUSE,078,0,,,,,,,,,,,
+MYINFO,079,0,,,,,,,,,,,
+CONTROL4,080,0,,,,,,,,,,,
+ROOM_OFF,102,0,,,,,,,,,,,
+POWER_TOGGLE,103,0,setup,,,,,,,,,,02
+CHANNEL_UP,104,0,,,,,,,,,,,
+CHANNEL_DOWN,105,0,,,,,,,,,,,
+VOLUME_UP,106,0,,,,,,,,,,,
+VOLUME_DOWN,107,0,,,,,,,,,,,
+MENU,108,0,,,,,,,,,,,
+BACK,109,0,,,,,,,,,,,
+RETURN,110,0,subtitle,,,,,,,,,,25
+ENTER,111,0,,,,,,,,,,,
+TV_VIDEO,112,0,,,,,,,,,,,
+UP,113,0,,,,,,,,,,,
+DOWN,114,0,,,,,,,,,,,
+LEFT,115,0,,,,,,,,,,,
+RIGHT,116,0,,,,,,,,,,,
+EJECT_CLOSE,117,0,,,,,,,,,,,
+PAGE_UP,118,0,,,,,,,,,,,
+PAGE_DOWN,119,0,,,,,,,,,,,
+INFO,120,0,,,,,,,,,,,
+CANCEL,121,0,,,,,,,,,,,
+RECALL,122,0,,,,,,,,,,,
+PVR,123,0,,,,,,,,,,,
+GUIDE,124,0,PVR menu (blue),,,,,,,,,,36
+DISPLAY,125,0,replay,,,,,,,,,,27
+DISC,126,0,advance,,,,,,,,,,29
+TRACK,127,0,,,,,,,,,,,
+PULSE_SUR_UP,128,0,thumbs up (green),,,,,,,,,,2C
+SELECT_PRESET_X,130,0,thumbs down (red),,,,,,,,,,2D
+TUNE_UP,131,0,audio/CC,,,,,,,,,,37
+TUNE_DOWN,132,0,,,,,,,,,,,
+SEARCH_UP,133,0,,,,,,,,,,,
+SEARCH_DOWN,134,0,,,,,,,,,,,
+PRESET_UP,135,0,,,,,,,,,,,
+PRESET_DOWN,136,0,,,,,,,,,,,
+MUTE_ON,137,0,,,,,,,,,,,
+MUTE_OFF,138,0,,,,,,,,,,,
+MUTE_TOGGLE,139,0,,,,,,,,,,,
+GO_TO_AM,140,0,,,,,,,,,,,
+GO_TO_FM,141,0,,,,,,,,,,,
+TOGGLE_AM_FM,142,0,,,,,,,,,,,
+BASS_UP,143,0,,,,,,,,,,,
+BASS_DOWN,144,0,,,,,,,,,,,
+TREBLE_UP,145,0,,,,,,,,,,,
+TREBLE_DOWN,146,0,,,,,,,,,,,
+BALANCE_UP,147,0,,,,,,,,,,,
+BALANCE_DOWN,148,0,,,,,,,,,,,
+LOUDNESS_ON,149,0,,,,,,,,,,,
+LOUDNESS_OFF,150,0,,,,,,,,,,,
+LOUDNESS_TOGGLE,151,0,,,,,,,,,,,
+PULSE_ASPECT_RATIO,152,0,,,,,,,,,,,
+PIP,153,0,,,,,,,,,,,
+RED,045,1,,,,,,,,,,,
+GREEN,046,1,,,,,,,,,,,
+YELLOW,048,1,,,,,,,,,,,
+BLUE,049,1,,,,,,,,,,,
+WATCH,054,1,,,,,,,,,,,
+LISTEN,055,1,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (S3C8+) Control 4 (PB v4.01),,,,,,,,,,,,,
+ 40 84 22 8B 12 8F 45 08 08 01 13 02 FF 01 13 00 ,,,,,,,,,,,,,
+ FF 31 A8 06 40 00 FF 8D 01 46 ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

@@ -1,0 +1,35 @@
+Description=Bionaire BW2100R
+Remote.name=Comcast-URC-1067
+Remote.signature=CS301009
+DeviceType=Cable
+DeviceIndex=0
+SetupCode=2002
+Protocol=01 11
+Protocol.name=Manual Settings
+ProtocolParms=251
+FixedData=24
+DevParms=Device 1\:4\=0
+DeviceTranslator=Translator(lsb,comp,0,4)
+CmdParms=OBC
+CmdTranslator=Translator(lsb,comp,0)
+DefaultCmd=00
+CmdIndex=0
+FixedData=14
+Code.740=0C 18 11 80 12 E0 C0 08 10 04 08 02 93 01 7A 07 77 00 00 00 00 00 30 4C 00 FF
+Code.6805-C9=0C 18 11 80 12 E0 C0 08 10 04 08 02 93 01 7A 07 77 00 00 00 00 00 30 4C 00 FF
+Code.HCS08=20 11 23 47 11 85 01 04 08 00 D3 02 79 02 79 00 D3 0E DB CC FF 5F
+Code.6805-RC16/18=11 24 11 20 0C 85 01 04 08 01 68 3C 10 3B 69 07 77 CC 01 AF
+Code.S3C80=44 8C 11 8B 0E 85 01 04 08 00 D3 02 65 02 79 00 BF 0E DB 8D 01 46
+Notes=Upgrade protocol 0 \= 01 11 (HCS08) PB v4.00\n20 11 23 47 11 85 01 04 08 00 D3 02 79 02 79 00\nD3 0E DB CC FF 5F\nEnd
+Function.0.name=Temp Up
+Function.0.hex=6F
+Function.1.name=Temp Down
+Function.1.hex=77
+Function.2.name=Mode
+Function.2.hex=5F
+Function.3.name=Timer
+Function.3.hex=3C
+Button.1=Temp Up|null|null
+Button.9=Temp Down|null|null
+Button.a=Timer|null|null
+Button.5=Mode|null|null

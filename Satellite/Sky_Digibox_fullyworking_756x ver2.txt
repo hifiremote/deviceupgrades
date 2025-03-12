@@ -1,0 +1,197 @@
+Name:,Sky Digibox,,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,RC6-M-20n,0,0,6,,,,,,,,,
+Manual:,,0 = 1-byte,MSB,00,NO,,,,,,,,
+Setup:,1847,06 = URC-7560 / 7562,07 - SAT,OBC,USE,E0 00,1,No,,,,,
+URC-7560 / 7562 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 07 37 (SAT/1847) Sky Digibox (KM v9.19),,,,,,,,,,,,,
+20 21 36 BE FE 86 91 E0 00 20 21 0C 83 80 CC 58 59 5A 5B 5C 5C 6E 3C 81 6F CB 6D 70 7D F5 7E 69,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 20 (S3C8+) RC6-M-20n (KM v9.19),,,,,,,,,,,,,
+40 9A 21 8B 13 87 85 00 08 04 00 DE 00 00 00 00 00 CA F1 38 05 35 01 A8 E4 03 2D E4 04 2E E4 05 2F 08 2D F6 FF 62 19 03 E6 04 03 08 2E F6 FF 62 19 05 F6 FF 62 19 06 08 2D F0 C0 F6 FF 62 19 07 08 2F F6 FF 62 19 08 F6 FF 62 19 09 2C 04 10 09 10 08 10 07 10 06 10 05 10 04 2A F2 E6 10 06 8D 01 46 2C 04 CF 10 C1 DF 10 C1 90 C0 FB 03 B6 C1 03 2A F1 AF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,729,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,000,,0,00 - num 0,,Protocol ID,Fixed Data,,,,,,1F
+num 1,001,,1,01 - num 1,,,,,,,,,15
+num 2,002,,2,02 - num 2,,,,,,,,,16
+num 3,003,,3,03 - num 3,,,,,,,,,17
+num 4,004,,4,04 - num 4,,,,,,,,,19
+num 5,005,,5,05 - num 5,,,,,,,,,1A
+num 6,006,,6,06 - num 6,,,,,,,,,1B
+num 7,007,,7,07 - num 7,,,,,,,,,1C
+num 8,008,,8,08 - num 8,,,,,,,,,1D
+num 9,009,,9,09 - num 9,,,,,,,,,1E
+vol up,,,vol up,,,,,,,,,,04
+vol down,,,vol down,,,,,,,,,,05
+mute,,,mute,,,,,,,,,,08
+channel up,032,,channel up,10 - channel up,,,,,,,,,06
+channel down,033,,channel down,11 - channel down,,,,,,,,,07
+power,012,,power,12 - power,,,,,,,,,03
+enter,,,auto,27 - blue,,,,,,,,,13
+tv/sat,132,,,,,,,,,,,,
+Remote Battery Msg,071,,,,,,,,,,,,
+Keyboard Battey Msg,072,,menu,16 - program guide,,,,,,,,,20
+program guide,204,,,,,,,,,,,,
+up arrow,088,,up arrow,17 - up arrow,,,,,,,,,29
+down arrow,089,,down arrow,18 - down arrow,,,,,,,,,2A
+left arrow,090,,left arrow,19 - left arrow,,,,,,,,,2B
+right arrow,091,,right arrow,20 - right arrow,,,,,,,,,2C
+select,092,,enter,21 - select,,,,,,,,,88
+sleep,,,sleep,,,,,,,,,,C3
+sky,128,,,,,,,,,,,,
+info,203,,,,,,,,,,,,
+red,109,,,,,,,,,,,,
+green,110,,,,,,,,,,,,
+yellow,111,,play,21 - select,,,,,,,,,0C
+blue,112,,pause,23 - info,,,,,,,,,0F
+text,060,,rewind,28 - text,,,,,,,,,0B
+help,129,,fast fwd,29 - help,,,,,,,,,0D
+back,131,,stop,25 - green,,,,,,,,,0E
+record,,,record,26 - yellow,,,,,,,,,10
+exit,,,exit,,,,,,,,,,98
+surround,,,,,,,,,,,,,
+input toggle,,,av,22 - sky,,,,,,,,,18
++100,,,+10,30 - back,,,,,,,,,2F
+fav/scan,105,,,,,,,,,,,,
+device button,,,,,,,,,,,,,
+next track,,,,,,,,,,,,,
+prev track,,,,,,,,,,,,,
+shift-left,,,,,,,,,,,,,
+shift-right,,,,,,,,,,,,,
+pip freeze,,,,,,,,,,,,,
+slow,,,,,,,,,,,,,
+eject,,,sp/lp,24 - red,,,,,,,,,14
+slow+,,,bright+ ($_ch+),,,,,,,,,,C6
+box office,125,,bright- ($_ch-),,,,,,,,,,C7
+services,126,,,,,,,,,,,,
+interactive,245,,,,,,,,,,,,
+rear,,,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,3A
+,,,phantom2,,,,,,,,,,3B
+,,,phantom3,,,,,,,,,,3C
+,,,phantom4,,,,,,,,,,3D
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,light,,,,,,,,,,30
+,,,home theater,,,,,,,,,,12
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,E,,,,,,,,,,27
+,,,F,31 - fav/scan,,,,,,,,,28
+,,,G,,,,,,,,,,2D
+,,,H,,,,,,,,,,2E
+,,,A,32 - box office,,,,,,,,,23
+,,,B,34 - interactive,,,,,,,,,24
+,,,C,33 - services,,,,,,,,,25
+,,,D,,,,,,,,,,26
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,color+ ($_vol+),,,,,,,,,,C4
+,,,color- ($_vol-),,,,,,,,,,C5
+,,,discreteON,,,,,,,,,,3E
+,,,discreteOFF,,,,,,,,,,3F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Vol+ Vol- and mute are not allocated. On the OEM Sky remote these ,,,,,,,,,,,,,
+buttons normally use a protocol linked to the TV the device is working ,,,,,,,,,,,,,
+with. Also bear in mind the same Sky remote controls all 5 different ,,,,,,,,,,,,,
+brands of Sky Digiboxes and on first installation the remote is usually ,,,,,,,,,,,,,
+set via tv/sat to work the basic controls on a nominated TV by the ,,,,,,,,,,,,,
+installer. Use VPT in ir.exe to pick up the 3 sound controls from ,,,,,,,,,,,,,
+your tv or audio or amp or any sound system you are using.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

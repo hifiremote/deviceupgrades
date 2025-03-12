@@ -1,0 +1,29 @@
+Description=Nippon Antenna GT30
+Remote.name=Comcast DVR URC-1067Bx3 JP1.3
+Remote.signature=30393039
+Notes=Upgrade protocol 0 \= 01 FF (S3C8+) PB v4.02\n37 84 11 8B 14 F5 55 08 08 01 06 02 FF 01 06 00\nF2 5D C0 04 1A 01 F9 FF 03 8D 01 46\nEnd\n\nThis is only for the Power and Channel buttons, the Volume buttons are a different protocol
+DeviceType=Cable
+DeviceIndex=0
+SetupCode=2003
+Protocol=01 FF
+Protocol.name=Manual Settings
+ProtocolParms=4
+FixedData=20
+DevParms=Device 1\=0
+DeviceTranslator=Translator(lsb,0)
+CmdParms=OBC
+CmdTranslator=Translator(lsb,0)
+DefaultCmd=00
+CmdIndex=0
+FixedData=20
+Code.S3C80=37 84 11 8B 14 F5 55 08 08 01 06 02 FF 01 06 00 F2 5D C0 04 1A 01 F9 FF 03 8D 01 46
+Notes=Upgrade protocol 0 \= 01 FF (S3C8+) PB v4.02\n37 84 11 8B 14 F5 55 08 08 01 06 02 FF 01 06 00\nF2 5D C0 04 1A 01 F9 FF 03 8D 01 46\nEnd\n\nThis is only for the Power and Channel buttons, the Volume buttons are a different protocol
+Function.0.name=channel up
+Function.0.hex=73
+Function.1.name=channel down
+Function.1.hex=B3
+Function.2.name=power
+Function.2.hex=51
+Button.6=channel up|null|null
+Button.7=channel down|null|null
+Button.3=power|null|null

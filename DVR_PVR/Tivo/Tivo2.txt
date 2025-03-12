@@ -1,0 +1,197 @@
+Name:,TiVo Series 2,,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,TiVo (Official),133,48,0,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,0618,99 = Sony TiVo RMT-V303,03 - VCR,OBC,USE,5E F3 FF,1,No,,,,,
+Sony TiVo RMT-V303 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 2A 6A (VCR/0618) TiVo Series 2 (KM v9.19),,,,,,,,,,,,,
+11 00 BE FE FE E1 5E F3 FF 73 EB 6B AB 2B CB 4B 8B 0B F3 87 07 53 BF 93 A7 E7 D7 97 17 57 67 FB 7B 3B DB BB 5B 9B 1B 33 B3 9D,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 11 (S3C8) TiVo (Official) (KM v9.19),,,,,,,,,,,,,
+43 8D 31 8B 15 CA 5D 08 08 01 21 01 06 01 21 03 31 D4 FD 11 A7 08 B7 08 02 08 E4 05 07 56 07 F0 08 06 60 C0 56 C0 0F 44 C0 07 8D 01 33,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,0,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,049,,0,00 - num 0,same as tivo remote,Protocol ID,Fixed Data,,,,,,1F
+num 1,040,,1,01 - num 1,same as tivo remote,,,,,,,,15
+num 2,041,,2,02 - num 2,same as tivo remote,,,,,,,,16
+num 3,042,,3,03 - num 3,same as tivo remote,,,,,,,,17
+num 4,043,,4,04 - num 4,same as tivo remote,,,,,,,,19
+num 5,044,,5,05 - num 5,same as tivo remote,,,,,,,,1A
+num 6,045,,6,06 - num 6,same as tivo remote,,,,,,,,1B
+num 7,046,,7,07 - num 7,same as tivo remote,,,,,,,,1C
+num 8,047,,8,08 - num 8,same as tivo remote,,,,,,,,1D
+num 9,048,,9,09 - num 9,same as tivo remote,,,,,,,,1E
+vol up,,,vol up,,set to TV with VTP in IR,,,,,,,,04
+vol down,,,vol down,,set to TV with VTP in IR,,,,,,,,05
+mute,,,mute,,set to TV with VTP in IR,,,,,,,,0A
+channel up,030,,channel up,10 - channel up,same as tivo remote,,,,,,,,06
+channel down,031,,channel down,11 - channel down,same as tivo remote,,,TiVo,AUX,menu,,,07
+standby,053,,TiVo,12 - standby,power button,,,,,,,,02
+enter/last,051,,enter/jump,13 - enter/last,enter key on 2116 is jump or quick skip last key on 2116 is last channel,,,,,,,,12
+tv/vcr,,,,,set to TV with VTP in IR,,,,,,,,
+TiVo,002,,,,menu key,,,,,,,,
+menu,018,,Tivo menu,14 - TiVo,no such key on Tivo remote,,,,,,,,09
+Live TV,017,,list,35 - list,move key,,,,,,,,08
+up arrow,020,,up arrow,17 - up arrow,same as tivo remote,,,,,,,,21
+down arrow,022,,down arrow,18 - down arrow,same as tivo remote,,,,,,,,22
+left arrow,023,,left arrow,19 - left arrow,same as tivo remote,,,,,,,,23
+right arrow,021,,right arrow,20 - right arrow,same as tivo remote,,,,,,,,24
+select,025,,select,21 - select,same as tivo remote,,,,,,,,25
+sleep,,,,,no such key on Tivo remote,,,,,,,,
+pip on/off,,,,31 - thumb up,no such key on Tivo remote,,,,,,,,
+display,019,,,22 - display,info key,,,,,,,,
+pip swap,,,,32 - thumb down,thumbs down,,,,,,,,
+pip move,,,,16 - Live TV,,,,,,,,,
+play,033,,play,23 - play,same as tivo remote,,,,,,,,0C
+pause,035,,pause,24 - pause,same as tivo remote,,,,,,,,0F
+rewind,034,,rewind,25 - rewind,same as tivo remote,,,,,,,,0B
+fast fwd,036,,fast fwd,26 - fast fwd,same as tivo remote,,,,,,,,0D
+stop,037,,,27 - stop,same as tivo remote,,,,,,,,
+record,032,,record,28 - record,same as tivo remote,,,,,,,,10
+clear,050,,clear,29 - clear,exit key,,,,,,,,11
+surround,,,,14 - TiVo,,,,,,,,,
+input toggle,,,,,,,,,,,,,
+input select,,,,30 - instant replay,,,,,,,,,
+instant replay,038,,,,sleep,,,,,,,,
+thumb up,026,,,,pip key,,,,,,,,
+thumb down,024,,,,swap key,,,,,,,,
+jump / quick skip,039,,,,enter key,,,,,,,,
+slow,037,,,,,,,,,,,,
+list,070,,,,,,,,,,,,
+guide,054,,,,,,,,,,,,
+,,,slow,34 - slow,,,,,,,,,0E
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,replay,30 - instant replay,,,,,,,,,20
+,,,advance,33 - jump / quick skip,,,,,,,,,18
+,,,guide/live tv,36 - guide,,,,,,,,,03
+,,,thumbs up,31 - thumb up,,,,,,,,,13
+,,,thumbs down,32 - thumb down,,,,,,,,,14
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+TiVo support up to 9 different unit codes_ change the unit,,,,,,,,,,,,,
+code in the cell above (B7) to change the unit code.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+This code works with Philips and Hughes TiVos and DirecTiVos_,,,,,,,,,,,,,
+but it does NOT work with Sony TiVo_ there is a separate file,,,,,,,,,,,,,
+for the Sonys.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+This file was originally done by Rob Crow. It has been modified and,,,,,,,,,,,,,
+renamed because the button functions functions have been,,,,,,,,,,,,,
+modified somewhat for my personal preferences and I have added,,,,,,,,,,,,,
+descriptions of the Tivo remote buttons vs the 2116 buttons,,,,,,,,,,,,,
+Go to the Functions tab to see the explainations and descriptions.,,,,,,,,,,,,,
+The Tivo buttons are in the Functions column_The 2116 buttons,,,,,,,,,,,,,
+are in the description column. Original file Philips-Tivo.txt,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

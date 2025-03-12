@@ -1,0 +1,197 @@
+Name:,Toshiba-DVR-DR570KU(8910),,,,v9.21,,,,,,,,CURRENT DATA
+Devices:,NEC1,69,188,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,2028,27 = URC-9910 / 8910 / UEI HTPro,03 - VCR,OBC,USE,20 5D C2,1,No,,,,,
+URC-9910 / 8910 / UEI HTPro Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 17 EC (VCR/2028) Toshiba-DVR-DR570KU(8910) (KM v9.21),,,,,,,,,,,,,
+5A 03 3E FE FE CD 20 5D C2 87 07 B7 37 17 E6 A6 97 57 74 FC EC CC DC 77 DD 0F A5 B4 F4 4B 54 FE DE,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 30 F3 17 EC 35«Clear (multifunction)» ¦86 F3 17 EC 85«Zoom»¦B8 F3 17 EC C4«Repeat list menu»¦A0 F3 17 EC F2«HDMI video resolution(PicSize)» ¦B6 F3 17 EC B5«SETUP»  ¦8D F3 17 EC 25«Instant skip 30sec» ¦90 F3 17 EC 1A«Record Mode»  ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (S3C8+) NEC1 (KM v9.21),,,,,,,,,,,,,
+43 8B 31 8B 12 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 20 01 08 03 37 04 15 F6 01 46 FB 10 37 0B 07 E4 05 04 60 05 8B 0E B6 04 80 B6 05 80 37 0B 05 E4 04 05 60 05 E4 06 07 60 07 20 11 37 06 05 F6 01 04 7B 12 37 09 15 37 02 06 F6 01 49 F6 01 46 37 01 03 46 29 0D 46 29 01 8D 01 49 E4 20 1E E4 21 1F 37 01 EB F6 01 49 E6 28 C1 60 04 E6 12 01 8B E4,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,198,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+Toshiba DVR Power,018,,0,06 - 0 and Space,,Protocol ID,Fixed Data,,,,,,1F
+Open/Close,017,,1,07 - 1 and @/:,,,,,,,,,15
+Input select,015,,2,08 - 2/ABC,,,,,,,,,16
+HDMI video resolution(PicSize),176,,3,09 - 3/DEF,,,,,,,,,17
+ch+,030,,4,10 - 4/GHI,,,,,,,,,19
+ch-,031,,5,11 - 5/JKL,,,,,,,,,1A
+0 and Space,000,,6,12 - 6/MNO,can't select CD tracks by number,,,,,,,,1B
+1 and @/:,001,,7,13 - 7/PQRS,,,,,,,,,1C
+2/ABC,002,,8,14 - 8/TUV,,,,,,,,,1D
+3/DEF,003,,9,15 - 9/WXYZ,,,,,,,,,1E
+4/GHI,004,,vol up,,,,,,,,,,04
+5/JKL,005,,vol down,,,,,,,,,,05
+6/MNO,006,,mute,,,,,,,,,,08
+7/PQRS,007,,channel up,04 - ch+,,,,,,,,44 - Zoom,06
+8/TUV,008,,channel down,05 - ch-,,,,,,,,,07
+9/WXYZ,009,,power,00 - Toshiba DVR Power,,,,,,,,,03
+Dash for ch xx-x,045,,enter,16 - Dash for ch xx-x,,,,,,,,,18
+TimerProgram(record.menu),064,,tv/vid,02 - Input select,,,,,,,,03 - HDMI video resolution(PicSize),20
+DTV/TV(digital/analog),033,,prev,25 - Return,,,,,,,,41 - Repeat list menu,38
+SETUP,082,,menu,23 - Menu/List,,,,,,,,,14
+Display,090,,guide,22 - Top menu(title list),,,,,,,,19 - SETUP,36
+Audio menu/TV audio Lang,211,,up arrow,26 - up,,,,,,,,,31
+Top menu(title list),208,,down arrow,27 - down,,,,,,,,,32
+Menu/List,209,,left arrow,28 - left,,,,,,,,,33
+Clear (multifunction),083,,right arrow,29 - right,,,,,,,,,34
+Return,210,,select,30 - Enter in arrows array,,,,,,,,,35
+up,192,,sleep,24 - Clear (multifunction),,,,,,,,,30
+down,200,,pip,45 - +subtitle,,,,,,,,,3A
+left,204,,info,20 - Display,,,,,,,,,13
+right,196,,swap,,,,,,,,,,3C
+Enter in arrows array,068,,move,,,,,,,,,,3B
+Skip |<<,132,,play,36 - Play >,,,,,,,,,0C
+Rew <<,152,,pause,35 - Pause ||,,,,,,,,,0F
+Fwd >>,154,,rewind,32 - Rew <<,,,,,,,,,0B
+Skip >>|,128,,fwd,33 - Fwd >>,,,,,,,,40 - Instant skip 30sec,0D
+Pause ||,023,,stop,37 - stop,,,,,,,,,0E
+Play >,019,,record,43 - record,,,,,,,,42 - Record Mode,10
+Stop,022,,exit,01 - Open/Close,,,,,,,,,37
+Time slip,026,,,,,,,,,,,,
+1.3x/0.8x Play (|>),170,,,,,,,,,,,,
+Instant skip 30sec,091,,,,,,,,,,,,
+Repeat list menu,220,,,,,,,,,,,,
+Record Mode,167,,,,,,,,,,,,
+Record,021,,f fwd,34 - Skip >>|,,,,,,,,,2A
+Zoom,094,,f rew,31 - Skip |<<,,,,,,,,,29
+,,,,,from Rob's big file,,,,,,,,
++subtitle,213,,,,WORK !!!!,,,,,,,,
++slow fwd,136,,,,not working,,,,,,,,
++slow rev,140,,,39 - 1.3x/0.8x Play (|>),not working,,,,,,,,
++timeBar,218,,,,not working,,,,,,,,
+++10,013,,,,not working on CD tracks,,,,,,,,
++QuickMenu,069,,,,not working,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,3D
+,,,phantom2,,,,,,,,,,3E
+,,,phantom3,,,,,,,,,,3F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,light,,,,,,,,,,39
+,,,home theater,,,,,,,,,,24
+,,,M1,,,,,,,,,,2D
+,,,M2,,,,,,,,,,2E
+,,,M3,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,L1,,,,,,,,,,25
+,,,L2,,,,,,,,,,26
+,,,L3,,,,,,,,,,27
+,,,L4,,,,,,,,,,28
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,com/skip,,,,,,,,,,2B
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,21 - Audio menu/TV audio Lang,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+DVD recorder Toshiba-DR570KU,,,,,,,,,,,,,
+All remote SE-R0264 learned buttons,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+added few functions from Rob's file,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

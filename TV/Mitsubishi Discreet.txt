@@ -1,0 +1,53 @@
+Secret file from Mitsubishi's vault
+
+: Top Secret :
+
+
+Applicable Remote Controls and Televisions
+
+This document applies to the full size television remote controls introduced in 2006. The inputs specified below apply to the TVs that included these remotes. If a model does not have the specified input, or there is no connection to the specified input, the TV will not respond to the direct access signal. The 731 series TVs have a PC DVI-I input, however these models do not respond to the PC DVI-I access signal.
+
+Procedure to program the remote for special direct access functions:
+
+
+
+Set the Device Select Switch at the top to the TV position.
+Press and hold the POWER key until it flashes twice, then release the POWER key.
+Enter in sequence the code number 0,0,0,9,0. The POWER key will flash twice after the first 0 and then flash twice again after the final 0 to confirm a successful code entry.
+
+The following keys will change functions:
+POWER - Power ON only.
+STOP - Power OFF only.
+PAUSE - AV RESET (resets audio and video adjustments).
+
+INPUT followed by 1 - INPUT-1
+INPUT followed by 2 - INPUT-2
+INPUT followed by 3 - INPUT-3
+INPUT followed by 4 - HDMI 2
+INPUT followed by 5 - COMPONENT-1
+INPUT followed by 6 - COMPONENT-2
+INPUT followed by 7 - COMPONENT-3
+INPUT followed by 8 - ANT 2
+INPUT followed by 9 - ANT 1
+INPUT followed by F1 - HDMI 1
+INPUT followed by F3 - PC DVI-I Input (not available for 731 series)
+
+FORMAT followed by 1 - STANDARD screen format
+FORMAT followed by 2 - EXPAND screen format
+FORMAT followed by 3 - ZOOM screen format
+FORMAT followed by 4 - STRETCH screen format
+FORMAT followed by 5 - STRETCH PLUS screen format
+FORMAT followed by 6 - NARROW screen format
+FORMAT followed by 7 - WIDE EXPAND screen format
+
+IMPORTANT: When using this remote control as an original source remote control to program a "learning" remote control or Home Automation control system, the INPUT and FORMAT keys do not send signals. These buttons are simply used as a "switch" function to prepare the remote control to send the correct input or format signal when the number key or other specified key is pressed.
+
+IMPORTANT: This remote control was included with TVs that had Auto Input Sensing. Direct access to inputs that have not been connected and added to the active input list is not possible.
+
+Procedure to return the remote control to normal consumer functions:
+
+
+
+Set the Device Select Switch at the top to the TV position.
+Press and hold the POWER key until it flashes twice, then release the POWER key.
+Enter in sequence the code number 0,0,9,3,5. The POWER key will flash twice after the first 0 and then flash twice again after the final 5 to confirm a successful code entry.

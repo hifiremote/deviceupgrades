@@ -1,0 +1,36 @@
+Description=Ansio electric fan
+Remote.name=URC-3661
+Remote.signature=369102
+Notes=Upgrade protocol 0 \= 00 FF (S3C8+) NEC48 (no repeats) (PB v4.02)\n44 8C 21 8B 12 CF 4C 08 08 01 21 01 06 01 21 03\n31 D4 FD 11 A7 08 B7 E6 11 04 E4 05 06 60 06 E4\n05 07 E4 06 08 8D 01 46\nEnd
+SegmentFlags=255
+DeviceType=Cable
+DeviceIndex=1
+SetupCode=2000
+Protocol=00 FF
+Protocol.name=Manual Settings
+ProtocolParms=1 254
+FixedData=7F 80
+DevParms=Device 1\=0,Device 2\=0
+DeviceTranslator=Translator(lsb,comp,0) Translator(lsb,comp,1,8,8)
+CmdParms=OBC\=0
+CmdTranslator=Translator(lsb,comp,0)
+DefaultCmd=00
+CmdIndex=0
+FixedData=01 FE
+Code.S3C80=44 8C 21 8B 12 CF 4C 08 08 01 21 01 06 01 21 03 31 D4 FD 11 A7 08 B7 E6 11 04 E4 05 06 60 06 E4 05 07 E4 06 08 8D 01 46
+Function.0.name=Fan Speed
+Function.0.hex=1F
+Function.0.notes=1
+Function.1.name=Fan On/Off
+Function.1.hex=3F
+Function.1.notes=2
+Function.2.name=Timer
+Function.2.hex=2F
+Function.2.notes=3
+Function.3.name=Natural
+Function.3.hex=0F
+Function.3.notes=4
+Button.30=Fan Speed|null|null
+Button.31=Fan On/Off|null|null
+Button.32=Timer|null|null
+Button.33=Natural|null|null

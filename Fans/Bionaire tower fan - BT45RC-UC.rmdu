@@ -1,0 +1,34 @@
+Description=Bionaire tower fan
+Remote.name=URC-9910(New)
+Remote.signature=CPT0CPT0
+DeviceType=Cable
+DeviceIndex=6
+SetupCode=1999
+Protocol=01 91
+Protocol.name=PID 01 91
+ProtocolParms=27
+FixedData=d8
+DevParms=Device 1\=0
+DeviceTranslator=Translator(lsb,0)
+CmdParms=OBC
+CmdTranslator=Translator(lsb,0)
+DefaultCmd=00
+CmdIndex=0
+FixedData=00
+Code.S3C80=3d 92 11 8b 14 c5 11 06 06 02 79 00 c1 00 d5 02 65 34 e3 ff ff ff ff ff 03 8d 01 46
+Notes=Upgrade protocol 0 \= 01 91 (S3C8)\n3D 92 11 8B 14 C5 11 06 06 02 79 00 C1 00 D5 02\n65 34 E3 FF FF FF FF FF 03 8D 01 46\nEnd
+Function.0.name=Power Off
+Function.0.hex=04
+Function.1.name=Oscillate on/off
+Function.1.hex=40
+Function.2.name=Power On - Fan Speed
+Function.2.hex=08
+Function.3.name=Timer
+Function.3.hex=20
+Function.4.name=Breeze
+Function.4.hex=11
+Button.3=Power Off|null|null
+Button.25=Power On - Fan Speed|null|null
+Button.26=Timer|null|null
+Button.27=Breeze|null|null
+Button.28=Oscillate on/off|null|null

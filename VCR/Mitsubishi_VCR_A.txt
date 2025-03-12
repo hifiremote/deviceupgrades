@@ -1,0 +1,197 @@
+Name:,Mitsubishi VCR A,,,,v9.22,,,,,,,,CURRENT DATA
+Devices:,Mitsubishi,87,,,,,,,,,,,
+Manual:,,0 = 1-byte,0 = 1-byte,88,NO,,,,,,,,
+Setup:,0043,99 = RCA RCRP05B,03 - VCR,OBC,USE,15,1,No,,,,,
+RCA RCRP05B Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code2 0 = 20 2B (VCR/0043) Mitsubishi VCR A (KM v9.22),,,,,,,,,,,,,
+00 14 26 3E FE FE 92 86 45 15 AF B7 BF DF C7 CB DB D7 CF A3 B5 7D 6D 6D 7D 53 27 75 2F 97 8F E5 5B 33 53 ED 5F 13,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 14 (S3C8+) Mitsubishi (KM v9.22),,,,,,,,,,,,,
+47 A9 11 8B 0E C5 41 08 08 00 96 01 B8 00 96 04 1A 68 E2 E6 0D 03 8D 01 46,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,439,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 1,000,,0,09 - num 0,,Protocol ID,Fixed Data,,,,,,1F
+num 9,001,,1,00 - num 1,,,,,,,,,15
+power,002,,2,08 - num 2,,,,,,,,,16
+audio monitor (cycle),003,,3,14 - num 3,,,,,,,,,17
+play,004,,4,21 - num 4,,,,,,,,,19
+tv/vcr,005,,5,27 - num 5,,,,,,,,,1A
+jog dial fwd (no adjust),006,,6,32 - num 6,,,,,,,,,1B
+input (alt 1),007,,7,35 - num 7,,,,,,,,,1C
+num 2,008,,8,42 - num 8,,,,,,,,,1D
+num 0,009,,9,01 - num 9,,,,,,,,,1E
+channel up,010,,vol up,,,,,,,,,,04
+cancel,011,,vol down,,,,,,,,,,05
+record,012,,mute,,,,,,,,,,33
+,,,channel up,10 - channel up,,,,,,,,,06
+index +,014,,channel down,15 - channel down,,,,,,,,,07
+,,,power,02 - power,,,,,,,,,03
+num 3,016,,,,,,,,,,,,
+,,,,,,,,,,,,,
+channel down,018,,last,11 - cancel,,,,,,,,,08
+one key program,019,,menu,63 - menu,,,,,,,,,2E
+stop,020,,guide,37 - program,,,,,,,,,21
+input (alt 2),021,,up arrow,48 - adjust +,,,,,,,,,29
+index -,022,,down arrow,55 - adjust -,,,,,,,,,2A
+perfectape,023,,left arrow,55 - adjust -,,,,,,,,,2B
+num 4,024,,right arrow,48 - adjust +,,,,,,,,,2C
+,,,ok,39 - enter,,,,,,,,,2D
+input (alt 3),026,,,,,,,,,,,,
+display,027,,pip on/off,,,,,,,,,,38
+pause,028,,info,23 - display,,,,,,,,,13
+,,,pip swap,05 - tv/vcr,,,,,,,,,39
+audio dubbing (toggle),030,,pip move,,,,,,,,,,3A
+timer (toggle),031,,play,04 - play,,,,,,,,,0C
+num 5,032,,pause,24 - pause,,,,,,,,,0F
+,,,rewind,33 - rewind,,,,,,,,,0B
+,,,fast fwd,28 - fast fwd,,,,,,,,,0D
+,,,stop,17 - stop,,,,,,,,,0E
+fast fwd,036,,record,12 - record,,,,,,,,,10
+quick view,037,,exit,62 - menu exit,,,,,,,,,14
+video dub (toggle),038,,,,,,,,,,,,
+display (alt),039,,input,43 - input,,,,,,,,,30
+num 6,040,,dash,39 - enter,,,,,,,,,20
+,,,fav,29 - quick view,,,,,,,,,22
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+rewind,044,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+otr,047,,,,,,,,,,,,
+num 7,048,,,,,,,,,,,,
+reset vcr,049,,,,,,,,,,,,
+,,,,,,,,,,,,,
+program,051,,,,,,,,,,,,
+jog fwd (adj mode),052,,,,,,,,,,,,
+enter,053,,,,,,,,,,,,
+eject,054,,,,,,,,,,,,
+off timer start,055,,phantom1,,,,,,,,,,3F
+num 8,056,,phantomF1,,,,,,,,,,F1
+,,,phantomF2,,,,,,,,,,F2
+input,058,,,,,,,,,,,,
+,,,,,,,,,,,,,
+jog rev (adj mode),060,,,,,,,,,,,,
+,,,,,,,,,,,,,
+sp/ep,062,,,,,,,,,,,,
+cable/antenna,063,,,,,,,,,,,,
+video function (prev),064,,,,,,,,,,,,
+adjust +,065,,setup,,,,,,,,,,02
+power on (discrete),066,,,,,,,,,,,,
+play (stop jog/shuttle),067,,,,,,,,,,,,
+pause (shuttle dial),068,,macro1,,,,,,,,,,34
+scan fwd 6,069,,macro2,,,,,,,,,,36
+scan fwd 8,070,,on demand,,,,,,,,,,35
+,,,,,,,,,,,,,
+video function (next),072,,,,,,,,,,,,
+adjust -,073,,,,,,,,,,,,
+power off (discrete),074,,,,,,,,,,,,
+scan rev 1,075,,,,,,,,,,,,
+scan fwd 1,076,,pip channel up,,menu select,,,,,,,,3B
+scan rev 6,077,,pip channel down,,,,,,,,,,3C
+scan rev 7,078,,page up,,,,,,,,,,23
+,,,page down,,,,,,,,,,24
+audio function (prev),080,,day+,,,,,,,,,,31
+menu exit,081,,day-,,,,,,,,,,32
+menu,082,,A/yellow,68 - audio function (next),,,,,,,,,25
+scan rev 2,083,,B/blue,,,,,,,,,,26
+scan fwd 2,084,,C/red,,,,,,,,,,27
+scan fwd 7,085,,D/green,41 - off timer start,,,,,,,,,3D
+adjust on,086,,list,,,,,,,,,,28
+,,,skip back,19 - index -,,,,,,,,,37
+audio function (next),088,,skip fwd,13 - index +,,,,,,,,,3E
+,,,live,,,,,,,,,,2F
+,,,,,,,,,,,,,
+scan rev 3,091,,,,,,,,,,,,
+scan fwd 3,092,,,,,,,,,,,,
+scan rev 6 (alt),093,,aspect,54 - video function (next),,,,,,,,,18
+adjust off,094,,,,,,,,,,,,
+,,,,,,,,,,,,,
+audio l+r channels,096,,,,,,,,,,,,
+,,,,,,,,,,,,,
+line 1,098,,,,,,,,,,,,
+scan rev 4,099,,,,,,,,,,,,
+scan fwd 4,100,,,,,,,,,,,,
+scan fwd 9,101,,,,,,,,,,,,
+,,,CBL,,,,,,,,,,09
+,,,TV,,,,,,,,,,01
+audio left channel,104,,DVD,,,,,,,,,,0A
+,,,AUD,,,,,,,,,,11
+line 2,106,,(dev4),,,,,,,,,,12
+scan rev 5,107,,(dev5),,,,,,,,,,40
+scan fwd 5,108,,(dev6),,,,,,,,,,41
+scan rev 8,109,,DVR,,,,,,,,,,42
+,,,,,,,,,,,,,
+audio right channel,111,,,,,,,,,,,,
+audio right channel (alt),112,,,,,,,,,,,,
+,,,,,,,,,,,,,
+tracking auto,114,,,,,,,,,,,,
+jog reverse,115,,,,,,,,,,,,
+jog forward,116,,,,,,,,,,,,
+scan fwd 10,117,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+audio monitor mono,120,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fast rev jog,123,,,,ch down twice,,,,,,,,
+fast fwd jog,124,,,,ch up twice,,,,,,,,
+scan rev 9,125,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+"For VCR B (UEI 0173), add 128 to each OBC value.",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

@@ -1,0 +1,197 @@
+Name:,Foxtel Digital,,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,RC6-M-20n,0,0,6,,,,,,,,,
+Manual:,00 20,0 = 1-byte,MSB,00,NO,,,,,,,,
+Setup:,1847,27 = URC-9910 / 8910 / UEI HTPro,07 - SAT,OBC,USE,E0 00,1,No,,,,,
+URC-9910 / 8910 / UEI HTPro Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 77 37 (SAT/1847) Foxtel Digital (KM v9.19),,,,,,,,,,,,,
+20 12 36 FE 3E 41 E0 00 20 21 0C CB 58 59 5A 5B 5C 7D CC 83 84 7E F5 81 3C 80,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 25 F3 77 37 6D«red» ¦26 F3 77 37 6E«green»  ¦27 F3 77 37 6F«yellow» ¦28 F3 77 37 70«blue»¦3E F3 77 37 69«fav/scan»  ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 20 (S3C8+) RC6-M-20n (KM v9.19),,,,,,,,,,,,,
+40 9A 21 8B 13 87 85 00 08 04 00 DE 00 00 00 00 00 CA F1 38 05 35 01 A8 E4 03 2D E4 04 2E E4 05 2F 08 2D F6 FF 62 19 03 E6 04 03 08 2E F6 FF 62 19 05 F6 FF 62 19 06 08 2D F0 C0 F6 FF 62 19 07 08 2F F6 FF 62 19 08 F6 FF 62 19 09 2C 04 10 09 10 08 10 07 10 06 10 05 10 04 2A F2 E6 10 06 8D 01 46 2C 04 CF 10 C1 DF 10 C1 90 C0 FB 03 B6 C1 03 2A F1 AF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,198,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,000,,0,00 - num 0,,Protocol ID,Fixed Data,,,,,,1F
+num 1,001,,1,01 - num 1,,,,,,,,,15
+num 2,002,,2,02 - num 2,,,,,,,,,16
+num 3,003,,3,03 - num 3,,,,,,,,,17
+num 4,004,,4,04 - num 4,,,,,,,,,19
+num 5,005,,5,05 - num 5,,,,,,,,,1A
+num 6,006,,6,06 - num 6,,,,,,,,,1B
+num 7,007,,7,07 - num 7,,,,,,,,,1C
+num 8,008,,8,08 - num 8,,,,,,,,,1D
+num 9,009,,9,09 - num 9,,,,,,,,,1E
+vol up,,,vol up,,,,,,,,,,04
+vol down,,,vol down,,,,,,,,,,05
+mute,,,mute,,,,,,,,,,08
+channel up,032,,channel up,10 - channel up,,,,,,,,,06
+channel down,033,,channel down,11 - channel down,,,,,,,,,07
+power,012,,power,12 - power,,,,,,,,,03
+enter,,,enter,,,,,,,,,,18
+AV,132,,tv/vid,13 - AV,,,,,,,,,20
+Remote Battery Msg,071,,prev,,,,,,,,,,38
+Keyboard Battey Msg,072,,menu,32 - box office,,,,,,,,,14
+TV Guide,204,,guide,16 - TV Guide,,,,,,,,,36
+up arrow,088,,up arrow,17 - up arrow,,,,,,,,,31
+down arrow,089,,down arrow,18 - down arrow,,,,,,,,,32
+left arrow,090,,left arrow,19 - left arrow,,,,,,,,,33
+right arrow,091,,right arrow,20 - right arrow,,,,,,,,,34
+select,092,,select,21 - select,,,,,,,,,35
+sleep,,,sleep,,,,,,,,,,30
+Foxtel,128,,pip,,,,,,,,,,3A
+info,203,,info,23 - info,,,,,,,,,13
+red,109,,swap,,,,,,,,,,3C
+green,110,,move,,,,,,,,,,3B
+yellow,111,,play,33 - services,,,,,,,,,0C
+blue,112,,pause,34 - interactive,,,,,,,,,0F
+text,060,,rewind,29 - help,,,,,,,,,0B
+help,129,,fwd,28 - text,,,,,,,,,0D
+back,131,,stop,,,,,,,,,,0E
+record,,,record,22 - Foxtel,,,,,,,,,10
+exit,,,exit,30 - back,,,,,,,,,37
+surround,,,,,,,,,,,,,
+input toggle,,,,,,,,,,,,,
++100,,,,,,,,,,,,,
+fav/scan,105,,,,,,,,,,,,
+device button,,,,,,,,,,,,,
+next track,,,f fwd,,,,,,,,,,2A
+prev track,,,f rew,,,,,,,,,,29
+shift-left,,,,,,,,,,,,,
+shift-right,,,,,,,,,,,,,
+pip freeze,,,,,,,,,,,,,
+slow,,,,,,,,,,,,,
+eject,,,,,,,,,,,,,
+slow+,,,,,,,,,,,,,
+box office,125,,,,,,,,,,,,
+services,126,,,,,,,,,,,,
+interactive,245,,,,,,,,,,,,
+rear,,,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,3D
+,,,phantom2,31 - fav/scan,,,,,,,,,3E
+,,,phantom3,,,,,,,,,,3F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,light,,,,,,,,,,39
+,,,home theater,,,,,,,,,,24
+,,,M1,,,,,,,,,,2D
+,,,M2,,,,,,,,,,2E
+,,,M3,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,L1,24 - red,,,,,,,,,25
+,,,L2,25 - green,,,,,,,,,26
+,,,L3,26 - yellow,,,,,,,,,27
+,,,L4,27 - blue,,,,,,,,,28
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,com/skip,,,,,,,,,,2B
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Vol+ Vol- and mute are not allocated. On the OEM Sky remote these buttons normally use a,,,,,,,,,,,,,
+protocol linked to the TV the device is working with. Also bear in mind the same Sky remote controls all 5 different brands of Sky Digiboxes and on first installation the remote is usually set via tv/sat to work the basic controls on a nominated TV by the installer.,,,,,,,,,,,,,
+Use VPT in ir.exe to pick up the 3 sound controls from your tv or ,,,,,,,,,,,,,
+audio or amp or any sound system you are using.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

@@ -1,0 +1,197 @@
+Description=TV TCL R646_add+_\= ok TV TCL 50S446-CA_0446_URC-10820
+Remote.name=URC-10820
+Remote.signature=10631063
+Notes=TV TCL Model\:50S446-CA  - Google TV - Remote Control detected by tv as RC902N_M1 \n\n\n\nRemote came with a TCL R646 (2021 Series 6 Google TV) model.\n\nHowever remote is also listed as the same for the R545,R446 models.\ncorrects ettings button code and adds number codes\n\nThis is a 38kHz version of the standard RCA protocol.
+DeviceType=TV
+DeviceIndex=1
+SetupCode=446
+Protocol=00 91
+Protocol.name=RCA-38
+Protocol.variantName=JP1RCA
+ProtocolParms=15
+FixedData=FF
+Function.0.name=OPTIONS \= THREE LINES \= menu
+Function.0.hex=EC
+Function.0.notes=\= menu , exemple dans kodi
+Function.1.name=POWER
+Function.1.hex=2A
+Function.2.name=WATCHLIST
+Function.3.name=GOOGLE ASSISTANT \= mic
+Function.3.hex=5C
+Function.3.notes=\= donne remote pairing mode doc pas sure bon boutton
+Function.4.name=SETTINGS
+Function.4.hex=CF
+Function.5.name=UP
+Function.5.hex=59
+Function.6.name=DOWN
+Function.6.hex=58
+Function.7.name=LEFT
+Function.7.hex=56
+Function.8.name=RIGHT
+Function.8.hex=57
+Function.9.name=OK
+Function.9.hex=F4
+Function.10.name=BACK
+Function.10.hex=27
+Function.11.name=HOME
+Function.11.hex=08
+Function.12.name=TIVO \= TV Antenna
+Function.12.hex=1A
+Function.13.name=KEYBOARD
+Function.13.hex=CD
+Function.13.notes=\= keypad chiffres
+Function.14.name=OVERLAPPING SQUARES
+Function.14.hex=7C
+Function.14.notes=2 losange
+Function.15.name=RED TILES
+Function.15.hex=7F
+Function.15.notes=\= 3 carre rouge
+Function.16.name=NETFLIX
+Function.16.hex=EF
+Function.17.name=YOUTUBE
+Function.17.hex=E2
+Function.18.name=TCL CHANNEL
+Function.18.hex=E3
+Function.19.name=PRIME VIDEO
+Function.19.hex=C1
+Function.20.name=VOL +
+Function.20.hex=2F
+Function.20.notes=This code is received by the TV as the LED blinks however TV does not respond to it. Unknown function
+Function.21.name=VOL -
+Function.21.hex=2E
+Function.22.name=MUTE
+Function.22.hex=3F
+Function.23.name=
+Function.24.name=
+Function.25.name=
+Function.26.name=
+Function.27.name=Input \= added button
+Function.27.hex=A3
+Function.27.notes=scan de Sofabaton U1
+Function.28.name=BOOKMARK \= added button
+Function.28.hex=61
+Function.29.name=0 \= added button
+Function.29.hex=30 30
+Function.29.notes=
+Function.30.name=1 \= added button
+Function.30.hex=31 31
+Function.30.notes=
+Function.31.name=2 \= added button
+Function.31.hex=32 32
+Function.31.notes=
+Function.32.name=3 \= added button
+Function.32.hex=33 33
+Function.32.notes=
+Function.33.name=4 \= added button
+Function.33.hex=34 34
+Function.33.notes=
+Function.34.name=5 \= added button
+Function.34.hex=35 35
+Function.34.notes=
+Function.35.name=6 \= added button
+Function.35.hex=36 36
+Function.35.notes=
+Function.36.name=7 \= added button
+Function.36.hex=37 37
+Function.36.notes=
+Function.37.name=8 \= added button
+Function.37.hex=38 38
+Function.37.notes=
+Function.38.name=9 \= added button
+Function.38.hex=39
+Function.39.name=
+Function.40.name=
+Function.41.name=
+Function.42.name=
+Function.43.name=Clock1
+Function.43.hex=3E
+Function.43.notes=Activates screensaver and clock
+Function.44.name=Clock2
+Function.44.hex=10
+Function.44.notes=Activates screensaver and clock
+Function.45.name=Pairing1
+Function.45.hex=5B
+Function.45.notes=Triggers pairing app on TV
+Function.46.name=Pairing2
+Function.46.hex=4D
+Function.46.notes=Triggers pairing app on TV
+Function.47.name=Unknown 01
+Function.47.hex=E1
+Function.47.notes=This code is received by the TV as the LED blinks however TV does not respond to it. Unknown function
+Function.48.name=Unknown 02
+Function.48.hex=C3
+Function.48.notes=This code is received by the TV as the LED blinks however TV does not respond to it. Unknown function
+Function.49.name=Unknown 03
+Function.49.hex=22
+Function.49.notes=This code is received by the TV as the LED blinks however TV does not respond to it. Unknown function
+Function.50.name=\ unknow 04
+Function.50.hex=49
+Function.50.notes=This code is received by the TV as the LED blinks however TV does not respond to it. Unknown function
+Function.51.name=Unknown 05
+Function.51.hex=55
+Function.51.notes=This code is received by the TV as the LED blinks however TV does not respond to it. Unknown function
+Function.52.name=Unknown 06
+Function.52.hex=54
+Function.52.notes=This code is received by the TV as the LED blinks however TV does not respond to it. Unknown function
+Function.53.name=Unknown 07
+Function.53.hex=14
+Function.53.notes=This code is received by the TV as the LED blinks however TV does not respond to it. Unknown function
+Function.54.name=Unknown 08
+Function.54.hex=1B
+Function.54.notes=This code is received by the TV as the LED blinks however TV does not respond to it. Unknown function
+Function.55.name=Unknown 09
+Function.55.hex=64
+Function.55.notes=This code is received by the TV as the LED blinks however TV does not respond to it. Unknown function
+Function.56.name=Unknown 10
+Function.56.hex=47
+Function.56.notes=This code is received by the TV as the LED blinks however TV does not respond to it. Unknown function
+Button.1f=0 \= added button|null|null
+Button.15=1 \= added button|null|null
+Button.16=2 \= added button|null|null
+Button.17=3 \= added button|null|null
+Button.19=4 \= added button|null|null
+Button.1a=5 \= added button|null|null
+Button.1b=6 \= added button|null|null
+Button.1c=7 \= added button|null|null
+Button.1d=8 \= added button|null|null
+Button.1e=9 \= added button|null|null
+Button.4=VOL +|null|null
+Button.5=VOL -|null|null
+Button.8=MUTE|null|null
+Button.6=UP|null|null
+Button.7=DOWN|null|null
+Button.3=POWER|null|null
+Button.13=BACK|null|null
+Button.31=UP|null|null
+Button.32=DOWN|null|null
+Button.33=LEFT|null|null
+Button.34=RIGHT|null|null
+Button.35=OK|null|null
+Button.2c=SETTINGS|null|null
+Button.26=Unknown 09|null|null
+Button.2b=BACK|null|null
+Button.20=Input \= added button|null|null
+Button.27=OPTIONS \= THREE LINES \= menu|null|null
+Button.c=Unknown 01|null|null
+Button.f=Unknown 02|null|null
+Button.b=\ unknow 04|null|null
+Button.d=Unknown 05|null|null
+Button.e=Unknown 03|null|null
+Button.10=Unknown 08|null|null
+Button.12=OK|null|null
+Button.2d=Unknown 07|null|null
+Button.2e=Unknown 06|null|null
+Button.2f=HOME|null|null
+Button.38=PRIME VIDEO|null|null
+Button.30=OVERLAPPING SQUARES|null|null
+Button.28=GOOGLE ASSISTANT \= mic|null|null
+Button.14=NETFLIX|null|null
+Button.36=YOUTUBE|null|null
+Button.37=TCL CHANNEL|null|null
+Button.18=BOOKMARK \= added button|null|null
+Button.3c=KEYBOARD|null|null
+Button.3d=TIVO \= TV Antenna|null|null
+Button.3e=RED TILES|null|null
+Button.23=Clock1|null|null
+Button.24=Clock2|null|null
+Button.25=Unknown 10|null|null

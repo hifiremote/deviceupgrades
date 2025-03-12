@@ -1,0 +1,112 @@
+ReplayTV Protocols for Dynamic Unit Selection
+=============================================
+
+April 27, 2005 by Hal Takahara
+
+
+With these custom upgrade protocols, you can reuse a single ReplayTV
+device upgrade for multiple units of the same type by dynamically
+switching unit code (aka remote address) instead of having similar
+copies of device upgrade for every unit.
+
+
+An unused register of the remote control's processor is used to keep
+track of the current unit code, then you create key moves with the
+Advanced Select special protocol to change value of the register.
+
+I chose the register RBF in the examples below.  This is unused in
+most of the s3c8/s3c8+ based remotes with or without the extender.
+Any unused register can be used instead of RBF if there's a conflict.
+
+
+Device/Protocol Upgrade Setup
+-----------------------------
+
+1. Use your existing ReplayTV device upgrade using (Simple)/(Advanced)
+   or get one from the Device Codes folder in the Files section.
+
+2. Load it into KM. (RM may be used if Manual Settings is fully
+   supported already.)
+
+3. Specify the values as follows on the Setup tab:
+
+  Protocol Name: Manual Settings
+  Device1: (blank)
+  Device2: (blank)
+  Device3: (blank)
+  Raw Fixed Data: A9 35 55 65 05 50 BF
+
+    (The last byte is the register number for switching the unit code.
+     Change it accordingly if you chose other register.)
+
+  PID: (anything that does not conflict)
+
+  2nd Cmd Byte: None
+  Signal Style: MSB (or Signal (MSB): 0 = 1 byte)
+  Bits/Dev: 8
+  Bits/Cmd: 8
+
+  Notes / 3rd-Party Protocol Code:
+
+  (Simple)
+Upgrade protocol 0 = 00 40 (S3C8+) ReplayTV (Simple) Unit Sel
+ 47 93 71 8B 12 87 05 08 04 00 DE 00 00 00 00 00 
+ CA D4 44 05 35 01 A8 05 09 07 46 07 50 05 09 08 
+ 46 08 05 0C 0A 02 11 10 09 10 0A 10 C1 1E 10 09
+ 0A F3 19 0A 8D 01 46
+End
+
+  (Advanced)
+Upgrade protocol 0 = 01 45 (S3C8+) ReplayTV (Advanced) Unit Sel
+ 47 93 71 8B 12 87 04 08 04 00 DE 00 00 00 00 00 
+ CA D4 44 05 35 01 A8 05 09 07 46 07 50 05 09 08 
+ 46 08 05 58 0A 6C 26 37 5F 0F 37 5C 11 68 C5 5C
+ 9A 37 66 0A E6 0D 04 5C A1 37 5C 02 6C 27 0C 0A
+ 04 0A 0A 10 09 10 C5 10 0A 20 0A 10 09 0A F1 37
+ 52 07 F6 01 46 58 C6 8B E5 20 29 8D 01 46
+End
+
+
+4. Modify other settings such as Remote type, button assignments,
+   etc. as needed.
+
+5. Copy and paste the Device/Protocol upgrades into IR.exe.
+
+
+Creating Unit Code Selection Key Moves
+--------------------------------------
+
+6. Install the Advance Select special protocol shown below.  This is
+   the same as the one in the special protocols spreadsheet, so you
+   don't have to modify or install it again if you have already
+   installed it.
+
+   (You can change the Setup Code from TV/1105 to something else to
+   match other special protocols.)
+
+Upgrade code 0 = 1C 51 (TV/1105) Advanced Select (Special)
+ FA 00 01
+End
+
+Upgrade protocol 0 = 01 FA (S3C8+) Advanced Select (Special)
+ 00 00 02 F5 04 03 AF
+End
+
+
+7. Create the key moves.
+
+  Bound Key: (use Device/Key of your choice)
+  Device Type/Setup Code: TV/1105
+  Hex Cmd: $BF $XX
+
+   $XX: value for the unit code of your choice
+
+     0:00, 1:10,  2:40,  3:50,  4:01,  5:11,  6:41,  7:51,
+     8:04, 9:14, 10:44, 11:54, 12:05, 13:15, 14:45, 15:55
+
+Other Notes
+-----------
+
+ - Initial state of the current unit code is not guaranteed to be any
+   specific value.  Make sure to execute one of the unit code
+   selection key moves after resetting the remote.

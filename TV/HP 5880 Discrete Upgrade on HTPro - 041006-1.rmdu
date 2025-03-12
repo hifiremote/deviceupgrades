@@ -1,0 +1,11 @@
+Description=HP 5880 Discrete Codes - 3
+Remote.name=HTPro Extender 1
+Remote.signature=CPT0CPx1
+DeviceType=TV
+DeviceIndex=0
+SetupCode=1001
+Protocol=01 2a
+Protocol.name=MCE
+ProtocolParms=2 17
+FixedData=e2 80 11 02
+Notes=This is the upgrade for discrete and does not contain any functions.  I refer to this as the Discrete TV upgrade with setup code 1001 vs. teh Main TV upgrade with code 1000

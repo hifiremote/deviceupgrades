@@ -1,0 +1,197 @@
+Name:,Toshiba-LCD-TV-26C100U1(6131ext),,,,v9.21 beta,,,,,,,,CURRENT DATA
+Devices:,NEC1,64,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,2026,99 = URC-6131 PVR,01 - Cable,OBC,USE,00 FD FD,1,Yes,,,,,
+URC-6131 PVR Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 07 EA (Cable/2026) Toshiba-LCD-TV-26C100U1(6131ext) (KM v9.21 beta),,,,,,,,,,,,,
+5A 04 7E FE F0 1E 81 00 FD FD A7 87 F7 27 07 B7 FE DE 6E 17 0F E5 BE 3E 47 67 D5 AF 93 13 F3 53 D3 33 73,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 37 F3 07 EA 15«CCaption»  ¦3D F3 07 EA 81«DiscreteON: Only TV no related gear»  ¦9F F3 07 EA 43«input0-antena/cable: input menu 0» ¦95 F3 07 EA FB«input1-video: input menu 1»  ¦96 F3 07 EA 7B«input2-colorStreamHD: input menu 2 (dvd)»¦97 F3 07 EA BB«input3-hdmi1: input menu 3»  ¦99 F3 07 EA 3B«input4-hdmi2: input menu 4»  ¦9A F3 07 EA DB«input5-pc: input menu 5»  ¦A3 F3 07 EA 45«Fav list in ChBrowser» ¦A1 F3 07 EA E5«Exit menu» ¦94 F3 07 EA 4B«Pic Mode»  ¦98 F3 07 EA C7«Recall(displayTVstatusInfo)» ¦A4 F3 07 EA BD«Eject(open/close dvd tray): for HDMI-CEC DVD/DVR/CD» ¦BD F3 07 EA 01«DiscreteOFF: also turns off HDMI gear»,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (S3C8+) NEC1 (KM v9.21 beta),,,,,,,,,,,,,
+43 8B 31 8B 12 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 20 01 08 03 37 04 15 F6 01 46 FB 10 37 0B 07 E4 05 04 60 05 8B 0E B6 04 80 B6 05 80 37 0B 05 E4 04 05 60 05 E4 06 07 60 07 20 11 37 06 05 F6 01 04 7B 12 37 09 15 37 02 06 F6 01 49 F6 01 46 37 01 03 46 29 0D 46 29 01 8D 01 49 E4 20 1E E4 21 1F 37 01 EB F6 01 49 E6 28 C1 60 04 E6 12 01 8B E4,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,898,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,000,,0,00 - num 0,,Protocol ID,Fixed Data,,,,,44 - input0-antena/cable,1F
+num 1,001,,1,01 - num 1,,,,,,,,45 - input1-video,15
+num 2,002,,2,02 - num 2,,,,,,,,46 - input2-colorStreamHD,16
+num 3,003,,3,03 - num 3,,,,,,,,47 - input3-hdmi1,17
+num 4,004,,4,04 - num 4,,,,,,,,48 - input4-hdmi2,19
+num 5,005,,5,05 - num 5,,,,,,,,49 - input5-pc,1A
+num 6,006,,6,06 - num 6,,,,,,,,,1B
+num 7,007,,7,07 - num 7,,,,,,,,,1C
+num 8,008,,8,08 - num 8,,,,,,,,,1D
+num 9,009,,9,09 - num 9,,,,,,,,,1E
+ToshibaTv Power toggle,018,,vol up,18 - vol+,off includes HDMI devices,,,,,,,,04
+Input,015,,vol down,19 - vol-,,,,,,,,,05
+Sleep,021,,mute,20 - mute,,,,,,,,,08
+Freeze,076,,channel up,21 - ch+,,,,,,,,,06
+Pic Mode,045,,channel down,22 - ch-,,,,,,,,,07
+Pic Size cycle,084,,power,10 - ToshibaTv Power toggle,,,,,,,,,03
+Dash and 100,010,,enter,16 - Dash and 100,,,,,,,,,12
+Fav list in ChBrowser,093,,tv/vid,11 - Input,,,,,,,,,13
+vol+,026,,prev,25 - chRtn(PrevCh or PrevSource),,,,,,,,17 - Fav list in ChBrowser,23
+vol-,030,,menu,26 - menu,,,,,,,,28 - Exit menu,21
+Mute,016,,guide,15 - Pic Size cycle,,,,,,,,14 - Pic Mode,14
+ch+,027,,up arrow,29 - up,,,,,,,,,31
+ch-,031,,down arrow,30 - down,,,,,,,,,32
+Recall(displayTVstatusInfo),028,,left arrow,31 - left/Back CB chBrowserHistory,,,,,,,,,33
+CCaption,087,,right arrow,32 - right/Next CB chBrowserHistory,,,,,,,,,34
+chRtn(PrevCh or PrevSource),023,,select,33 - Enter in arrows array,,,,,,,,,35
+Menu,128,,angle/sleep,,several menus work as exit menu,,,,,,,,26
+Info,132,,pip,,,,,,,,,,2F
+Exit menu,088,,info,27 - Info,,,,,,,,23 - Recall(displayTVstatusInfo),18
+up,130,,swap,,,,,,,,,,20
+down,131,,move,,,,,,,,,,30
+left/Back CB chBrowserHistory,029,,play,36 - play,,,,,,,,,0C
+right/Next CB chBrowserHistory,025,,pause (yellow),35 - Pause/Step,,,,,,,,,0F
+Enter in arrows array,137,,rewind,39 - Rew/slow <<,,,,,,,,,0B
+Eject(open/close dvd tray),066,,fast fwd,40 - FF/slow >>,for HDMI-CEC  DVD/DVR/CD,,,,,,,,0D
+Pause/Step,053,,stop,37 - stop,for HDMI-CEC  DVD/DVR/CD,,,,,,,,0E
+Play,048,,record,,for HDMI-CEC  DVD/DVR/CD,,,,,,,,10
+Stop,049,,exit,28 - Exit menu,for HDMI-CEC  DVD/DVR/CD,,,,,,,34 - Eject(open/close dvd tray),24
+Skip back |<<,055,,,,for HDMI-CEC  DVD/DVR/CD,,,,,,,,
+Rew/slow <<,052,,,,for HDMI-CEC  DVD/DVR/CD,,,,,,,,
+FF/slow >>,051,,,,for HDMI-CEC  DVD/DVR/CD,,,,,,,,
+Skip Fwd >>|,054,,,,for HDMI-CEC  DVD/DVR/CD,,,,,,,,
+,,,,,,,,,,,,,
+-----discretes,,,next track,41 - Skip Fwd >>|,,,,,,,,,2B
+DiscreteON,126,,prev track,38 - Skip back |<<,Only TV no related gear,,,,,,,,2A
+DiscreteOFF,127,,,,also turns off HDMI gear,,,,,,,,
+input0-antena/cable,061,,,,input menu 0,,,,,,,,
+input1-video,032,,,,input menu 1,,,,,,,,
+input2-colorStreamHD,033,,slow,,input menu 2 (dvd),,,,,,,,2E
+input3-hdmi1,034,,,,input menu 3,,,,,,,,
+input4-hdmi2,035,,,,input menu 4,,,,,,,,
+input5-pc,036,,,,input menu 5,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,phantom1,42 - DiscreteON,,,,,,,,43 - DiscreteOFF,3D
+,,,phantom2,,,,,,,,,,3E
+,,,phantom3,,,,,,,,,,3F
+,,,phantom4,,,,,,,,,,40
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,subtitle,,,,,,,,,,25
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,PVR menu (blue),,,,,,,,,,36
+,,,replay,,,,,,,,,,27
+,,,advance,,,,,,,,,,29
+,,,,,,,,,,,,,
+,,,thumbs up (green),,,,,,,,,,2C
+,,,thumbs down (red),,,,,,,,,,2D
+,,,audio/CC,24 - CCaption,,,,,,,,,37
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Toshiba LCD TV 19C100U,,,,,,,,,,,,,
+from Widget/IRscope captures,,,,,,,,,,,,,
+"Remote is 90325 also used on 26C100U1, 32C100U1",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Few discretes work also: discrete on/off and inputs,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

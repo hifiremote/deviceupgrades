@@ -1,0 +1,36 @@
+Description=Balboa SPA
+Remote.name=RS 15-2116
+Remote.signature=RSL1RSL1
+Notes=Upgrade protocol 0 \= 01 7B (S3C8+) PB v4.02\n42 89 01 8B 14 94 54 00 08 01 F4 03 D4 01 F4 01\nE0 09 B0 08 CA 04 CE 00 03 8D 01 46\nEnd
+DeviceType=Tuner
+DeviceIndex=a
+SetupCode=1315
+Protocol=01 7B
+Protocol.name=Manual Settings
+FixedData=
+CmdParms=OBC
+CmdTranslator=Translator(lsb,0)
+DefaultCmd=00
+CmdIndex=0
+FixedData=
+Code.S3C80=42 89 01 8B 14 94 54 00 08 01 F4 03 D4 01 F4 01 E0 09 B0 08 CA 04 CE 00 03 8D 01 46
+ExtraData=00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Notes=Upgrade protocol 0 \= 01 7B (S3C8+) PB v4.02\n42 89 01 8B 14 94 54 00 08 01 F4 03 D4 01 F4 01\nE0 09 B0 08 CA 04 CE 00 03 8D 01 46\nEnd
+Function.0.name=PUMP3
+Function.0.hex=C0
+Function.1.name=BLOWER
+Function.1.hex=20
+Function.2.name=LIGHT
+Function.2.hex=A0
+Function.3.name=OPT2
+Function.3.hex=60
+Function.4.name=FIBER
+Function.4.hex=E0
+Function.5.name=OPT1
+Function.5.hex=10
+Button.15=PUMP3|null|null
+Button.16=BLOWER|null|null
+Button.17=FIBER|null|null
+Button.19=LIGHT|null|null
+Button.1a=OPT1|null|null
+Button.1b=OPT2|null|null

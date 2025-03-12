@@ -1,0 +1,7 @@
+Alternate Devices for Panasonic DVD's and DVD-R's
+
+There are three device codes that can be used in some Panasonic DVD's and DVD-R's
+
+DVD1 Panasonic 176.0 (default)  also UEIC setup codes DVD_0632 or DVD_0490
+DVD2 Panasonic 176.16
+DVD3 Panasonic 176.32

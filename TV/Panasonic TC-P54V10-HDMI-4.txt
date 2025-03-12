@@ -1,0 +1,197 @@
+Name:,Panasonic TC-P54V10,,,,v9.18,,,,,,,,CURRENT DATA
+Devices:,Panasonic Combo2,128,0,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1250,24 = URC-881x / 801x / 601x,02 - TV,EFC,USE,BF FB FE FF,2,No,,,,,
+URC-881x / 801x / 601x Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 04 E2 (TV/1250) Panasonic TC-P54V10 (KM v9.18),,,,,,,,,,,,,
+42 00 FE FE FD BF FB FE FF 67 FF F7 FF 77 FF B7 FF 37 FF D7 FF 57 FF 97 FF 17 FF E7 FF FB FF 7B FF B3 FF D3 FF 53 FF 43 FF 2D FF D4 FF 8A 6F 8D FF B5 FF 0D FF 6D FF AD FF 63 FF 13 FF 13 FF 5F FF 0F FF 46 FF F4 6F 84 DF,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 0C F4 04 E2 08 FF«Viera Tools»  ¦2C F4 04 E2 F1 FF«Color Button - Red» ¦2D F4 04 E2 71 FF«Color Button - Green»  ¦2E F4 04 E2 31 FF«Color Button - Blue»¦2F F4 04 E2 B1 FF«Color Button - Yellow» ¦3D F4 04 E2 83 FF«Discrete Power On»  ¦3E F4 04 E2 03 FF«Discrete Power Off» ¦02 F4 04 E2 1A 6F«Sub Menu»  ¦9F F4 04 E2 A1 FF«Discrete Input - PC (0)»  ¦96 F4 04 E2 7F FF«Discrete Input - Composite 1 (2)»  ¦97 F4 04 E2 BF FF«Discrete Input - Composite 2 (3)»  ¦99 F4 04 E2 F2 DF«Discrete Input - HDMI 1 (4)» ¦9A F4 04 E2 72 DF«Discrete Input - HDMI 2 (5)» ¦9B F4 04 E2 B2 DF«Discrete Input - HDMI 3 (6)» ¦9C F4 04 E2 32 DF«Discrete Input - HDMI 4 (7): New for 2009»  ¦9D F4 04 E2 C1 DF«Discrete Input - Component 1 (8)»  ¦9E F4 04 E2 41 DF«Discrete Input - Component 2 (9)»  ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 42 (S3C8+) Panasonic Combo2 (KM v9.18),,,,,,,,,,,,,
+45 91 42 8B 12 8F 44 08 08 00 DA 00 C6 00 DA 02 7B 90 C9 06 D0 03 54 E6 0C E8 08 08 09 06 08 05 B4 06 C0 B4 07 C0 09 08 F6 01 46 F6 01 0A FB 0D 00 0C EB F4 C6 3E 00 00 B0 4A F6 01 0A AF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,230,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fEFC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+Return,108,0,0,21 - 0,,Protocol ID,Fixed Data,,,,,26 - Discrete Input - PC (0),1F
+Menu,103,0,1,12 - 1,,,,,,,,,15
+Sleep,058,0,2,13 - 2,,,,,,,,23 - Discrete Input - Composite 1 (2),16
+Power,024,0,3,14 - 3,,,,,,,,24 - Discrete Input - Composite 2 (3),17
+VOL+,213,0,4,15 - 4,,,,,,,,27 - Discrete Input - HDMI 1 (4),19
+VOL-,217,0,5,16 - 5,,,,,,,,28 - Discrete Input - HDMI 2 (5),1A
+Mute,151,0,6,17 - 6,,,,,,,,29 - Discrete Input - HDMI 3 (6),1B
+Up,039,0,7,18 - 7,,,,,,,,55 - Discrete Input - HDMI 4 (7),1C
+Down,043,0,8,19 - 8,,,,,,,,30 - Discrete Input - Component 1 (8),1D
+Left,038,0,9,20 - 9,,,,,,,,31 - Discrete Input - Component 2 (9),1E
+Right,042,0,vol up,04 - VOL+,,,,,,,,,04
+Input,184,0,vol down,05 - VOL-,,,,,,,,,05
+1,117,0,mute,06 - Mute,,,,,,,,,08
+2,121,0,channel up,33 - CH+,,,,,,,,,06
+3,119,0,channel down,34 - CH-,,,,,,,,,07
+4,123,0,power,03 - Power,,,,,,,,,03
+5,116,0,enter,53 - Last (*),,,,,,,,,12
+6,120,0,tv/vid,11 - Input,,,,,,,,,13
+7,118,0,prev,53 - Last (*),,,,,,,,,23
+8,122,0,menu,01 - Menu,,,,,,,,,21
+9,245,0,guide,51 - Favorite,,,,,,,,,14
+0,249,0,up arrow,07 - Up,,,,,,,,,31
+Format,238,4,down arrow,08 - Down,Cycle Aspect Ratio,,,,,,,,32
+Discrete Input - Composite 1 (2),185,0,left arrow,09 - Left,,,,,,,,,33
+Discrete Input - Composite 2 (3),183,0,right arrow,10 - Right,,,,,,,,,34
+Discrete Input - Not used,187,0,select,44 - Select,,,,,,,,,35
+Discrete Input - PC (0),007,0,sleep,02 - Sleep,,,,,,,,,22
+Discrete Input - HDMI 1 (4),157,4,pip,45 - CC,,,,,,,,,3B
+Discrete Input - HDMI 2 (5),161,4,info,37 - Info,,,,,,,,,18
+Discrete Input - HDMI 3 (6),159,4,swap,22 - Format,,,,,,,,,20
+Discrete Input - Component 1 (8),004,4,move,52 - Dash- (#),,,,,,,,,3C
+Discrete Input - Component 2 (9),008,4,play,49 - Viera Tools,,,,,,,,,0C
+Discrete Power On,022,0,pause,,,,,,,,,,0F
+CH+,148,0,rewind,,,,,,,,,,0B
+CH-,152,0,fwd,,,,,,,,,,0D
+Self Check,018,0,stop,,THIS WILL RESET YOUR TV!,,,,,,,,0E
+Discrete Power Off,026,0,record,,,,,,,,,,10
+Info,025,0,exit,00 - Return,Info/Display,,,,,,,,24
+Color Button - Red,133,0,,,,,,,,,,,
+Color Button - Green,137,0,,,,,,,,,,,
+Color Button - Blue,139,0,,,,,,,,,,,
+Color Button - Yellow,135,0,,,,,,,,,,,
+Exit,255,9,,,,,,,,,,,
+SDHC Reader,099,9,f fwd,,,,,,,,,,2B
+Select,041,0,f rew,,,,,,,,,,2A
+CC,000,0,,,,,,,,,,,
+SAP,155,0,,,,,,,,,,,
+Viera Link,161,9,,,,,,,,,,,
+Viera Cast,131,9,,,,,,,,,,,
+Viera Tools,082,0,,,,,,,,,,,
+Sub Menu,226,9,,,,,,,,,,,
+Favorite,094,9,,,Favorite Channel,,,,,,,,
+Dash- (#),109,9,,,Sub-Channel Dash,,,,,,,,
+Last (*),154,0,,,Last Channel,,,,,,,,
+TUning,068,0,,,,,,,,,,,
+Discrete Input - HDMI 4 (7),163,4,phantom1,32 - Discrete Power On,New for 2009,,,,,,,,3D
+,,,phantom2,36 - Discrete Power Off,,,,,,,,,3E
+,,,phantom3,,,,,,,,,,3F
+,,,phantom4,,,,,,,,,,40
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,50 - Sub Menu,,,,,,,,,02
+,,,light,,,,,,,,,,39
+,,,home theater,,,,,,,,,,38
+,,,M1,38 - Color Button - Red,,,,,,,,,2C
+,,,M2,39 - Color Button - Green,,,,,,,,,2D
+,,,M3,40 - Color Button - Blue,,,,,,,,,2E
+,,,M4,41 - Color Button - Yellow,,,,,,,,,2F
+,,,L1,,,,,,,,,,25
+,,,L2,,,,,,,,,,26
+,,,L3,,,,,,,,,,27
+,,,L4,,,,,,,,,,28
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Added HDMI 4,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

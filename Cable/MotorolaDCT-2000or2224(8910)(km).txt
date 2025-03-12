@@ -1,0 +1,197 @@
+Name:,MotorolaDCT-2000or2224,,,,v9.17,,,,,,,,CURRENT DATA
+Devices:,GI Cable,,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,08,NO,,,,,,,,
+Setup:,1460,27 = URC-9910 / 8910 / UEI HTPro,01 - Cable,OBC,USE,,1,No,,,,,
+URC-9910 / 8910 / UEI HTPro Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 65 B4 (Cable/1460) MotorolaDCT-2000or2224 (KM v9.17),,,,,,,,,,,,,
+C4 05 7E FE FE F3 B0 70 F0 D0 30 50 C8 CC 2C AC 6C EC 88 98 0C 48 B8 78 28 D8 F8 9C 1C 38 8C 02 68 C4,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 25 F3 65 B4 58«OnDemand»  ¦28 F3 65 B4 4C«Help»¦B8 F3 65 B4 3C«Replay» ¦94 F3 65 B4 A8«FAV on CBL»¦B6 F3 65 B4 7C«LIVE»¦93 F3 65 B4 BC«MyDVR»  ¦B1 F3 65 B4 5C«Page up»¦B2 F3 65 B4 DC«Page down» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 C4 (S3C8+) GI Cable (KM v9.17),,,,,,,,,,,,,
+43 8B 01 8B 12 CC 4D 00 08 00 FA 08 B6 00 FA 04 51 C3 3C 11 94 08 B6 20 11 08 03 F6 FF 36 08 04 F0 C0 56 C0 F0 04 04 C0 60 C0 56 C0 F0 06 C0 10 F6 FF 36 8D 01 46 1C 08 C0 C0 10 04 1A FA AF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,198,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+AUX,,,0,33 - num0,"device button, no OBC",Protocol ID,Fixed Data,,,,,,1F
+TV/VCR(orAMPinputs),,,1,34 - num1,"device button, no OBC",,,,,,,,15
+CABLE,,,2,35 - num2,"device button, no OBC",,,,,,,,16
+POWER,010,,3,36 - num3,,,,,,,,,17
+Setup,,,4,37 - num4,no OBC,,,,,,,,19
+ALL ON macro key,,,5,38 - num5,"macro, no OBC",,,,,,,,1A
+OnDemand,026,,6,39 - num6,,,,,,,,,1B
+REW <<,030,,7,40 - num7,,,,,,,,,1C
+Play >,027,,8,41 - num8,"SKP=play, DKP=Adv.Listing by Day",,,,,,,,1D
+FF >>,029,,9,42 - num9,,,,,,,,,1E
+Stop,028,,vol up,27 - Vol+,,,,,,,,,04
+PAUSE ||,031,,vol down,28 - Vol-,,,,,,,,,05
+RECORD,049,,mute,29 - mute,,,,,,,,,08
+Replay,060,,channel up,31 - Ch+,,,,,,,,,06
+MyDVR,061,,channel down,32 - Ch-,,,,,,,,,07
+LIVE,062,,power,00 - power,,,,,,,,,03
+A and Lock,022,,enter,44 - Enter and HD zoom/aspect,,,,,,,,,18
+B and Day-,057,,tv/vid,43 - TV/VCR(TV or AMP inputs),day- code obc40 is wrong,,,,,,,,20
+C and Day+,056,,prev,26 - Last ch or menu,day+ code obc39 is wrong,,,,,,,08 - Replay,38
+Page up,058,,menu,23 - menu,,,,,,,,30 - FAV on CBL,14
+Page down,059,,guide,21 - guide,,,,,,,,10 - LIVE,36
+UP,052,,up arrow,16 - UP,,,,,,,,14 - Page up,31
+DOWN,053,,down arrow,17 - DOWN,,,,,,,,15 - Page down,32
+LEFT,054,,left arrow,18 - LEFT,,,,,,,,,33
+RIGHT,055,,right arrow,19 - RIGHT,,,,,,,,,34
+OK/Select,017,,select,20 - ok/select,,,,,,,,,35
+Guide,048,,sleep,11 - A and Lock,,,,,,,,,30
+Info,051,,pip,,"DKP while watch,SKP in menu",,,,,,,,3A
+Menu,025,,info,22 - Info,,,,,,,,09 - MyDVR,13
+Exit,018,,swap,45 - PinP swap,menus or reminders,,,,,,,,3C
+Help,050,,move,,,,,,,,,,3B
+Last ch or menu,019,,play,03 - Play >,,,,,,,,,0C
+Vol+,013,,pause,06 - PAUSE ||,,,,,,,,,0F
+Vol-,014,,rewind,12 - B and Day-,,,,,,,,,0B
+Mute,015,,fwd,13 - C and Day+,,,,,,,,,0D
+FAV on CBL,021,,stop,05 - stop,,,,,,,,,0E
+Ch+,011,,record,07 - record,,,,,,,,,10
+Ch-,012,,exit,24 - exit,,,,,,,,,37
+num0,000,,,,,,,,,,,,
+num1,001,,,,,,,,,,,,
+num2,002,,,,,,,,,,,,
+num3,003,,,,,,,,,,,,
+num4,004,,,,,,,,,,,,
+num5,005,,f fwd,04 - FF >>,,,,,,,,,2A
+num6,006,,f rew,02 - REW <<,,,,,,,,,29
+num7,007,,,,,,,,,,,,
+num8,008,,,,,,,,,,,,
+num9,009,,,,,,,,,,,,
+TV/VCR(TV or AMP inputs),020,,,,TV or AMP inputs,,,,,,,,
+Enter and HD zoom/aspect,064,,,,,,,,,,,,
+PinP on-off,,,,,no OBC,,,,,,,,
+PinP swap,035,,,,,,,,,,,,
+PinP move,,,,,no OBC,,,,,,,,
+PinP ch+,,,,,no OBC,,,,,,,,
+PinP ch-,,,,,no OBC,,,,,,,,
+,,,phantom1,,,,,,,,,,3D
+,,,phantom2,,,,,,,,,,3E
+,,,phantom3,,,,,,,,,,3F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,light,,,,,,,,,,39
+,,,home theater,,,,,,,,,,24
+,,,M1,,,,,,,,,,2D
+,,,M2,,,,,,,,,,2E
+,,,M3,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,L1,01 - OnDemand,,,,,,,,,25
+,,,L2,,,,,,,,,,26
+,,,L3,,,,,,,,,,27
+,,,L4,25 - Help,,,,,,,,,28
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,14 - page up,,,,,,,,,
+,,,,15 - page down,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,08 - replay,,,,,,,,,
+,,,com/skip,,,,,,,,,,2B
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Comcast - Motorola DCT 2000/2224,,,,,,,,,,,,,
+Comast Custom DVR 3 device remote M1067BX3,,,,,,,,,,,,,
+8/20/09 egd,,,,,,,,,,,,,
+"All functions from learning by Widget, arranged in the top to",,,,,,,,,,,,,
+bottom view of the remote.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

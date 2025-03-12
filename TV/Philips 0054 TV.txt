@@ -1,0 +1,12 @@
+TV_0054 - Philips Matchline
+
+These codes work with the Philips 55PP9502 and should work with most late model Philips TVs using code 0054
+
+018 Discrete On
+082 Discrete Off
+037 Discrete AV1
+170 Discrete AV2
+202 Discrete AV3
+037 Discrete AV4
+210 Discrete CVI
+013 Discrete TV Tuner

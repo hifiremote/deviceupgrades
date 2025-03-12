@@ -1,0 +1,197 @@
+Name:,LG DVD master,,,,v9.16,,,,,,,,CURRENT DATA
+Devices:,NECx1,45,45,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,0591,99 = URC-6131 PVR,06 - DVD,OBC,USE,30 4B 4B,1,No,,,,,
+URC-6131 PVR Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 22 4F (DVD/0591) LG DVD master (KM v9.16),,,,,,,,,,,,,
+5A 00 BE FE FE FE 99 30 4B 4B DD 23 C3 43 83 03 FD 7D BD 3D 18 E8 F3 73 E3 B3 33 63 92 F2 A3 2D 9D 1D ED 65 A5 AD E5 5D F5 85 D3 53 13 0D CD 19 51 91,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 2F F4 22 4F 00 EA«PIP» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (S3C8+) NECx1 (KM v9.16),,,,,,,,,,,,,
+43 8B 31 8B 12 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 20 01 08 03 37 04 15 F6 01 46 FB 10 37 0B 07 E4 05 04 60 05 8B 0E B6 04 80 B6 05 80 37 0B 05 E4 04 05 60 05 E4 06 07 60 07 20 11 37 06 05 F6 01 04 7B 12 37 09 15 37 02 06 F6 01 49 F6 01 46 37 01 03 46 29 0D 46 29 01 8D 01 49 E4 20 1E E4 21 1F 37 01 EB F6 01 49 E6 28 C1 60 04 E6 12 01 8B E4,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,226,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,068,,0,00 - num 0,,Protocol ID,Fixed Data,,,,,,1F
+num 1,059,,1,01 - num 1,,,,,,,,,15
+num 2,060,,2,02 - num 2,,,,,,,,,16
+num 3,061,,3,03 - num 3,,,,,,,,,17
+num 4,062,,4,04 - num 4,,,,,,,,,19
+num 5,063,,5,05 - num 5,,,,,,,,,1A
+num 6,064,,6,06 - num 6,,,,,,,,,1B
+num 7,065,,7,07 - num 7,,,,,,,,,1C
+num 8,066,,8,08 - num 8,,,,,,,,,1D
+num 9,067,,9,09 - num 9,,,,,,,,,1E
+* (star),094,,vol up,,,,,,,,,,04
+A-B repeat,085,,vol down,,,,,,,,,,05
+Angle,076,,mute,,,,,,,,,,08
+Audio,079,,channel up,80 - ch+,,,,,,,,,06
+chapter add,187,,channel down,81 - ch-,,,,,,,,,07
+Clear,070,,power,38 - power toggle,,,,,,,,,03
+Disk Menu/List,075,,enter,10 - * (star),,,,,,,,,12
+Display,058,,tv/vid,29 - input,,,,,,,,,13
+DOWN arrow,072,,prev,46 - Return/TV input,,,,,,,,,23
+DVD MODE,241,,menu,16 - Disk Menu/List,,,,,,,,,21
+Eject,054,,guide,66 - Title/Info,,,,,,,,,14
+fast fwd,051,,up arrow,68 - up arrow,one key press,,,,,,,,31
+Fwd 100x,159,,down arrow,18 - down arrow,must hold down,,,,,,,,32
+Fwd 16x,157,,left arrow,30 - left arrow,must hold down,,,,,,,,33
+Fwd 2x,153,,right arrow,52 - right arrow,must hold down,,,,,,,,34
+Fwd 4x,155,,select,53 - select/enter,must hold down,,,,,,,,35
+HDD MODE,242,,angle/sleep,12 - Angle,,,,,,,,,26
+home,103,,pip,34 - PIP,,,,,,,,,2F
+I.skip,181,,info,17 - Display,,,,,,,,,18
+input,176,,swap,,av,,,,,,,,20
+LEFT arrow,089,,move,,,,,,,,,,30
+Marker,097,,play,35 - play,,,,,,,,,0C
+Marker-search,098,,pause (yellow),33 - Pause,,,,,,,,,0F
+Pause,056,,rewind,51 - rewind,,,,,,,,,0B
+PIP,095,,fast fwd,21 - fast fwd,,,,,,,,,0D
+Play,049,,stop,61 - Stop,,,,,,,,,0E
+power OFF,118,,record,41 - record,,,,,,,,,10
+power ON,117,,exit,15 - Clear,,,,,,,,,24
+power toggle,048,,,,,,,,,,,,
+Program,087,,,,,,,,,,,,
+Random,081,,,,,,,,,,,,
+record,182,,,,,,,,,,,,
+record mode,184,,,,,,,,,,,,
+Repeat (play mode),083,,next track,57 - skip+,,,,,,,,,2B
+Repeat -10 (dash),102,,prev track,56 - skip-,,,,,,,,,2A
+Repeat Learning,092,,,,,,,,,,,,
+Return/TV input,069,,,,,,,,,,,,
+Rew 100x,145,,,,must hold down,,,,,,,,
+Rew 16x,146,,slow,58 - Slow Fwd 1/16x,must hold down,,,,,,,,2E
+Rew 2x,150,,,,must hold down,,,,,,,,
+Rew 4x,149,,,,must hold down,,,,,,,,
+rewind,050,,,,one key press,,,,,,,,
+RIGHT arrow,090,,,,,,,,,,,,
+select/enter,088,,,,,,,,,,,,
+Setup,086,,,,,,,,,,,,
+show view,188,,phantom1,,,,,,,,,,3D
+skip-,053,,phantom2,,,,,,,,,,3E
+skip+,052,,phantom3,,,,,,,,,,3F
+Slow Fwd 1/16x,055,,phantom4,,,,,,,,,,40
+Slow Rev 1/16x,096,,,,,,,,,,,,
+Sound-mode,099,,,,,,,,,,,,
+Stop,057,,,,,,,,,,,,
+Subtitle,080,,,,,,,,,,,,
+thumbnail,186,,,,,,,,,,,,
+time shift,185,,,,,,,,,,,,
+timer record,183,,setup,,,,,,,,,,02
+Title/Info,074,,,,,,,,,,,,
+tv/dvd,190,,,,,,,,,,,,
+UP arrow,071,,,,,,,,,,,,
+Upconversion (dubbing),104,,,,,,,,,,,,
+VCR MODE,243,,,,,,,,,,,,
+Zoom,100,,,,,,,,,,,,
+,,,subtitle,62 - Subtitle,,,,,,,,,25
+Z: CPRM DATA READ/SAVE,224,,,,Service menu: Write info without confirmation!!!,,,,,,,,
+Z: Factory Reset !!!,223,,,,Service menu: reset all incl region to 1,,,,,,,,
+Z: Mp1,222,,,,Service menu: ???,,,,,,,,
+Z: INTERLACE/PROG SCAN,226,,,,Service menu: Black screen if TV not compatible!,,,,,,,,
+Z: TECHNICAL MENU,225,,,,Service menu: Reset after exit! Don't touch!,,,,,,,,
+Z: service menu,229,,,,Service menu: ???,,,,,,,,
+,,,,,,,,,,,,,
+repeat,211,,,,,,,,,,,,
+service menu,229,,,,,,,,,,,,
+ch+,231,,,,,,,,,,,,
+ch-,232,,,,,,,,,,,,
+play DVD,233,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,PVR menu (blue),27 - home,,,,,,,,,36
+,,,replay,,,,,,,,,,27
+,,,advance,,,,,,,,,,29
+,,,,,,,,,,,,,
+,,,thumbs up (green),37 - power ON,,,,,,,,,2C
+,,,thumbs down (red),36 - power OFF,,,,,,,,,2D
+,,,audio/CC,13 - Audio,,,,,,,,,37
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Compiled from several LG upgrade files,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

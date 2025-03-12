@@ -1,0 +1,197 @@
+Name:,NEC Plasma 50XM4,,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,NEC1 Combo (Official),24,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1056,27 = URC-9910 / 8910 / UEI HTPro,02 - TV,EFC,USE,E7,2,No,,,,,
+URC-9910 / 8910 / UEI HTPro Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 04 20 (TV/1056) NEC Plasma 50XM4 (KM v9.19),,,,,,,,,,,,,
+B6 00 DC FE F5 E7 E7 B6 18 55 18 95 18 15 E7 28 E7 C4 E7 FD E7 7C E7 BC E7 3C 18 BF 18 3F 18 6F 18 EF E7 D2 E7 36 E7 F2 E7 72 E7 B2 E7 32 E7 D2 E7 FC 18 0F E7 5C E7 BE E7 4C E7 7E E7 4A,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 25 F4 04 20 E7 3E«Single: OEM Remote 17» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 B6 (S3C8+) NEC1 Combo (Official) (KM v9.19),,,,,,,,,,,,,
+43 8B 12 8B 12 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 E4 05 06 60 06 20 10 46 29 0D 8D 01 49,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,198,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fEFC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+On,053,,0,34 - Wide-Stadium,OEM Remote 01,Protocol ID,Fixed Data,,,,,,1F
+Off,173,24,1,18 - Video1 BNC,OEM Remote 01,,,,,,,,15
+Off Timer,246,,2,19 - Video2 RCA,OEM Remote 14,,,,,,,,16
+Volume +,183,,3,20 - Video3 SVIDEO,OEM Remote 10,,,,,,,,17
+Volume –,187,,4,22 - DVD/HD1 RCA,OEM Remote 10,,,,,,,,19
+Mute,057,,5,23 - DVD/HD2 BNC,OEM Remote 11,,,,,,,,1A
+Menu/Enter,156,24,6,24 - DVD/HD3 DVI-D,OEM Remote 05,,,,,,,,1B
+Exit,176,24,7,14 - RGB/PC1 Mini D-sub,OEM Remote 07,,,,,,,,1C
+Display,058,,8,15 - RGB/PC2 BNC,OEM Remote 13,,,,,,,,1D
+Arrow U,157,24,9,16 - RGB/PC3 DVI-D,OEM Remote 06,,,,,,,,1E
+Arrow D,161,24,vol up,03 - Volume +,OEM Remote 06,,,,,,,,04
+Arrow L,159,24,vol down,04 - Volume –,OEM Remote 06,,,,,,,,05
+Arrow R,163,24,mute,05 - Mute,OEM Remote 06,,,,,,,,08
+RGB/PC,229,,channel up,,OEM Remote 02,,,,,,,,06
+RGB/PC1 Mini D-sub,177,24,channel down,,,,,,,,,,07
+RGB/PC2 BNC,175,24,power,00 - On,,,,,,,,,03
+RGB/PC3 DVI-D,179,24,enter,31 - Wide,,,,,,,,,18
+Video,055,,tv/vid,35 - Wide-Zoom,OEM Remote 04,,,,,,,,20
+Video1 BNC,104,,prev,,,,,,,,,,38
+Video2 RCA,102,,menu,06 - Menu/Enter,,,,,,,,,14
+Video3 SVIDEO,106,,guide,,,,,,,,,,36
+DVD/HD,244,24,up arrow,09 - Arrow U,OEM Remote 03,,,,,,,,31
+DVD/HD1 RCA,083,24,down arrow,10 - Arrow D,,,,,,,,,32
+DVD/HD2 BNC,236,24,left arrow,11 - Arrow L,,,,,,,,,33
+DVD/HD3 DVI-D,165,24,right arrow,12 - Arrow R,,,,,,,,,34
+AUTO ADJUST,250,,select,06 - Menu/Enter,OEM Remote 19,,,,,,,,35
+PictureMode-Theat.1,003,24,sleep,01 - Off,,,,,,,,,30
+PictureMode-Normal,255,24,pip,45 - Picture in Picture,,,,,,,,,3A
+PictureMode-Theat.2,252,24,info,08 - Display,,,,,,,,,13
+PictureMode-Default,000,24,swap,43 - Select/Freeze,,,,,,,,,3C
+PictureMode-Bright,254,24,move,46 - Side by Side,,,,,,,,,3B
+Wide,096,24,play,,OEM Remote 12,,,,,,,,0C
+Wide-Normal,125,24,pause,,,,,,,,,,0F
+Wide-Full,129,24,rewind,,,,,,,,,,0B
+Wide-Stadium,127,24,fwd,,,,,,,,,,0D
+Wide-Zoom,131,24,stop,,,,,,,,,,0E
+Wide-14:9,124,24,record,,,,,,,,,,10
+Wide-2.35:1,128,24,exit,07 - exit,,,,,,,,,37
+ID Select,045,24,,,OEM Remote 20,,,,,,,,
+Pointer,049,24,,,OEM Remote 08,,,,,,,,
+Zoom +,047,24,,,OEM Remote 10,,,,,,,,
+Zoom –,051,24,,,OEM Remote 10,,,,,,,,
+Clear/Seamless SW,249,,,,OEM Remote 21,,,,,,,,
+Select/Freeze,048,24,f fwd,,OEM Remote 18,,,,,,,,2A
+Single,195,24,f rew,,OEM Remote 17,,,,,,,,29
+Picture in Picture,191,24,,,OEM Remote 16,,,,,,,,
+Side by Side,193,24,,,OEM Remote 15,,,,,,,,
+Multi,044,24,,,,,,,,,,,
+Sharpness +,042,,,,,,,,,,,,
+Sharpness -,038,,,,,,,,,,,,
+Brightness +,039,,,,,,,,,,,,
+Brightness -,043,,,,,,,,,,,,
+Tint +,036,,,,,,,,,,,,
+Tint -,040,,,,,,,,,,,,
+Color +,037,,,,,,,,,,,,
+Color -,041,,phantom1,,,,,,,,,,3D
+Contrast +,166,,phantom2,,,,,,,,,,3E
+Contrast -,170,,phantom3,,,,,,,,,,3F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,light,,,,,,,,,,39
+,,,home theater,,,,,,,,,,24
+,,,M1,,,,,,,,,,2D
+,,,M2,,,,,,,,,,2E
+,,,M3,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,L1,44 - Single,,,,,,,,,25
+,,,L2,,,,,,,,,,26
+,,,L3,,,,,,,,,,27
+,,,L4,,,,,,,,,,28
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,com/skip,,,,,,,,,,2B
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+NEC Plasma 50XM4,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+"Includes some additional discreet codes,",,,,,,,,,,,,,
+among others for Picture and Wide,,,,,,,,,,,,,
+(aspect ratio) Modes.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+P.S. The number in the Functions/Notes refers,,,,,,,,,,,,,
+to the corresponding key on the OEM remote,,,,,,,,,,,,,
+per the graphic included in the manual for the 50XM4.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

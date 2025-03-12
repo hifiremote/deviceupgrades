@@ -1,0 +1,197 @@
+Name:,Toshiba HD-A1 HD-DVD,,,,v9.13,,,,,,,CURRENT DATA,
+Devices:,NEC1,69,181,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1069,99 = 15-2117 / 15-2116,01 - Cable,OBC,USE,20 5D 52,1,No,,,,,
+15-2117 / 15-2116 Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 64 2D (Cable/1069) Toshiba HD-A1 HD-DVD (KM v9.13),,,,,,,,,,,,,
+5A 11 3E FE FE FD 20 5D 52 DB 3B B7 97 E3 7B 06 FB FE 7E 75 4D DE BB 57 D7 67 37 8D FF 7D 08 EB 6B 1B 4F,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 2F F3 64 2D 5B«+10» ¦2A F3 64 2D B6«discrete on»  ¦2B F3 64 2D 36«discrete off» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (S3C8+) NEC1 (KM v9.13),,,,,,,,,,,,,
+43 8B 31 8B 12 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 20 01 08 03 37 04 15 F6 01 46 FB 10 37 0B 07 E4 05 04 60 05 8B 0E B6 04 80 B6 05 80 37 0B 05 E4 04 05 60 05 E4 06 07 60 07 20 11 37 06 05 F6 01 04 7B 12 37 09 15 37 02 06 F6 01 49 F6 01 46 37 01 03 46 29 0D 46 29 01 8D 01 49 E4 20 1E E4 21 1F 37 01 EB F6 01 49 E6 28 C1 60 04 E6 12 01 8B E4,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,205,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,010,,0,00 - num 0,,Protocol ID,Fixed Data,,,,,,1F
+num 1,001,,1,01 - num 1,,,,,,,,,15
+num 2,002,,2,02 - num 2,,,,,,,,,16
+num 3,003,,3,03 - num 3,,,,,,,,,17
+num 4,004,,4,04 - num 4,,,,,,,,,19
+num 5,005,,5,05 - num 5,,,,,,,,,1A
+num 6,006,,6,06 - num 6,,,,,,,,,1B
+num 7,007,,7,07 - num 7,,,,,,,,,1C
+num 8,008,,8,08 - num 8,,,,,,,,,1D
+num 9,009,,9,09 - num 9,,,,,,,,,1E
++10,037,,vol up,,,,,,,,,,04
+clear,239,,vol down,,,,,,,,,,05
+title search,038,,mute,,,,,,,,,,08
+up arrow,128,,channel up,24 - next track,,,,,,,,,06
+down arrow,129,,channel down,23 - prev track,,,,,,,,,07
+left arrow,081,,power,46 - power toggle,,,,,,,,,03
+right arrow,077,,enter,11 - clear,,,,,,,,,18
+ok,033,,tv/video,41 - video output (HDMI),,,,,,,,,20
+pause,000,,last,25 - resume (return f/ menu),,,,,,,,,38
+play,021,,menu,40 - setup,,,,,,,,,14
+stop,020,,guide,38 - menu,,,,,,,,,36
+rewind,025,,up arrow,13 - up arrow,,,,,,,,,31
+fast fwd,019,,down arrow,14 - down arrow,,,,,,,,,32
+prev track,035,,left arrow,15 - left arrow,,,,,,,,,33
+next track,036,,right arrow,16 - right arrow,,,,,,,,,34
+resume (return f/ menu),056,,select,17 - ok,,,,,,,,,35
+return,034,,sleep,44 - dimmer,,,,,,,,,30
+repeat,043,,pip,36 - subtitle,,,,,,,,,25
+tab,050,,info,43 - display,,,,,,,,,13
+cursor,051,,swap,35 - audio,,,,,,,,,27
+slow,013,,move,37 - angle,,,,,,,,,26
+A,052,,play,19 - play,,,,,,,,,0C
+B,053,,pause,18 - pause,,,,,,,,,0F
+C,054,,rewind,21 - rewind,,,,,,,,,0B
+D,055,,fast fwd,22 - fast fwd,,,,,,,,,0D
+audio,039,,stop,20 - stop,,,,,,,,45 - open/close,0E
+subtitle,040,,record,42 - resolution (I/P selector),,,,,,,,,10
+angle,041,,exit,26 - return,,,,,,,,,37
+menu,132,,,,,,,,,,,,
+top menu (title),222,,,,,,,,,,,,
+setup,032,,+100,10 - +10,,,,,,,,,2F
+video output (HDMI),159,,,,,,,,,,,,
+resolution (I/P selector),078,,,,,,,,,,,,
+display,022,,,,,,,,,,,,
+dimmer,065,,,,,,,,,,,,
+open/close,245,,,,,,,,,,,,
+power toggle,018,,,,,,,,,,,,
+discrete on,146,,freeze,30 - slow,,,,,,,,,28
+discrete off,147,,,,,,,,,,,,
+tray lock/unlock,202,,,,,,,,,,,,
+factory reset,205,,,,,,,,,,,,
+display time,203,,,,,,,,,,,,
+display firmware ver,195,,,,,,,,,,,,
+up-right arrow,130,,,,,,,,,,,,
+down-right arrow,131,,,,,,,,,,,,
+up-left arrow,134,,phantom1,,,,,,,,,,2D
+down-left arrow,133,,phantom2,,,,,,,,,,2E
+tab,050,,phantom3,,,,,,,,,,39
+cancel,027,,phantom4,,,,,,,,,,3A
+door,049,,phantom5,,,,,,,,,,3B
+,,,,,,,,,,,,,
+Toggle output HDMI resolution,196,,,,,,,,,,,,
+Disc tray lock toggle,198,,,,,,,,,,,,
+Player display test,199,,,,,,,,,,,,
+Version/revision,207,,,,information screen,,,,,,,,
+Discrete On2,254,,setup,,,,,,,,,,02
+,,,light,,,,,,,,,,29
+,,,my system,,,,,,,,,,24
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,discreteON,47 - discrete on,,,,,,,,,2A
+,,,discreteOFF,48 - discrete off,,,,,,,,,2B
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,,
+These codes were created for the Toshiba HD-A1/XA1 HD-DVD player.,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+"All original functions of OEM remote are included, including",,,,,,,,,,,,,,
+some extra functions not on the original remote.,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Following functions *not* included on the OEM have been added:,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+discrete on (discrete off available but not tested),,,,,,,,,,,,,,
+tray lock/unlock,,,,,,,,,,,,,,
+factory reset,,,,,,,,,,,,,,
+display time,,,,,,,,,,,,,,
+display firmware ver,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Full set of function codes (OBC) from Toshiba can be found here,,,,,,,,,,,,,,
+http://www.remotecentral.com/cgi-bin/mboard/rc-touch/thread.cgi?1160,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Questions - PM sfhub at http://www.avsforum.com/,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+"Rev 1.1 Added functions from Toshiba HD-XA1 RS232 list, but not tested",,,,,,,,,,,,,,
+"up-right, down-right, up-left, down-left, tab, cancel, door, discrete off",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE,

@@ -1,0 +1,34 @@
+Description=Holmes Heater HCH8305
+Remote.name=Comcast DVR URC-1067Bx3 JP1.3
+Remote.signature=30393039
+Notes=Upgrade protocol 0 \= 01 FF (S3C8+) PB v4.01\n3D 8F 11 8B 0E C5 01 04 08 02 71 00 CD 00 D4 02\n69 35 66 8D 01 46\nEnd
+DeviceType=Cable
+DeviceIndex=0
+SetupCode=2000
+Protocol=01 FF
+Protocol.name=Manual Settings
+ProtocolParms=13
+FixedData=DD
+DevParms=Device 1\:4\=0
+DeviceTranslator=Translator(0,4)
+CmdParms=OBC
+CmdTranslator=Translator(0)
+DefaultCmd=00
+CmdIndex=0
+FixedData=0D
+Code.S3C80=3D 8F 11 8B 0E C5 01 04 08 02 71 00 CD 00 D4 02 69 35 66 8D 01 46
+Function.0.name=power
+Function.0.hex=84
+Function.1.name=mode
+Function.1.hex=88
+Function.2.name=oscillation
+Function.2.hex=81
+Function.3.name=up arrow
+Function.3.hex=82
+Function.4.name=down arrow
+Function.4.hex=90
+Button.3=power|null|null
+Button.2e=mode|null|null
+Button.29=up arrow|null|null
+Button.2a=down arrow|null|null
+Button.21=oscillation|null|null

@@ -1,0 +1,197 @@
+Name:,TCL L32HDF11TA,,,,v9.22,,,,,,,,CURRENT DATA
+Devices:,Manual Settings,,,,,,,,,,,,
+Manual:,,1 = b4 cmd,MSB,48,NO,,,,,,,,
+Setup:,2001,18 = 15-2104,02 - TV,OBC,USE,,2,No,,,,,
+15-2104 Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 1F D1 (TV/2001) TCL L32HDF11TA (KM v9.22),,,,,,,,,,,,,
+FF 00 68 80 81 00 00 00 00 FF 3F FF 2D FF 2C FF F4 FF 08 FF 07,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 10 F4 17 D1 FF 17«record: dev 15»  ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 FF (S3C8+) Custom Protocol for TV/2001 TCL L32HDF11TA (KM v9.22),,,,,,,,,,,,,
+3D 91 02 8B 12 95 45 04 08 00 FA 03 D4 00 FA 01 E0 0F 8C 07 D0 07 BC 20 10 8D 01 33,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,224,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+0,048,FF,0,,dev 15,Protocol ID,Fixed Data,,,,,,1F
+1,049,FF,1,,dev 15,,,,,,,,15
+2,050,FF,2,,dev 15,,,,,,,,16
+3,051,FF,3,,dev 15,,,,,,,,17
+4,052,FF,4,,dev 15,,,,,,,,19
+5,053,FF,5,,dev 15,,,,,,,,1A
+6,054,FF,6,,dev 15,,,,,,,,1B
+7,055,FF,7,,dev 15,,,,,,,,1C
+8,056,FF,8,,dev 15,,,,,,,,1D
+9/Aux,057,FF,9,,dev 15,,,,,,,,1E
+Band,004,FF,vol up,,dev 15,,,,,,,,04
+Ant. A/B,005,FF,vol down,,dev 15,,,,,,,,05
+Clear,006,FF,mute,44 - mute,dev 15,,,,,,,,08
+Sleep,007,FF,channel up,36 - channel up,dev 15,,,,,,,,06
+Menu,008,FF,channel down,35 - channel down,dev 15,,,,,,,,07
+Tracking Dow,010,FF,power,,dev 15,,,,,,,,03
+Tracking Up,011,FF,enter,80 - enter,dev 15,,,,,,,,12
+Pip Freeze,012,FF,tv/vcr,,dev 15,,,,,,,,18
+Slow,016,FF,last,,dev 15,,,,,,,,13
+Clear,018,FF,menu,14 - menu,dev 15,,,,,,,,2F
+Pip Move,020,FF,guide,,dev 15,,,,,,,,22
+Alarm,022,FF,up arrow,,dev 15,,,,,,,,31
+Record,023,FF,down arrow,,dev 15,,,,,,,,32
+Program,024,FF,left arrow,,dev 15,,,,,,,,33
+Channel Guid,026,FF,right arrow,,dev 15,,,,,,,,34
+Pip On/Off,027,FF,select,,dev 15,,,,,,,,2E
+Band Right,032,FF,sleep,13 - sleep,dev 15,,,,,,,,30
+Band Left,034,FF,,25 - pip on/off,dev 15,,,,,,,,
+Erase,035,FF,info,,dev 15,,,,,,,,23
+Add,036,FF,,74 - pip swap,dev 15,,,,,,,,
+Previous Cha,039,FF,,20 - pip move,dev 15,,,,,,,,
+Seek,040,FF,play,,dev 15,,,,,,,,0C
+Surr Frz Rig,041,FF,pause,,dev 15,,,,,,,,0F
+Power Toggle,042,FF,rewind,,dev 15,,,,,,,,0B
+Surr Frz Lef,043,FF,fast fwd,,dev 15,,,,,,,,0D
+Channel Down,044,FF,stop,,dev 15,,,,,,,,0E
+Channel Up,045,FF,record,22 - record,dev 15,,,,,,,,10
+Volume Down,046,FF,exit,,dev 15,,,,,,,,24
+Volume Up,047,FF,,,dev 15,,,,,,,,
+On/Display,058,FF,,,dev 15 (discrete),,,,,,,,
+Power Off,059,FF,+100,,dev 15 (discrete),,,,,,,,20
+Select/Display,060,FF,,,dev 15,,,,,,,,
+Minute,061,FF,,,dev 15,,,,,,,,
+Clock,062,FF,,,dev 15,,,,,,,,
+Mute,063,FF,,,dev 15,,,,,,,,
+Speed,070,FF,,,dev 15,,,,,,,,
+Input,071,FF,,,dev 15,,,,,,,,
+Pip Recall,073,FF,,,dev 15,,,,,,,,
+Ch Memory,074,FF,,,dev 15,,,,,,,,
+Call Counter,076,FF,,,dev 15,,,,,,,,
+Call Channel,077,FF,,,dev 15,,,,,,,,
+Cs,083,FF,,,dev 15,,,,,,,,
+Zoom Out,084,FF,,,dev 15,,,,,,,,
+Zoom In,085,FF,,,dev 15,,,,,,,,
+Menu Left,086,FF,,,dev 15,,,,,,,,
+Menu Right,087,FF,phantom1,,dev 15,,,,,,,,3A
+Menu Down,088,FF,phantom2,,dev 15,,,,,,,,3B
+Menu Up,089,FF,phantom3,,dev 15,,,,,,,,3C
+Surr On/Off,090,FF,phantom4,,dev 15,,,,,,,,3D
+Surr Frz,091,FF,,,dev 15,,,,,,,,
+Sur Zoom Out,092,FF,,,dev 15,,,,,,,,
+Surr Zoom In,093,FF,,,dev 15,,,,,,,,
+Surr Frz Dow,094,FF,,,dev 15,,,,,,,,
+Surr Frz Up,095,FF,,,dev 15,,,,,,,,
+Favorite,097,FF,,,dev 15,,,,,,,,
+Down,098,FF,setup,,dev 15,,,,,,,,02
+Up,099,FF,light,,dev 15,,,,,,,,35
+Menu -,100,FF,theater,,dev 15,,,,,,,,36
+Menu +,101,FF,music,,dev 15,,,,,,,,25
+Closed Capti,128,FF,movie,,dev 15,,,,,,,,26
+Text On,133,FF,sport,,dev 15,,,,,,,,27
+Fetch,147,FF,news,,dev 15,,,,,,,,28
+Input,163,FF,1s,,dev 15,,,,,,,,2A
+Alt Audio,176,FF,2s,,dev 15,,,,,,,,2B
+Pip Swap,195,FF,3s,,dev 15,,,,,,,,2C
+100,209,FF,4s,,dev 15,,,,,,,,2D
+Help,213,FF,,,dev 15,,,,,,,,
+Audio Menu,225,FF,,,dev 15,,,,,,,,
+Video Menu,226,FF,,,dev 15,,,,,,,,
+Ch. cntrl,229,FF,,,dev 15,,,,,,,,
+Enter,244,FF,,,dev 15,,,,,,,,
+Typical Discrete Inputs,,,,,,,,,,,,,
+SAT,058,7F,,,dev 7,,,,,,,,
+CD,058,8F,,,dev 8,,,,,,,,
+MISC,058,BF,,,dev 11,,,,,,,,
+Component,058,5F,,,dev 5,,,,,,,,
+DVD S-Vid,058,DF,,,dev 13,,,,,,,,
+VCR,058,EF,,,dev 14,,,,,,,,
+,,,,,,,,,,,,,
+Alternate Menu,082,FF,,,dev 15,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,discreteON,,,,,,,,,,3E
+,,,discreteOFF,,,,,,,,,,3F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 FF (S3C8) RCA Combo 38 kHz,,,,,,,,,,,,,
+ 3D 91 02 8B 12 95 45 04 08 00 FA 03 D4 00 FA 01,,,,,,,,,,,,,
+ E0 0F 8C 07 D0 07 BC 20 10 8D 01 33,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

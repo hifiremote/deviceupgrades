@@ -1,0 +1,197 @@
+Name:,Sony Bravia 40EX500,,,,v9.21,,,,,,,,CURRENT DATA
+Devices:,Sony Combo (12/15/20),,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,87,NO,,,,,,,,
+Setup:,2004,99 = Atlas 5 Day URC-1055 JP1.2,01 - Cable,OBC,USE,00 00 00 00,2,No,,,,,
+Atlas 5 Day URC-1055 JP1.2 Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 07 D4 (Cable/2004) Sony Bravia 40EX500 (KM v9.21),,,,,,,,,,,,,
+27 00 FE DE DE FE E2 71 00 00 00 00 90 80 00 80 80 80 40 80 C0 80 20 80 A0 80 60 80 E0 80 10 80 48 80 C8 80 28 80 08 80 88 80 A8 80 59 E9 99 E9 D9 E9 39 E9 19 E9 A4 80 A6 80 DC 80 6F EE 5C 80 C5 E9 2E 80 AE 80 2C 80 CC 80 BD 25 6D E9 07 EE 1B 58 70 80 26 80 1F 58 BD E9 3D E9 B9 E9 DA 80 B9 E9 24 80 6C 80,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 9F F0 04 07 D4 C2 80«video 10 (PC - RGB - VGA): discretes» ¦95 F0 04 07 D4 02 80«video 1: discretes» ¦96 F0 04 07 D4 82 80«video 2: discretes» ¦97 F0 04 07 D4 42 80«video 3 (component 1): discretes»  ¦99 F0 04 07 D4 E2 80«video 4 (component 2): discretes»  ¦9A F0 04 07 D4 12 80«video 5 (hdmi 1): discretes» ¦9B F0 04 07 D4 92 80«video 6 (hdmi 2): discretes» ¦B3 F0 04 07 D4 09 25«close caption»¦83 F0 04 07 D4 A8 80«power»  ¦98 F0 04 07 D4 D0 80«enter: numeric enter»  ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 27 (HCS08) Sony Combo (12/15/20) (KM v9.21),,,,,,,,,,,,,
+20 18 1E 46 42 F8 15 05 07 02 57 01 31 01 2B 01 31 57 E4 04 AF 01 31 08 03 08 00 64 12 01 65 0C 10 A2 6E 08 6A B6 65 46 A4 03 B7 AC 6E 05 7C CC FF 5C,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,484,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,009,1,0,00 - num 0,,Protocol ID,Fixed Data,,,,,57 - video 10 (PC - RGB - VGA),1F
+num 1,000,1,1,01 - num 1,,,,,,,,49 - video 1,15
+num 2,001,1,2,02 - num 2,,,,,,,,50 - video 2,16
+num 3,002,1,3,03 - num 3,,,,,,,,51 - video 3 (component 1),17
+num 4,003,1,4,04 - num 4,,,,,,,,52 - video 4 (component 2),19
+num 5,004,1,5,05 - num 5,,,,,,,,53 - video 5 (hdmi 1),1A
+num 6,005,1,6,06 - num 6,,,,,,,,54 - video 6 (hdmi 2),1B
+num 7,006,1,7,07 - num 7,,,,,,,,,1C
+num 8,007,1,8,08 - num 8,,,,,,,,,1D
+num 9,008,1,9,09 - num 9,,,,,,,,,1E
+vol up,018,1,vol up,10 - vol up,,,,,,,,,04
+vol down,019,1,vol down,11 - vol down,,,,,,,,,05
+mute,020,1,mute,12 - mute,,,,,,,,32 - close caption,33
+channel up,016,1,channel up,13 - channel up,,,,,,,,,06
+channel down,017,1,channel down,14 - channel down,,,,,,,,,07
+power,021,1,power,15 - power,,,,,,,,15 - power,03
+enter,011,1,#/enter,34 - wide mode,numeric enter,,,,,,,16 - enter,18
+Input (toggle/cycle),037,1,,,,,,,,,,,
+jump,059,1,last,18 - jump,last channel,,,,,,,,08
+menu,096,1,settings,19 - menu,,,,,,,,,2E
+program guide,014,1,guide,31 - tools,??,,,,,,,,21
+up arrow,116,1,up arrow,21 - up arrow,,,,,,,,,29
+down arrow,117,1,down arrow,22 - down arrow,,,,,,,,,2A
+left arrow,052,1,left arrow,23 - left arrow,,,,,,,,,2B
+right arrow,051,1,right arrow,24 - right arrow,,,,,,,,,2C
+select,101,1,select,25 - select,ok/select/confirm,,,,,,,,2D
+sleep,054,1,,,,,,,,,,,
+pip on/off,091,1,pip,27 - pip on/off,,,,,,,,,38
+display,058,1,info,28 - display,,,,,,,,,13
+return,035,151,swap,,cancel/exit/back,,,,,,,,39
+favorites,118,119,move,35 - dot,,,,,,,,,3A
+tools,054,151,play,40 - play,,,,,,,,,0C
+close caption,016,164,pause,39 - pause,,,,,,,,,0F
+Picture Mode,100,1,rewind,38 - rewind,Picture mode ,,,,,,,,0B
+wide mode,061,164,fast fwd,41 - fast fwd,,,,,,,,,0D
+dot,029,151,stop,44 - stop,,,,,,,,,0E
+scene,120,6 26,record,,cycles through picture modes,,,,,,,,10
+Theater,096,119,exit,29 - return,Bravia Sync Functions,,,,,,,,14
+rewind,027,151,,,Bravia Sync Functions,,,,,,,,
+pause,025,151,source,17 - Input (toggle/cycle),Bravia Sync Functions,,,,,,,,30
+Play,026,151,[*],35 - dot,Bravia Sync Functions,,,,,,,,20
+Fast fwd,028,151,fav,30 - favorites,Bravia Sync Functions,,,,,,,,22
+Sync Menu,088,6 26,,,Bravia Sync Functions,,,,,,,,
+Prev,060,151,,,Bravia Sync Functions,,,,,,,,
+Stop,024,151,,,Bravia Sync Functions,,,,,,,,
+Next,061,151,,,Bravia Sync Functions,,,,,,,,
+power on,046,1,,,discretes,,,,,,,,
+power off,047,1,,,discretes,,,,,,,,
+tv tuner,036,1,,,discretes,,,,,,,,
+video 1,064,1,,,discretes,,,,,,,,
+video 2,065,1,,,discretes,,,,,,,,
+video 3 (component 1),066,1,,,discretes,,,,,,,,
+video 4 (component 2),071,1,,,discretes,,,,,,,,
+video 5 (hdmi 1),072,1,,,discretes,,,,,,,,
+video 6 (hdmi 2),073,1,,,discretes,,,,,,,,
+video 7 (hdmi 3),092,6 26,phantom1,,discretes sony15 26 092,,,,,,,,3D
+video 8 (hdmi 4),093,6 26,phantom2,,discretes sony15 26 093,,,,,,,,3E
+video 10 (PC - RGB - VGA),067,1,phantom3,,discretes,,,,,,,,3F
+alt video3,054,164,,,alternate discrete codes,,,,,,,,
+alt video4,055,164,,,alternate discrete codes,,,,,,,,
+alt video5,090,6 26,,,sony15 dev 26 0bc/90,,,,,,,,
+alt video6,091,6 26,,,alternate discrete codes,,,,,,,,
+video hdmi3,092,6 26,,,alternate discrete codes,,,,,,,,
+video hdmi4,093,6 26,,,alternate discrete codes,,,,,,,,
+onoff,021,1,,,onfff button on back of remote,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,macro1,,,,,,,,,,34
+,,,macro2,,,,,,,,,,35
+,,,macro3,,,,,,,,,,36
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,pip channel up,48 - tv tuner,,,,,,,,,3B
+,,,pip channel down,26 - sleep,,,,,,,,,3C
+,,,page up,37 - theater,,,,,,,,,23
+,,,page down,42 - sync Menu,,,,,,,,,24
+,,,day+,45 - next,,,,,,,,,31
+,,,day-,43 - prev,,,,,,,,,32
+,,,A,20 - program guide,,,,,,,,,25
+,,,B,33 - picture mode,,,,,,,,,26
+,,,C,36 - scene,,,,,,,,,27
+,,,,,,,,,,,,,
+,,,list,,,,,,,,,,28
+,,,replay,,,,,,,,,,37
+,,,live,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

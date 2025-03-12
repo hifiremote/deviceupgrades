@@ -1,0 +1,10 @@
+Code for TiVo On/Off
+Series 1 or 2
+Not for Sony
+
+EFC 152
+OBC 053
+HEX 53
+
+This code was not available on a TiVo remote.
+Allows direct On/Standby, not TiVo Central/Tivo Central.

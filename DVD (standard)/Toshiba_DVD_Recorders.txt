@@ -1,0 +1,197 @@
+Name:,Toshiba DVD Recorders,,,,v9.15,,,,,,,,CURRENT DATA
+Devices:,NEC1,69,188,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1988,99 = URC-6131 PVR,06 - DVD,OBC,USE,20 5D C2,1,No,,,,,
+URC-6131 PVR Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 27 C4 (DVD/1988) Toshiba DVD Recorders (KM v9.15),,,,,,,,,,,,,
+5A 20 3E FE FE FE F9 20 5D C2 87 07 B7 37 17 E6 A6 97 57 32 A5 74 B4 FC EC CC DC B5 DD 85 54 4F FE DE EE 0F D4 F4 25 55 46 86,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (S3C8+) NEC1 (KM v9.15),,,,,,,,,,,,,
+43 8B 31 8B 12 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 20 01 08 03 37 04 15 F6 01 46 FB 10 37 0B 07 E4 05 04 60 05 8B 0E B6 04 80 B6 05 80 37 0B 05 E4 04 05 60 05 E4 06 07 60 07 20 11 37 06 05 F6 01 04 7B 12 37 09 15 37 02 06 F6 01 49 F6 01 46 37 01 03 46 29 0D 46 29 01 8D 01 49 E4 20 1E E4 21 1F 37 01 EB F6 01 49 E6 28 C1 60 04 E6 12 01 8B E4,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,226,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,010,,0,00 - num 0,,Protocol ID,Fixed Data,,,,,,1F
+num 1,001,,1,01 - num 1,,,,,,,,,15
+num 2,002,,2,02 - num 2,,,,,,,,,16
+num 3,003,,3,03 - num 3,,,,,,,,,17
+num 4,004,,4,04 - num 4,,,,,,,,,19
+num 5,005,,5,05 - num 5,,,,,,,,,1A
+num 6,006,,6,06 - num 6,,,,,,,,,1B
+num 7,007,,7,07 - num 7,,,,,,,,,1C
+num 8,008,,8,08 - num 8,,,,,,,,,1D
+num 9,009,,9,09 - num 9,,,,,,,,,1E
++10,013,,vol up,,,,,,,,,,04
+title search,014,,vol down,,,,,,,,,,05
+Input Select,015,,mute,,,,,,,,,,08
+eject,017,,channel up,22 - channel up,,,,,,,,,06
+power,018,,channel down,23 - channel down,,,,,,,,,07
+play,019,,power,14 - power,,,,,,,,,03
+record,021,,enter,10 - +10,,,,,,,,,12
+stop,022,,tv/vid,54 - tv/dvr,,,,,,,,,13
+pause,023,,prev,40 - zoom,,,,,,,,,23
+dvd,024,,menu,60 - menu,,,,,,,,,21
+hdd,025,,guide,33 - set-up,,,,,,,,,14
+timeslip,026,,up arrow,55 - up arrow,,,,,,,,,31
+channel up,030,,down arrow,57 - down arrow,,,,,,,,,32
+channel down,031,,left arrow,58 - left arrow,,,,,,,,,33
+record menu,064,,right arrow,56 - right arrow,,,,,,,,,34
+edit menu,065,,select,27 - select,,,,,,,,,35
+Content Menu,066,,angle/sleep,63 - angle,,,,,,,,,26
+select,068,,pip,,,,,,,,,,2F
+quick menu,069,,info,37 - display,,,,,,,,,18
+easy nav / virtual remote,070,,swap,,,,,,,,,,20
+library,071,,move,,,,,,,,,,30
+star key,074,,play,15 - play,,,,,,,,,0C
+circle key,075,,pause (yellow),18 - pause,,,,,,,,,0F
+set-up,082,,rewind,45 - rewind,,,,,,,,,0B
+clear,083,,fast fwd,46 - fast fwd,,,,,,,,,0D
+Instant Replay,085,,stop,17 - stop,,,,,,,,,0E
+Delete,087,,record,16 - record,,,,,,,,,10
+display,090,,exit,61 - return,,,,,,,,,24
+instant skip,091,,,,,,,,,,,,
+remain,092,,,,,,,,,,,,
+zoom,094,,,,,,,,,,,,
+skip +,128,,,,,,,,,,,,
+skip -,132,,,,,,,,,,,,
+slow+,136,,next track,41 - skip +,,,,,,,,,2B
+slow-,140,,prev track,42 - skip -,,,,,,,,,2A
+rewind,152,,,,,,,,,,,,
+fast fwd,154,,,,,,,,,,,,
+frame adjust +,157,,,,,,,,,,,,
+frame adjust -,158,,slow,43 - slow+,,,,,,,,,2E
+extend,163,,,,,,,,,,,,
+record mode,167,,,,,,,,,,,,
+vcr +,169,,,,,,,,,,,,
+fl select,177,,,,,,,,,,,,
+sat moni,178,,,,,,,,,,,,
+tv/dvr,179,,,,,,,,,,,,
+up arrow,192,,phantom1,,,,,,,,,,3D
+right arrow,196,,phantom2,,,,,,,,,,3E
+down arrow,200,,phantom3,,,,,,,,,,3F
+left arrow,204,,phantom4,,,,,,,,,,40
+top menu,208,,,,,,,,,,,,
+Menu,209,,,,,,,,,,,,
+return,210,,,,,,,,,,,,
+audio,211,,,,,,,,,,,,
+angle,212,,,,,,,,,,,,
+subtitle,213,,,,,,,,,,,,
+Picture in Picture,215,,setup,,,,,,,,,,02
+dimmer,216,,,,,,,,,,,,
+chapter divide,217,,,,,,,,,,,,
+timebar,218,,,,,,,,,,,,
+hdmi / progressive,176,,,,,,,,,,,,
+sat cont,183,,,,,,,,,,,,
+satellite link,029,,,,,,,,,,,,
+play 1.3x/0.8x,170,,subtitle,64 - subtitle,,,,,,,,,25
+repeat,220,,,,,,,,,,,,
+Dubbing Direct,086,,,25 - edit menu,,,,,,,,,
+TVGOS TV Guide,106,,,,,,,,,,,,
+TVGOS Menu,107,,,,,,,,,,,,
+TVGOS Info,108,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,PVR menu (blue),59 - top menu,,,,,,,,,36
+,,,replay,35 - Instant Replay,,,,,,,,,27
+,,,advance,38 - instant skip,,,,,,,,,29
+,,,,,,,,,,,,,
+,,,thumbs up (green),47 - frame adjust +,,,,,,,,,2C
+,,,thumbs down (red),48 - frame adjust -,,,,,,,,,2D
+,,,audio/CC,12 - Input Select,,,,,,,,,37
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+This is the official UEI setup code.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Models: RDXS32 and RD-X2 (and probably others),,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

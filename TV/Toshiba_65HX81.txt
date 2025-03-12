@@ -1,0 +1,197 @@
+Name:,Toshiba 65HX81,,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,NEC1,64,,,,,,,,,,,
+Manual:,,0 = 1-byte,0 = 1-byte,88,NO,,,,,,,,
+Setup:,1156,01 = 15-1994,03 - VCR,EFC,USE,00 FD FD,1,No,,,,,
+15-1994 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 24 84 (VCR/1156) Toshiba 65HX81 (KM v9.19),,,,,,,,,,,,,
+5A 05 3E FE FE F9 00 FD FD 27 07 B7 6E 0F 7E FE 88 BE 3E 47 67 6E 57 75 7E 35 CD 3C 7C B0 0D D5 C7 E5,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (S3C8) NEC1 (KM v9.19),,,,,,,,,,,,,
+43 8B 31 8B 12 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 20 01 08 03 37 04 15 F6 01 33 FB 10 37 0B 07 E4 05 04 60 05 8B 0E B6 04 80 B6 05 80 37 0B 05 E4 04 05 60 05 E4 06 07 60 07 20 11 37 06 05 F6 01 04 7B 12 37 09 15 37 02 06 F6 01 36 F6 01 33 37 01 03 46 29 0D 46 29 01 8D 01 36 E4 20 1E E4 21 1F 37 01 EB F6 01 36 E6 28 C1 60 04 E6 12 01 8B E4,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,229,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fEFC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,181,,0,00 - num 0,,Protocol ID,Fixed Data,,,,,,1F
+num 1,185,,1,01 - num 1,,,,,,,,,15
+num 2,183,,2,02 - num 2,,,,,,,,,16
+num 3,187,,3,03 - num 3,,,,,,,,,17
+num 4,180,,4,04 - num 4,,,,,,,,,19
+num 5,184,,5,05 - num 5,,,,,,,,,1A
+num 6,182,,6,06 - num 6,,,,,,,,,1B
+num 7,186,,7,07 - num 7,,,,,,,,,1C
+num 8,053,,8,08 - num 8,,,,,,,,,1D
+num 9,057,,9,09 - num 9,,,,,,,,,1E
+num 100,055,,vol up,,,,,,,,,,04
+*CCC3,228,,vol down,,,,,,,,,,05
+*CCC4,232,,mute,,,,,,,,,,08
+*Center TV/Video | Add/Erase,116,,channel up,21 - Channel +,,,,,,,,,06
+*Ch-Lock,037,,channel down,20 - Channel -,,,,,,,,,07
+*Option,235,,power,42 - Power,,,,,,,,,03
+*Program,118,,enter,31 - Enter,,,,,,,,,12
+ANT 1/2,059,,tv/vcr,54 - TV/Video,,,,,,,,,18
+Audio +,056,,last,30 - EDS,,,,,,,,,13
+Audio Menu,233,,menu,34 - Menu,,,,,,,,,29
+Channel -,250,,program / guide,43 - Preference menu,,,,,,,,,28
+Channel +,251,,up arrow,55 - Up/Adv/POP Channel +,,,,,,,,,31
+Channel Return,122,,down arrow,29 - Down/Adv/POP Channel -,,,,,,,,,32
+Channel Search,121,,left arrow,33 - Left/FAV -,,,,,,,,,33
+Channel Search,038,,right arrow,45 - Right/FAV +,,,,,,,,,34
+Closed Caption +,106,,select,31 - Enter,,,,,,,,,35
+Closed Caption C1 on,156,,sleep,52 - Timer,,,,,,,,,2C
+Closed Caption Off,030,,pip,38 - POP,,,,,,,,,2D
+Closed Caption T1 on,159,,display,30 - EDS,,,,,,,,,2A
+Down/Adv/POP Channel -,195,,swap,51 - SWAP,,,,,,,,,2F
+EDS,193,,move,49 - Still,,,,,,,,,2E
+Enter,065,,play,59 - Full,,,,,,,,,0C
+Exit,229,,pause,63 - Theaterwide 1,,,,,,,,,0F
+Left/FAV -,248,,rewind,"46 - Scroll Adjustment +45, -20, 0",,,,,,,,,0B
+Menu,189,,fast fwd,48 - Source,,,,,,,,,0D
+MTS +,123,,stop,60 - Pic Size,,,,,,,,,0E
+MUTE,117,,record,44 - Recall,,,,,,,,,10
+Picture +,054,,exit,32 - Exit,,,,,,,,,2B
+POP,105,,surround,,,,,,,,,,30
+POP Channel -,043,,,,,,,,,,,,
+POP Channel +,039,,,,,,,,,,,,
+POP Source,163,,,,,,,,,,,,
+Power,119,,,,,,,,,,,,
+Preference menu,078,,,,,,,,,,,,
+Recall,244,,,,,,,,,,,,
+Right/FAV +,249,,,,,,,,,,,,
+"Scroll Adjustment +45, -20, 0",143,,,,,,,,,,,,
+Set Up +,231,,,,,,,,,,,,
+Source,042,,,,,,,,,,,,
+Still,036,,,,,,,,,,,,
+Surround,245,,,,,,,,,,,,
+SWAP,107,,,,,,,,,,,,
+Timer,120,,,,,,,,,,,,
+TV/Cable,162,,,,,,,,,,,,
+TV/Video,058,,,,,,,,,,,,
+Up/Adv/POP Channel +,191,,phantom1,,,,,,,,,,3A
+User Reset,052,,phantom2,,,,,,,,,,3B
+Volume -,246,,phantom3,,,,,,,,,,3C
+Volume +,247,,phantom4,,,,,,,,,,3D
+Full,179,,,,,,,,,,,,
+Pic Size,100,,,,,,,,,,,,
+Theaterwide -,102,,,,,,,,,,,,
+Theaterwide +,147,,,,,,,,,,,,
+Theaterwide 1,177,,,,,,,,,,,,
+Black out screen toggle,157,,,,,,,,,,,,
+Black out screen toggle,220,,setup,,,,,,,,,,02
+"""M"" Mode",032,,light,,,,,,,,,,20
+Register Menu (ADDR),014,,,,,,,,,,,,
+Register Menu (ADDR),014,,,,,,,,,,,,
+Service Menu - BCUT,223,,,,,,,,,,,,
+Service Menu - BDRV,226,,,,,,,,,,,,
+Service Menu - BRTC,221,,,,,,,,,,,,
+Service Menu - GCUT,222,,1s,,,,,,,,,,21
+Service Menu - HIT -> VLIN,141,,2s,,,,,,,,,,22
+Service Menu - HIT -> VLIN,145,,3s,,,,,,,,,,23
+Service Menu - HIT -> VLIN -> VService Param -> VPS -> VCP…,082,,4s,,,,,,,,,,24
+Service Menu - HPOS -> VPOS,099,,,,,,,,,,,,
+Service Menu - PARA,205,,,,,,,,,,,,
+Service Menu - RCUT,224,,,,,,,,,,,,
+Service Menu - RDRV,225,,,,,,,,,,,,
+Service Menu - SCNT,095,,,,,,,,,,,,
+Service Menu - SCOL,092,,,,,,,,,,,,
+Service Menu - TNTC,096,,,,,,,,,,,,
+Service Menu - TRAP,083,,,,,,,,,,,,
+Service Menu - VSC,209,,,,,,,,,,,,
+Service Menu - WID -> PARA,079,,,,,,,,,,,,
+Service Param - ATT,204,,,,,,,,,,,,
+Service Param - SAVC,077,,,,,,,,,,,,
+Service Param - SPEC,144,,,,,,,,,,,,
+Service Param - STRF,208,,,,,,,,,,,,
+Service Param - STVC,206,,,,,,,,,,,,
+Service Param - WBAN,140,,,,,,,,,,,,
+QA02 Reset *CAUTION*,034,,,,,,,,,,,,
+Total Reset *DANGER*,093,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,discreteON,,,,,,,,,,3E
+,,,discreteOFF,,,,,,,,,,3F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

@@ -1,0 +1,197 @@
+Name:,Sony DAV-HDX500,,,,v9.16,,,,,,,,CURRENT DATA
+Devices:,Sony Combo (12/15/20),16,73,83,1,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,87,NO,,,,,,,,
+Setup:,2032,99 = 15-2117 / 15-2116,04 - CD,OBC,USE,08 92 CA 80,2,No,,,,,
+15-2117 / 15-2116 Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 9F F0 (CD/2032) Sony DAV-HDX500 (KM v9.16),,,,,,,,,,,,,
+27 00 FA 3C F9 08 92 CA 80 90 09 00 09 80 09 40 09 C0 09 20 09 A0 09 60 09 E0 09 10 09 49 0A C9 0A 29 0A D5 0B 35 0B A9 0A 30 09 3E 09 41 0B 3C 09 CC 09 2C 09 81 0B 1E 09 9E 09 5E 09 DE 09,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 30 F4 97 F0 8C 09«Preset +: Sony20 16 16»¦2F F4 97 F0 44 09«Search Reverse»  ¦20 F4 97 F0 0C 09«Preset -: Sony20 16 16»¦14 F4 97 F0 58 09«DVD Menu/Album +: Sony20 16 16» ¦2A F4 97 F0 75 0A«Power On (discrete)»¦2B F4 97 F0 F5 0A«Power Off (discrete)»  ¦2D F4 97 F0 97 0B«Function: Sony15 208»  ¦2E F4 97 F0 BF 0A«DVD» ¦39 F4 97 F0 45 0A«Video 1: Doesn't work» ¦3A F4 97 F0 85 0A«Tuner»  ¦3B F4 97 F0 79 0A«Satellite/Video2: Doesn't work» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 27 (S3C8+) Sony Combo (12/15/20) (KM v9.16),,,,,,,,,,,,,
+3A 8A 42 8B 15 F8 15 05 07 02 58 01 18 01 2C 01 18 57 D0 04 B0 01 18 08 03 08 76 07 01 EB 17 76 08 01 6B 0F E6 28 F9 E6 12 08 08 08 E0 C0 56 C0 03 09 01 E6 24 05 8D 01 49,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,205,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+Theater Sync,046,1,0,04 - 0,Sony12 1,Protocol ID,Fixed Data,,,,,,1F
+TV Power,021,1,1,05 - 1,Sony12 1,,,,,,,,15
+Display,077,80,2,06 - 2,Sony15 80,,,,,,,,16
+Function,105,208,3,07 - 3,Sony15 208,,,,,,,,17
+0,009,1 16,4,08 - 4,Sony20 16 16 ,,,,,,,,19
+1,000,1 16,5,09 - 5,Sony20 16 16 ,,,,,,,,1A
+2,001,1 16,6,10 - 6,Sony20 16 16 ,,,,,,,,1B
+3,002,1 16,7,11 - 7,Sony20 16 16 ,,,,,,,,1C
+4,003,1 16,8,12 - 8,Sony20 16 16 ,,,,,,,,1D
+5,004,1 16,9,13 - 9,Sony20 16 16 ,,,,,,,,1E
+6,005,1 16,vol up,66 - Volume Up,Sony20 16 16 ,,,,,,,,04
+7,006,1 16,vol down,65 - Volume Down,Sony20 16 16 ,,,,,,,,05
+8,007,1 16,mute,59 - mute,Sony20 16 16 ,,,,,,,,08
+9,008,1 16,channel up,73 - Tune +,Sony20 16 16 ,,,,,,,,06
+TV Input,037,1,channel down,72 - Tune –,Sony12 1,,,,,,,,07
+Angle,019,1 16,power,60 - power,Sony20 16 16 ,,,,,,,,03
+Audio,018,1 16,enter,23 - enter,Sony20 16 16 ,,,,,,,,18
+Clear,015,1 16,tv/video,30 - Preset -,Sony20 16 16 ,,,,,,,,20
+Disc Skip,062,1 16,last,,Sony20 16 16 ,,,,,,,,38
+Down,121,1 16,menu,21 - DVD Menu/Album +,Sony20 16 16,,,,,,,,14
+DVD Display,024,1 16,guide,,Sony20 16 16,,,,,,,,36
+DVD Menu/Album +,026,1 16,up arrow,40 - Up,Sony20 16 16,,,,,,,,31
+DVD Top Menu,025,1 16,down arrow,19 - Down,Sony20 16 16,,,,,,,,32
+Enter,012,1 16,left arrow,25 - Left,Sony20 16 16 ,,,,,,,,33
+Fast Forward/Tuning Up,052,1 16,right arrow,33 - Right,Sony20 16 16,,,,,,,,34
+Left,122,1 16,select,"36 - Select, Enter (for cursor keys)",Sony20 16 16 ,,,,,,,,35
+Preset +,049,1 16,sleep,26 - Preset +,Sony20 16 16,,,,,,,,30
+Open/Close,060,1 16,pip,,Sony20 16 16,,,,,,,,25
+Pause,001,208,info,,Sony15 208,,,,,,,,13
+Play,002,208,swap,,Sony15 208,,,,,,,,27
+Preset -,048,1 16,move,,Sony20 16 16,,,,,,,,26
+Return,125,1 16,play,29 - Play,Sony20 16 16,,,,,,,,0C
+Rewind/Tuning Down,051,1 16,pause,28 - Pause,Sony20 16 16,,,,,,,,0F
+Right,123,1 16,rewind,32 - Rewind/Tuning Down,Sony20 16 16,,,,,,,,0B
+Search Forward,035,1 16,fast fwd,24 - Fast Forward/Tuning Up,,,,,,,,,0D
+Search Reverse,034,1 16,stop,27 - Open/Close,,,,,,,,,0E
+"Select, Enter (for cursor keys)",124,1 16,record,,Sony20 16 16,,,,,,,,10
+Shuffle,042,1 16,exit,,,,,,,,,,37
+Stop,000,208,,,Sony15 208,,,,,,,,
+Subtitle / d. Tuning,017,1 16,,,Sony20 16 16 ,,,,,,,,
+Up,120,1 16,+100,35 - Search Reverse,Sony20 16 16 ,,,,,,,,2F
+DVD Angle,101,2 26,,,,,,,,,,,
+DVD Audio,100,2 26,,,,,,,,,,,
+DVD Clear,015,2 26,,,,,,,,,,,
+DVD Disc Skip,063,2 26,,,,,,,,,,,
+DVD Display,084,2 26,,,,,,,,,,,
+DVD Menu,026,2 26,,,Sony20 16 16,,,,,,,,
+DVD Open/Close,022,2 26,freeze,,,,,,,,,,28
+DVD Pause,057,2 26,,,,,,,,,,,
+DVD Play,002,208,,,Sony15 208 ,,,,,,,,
+DVD Play Mode,043,2 26,,,,,,,,,,,
+DVD Repeat,044,2 26,,,,,,,,,,,
+DVD Return,014,2 26,,,,,,,,,,,
+DVD Setup,083,2 26,,,,,,,,,,,
+DVD Stop,056,2 26,,,,,,,,,,,
+DVD Subtitle,099,2 26,phantom1,03 - Function,,,,,,,,,2D
+DVD Time,040,2 26,phantom2,58 - DVD,,,,,,,,,2E
+DVD Title,026,2 26,phantom3,86 - Video 1,,,,,,,,,39
+DVD,125,80,phantom4,64 - Tuner,,,,,,,,,3A
+Mute,020,80,phantom5,85 - Satellite/Video2,Sony15 80,,,,,,,,3B
+Power,021,80,,,Sony15 80,,,,,,,,
+Power Off (discrete),047,80,,,,,,,,,,,
+Power On (discrete),046,80,,,,,,,,,,,
+Sleep,096,80,,,Sony15 80,,,,,,,,
+Tuner,033,80,,,,,,,,,,,
+Volume Down,019,80,setup,,Sony15 80,,,,,,,,02
+Volume Up,018,80,light,,Sony15 80,,,,,,,,29
+Function,105,208,my system,,,,,,,,,,24
+Pause,001,208,,,,,,,,,,,
+Play,002,208,,,,,,,,,,,
+Sound Field –,111,208,,,,,,,,,,,
+Stop,000,208,,,,,,,,,,,
+Tune –,044,208,,,,,,,,,,,
+Tune +,043,208,,,,,,,,,,,
+Tuner Menu,046,208,,,,,,,,,,,
+Dynamic bass,077,208,,,Sony15 208,,,,,,,,
+Movie/Music,075,208,,,Sony15 208,,,,,,,,
+Video Format,006,208,,,Sony15 208,,,,,,,,
+Picture Navi,028,1 16,,,Sony20 16 16 ,,,,,,,,
+Tools,119,208,,,Sony15 208,,,,,,,,
+Advance,032,1 16,,,Sony20 16 16 ,,,,,,,,
+Replay,033,1 16,,,Sony20 16 16 ,,,,,,,,
+Sound Field+,110,208,,,Sony15 208,,,,,,,,
+Sound Field+,111,208,,,Sony15 208,,,,,,,,
+Tuner,015,80,,,,,,,,,,,
+Satellite/Video2,030,80,,,Doesn't work,,,,,,,,
+Video 1,034,80,,,Doesn't work,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,discreteON,62 - Power On (discrete),,,,,,,,,2A
+,,,discreteOFF,61 - Power Off (discrete),,,,,,,,,2B
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Thanks to Rob for all the handholding.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+"Protocol, device and sub device in the descriptions field.",,,,,,,,,,,,,
+   if available for learning.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

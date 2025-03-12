@@ -1,0 +1,197 @@
+Name:,Kenwood KC-993 amp,,,,v9.17,,,,,,,,CURRENT DATA
+Devices:,NEC1,184,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,1027,99 = URC-8820 / 10820 / 6820,05 - Tuner,OBC,USE,00 E2 E2,1,No,,,,,
+URC-8820 / 10820 / 6820 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 54 03 (Tuner/1027) Kenwood KC-993 amp (KM v9.17),,,,,,,,,,,,,
+5A 00 FE DE FE F5 00 E2 E2 57 B6 F6 D6 56 76 96 36 BF D7 26 A6 C6 66 CE 46 15 95 CD 4D D5 77 F7 5C E5 04 A5 0E 14 55 4E 2F AF 9C 1C 16 0F,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (HCS08) NEC1 (KM v9.17),,,,,,,,,,,,,
+20 15 22 47 31 CF 44 08 08 01 17 01 1A 01 17 03 4D D2 F0 11 93 08 CA 3C AC 05 60 1D CD FF 98 24 18 0A 60 07 4E 62 61 33 62 20 16 B6 61 A8 80 B7 61 B6 62 A8 80 B7 62 20 08 0A 60 05 4E 61 62 33 62 4E 63 64 33 64 6E 02 AA 07 60 05 CD FF 8F 25 10 08 60 12 03 60 05 AD 0A CD FF 5F 00 60 02 16 A3 10 A3 CC FF 5C 55 78 35 76 00 60 F4 AD F4 6E C1 A2 33 61 6E 01 6A 20,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,477,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+ai auto,090,,0,35 - input - unknown3,,Protocol ID,Fixed Data,,,,,,1F
+bypass,215,,1,26 - input - cd,,,,,,,,,15
+center level down,010,,2,27 - input - phono,,,,,,,,,16
+center level up,011,,3,28 - input - tape 1,,,,,,,,,17
+center mode,085,,4,29 - input - tape 2 (adaptor),,,,,,,,,19
+delay time down,076,,5,30 - input - tuner,,,,,,,,,1A
+delay time up,077,,6,31 - input - video 1,,,,,,,,,1B
+eq effect,015,,7,32 - input - video 2,,,,,,,,,1C
+m.call,197,,8,33 - input - unknown1,,,,,,,,,1D
+mode (surround / 3 stereo),223,,9,34 - input - unknown2,,,,,,,,,1E
+Mute,156,,vol up,17 - VOL+,,,,,,,,,04
+Power,157,,vol down,16 - VOL-,,,,,,,,,05
+rear level down,198,,mute,10 - mute,,,,,,,,,08
+rear level up,199,,channel up,25 - tuner - p.call up,,,,,,,,,06
+test tone mode,087,,channel down,24 - tuner - p.call down,,,,,,,,,07
+test tone on/off,086,,power,11 - power,,,,,,,,,03
+VOL-,154,,enter,36 - input - unknown4,,,,,,,,,12
+VOL+,155,,,,,,,,,,,,
+RDS Display,088,,prev,08 - m.call,extra,,,,,,,,13
+Source Direct,084,,menu,09 - mode (surround / 3 stereo),extra,,,,,,,,27
+sleep,151,,guide,07 - eq effect,extra,,,,,,,,2C
+unknown-up,017,,up arrow,03 - center level up,extra,,,,,,,,31
+unknown-down,016,,down arrow,02 - center level down,extra,,,,,,,,32
+,,,left arrow,12 - rear level down,,,,,,,,,33
+tuner - band,143,,right arrow,13 - rear level up,,,,,,,,,34
+tuner - p.call down,140,,ok,04 - center mode,,,,,,,,,35
+tuner - p.call up,153,,sleep,20 - sleep,,,,,,,,,28
+,,,pip,,,,,,,,,,36
+input - cd,146,,info,18 - RDS Display,,,,,,,,,26
+input - phono,144,,swap,,,,,,,,,,37
+input - tape 1,148,,move,,,,,,,,,,14
+input - tape 2 (adaptor),149,,play,14 - test tone mode,,,,,,,,,0C
+input - tuner,145,,pause,15 - test tone on/off,,,,,,,,,0F
+input - video 1,150,,rewind,05 - delay time down,,,,,,,,,0B
+input - video 2,147,,fast fwd,06 - delay time up,,,,,,,,,0D
+input - unknown1,002,,stop,19 - Source Direct,extra,,,,,,,,0E
+input - unknown2,020,,record,,extra,,,,,,,,10
+input - unknown3,021,,exit,01 - bypass,extra,,,,,,,,2B
+input - unknown4,141,,,,extra,,,,,,,,
+,,,input,23 - tuner - band,,,,,,,,,20
+tape a - fast forward,211,,+100,00 - ai auto,,,,,,,,,38
+tape a - play,209,,fav,,,,,,,,,,18
+tape a - reverse play,208,,,,,,,,,,,,
+tape a - rewind,210,,skip+,21 - unknown-up,,,,,,,,,2D
+tape a - stop,213,,skip-,22 - unknown-down,,,,,,,,,2E
+tape a - pause,212,,,,,,,,,,,,
+tape a - record,214,,,,,,,,,,,,
+,,,,,,,,,,,,,
+tape b - fast forward,219,,,,,,,,,,,,
+tape b - pause,220,,,,,,,,,,,,
+tape b - play,217,,,,,,,,,,,,
+tape b - record,222,,,,,,,,,,,,
+tape b - reverse play,216,,,,,,,,,,,,
+tape b - rewind,218,,,,,,,,,,,,
+tape b - Stop,221,,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,3B
+phono - stop,192,,phantom2,,,,,,,,,,3F
+phono - play,193,,phantom3,,,,,,,,,,40
+phono - up,194,,phantom4,,,,,,,,,,41
+phono - down,195,,,,,,,,,,,,
+,,,,,,,,,,,,,
+CD - num 0,128,,,,,,,,,,,,
+CD - num 1,129,,,,,,,,,,,,
+CD - num 2,130,,,,,,,,,,,,
+CD - num 3,131,,,,,,,,,,,,
+CD - num 4,132,,setup,,,,,,,,,,02
+CD - num 5,133,,,,,,,,,,,,
+CD - num 6,134,,,,,,,,,,,,
+CD - num 7,135,,M1,,,,,,,,,,3C
+CD - num 8,136,,M2,,,,,,,,,,3D
+CD - num 9,137,,(M3),,,,,,,,,,3E
+CD - num 10+,013,,,,,,,,,,,,
+CD - disc,008,,L1,,,,,,,,,,23
+CD - fast forward,007,,L2,,,,,,,,,,24
+CD - play,203,,L3,,,,,,,,,,25
+CD - rewind,006,,,,,,,,,,,,
+CD - skip-,206,,,,,,,,,,,,
+CD - skip+,207,,,,,,,,,,,,
+CD - stop,201,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,CC,,,,,,,,,,30
+,,,format,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Standard UEI setup codes for this system:,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+tuner/0027 - main amp and tuner functions,,,,,,,,,,,,,
+cd/0028 - cd functions,,,,,,,,,,,,,
+tape/0071 - tape a functions,,,,,,,,,,,,,
+tape/0070 - tabe b functions,,,,,,,,,,,,,
+phono/0040 - turntable functions,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Some extra functions have been added from the UEI setup codes,,,,,,,,,,,,,
+"that were not found on the original remote, but they haven't",,,,,,,,,,,,,
+been tested.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

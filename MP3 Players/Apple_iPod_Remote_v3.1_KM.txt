@@ -1,0 +1,197 @@
+Name:,Apple iPod Remote for Universal Dock,,,,v9.15,,,,,,,,CURRENT DATA
+Devices:,Manual Settings,238,135,67,,,,,,,,,
+Manual:,1FF,0 = 1-byte,LSB,88,NO,,,,,,,,
+Setup:,2000,99 = URC-7555 / 7556,14 - Video Acc,OBC,USE,77 E1 C2,1,No,,,,,
+URC-7555 / 7556 Device Upgrade Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 3F D0 (Video Acc/2000) Apple iPod Remote for Universal Dock (KM v9.15),,,,,,,,,,,,,
+FF 00 72 FE F4 09 77 E1 C2 50 30 A0 60 90 A1 C0 60 90 30 50 A0 91 A0 A0 61 90 A0 60 C0,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 FF (HCS08) Custom Protocol for Video Acc/2000 Apple iPod Remote for Universal Dock (KM v9.15),,,,,,,,,,,,,
+20 15 22 48 31 C7 4D 08 08 01 13 03 57 01 13 01 22 D2 F0 11 A5 08 CA 6E 01 B2 01 63 03 6E 12 B2 B6 63 4E 62 63 A4 FE B7 62 CC FF 5F,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,999,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+vol+,010,,0,,,Protocol ID,Fixed Data,,,,,,1F
+vol-,012,,1,,,,,,,,,,15
+next song,006,,2,,,,,,,,,,16
+prev song,009,,3,,,,,,,,,,17
+play/pause,005,,4,,,,,,,,,,19
+menu,003,,5,,,,,,,,,,1A
+,,,6,,,,,,,,,,1B
+power off,133,,7,,PLAY held down,,,,,,,,1C
+fast forward,134,,8,,NEXT held down,,,,,,,,1D
+rewind,137,,9,,PREV held down,,,,,,,,1E
+,,,vol up,00 - vol+,,,,,,,,,04
+,,,vol down,01 - vol-,,,,,,,,,05
+,,,mute,04 - play/pause,,,,,,,,,08
+,,,channel up,02 - next song,,,,,,,,,06
+,,,channel down,03 - prev song,,,,,,,,,07
+,,,power,06 - power off,,,,,,,,,03
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,back,,,,,,,,,,2B
+,,,menu,05 - menu,,,,,,,,,22
+,,,guide,,,,,,,,,,2D
+,,,up arrow,02 - next song,,,,,,,,,31
+,,,down arrow,03 - prev song,,,,,,,,,32
+,,,left arrow,01 - vol-,,,,,,,,,33
+,,,right arrow,00 - vol+,,,,,,,,,34
+,,,ok,04 - play/pause,,,,,,,,,35
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,info,05 - menu,,,,,,,,,29
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,play,04 - play/pause,,,,,,,,,0C
+,,,pause,04 - play/pause,,,,,,,,,0F
+,,,rewind,08 - rewind,,,,,,,,,0B
+,,,fast fwd,07 - fast forward,,,,,,,,,0D
+,,,stop,04 - play/pause,,,,,,,,,0E
+,,,record,,,,,,,,,,10
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,AV,,,,,,,,,,21
+,,,-/--,,,,,,,,,,18
+,,,fav,,,,,,,,,,24
+,,,radio,,,,,,,,,,23
+,,,skip+,02 - next song,,,,,,,,,14
+,,,skip-,03 - prev song,,,,,,,,,13
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,bright+,,,,,,,,,,86
+,,,bright-,,,,,,,,,,87
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,2E
+,,,phantom2,,,,,,,,,,2F
+,,,phantom3,,,,,,,,,,30
+,,,phantom4,,,,,,,,,,36
+,,,phantom5,,,,,,,,,,37
+,,,phantom6,,,,,,,,,,38
+,,,phantom7,,,,,,,,,,39
+,,,phantom8,,,,,,,,,,3A
+,,,phantom9,,,,,,,,,,3B
+,,,phantom10,,,,,,,,,,3C
+,,,magic,,,,,,,,,,02
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,yellow,,,,,,,,,,27
+,,,blue,,,,,,,,,,28
+,,,red,,,,,,,,,,25
+,,,green,,,,,,,,,,26
+,,,PPV,,,,,,,,,,2C
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,subt,,,,,,,,,,20
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,colour+,,,,,,,,,,84
+,,,colour-,,,,,,,,,,85
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,[?],,,,,,,,,,2A
+,,,phantom11,,,,,,,,,,3D
+,,,phantom12,,,,,,,,,,3E
+,,,phantom13,,,,,,,,,,3F
+,,,phantom14,,,,,,,,,,40
+,,,phantom15,,,,,,,,,,41
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+This upgrade not only replicates the 5 buttons on the original,,,,,,,,,,,,,
+"Apple remote, but it also re-creates the POWER-OFF, fast forward",,,,,,,,,,,,,
+and rewind functions which are normally invoked by holding down,,,,,,,,,,,,,
+"the PLAY, NEXT or PREV buttons for a couple of seconds.",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+NOTE: Make sure you are using KM v8.38 or later if you are loading this into a 6805-based,,,,,,,,,,,,,
+remote due to a bug in prior versions that may not select the correct protocol below.,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (S3C8+) ,,,,,,,,,,,,,
+44 8D 31 8B 12 C7 4D 08 08 01 13 03 43 01 13 01 0E D2 F0 11 A5 08 B6 E6 0D 01 18 06 37 10 03 E6 0D 12 E4 05 06 77 10 19 05 8D 01 46,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (P8/740),,,,,,,,,,,,,
+0D 18 31 80 14 E1 7E 15 08 08 03 21 01 AB 35 46 55 06 C0 02 00 7E 9B 03 D0 A5 60 3C 01 83 13 03 3C 12 83 1B A6 5F 86 60 85 5F 4C 00 FF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (M6805-RC16/18),,,,,,,,,,,,,
+12 23 31 20 10 C7 4D 08 08 01 88 AB 00 88 91 69 82 00 84 D1 65 AE 01 01 5D 02 AE 12 BF_80 B6 5D BE 5C BF 5D A4 FE B7 5C CC 01 AF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (M6805-C9),,,,,,,,,,,,,
+0D 19 31 20 11 E1 F8 00 14 08 08 03 25 01 AE 35 84 54 06 C9 02 01 01 5D 04 A6 11 B7_74 B6 5D A4 FE BE 5C BF 5D B7 5C CD 01 83 A6 80 B7_7B A6 7E AE 63 B7_6E BF_6F A6 03 AE E3 B7_71 BF_72 3A_74 2A E5 3F_74 CD 01 8C 24 DE 81,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Upgrade protocol 0 = 01 FF (HCS08),,,,,,,,,,,,,
+ 20 15 22 48 31 C7 4D 08 08 01 13 03 57 01 13 01 22 D2 F0 11 A5 08 CA 6E 01 B2 01 63 03 6E 12 B2 B6 63 4E 62 63 A4 FE B7 62 CC FF 5F,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

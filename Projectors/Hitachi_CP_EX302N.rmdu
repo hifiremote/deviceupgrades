@@ -1,0 +1,104 @@
+# This file was created by IrScrutinizer.
+# It is not directly usable in RemoteMaster. For this, make sure that
+# protocols.ini contains the "protocol" ImportOnly. Also, check
+# Options -> "Allow preserve Control", and then select
+# "Preserve: OBC and function parameters" on the "Setup" pane.
+# Then open this file with RemoteMaster, and select a sensible executor
+# (called protocol in RemoteMaster).
+#
+# Original protocol: nec1
+#
+Description=Remote R016H
+Notes=Export from IrScrutinizer\n\nOriginal protocol: nec1
+Remote.name=URC-7781 One For All Digital 12
+Remote.signature=11311131
+DeviceType=Cable
+DeviceIndex=3
+SetupCode=1999
+Protocol=99 99
+Protocol.name=ImportOnly
+ProtocolParms=135 69
+Function.0.name=Video
+Function.0.hex=19
+Function.0.notes=
+Function.1.name=Computer
+Function.1.hex=18
+Function.1.notes=
+Function.2.name=My source/Doc Camera
+Function.2.hex=9
+Function.2.notes=
+Function.3.name=Power
+Function.3.hex=17
+Function.3.notes=
+Function.4.name=Aspect
+Function.4.hex=7a
+Function.4.notes=
+Function.5.name=Auto
+Function.5.hex=24
+Function.5.notes=
+Function.6.name=Search
+Function.6.hex=1a
+Function.6.notes=
+Function.7.name=Blank
+Function.7.hex=41
+Function.7.notes=
+Function.8.name=Magnify On
+Function.8.hex=b0
+Function.8.notes=
+Function.9.name=Freeze
+Function.9.hex=b4
+Function.9.notes=
+Function.10.name=Page Up
+Function.10.hex=d0
+Function.10.notes=
+Function.11.name=Vol+
+Function.11.hex=51
+Function.11.notes=
+Function.12.name=Magnify Off
+Function.12.hex=b3
+Function.12.notes=
+Function.13.name=Page Down
+Function.13.hex=d1
+Function.13.notes=
+Function.14.name=Vol-
+Function.14.hex=50
+Function.14.notes=
+Function.15.name=Keystone
+Function.15.hex=b6
+Function.15.notes=
+Function.16.name=Mybutton1
+Function.16.hex=1
+Function.16.notes=
+Function.17.name=Mybutton2
+Function.17.hex=2
+Function.17.notes=
+Function.18.name=Mute
+Function.18.hex=52
+Function.18.notes=
+Function.19.name=Position
+Function.19.hex=30
+Function.19.notes=
+Function.20.name=Menu
+Function.20.hex=20
+Function.20.notes=
+Function.21.name=Up
+Function.21.hex=28
+Function.21.notes=
+Function.22.name=Left
+Function.22.hex=2e
+Function.22.notes=
+Function.23.name=Enter
+Function.23.hex=21
+Function.23.notes=
+Function.24.name=Right
+Function.24.hex=2a
+Function.24.notes=
+Function.25.name=Esc
+Function.25.hex=d4
+Function.25.notes=
+Function.26.name=Down
+Function.26.hex=2c
+Function.26.notes=
+Function.27.name=Reset
+Function.27.hex=22
+Function.27.notes=

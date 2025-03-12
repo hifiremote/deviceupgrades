@@ -1,0 +1,197 @@
+Name:,Sony DVP-CX995V_1,,,,v9.17,,,,,,,,CURRENT DATA
+Devices:,Sony Combo (12/15/20),73,98,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,87,NO,,,,,,,,
+Setup:,1011,99 = Atlas OCAP URC-1055/1056,06 - DVD,OBC,USE,92 46 00 00,2,No,,,,,
+Atlas OCAP URC-1055/1056 Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code2 0 = 23 F3 (DVD/1011) Sony DVP-CX995V_1 (KM v9.17),,,,,,,,,,,,,
+00 27 23 3E EE FE C6 FE F5 92 46 00 00 8C 59 0C 59 A8 59 4C 59 9C 59 44 59 C4 59 1C 59 0A 59 D8 59 9E 59 5E 59 DE 59 3E 59 D0 59 2A 59 70 59 70 59 3A 59 2A 59 14 59 C6 59 58 59 7C 5B BC 5B 54 5B 94 5B 9E 5B A6 59 34 59 44 5B 84 5B 02 5B 04 5B 02 5B,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 34 F0 04 23 F3 28 5B«advance / step forward»,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 27 (S3C8+) Sony Combo (12/15/20) (KM v9.17),,,,,,,,,,,,,
+3A 8A 42 8B 15 F8 15 05 07 02 58 01 18 01 2C 01 18 57 D0 04 B0 01 18 08 03 08 76 07 01 EB 17 76 08 01 6B 0F E6 28 F9 E6 12 08 08 08 E0 C0 56 C0 03 09 01 E6 24 05 8D 01 49,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,474,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+open/close,022,1 26,0,11 - num 0,,Protocol ID,Fixed Data,,,,,,1F
+power,021,1 26,1,02 - num 1,Power toggle On/Off,,,,,,,,15
+num 1,000,1 26,2,03 - num 2,,,,,,,,,16
+num 2,001,1 26,3,04 - num 3,,,,,,,,,17
+num 3,002,1 26,4,05 - num 4,,,,,,,,,19
+num 4,003,1 26,5,06 - num 5,,,,,,,,,1A
+num 5,004,1 26,6,07 - num 6,,,,,,,,,1B
+num 6,005,1 26,7,08 - num 7,,,,,,,,,1C
+num 7,006,1 26,8,09 - num 8,,,,,,,,,1D
+num 8,007,1 26,9,10 - num 9,,,,,,,,,1E
+num 9,008,1 26,vol up,,,,,,,,,,04
+num 0,009,1 26,vol down,,,,,,,,,,05
+clear,015,1 26,mute,,,,,,,,,,33
+enter,011,1 26,channel up,32 - next,,,,,,,,,06
+folder,064,2 26,channel down,29 - prev,disc explorer only,,,,,,,,07
+disk skip +,062,2 26,power,01 - power,,,,,,,,,03
+disk skip -,061,2 26,#/aspect/enter,49 - angle,,,,,,,,,18
+top menu,026,1 26,,,dvd only,,,,,,,,
+edit,034,2 26,last,21 - return,disc explorer only,,,,,,,,08
+menu,027,1 26,menu,19 - menu,dvd only,,,,,,,,2E
+sort,033,2 26,guide,17 - top menu,disc explorer only,,,,,,,,21
+return,014,1 26,up arrow,24 - up,,,,,,,,,29
+display,084,1 26,down arrow,27 - down,dvd only,,,,,,,,2A
+file,032,2 26,left arrow,25 - left,disc explorer only,,,,,,,,2B
+up,121,1 26,right arrow,26 - right,,,,,,,,,2C
+left,123,1 26,select,13 - enter,,,,,,,,,2D
+right,124,1 26,,,,,,,,,,,
+down,122,1 26,pip,44 - repeat,,,,,,,,,38
+enter,011,1 26,info,22 - display,same code on remote's 2 enter buttons,,,,,,,,13
+prev,048,1 26,swap,18 - edit,,,,,,,,,39
+replay / step reverse,092,1 26,move,20 - sort,,,,,,,,,3A
+advance / step forward,020,2 26,play,34 - play,,,,,,,,,0C
+next,049,1 26,pause,37 - pause,,,,,,,,,0F
+scan/slow -,034,1 26,rewind,33 - scan/slow -,,,,,,,,,0B
+play,050,1 26,fast fwd,35 - scan/slow +,,,,,,,,,0D
+scan/slow +,035,1 26,stop,38 - stop,,,,,,,,,0E
+zoom,121,2 26,record,41 - picture navi,,,,,,,,,10
+pause,057,1 26,exit,21 - return,,,,,,,,,14
+stop,056,1 26,,,,,,,,,,,
+sacd multi/2ch,094,1 26,source,,,,,,,,,,30
+sacd/cd,095,1 26,[*]/shift,36 - zoom,,,,,,,,,20
+picture navi,080,1 26,fav,48 - subtitle,,,,,,,,,22
+picture memory,060,2 26,,,disc explorer only,,,,,,,,
+time/text,040,1 26,,,,,,,,,,,
+repeat,044,1 26,,,,,,,,,,,
+album - (mp3/jpeg),041,2 26,,,,,,,,,,,
+album + (mp3/jpeg),042,2 26,,,,,,,,,,,
+audio,100,1 26,,,,,,,,,,,
+subtitle,099,1 26,,,,,,,,,,,
+angle,101,1 26,,,,,,,,,,,
+picture mode,091,1 26,,,,,,,,,,,
+power on,046,1 26,,,Discrete On. NOT on remote,,,,,,,,
+power off,047,1 26,,,Discrete Off. NOT on remote,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,40
+,,,phantom2,,,,,,,,,,3E
+,,,phantom3,,,,,,,,,,71
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,phantom10,,,,,,,,,,F1
+,,,setup,,,,,,,,,,02
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,macro1{F1},31 - advance / step forward,,,,,,,,,34
+,,,macro2{OnDemand},,,,,,,,,,35
+,,,macro3{F2},,,,,,,,,,36
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,pip channel up,14 - folder,,,,,,,,,3B
+,,,pip channel down,23 - file,,,,,,,,,3C
+,,,page up,15 - disk skip +,,,,,,,,,23
+,,,page down,16 - disk skip -,,,,,,,,,24
+,,,day+,46 - album + (mp3/jpeg),,,,,,,,,31
+,,,day-,45 - album - (mp3/jpeg),,,,,,,,,32
+,,,A,,,,,,,,,,25
+,,,B,,,,,,,,,,26
+,,,C,,,,,,,,,,27
+,,,D,,,,,,,,,,3D
+,,,list,22 - display,,,,,,,,,28
+,,,replay,30 - replay / step reverse,,,,,,,,,37
+,,,live,43 - time/text,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,settings,14 - folder,,,,,,,,,3F
+,,,CBL,,,,,,,,,,09
+,,,TV,,,,,,,,,,01
+,,,DVD,,,,,,,,,,0A
+,,,AUD,,,,,,,,,,11
+,,,VCR/AUX,,,,,,,,,,12
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Sony DVP-CX995V (Command Mode 1),,,,,,,,,,,,,
+Remote RM-ASP001,,,,,,,,,,,,,
+47 Non  Programmable buttons,,,,,,,,,,,,,
+2 Dedicated TV buttons,,,,,,,,,,,,,
+"1 Triple Code button for TV, DVD, & Disc Explorer Modes",,,,,,,,,,,,,
+3 Dual Code buttons for DVD & Disc Explorer Modes,,,,,,,,,,,,,
+1 switch for TV / Disc Explorer / DVD Mode ,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+The RM-ASP001 isn't a darkened-room-friendly remote.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+This upgrade uses the same Setup Code 1011 from the DVP-CX985V,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Used Keymap Master v9.17,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+This set of functions taken from the remote with the Command ,,,,,,,,,,,,,
+Mode switch in position 1.  The switch is in the battery compartment.,,,,,,,,,,,,,
+"To change the player, press the Enter button while turning on.",,,,,,,,,,,,,
+The only difference between Modes are Subdev1 and Subdev2,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

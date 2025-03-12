@@ -1,0 +1,74 @@
+# This file was created by IrScrutinizer.
+# It is not directly usable in RemoteMaster. For this, make sure that
+# protocols.ini contains the "protocol" ImportOnly. Also, check
+# Options -> "Allow preserve Control", and then select
+# "Preserve: OBC and function parameters" on the "Setup" pane.
+# Then open this file with RemoteMaster, and select a sensible executor
+# (called protocol in RemoteMaster).
+#
+# Original protocol: nec
+#
+Description=unnamed
+Notes=Export from IrScrutinizer\n\nOriginal protocol: nec
+Remote.name=URC-7781 One For All Digital 12
+Remote.signature=11311131
+DeviceType=Cable
+DeviceIndex=3
+SetupCode=1999
+Protocol=99 99
+Protocol.name=ImportOnly
+ProtocolParms=128 235
+Function.0.name=Power
+Function.0.hex=12
+Function.0.notes=
+Function.1.name=Picture
+Function.1.hex=23
+Function.1.notes=
+Function.2.name=Input
+Function.2.hex=14
+Function.2.notes=
+Function.3.name=Aspect
+Function.3.hex=27
+Function.3.notes=
+Function.4.name=Up
+Function.4.hex=40
+Function.4.notes=
+Function.5.name=AV Mute
+Function.5.hex=11
+Function.5.notes=
+Function.6.name=Left
+Function.6.hex=42
+Function.6.notes=
+Function.7.name=Enter
+Function.7.hex=13
+Function.7.notes=
+Function.8.name=Right
+Function.8.hex=43
+Function.8.notes=
+Function.9.name=Menu
+Function.9.hex=1b
+Function.9.notes=
+Function.10.name=Down
+Function.10.hex=41
+Function.10.notes=
+Function.11.name=Auto Set
+Function.11.hex=15
+Function.11.notes=
+Function.12.name=Freeze
+Function.12.hex=45
+Function.12.notes=
+Function.13.name=Magnify+
+Function.13.hex=5a
+Function.13.notes=
+Function.14.name=Volume+
+Function.14.hex=3
+Function.14.notes=
+Function.15.name=Echo
+Function.15.hex=28
+Function.15.notes=
+Function.16.name=Magnify-
+Function.16.hex=4
+Function.16.notes=
+Function.17.name=Volume-
+Function.17.hex=6
+Function.17.notes=

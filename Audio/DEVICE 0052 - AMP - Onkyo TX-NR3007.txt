@@ -1,0 +1,197 @@
+Name:,Onkyo TX-NR-3007,,,,v9.18,,,,,,,,CURRENT DATA
+Devices:,NEC 4DEV Combo,210,2,210,108,210,109,210,172,,,,
+Manual:,,0 = 1-byte,LSB-COMP,88,NO,,,,,,,,
+Setup:,0052,24 = URC-881x / 801x / 601x,03 - VCR,OBC,USE,B4 BF B4 C9 B4 49 B4 CA,2,No,,,,,
+URC-881x / 801x / 601x Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 18 34 (VCR/0052) Onkyo TX-NR-3007 (KM v9.18),,,,,,,,,,,,,
+1A 00 FE FA FE E1 B4 BF B4 C9 B4 49 B4 CA 84 20 54 20 94 20 14 20 E4 20 64 20 A4 20 24 20 C4 20 44 20 BF A1 3F A1 5F A0 FF A1 7F A1 2C 60 3E A1 D5 60 67 A0 EE 60 DE A1 35 60 97 A0 57 A0 A7 A0 5E A1 16 A0 37 A0 BE A1 55 60 16 A0 1E E0 D4 60 D6 A0 36 A0,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 22 F4 10 34 45 A0«CLR/SLEEP» ¦25 F4 10 34 CE 60«DVD/BD: Input Selector»¦26 F4 10 34 0F A0«VCR/DVR: Input Selector»  ¦27 F4 10 34 4F A0«GAME: Input Selector»  ¦83 F4 10 34 DF A0«DISCRETE ON»  ¦A4 F4 10 34 1D 60«DISCRETE OFF» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 1A (S3C8+) NEC 4DEV Combo (KM v9.18),,,,,,,,,,,,,
+43 8B 82 8B 14 CF 44 08 08 01 18 01 06 01 18 03 39 D2 DC 11 94 08 B6 08 CA E6 10 02 08 0C 18 C0 56 C1 C0 F0 C1 E0 C1 06 C1 03 93 C1 03 E5 C1 04 E4 0B 05 E4 0B 06 60 06 37 0B 05 E4 03 04 60 04 37 06 05 F6 01 04 7B 09 37 09 0C 37 01 03 46 29 0D 46 29 01 8D 01 49 C4 22 1E 37 01 EE F6 01 49 E6 28 C1 60 03 E6 12 01 8B E7,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,220,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+NUM 0,222,1 1,0,00 - NUM 0,,Protocol ID,Fixed Data,,,,,,1F
+NUM 1,213,1 1,1,01 - NUM 1,,,,,,,,,15
+NUM 2,214,1 1,2,02 - NUM 2,,,,,,,,,16
+NUM 3,215,1 1,3,03 - NUM 3,,,,,,,,,17
+NUM 4,216,1 1,4,04 - NUM 4,,,,,,,,,19
+NUM 5,217,1 1,5,05 - NUM 5,,,,,,,,,1A
+NUM 6,218,1 1,6,06 - NUM 6,,,,,,,,,1B
+NUM 7,219,1 1,7,07 - NUM 7,,,,,,,,,1C
+NUM 8,220,1 1,8,08 - NUM 8,,,,,,,,,1D
+NUM 9,221,1 1,9,09 - NUM 9,,,,,,,,,1E
+ON/STANDBY,203,2 1,vol up,15 - VOL UP,,,,,,,,,04
+DISCRETE ON,004,3 1,vol down,16 - VOL DOWN,,,,,,,,,05
+DISCRETE OFF,071,2 1,mute,17 - MUTE,,,,,,,,,08
+CH/DISC +,000,3 2,channel up,13 - CH/DISC +,,,,,,,,,06
+CH/DISC -,001,3 2,channel down,14 - CH/DISC -,,,,,,,,,07
+VOL UP,002,3 2,power,10 - ON/STANDBY,,,,,,,,11 - DISCRETE ON,03
+VOL DOWN,003,3 2,enter,27 - ENTER,,,,,,,,,12
+MUTE,005,3 1,tv/vid,25 - AUDIO,,,,,,,,,13
+Audio Muting On,132,2 1,prev,22 - PREV CH/MENU,,,,,,,,,23
+Audio Muting Off,133,2 1,menu,23 - SETUP,,,,,,,,,21
+Audio Muting Toggle,005,3 1,guide,21 - GUIDE/TOP MENU,,,,,,,,,14
+GUIDE/TOP MENU,136,2 1,up arrow,28 - UP,,,,,,,,,31
+PREV CH/MENU,135,4 1,down arrow,29 - DOWN,,,,,,,,,32
+SETUP,083,2 1,left arrow,30 - LEFT,,,,,,,,,33
+RETURN,084,2 1,right arrow,31 - RIGHT,,,,,,,,,34
+AUDIO,212,2 1,select,27 - ENTER,,,,,,,,,35
+VIDEO,135,4 1,sleep,32 - CLR/SLEEP,,,,,,,,,22
+ENTER,151,3 1,pip,,,,,,,,,,3B
+UP,130,3 2,info,63 - DISPLAY,,,,,,,,,18
+DOWN,131,3 2,swap,,,,,,,,,,20
+LEFT,132,3 2,move,,,,,,,,,,3C
+RIGHT,133,3 2,play,56 - PLAY,,,,,,,,,0C
+CLR/SLEEP,093,3 1,pause,58 - PAUSE,,,,,,,,,0F
+MOVIE/TV MODE,208,4 1,rewind,55 - REW,,,,,,,,,0B
+MUSIC MODE,209,4 1,fwd,57 - FWD,,,,,,,,,0D
+GAME MODE,210,4 1,stop,60 - STOP,Input Selector,,,,,,,,0E
+STEREO MODE,076,2 1,record,,Input Selector,,,,,,,,10
+THX MODE,078,2 1,exit,24 - RETURN,Input Selector,,,,,,,12 - DISCRETE OFF,24
+DVD/BD,140,2 1,,,Input Selector,,,,,,,,
+VCR/DVR,015,3 1,,,Input Selector,,,,,,,,
+CBL/SAT,014,3 1,,,Input Selector,,,,,,,,
+GAME,013,3 1,,,Input Selector,,,,,,,,
+AUX1,159,3 1,,,Input Selector,,,,,,,,
+AUX2,157,3 1,f fwd,61 - F.FWD,Input Selector,,,,,,,,2B
+PHONO,010,3 1,f rew,59 - F.REW,Input Selector,,,,,,,,2A
+NET/USB,138,3 1,,,Input Selector,,,,,,,,
+TV/TAPE,008,3 1,,,Input Selector,,,,,,,,
+TUNER,011,3 1,,,Input Selector,,,,,,,,
+PORT,138,4 1,,,,,,,,,,,
+CD,009,3 1,,,,,,,,,,,
+Sirius,219,4 1,,,,,,,,,,,
+NETWORK RADIO,135,3 1,,,,,,,,,,,
+USB,158,4 1,,,,,,,,,,,
+Input Select Up,030,2 1,,,,,,,,,,,
+Input Select Down,031,2 1,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,3D
+REW,026,3 1,phantom2,,,,,,,,,,3E
+PLAY,021,3 1,phantom3,,,,,,,,,,3F
+FWD,025,3 1,phantom4,,,,,,,,,,40
+PAUSE,022,3 1,,,,,,,,,,,
+F.REW,147,3 1,,,,,,,,,,,
+STOP,019,3 1,,,,,,,,,,,
+F.FWD,148,3 1,,,,,,,,,,,
++10/DIMMER,149,3 1,,,,,,,,,,,
+DISPLAY,085,2 1,,,,,,,,,,,
+Speaker Layout,136,2 1,setup,,,,,,,,,,02
+SP LAYOUT,089,3 1,light,,,,,,,,,,39
+Speakers A,089,3 1,home theater,,,,,,,,,,38
+Speakers B,090,3 1,M1,,,,,,,,,,2C
+AUDIO MODE,076,3 1,M2,,,,,,,,,,2D
+PHONO (Alternate),205,3 1,M3,,,,,,,,,,2E
+STORE SETUP,092,3 1,M4,,,,,,,,,,2F
+RECALL SETUP,093,3 1,L1,38 - DVD/BD,,,,,,,,,25
+MONITOR OUT,210,3 1,L2,39 - VCR/DVR,,,,,,,,,26
+Resolution Out,157,4 1,L3,41 - GAME,,,,,,,,,27
+,,,L4,,,,,,,,,,28
+Test Tone,154,3 1,,,,,,,,,,,
+Channel Select,068,2 1,,,,,,,,,,,
+Level Up,066,2 1,,,,,,,,,,,
+Level Down,067,2 1,,,,,,,,,,,
+Sub Level,222,2 1,,,,,,,,,,,
+Display Mode,085,2 1,,,,,,,,,,,
+Dimmer,149,3 1,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Tuning Up,064,1 1,,,,,,,,,,,
+Tuning Down,065,1 1,,,,,,,,,,,
+Direct Tuning,223,1 1,,,,,,,,,,,
+,,,,,,,,,,,,,
+Lock,092,3 1,,,,,,,,,,,
+Unlock,093,3 1,,,,,,,,,,,
+,,,,,,,,,,,,,
+Net Play,141,1 1,,,,,,,,,,,
+Net Stop,142,1 1,,,,,,,,,,,
+Net Pause,145,1 1,,,,,,,,,,,
+Net Track Up,143,1 1,,,,,,,,,,,
+Net Track Down,144,1 1,,,,,,,,,,,
+Net FF,128,1 1,,,,,,,,,,,
+Net Rew,129,1 1,,,,,,,,,,,
+Net Repeat,146,1 1,,,,,,,,,,,
+Net Random,147,1 1,,,,,,,,,,,
+Net Display,158,1 1,,,,,,,,,,,
+Net Right,195,1 1,,,,,,,,,,,
+Net Left,194,1 1,,,,,,,,,,,
+Net Up,192,1 1,,,,,,,,,,,
+Net Down,193,1 1,,,,,,,,,,,
+Net Select,196,1 1,,,,,,,,,,,
+,,,,,,,,,,,,,
+Re-EQ,214,2 1,,,,,,,,,,,
+Audyssey EQ,223,4 1,,,,,,,,,,,
+,,,,,,,,,,,,,
+DSP Up,024,2 1,,,,,,,,,,,
+DSP Down,025,2 1,,,,,,,,,,,
+,,,,,,,,,,,,,
+Listening Mode Up,076,3 1,,,,,,,,,,,
+Listening Mode Down,069,2 1,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+This upgrade for the Onkyo TX-SR607 contains commands ,,,,,,,,,,,,,
+for Zone 1 only.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+ONKYO RC-747M,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

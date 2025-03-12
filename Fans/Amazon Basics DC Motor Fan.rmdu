@@ -1,0 +1,38 @@
+Description=Amazon Basics DC Motor Fan
+Remote.name=URC-6131(Old) PVR Remote 2K
+Remote.signature=PVR0PVR0
+Notes=Upgrade protocol 0 \= 01 FF (S3C8+) Amazon Basics DC Motor Fan (PB v4.02)\n44 89 11 8B 18 85 44 08 08 01 04 02 EC 01 04 04\nFA 02 EC 08 CA 08 B6 63 9C 11 94 04 CE F6 01 46\nC6 1C 18 6A F6 01 49 C6 28 80 45 2C 06 C6 C0 22\n1C F6 01 5B E6 0D 02 8D 01 49\nEnd
+DeviceType=Cable
+DeviceIndex=0
+SetupCode=2000
+Protocol=01 FF
+Protocol.name=Manual Settings
+ProtocolParms=2
+FixedData=FD
+DevParms=Device 1\=0
+DeviceTranslator=Translator(comp,0)
+CmdParms=OBC\=0
+CmdTranslator=Translator(comp,0)
+DefaultCmd=00
+CmdIndex=0
+FixedData=02
+Code.S3C80=44 89 11 8B 18 85 44 08 08 01 04 02 EC 01 04 04 FA 02 EC 08 CA 08 B6 63 9C 11 94 04 CE F6 01 46 C6 1C 18 6A F6 01 49 C6 28 80 45 2C 06 C6 C0 22 1C F6 01 5B E6 0D 02 8D 01 49
+Function.0.name=Speed/Timer Up
+Function.0.hex=5D
+Function.1.name=Speed/Timer Down
+Function.1.hex=A7
+Function.2.name=Oscillate
+Function.2.hex=57
+Function.3.name=Breeze Mode
+Function.3.hex=6E
+Function.3.notes=Nature/Sleep/Normal
+Function.4.name=Timer
+Function.4.hex=DC
+Function.5.name=Power
+Function.5.hex=AD
+Button.3=Power|null|null
+Button.31=Speed/Timer Up|null|null
+Button.32=Speed/Timer Down|null|null
+Button.33=Breeze Mode|null|null
+Button.34=Timer|null|null
+Button.35=Oscillate|null|null

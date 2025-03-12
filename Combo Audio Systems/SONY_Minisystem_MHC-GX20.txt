@@ -1,0 +1,197 @@
+Name:,SONY Minisystem MHC-GX20,,,,v9.18,,,,,,,,CURRENT DATA
+Devices:,Sony Combo (12/20),26,57,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,87,NO,,,,,,,,
+Setup:,2000,99 = 15-2117 / 15-2116,03 - VCR,OBC,USE,59 9C,2,No,,,,,
+15-2117 / 15-2116 Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 17 D0 (VCR/2000) SONY Minisystem MHC-GX20 (KM v9.18),,,,,,,,,,,,,
+27 00 FE BE AB 59 9C 00 00 A4 08 F0 08 C4 08 3E 08 7C 88 B5 00 70 08 5F 00 06 08 48 08 C8 08 C8 08 8D 00 0D 00 A8 08 4D 00 1D 00 CD 00 2D 00 9D 00 FC 30 08 30 88 30 46 08 A6 08 F8 30 F8 30 31 00,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+" 30 F4 17 D0 06 08«Sleep»  ¦13 F4 17 D0 D2 08«Time, Display»",,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 27 (S3C8+) Sony Combo (12/20) (KM v9.18),,,,,,,,,,,,,
+3A 8A 22 8B 15 F6 15 05 07 02 58 01 18 01 2C 01 18 57 D0 04 B0 01 18 08 03 00 76 05 01 EB 1A E6 28 C8 E6 12 00 E6 22 00 E6 24 05 E4 05 03 E4 06 04 E6 10 00 E6 01 01 8B 02 00 11 8D 01 46,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,205,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+Effect Up,016,12,0,,,Protocol ID,Fixed Data,,,,,,1F
+Effect Down,017,12,1,10 - INPUT: CD,,,,,,,,,15
+Effect On/Off,031,12,2,11 - INPUT: Tuner,,,,,,,,,16
+Surround On/Off,063,12,3,09 - INPUT: Tape A/B,,,,,,,,,17
+Volume Up,018,16,4,12 - INPUT: Game,,,,,,,,,19
+Volume Down,019,16,5,17 - Disc Skip,,,,,,,,,1A
+Power,021,16,6,27 - Repeat/FM Mode,,,,,,,,,1B
+Power On (discrete),046,16,7,26 - Tuner Memory,,,,,,,,,1C
+Power Off (discrete),047,16,8,28 - Groove,,,,,,,,,1D
+INPUT: Tape A/B,035,16,9,14 - Sleep,,,,,,,,,1E
+INPUT: CD,037,16,vol up,04 - Volume Up,,,,,,,,,04
+INPUT: Tuner,015,16,vol down,05 - Volume Down,,,,,,,,,05
+INPUT: Game,124,16,mute,05 - Volume Down,,,,,,,,,08
+"Time, Display",075,16,channel up,19 - Next/Preset +,,,,,,,,,06
+Sleep,096,16,channel down,18 - Previous/Preset –,,,,,,,,,07
+Clock/Timer Select,098,16,power,06 - Power,,,,,,,,,03
+Clock/Timer Set,101,16,enter,25 - Enter,,,,,,,,,18
+Disc Skip,062,17,tv/video,,,,,,,,,,20
+Previous/Preset –,048,,last,,,,,,,,,,38
+Next/Preset +,049,,menu,03 - Surround On/Off,,,,,,,,,14
+Play,050,,guide,02 - Effect On/Off,,,,,,,,,36
+Rewind/Tuning –,051,,up arrow,00 - Effect Up,,,,,,,,,31
+Fast Forward/Tuning +,052,,down arrow,01 - Effect Down,,,,,,,,,32
+Stop,056,,left arrow,15 - Clock/Timer Select,,,,,,,,,33
+Pause,057,,right arrow,16 - Clock/Timer Set,,,,,,,,,34
+Enter,012,,select,02 - Effect On/Off,,,,,,,,,35
+Tuner Memory,014,16,sleep,14 - Sleep,,,,,,,,,30
+Repeat/FM Mode,045,,pip,,,,,,,,,,25
+Groove,122,,info,"13 - Time, Display",,,,,,,,,13
+Play Mode,,,swap,,,,,,,,,,27
+,,,move,,,,,,,,,,26
+,,,play,20 - Play,,,,,,,,,0C
+,,,pause,24 - Pause,,,,,,,,,0F
+,,,rewind,21 - Rewind/Tuning –,,,,,,,,,0B
+,,,fast fwd,22 - Fast Forward/Tuning +,,,,,,,,,0D
+,,,stop,23 - Stop,,,,,,,,,0E
+,,,record,,,,,,,,,,10
+,,,exit,,,,,,,,,,37
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,+100,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,17 - Disc Skip,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,freeze,,,,,,,,,,28
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,phantom1,,,,,,,,,,2D
+,,,phantom2,,,,,,,,,,2E
+,,,phantom3,,,,,,,,,,39
+,,,phantom4,,,,,,,,,,3A
+,,,phantom5,,,,,,,,,,3B
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,02
+,,,light,,,,,,,,,,29
+,,,my system,,,,,,,,,,24
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,discreteON,,,,,,,,,,2A
+,,,discreteOFF,,,,,,,,,,2B
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Sony Mini System MHC-GX20 or HCD-GX20 says the data plate,,,,,,,,,,,,,
+ on the back of the unit,,,,,,,,,,,,,
+I give most of the credit to Robman and the other talented JP1 Users,,,,,,,,,,,,,
+ from http://www.hifi-remote.com,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Will probably also work with the MHC-RG220 as that was the file,,,,,,,,,,,,,
+to make the upgrade I just added the missing functions,,,,,,,,,,,,,
+I am missing the code for Play Mode,,,,,,,,,,,,,
+ (It also seems everyone else is too),,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

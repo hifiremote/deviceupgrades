@@ -1,0 +1,197 @@
+Name:,LifeTec LT 9025,,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,NEC2,128,123,,,,,,,,,,
+Manual:,,0 = 1-byte,0 = 1-byte,88,NO,,,,,,,,
+Setup:,1209,12 = URC-8550 / 5550 (Topline),03 - VCR,EFC,USE,21 FE 21,1,No,,,,,
+URC-8550 / 5550 (Topline) Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 24 B9 (VCR/1209) LifeTec LT 9025 (KM v9.19),,,,,,,,,,,,,
+5A 02 3E FA FF 21 FE 21 AF 2F 37 5D 87 AD F5 97 17 67 E7 05 97 67 E7 A7 B7 17 57,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 93 F3 24 B9 CD«Counter reset»¦A9 F3 24 B9 75«Clock / Counter» ¦AA F3 24 B9 47«Showview / Programm»¦A1 F3 24 B9 85«Rewind / FFwd - Info»  ¦92 F3 24 B9 B5«Auto Tracking»¦9A F3 24 B9 2D«Zero return»  ¦8A F3 24 B9 1D«Record End Search»  ¦91 F3 24 B9 8D«Eject»  ¦99 F3 24 B9 D7«Index»  ¦B4 F3 24 B9 8F«Audio select» ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code:,,,,,,,,,,,,,
+Upgrade Protocol 0 = 00 5A (P8/740) NEC2 (KM v9.19),,,,,,,,,,,,,
+0B 1A 31 80 15 F6 B8 01 16 08 08 01 A1 03 17 69 78 54 06 C7 02 08 01 01 03 DB E6 5B 3C 02 5C 97 5D 05 7F 7F 3C AE 73 57 5D 17 22 10 D0 13 A7 5D 04 E6 5B 80 0C A9 80 45 5E 85 5E A9 80 45 5F 85 5F B7 5D 03 3C EE 7E 07 5D 20 77 5D 04 22 09 90 19 37 5D 02 22 00 97 5D 0F 22 00 3C C0 7E 44 5E 3C 01 6B 22 06 90 03 60 4F 7F 2F 7F 4C 00 FF,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,194,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fEFC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+Ziffer 0 / AV,181,,0,00 - Ziffer 0 / AV,,Protocol ID,Fixed Data,,,,,33 - Counter reset,13
+Ziffer 1,185,,1,01 - Ziffer 1,,,,,,,,,1C
+Ziffer 2,183,,2,02 - Ziffer 2,,,,,,,,,14
+Ziffer 3,187,,3,03 - Ziffer 3,,,,,,,,,0C
+Ziffer 4,180,,4,04 - Ziffer 4,,,,,,,,,1D
+Ziffer 5,184,,5,05 - Ziffer 5,,,,,,,,,15
+Ziffer 6,182,,6,06 - Ziffer 6,,,,,,,,,0D
+Ziffer 7,186,,7,07 - Ziffer 7,,,,,,,,,1E
+Ziffer 8,053,,8,08 - Ziffer 8,,,,,,,,,16
+Ziffer 9,057,,9,09 - Ziffer 9,,,,,,,,,0E
+Kanal + / Tracking +,055,,vol up,,,,,,,,,,06
+Kanal - / Tracking -,059,,vol down,,,,,,,,,,03
+An / Aus,123,,mute,,,,,,,,,,02
+TV/VCR,119,,channel up,10 - Kanal + / Tracking +,,,,,,,,,04
+Eject,038,,channel down,11 - Kanal - / Tracking -,,,,,,,,,05
+Timer Record,056,,power,12 - An / Aus,,,,,,,,15 - Timer Record,07
+SP / LP,246,,(T8)-normalize,,,,,,,,,,1B
+Record End Search,170,,tv/vcr,13 - TV/VCR,,,,,,,,31 - Clock / Counter,29
+Call,234,,(T8)-PP,,,,,,,,,,23
+Play / Up - Arrow,118,,menu,26 - Menu,,,,,,,,25 - Showview / Programm,2A
+Stop / Down - Arrow,122,,,,,,,,,,,,
+Rewind / Left - Arrow,249,,up arrow,19 - Play / Up - Arrow,,,,,,,,,2E
+Fast Forward / Right - Arrow,245,,down arrow,20 - Stop / Down - Arrow,,,,,,,,,2D
+Pause,247,,left arrow,21 - Rewind / Left - Arrow,,,,,,,,,2C
+Record,120,,right arrow,22 - Fast Forward / Right - Arrow,,,,,,,,,2B
+Showview / Programm,248,,enter,27 - Enter,,,,,,,,38 - Rewind / FFwd - Info,21
+Menu,101,,sleep,,,,,,,,,,87
+Enter,168,,(T8)-pip on/off,,,,,,,,,,32
+Cancel,039,,,,,,,,,,,,
+Index,116,,(T8)-pip move,,,,,,,,,,9B
+Auto Tracking,103,,(T8)-pip swap,,,,,,,,,,A3
+Clock / Counter,105,,play,19 - Play / Up - Arrow,,,,,,,,30 - Auto Tracking,12
+Zero return,043,,pause,23 - Pause,,,,,,,,,09
+Counter reset,036,,rewind,21 - Rewind / Left - Arrow,,,,,,,,32 - Zero return,1A
+Audio select,054,,fast fwd,22 - Fast Forward / Right - Arrow,,,,,,,,17 - Record End Search,0A
+,,,stop,20 - Stop / Down - Arrow,,,,,,,,14 - Eject,11
+Reset,022,,record,24 - Record,,,,,,,,29 - Index,19
+Speicher Info,024,,esc,,,,,,,,,,36
+Clock running x 60,089,,,,,,,,,,,,
+Rewind / FFwd - Info,230,,20 / av,28 - Cancel,,,,,,,,,26
+Tracking manuell,107,,10,16 - SP / LP,,,,,,,,,25
+AV select,052,,fav/scan,,,,,,,,,,33
+,,,shift,,,,,,,,,,0F
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,shift-up,,,,,,,,,,AE
+,,,shift-down,,,,,,,,,,AD
+,,,(T8)-pip freeze,,,,,,,,,,B2
+,,,slow,18 - Call,,,,,,,,34 - Audio select,34
+,,,,,,,,,,,,,
+,,,bright+ ($_ch+),,,,,,,,,,84
+,,,bright- ($_ch-),,,,,,,,,,85
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,phantom11,,,,,,,,,,0B
+,,,phantom23,,,,,,,,,,17
+,,,phantom34,,,,,,,,,,22
+,,,phantom36,,,,,,,,,,24
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,setup,,,,,,,,,,1F
+,,,light,,,,,,,,,,31
+,,,(T8)-home theater,,,,,,,,,,35
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,A,,,,,,,,,,2F
+,,,B,,,,,,,,,,27
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,shift-left,,,,,,,,,,AC
+,,,shift-right,,,,,,,,,,AB
+,,,color+ ($_vol+),,,,,,,,,,86
+,,,color- ($_vol-),,,,,,,,,,83
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE

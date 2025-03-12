@@ -1,0 +1,150 @@
+Description=DVB-T Made in China
+Remote.name=Slingbox with UEI PL Chip
+Remote.signature=BINPL
+DeviceType=SAT
+DeviceIndex=3
+SetupCode=2003
+Protocol=00 5A
+Protocol.name=NEC1
+ProtocolParms=1 253 null 0 0
+FixedData=20 7F 40
+Function.0.name=power
+Function.0.hex=55
+Function.0.notes=NEC, D\=1 S\=253 F\=85
+Function.1.name=0
+Function.1.hex=9F
+Function.1.notes=NEC, D\=1 S\=253 F\=6
+Function.2.name=1
+Function.2.hex=75
+Function.2.notes=NEC, D\=1 S\=253 F\=81
+Function.3.name=2
+Function.3.hex=B7
+Function.3.notes=NEC, D\=1 S\=253 F\=18
+Function.4.name=3
+Function.4.hex=37
+Function.4.notes=NEC, D\=1 S\=253 F\=19
+Function.5.name=4
+Function.5.hex=4D
+Function.5.notes=NEC, D\=1 S\=253 F\=77
+Function.6.name=5
+Function.6.hex=8F
+Function.6.notes=NEC, D\=1 S\=253 F\=14
+Function.7.name=6
+Function.7.hex=0F
+Function.7.notes=NEC, D\=1 S\=253 F\=15
+Function.8.name=7
+Function.8.hex=6D
+Function.8.notes=NEC, D\=1 S\=253 F\=73
+Function.9.name=8
+Function.9.hex=AF
+Function.9.notes=NEC, D\=1 S\=253 F\=10
+Function.10.name=9
+Function.10.hex=2F
+Function.10.notes=NEC, D\=1 S\=253 F\=11
+Function.11.name=channel+
+Function.11.hex=5D
+Function.11.notes=NEC, D\=1 S\=253 F\=69
+Function.12.name=channel-
+Function.12.hex=7D
+Function.12.notes=NEC, D\=1 S\=253 F\=65
+Function.13.name=vol+
+Function.13.hex=1F
+Function.13.notes=NEC, D\=1 S\=253 F\=7
+Function.14.name=vol-
+Function.14.hex=3F
+Function.14.notes=NEC, D\=1 S\=253 F\=3
+Function.15.name=info
+Function.15.hex=05
+Function.15.notes=NEC, D\=1 S\=253 F\=95
+Function.16.name=epg
+Function.16.hex=47
+Function.16.notes=NEC, D\=1 S\=253 F\=29
+Function.17.name=exit
+Function.17.hex=C7
+Function.17.notes=NEC, D\=1 S\=253 F\=28
+Function.18.name=up
+Function.18.hex=67
+Function.18.notes=NEC, D\=1 S\=253 F\=25
+Function.19.name=down
+Function.19.hex=A5
+Function.19.notes=NEC, D\=1 S\=253 F\=90
+Function.20.name=left
+Function.20.hex=25
+Function.20.notes=NEC, D\=1 S\=253 F\=91
+Function.21.name=right
+Function.21.hex=E7
+Function.21.notes=NEC, D\=1 S\=253 F\=24
+Function.22.name=enter
+Function.22.hex=85
+Function.22.notes=NEC, D\=1 S\=253 F\=94
+Function.23.name=playlist
+Function.23.hex=15
+Function.23.notes=NEC, D\=1 S\=253 F\=87
+Function.24.name=mute
+Function.24.hex=95
+Function.24.notes=NEC, D\=1 S\=253 F\=86
+Function.25.name=back
+Function.25.hex=D7
+Function.25.notes=NEC, D\=1 S\=253 F\=20
+Function.26.name=menu
+Function.26.hex=35
+Function.26.notes=NEC, D\=1 S\=253 F\=83
+Function.27.name=fav
+Function.27.hex=B5
+Function.27.notes=NEC, D\=1 S\=253 F\=82
+Function.28.name=audio
+Function.28.hex=77
+Function.28.notes=NEC, D\=1 S\=253 F\=17
+Function.29.name=txt
+Function.29.hex=F7
+Function.29.notes=NEC, D\=1 S\=253 F\=16
+Function.30.name=red
+Function.30.hex=0D
+Function.30.notes=NEC, D\=1 S\=253 F\=79
+Function.31.name=green
+Function.31.hex=8D
+Function.31.notes=NEC, D\=1 S\=253 F\=78
+Function.32.name=yellow
+Function.32.hex=4F
+Function.32.notes=NEC, D\=1 S\=253 F\=13
+Function.33.name=blue
+Function.33.hex=CF
+Function.33.notes=NEC, D\=1 S\=253 F\=12
+Function.34.name=record
+Function.34.hex=3D
+Function.34.notes=NEC, D\=1 S\=253 F\=67
+Button.12=0|null|null
+Button.9=1|null|null
+Button.a=2|null|null
+Button.b=3|null|null
+Button.c=4|null|null
+Button.d=5|null|null
+Button.e=6|null|null
+Button.f=7|null|null
+Button.10=8|null|null
+Button.11=9|null|null
+Button.6=vol+|null|null
+Button.7=vol-|null|null
+Button.8=mute|null|null
+Button.4=channel+|null|null
+Button.5=channel-|null|null
+Button.1=power|null|null
+Button.15=back|null|null
+Button.2e=info|null|null
+Button.21=menu|null|null
+Button.26=up|null|null
+Button.27=down|null|null
+Button.28=left|null|null
+Button.29=right|null|null
+Button.25=exit|null|null
+Button.30=txt|null|null
+Button.4a=red|null|null
+Button.4b=green|null|null
+Button.4c=yellow|null|null
+Button.4d=blue|null|null
+Button.4e=playlist|null|null
+Button.31=audio|null|null
+Button.2d=fav|null|null
+Button.23=epg|null|null
+Button.13=enter|null|null
+Button.1d=record|null|null

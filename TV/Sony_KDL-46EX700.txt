@@ -1,0 +1,197 @@
+Name:,Sony KDL-46EX700,,,,v9.19,,,,,,,,CURRENT DATA
+Devices:,Sony Combo (12/15/20),,,,,,,,,,,,
+Manual:,,0 = 1-byte,LSB-COMP,87,NO,,,,,,,,
+Setup:,1000,27 = URC-9910 / 8910 / UEI HTPro,02 - TV,OBC,USE,00 00 00 00,2,No,,,,,
+URC-9910 / 8910 / UEI HTPro Device Upgrade/Key Move Code:,,,,,,,,,,,,,
+Upgrade Code 0 = 0B E8 (TV/1000) Sony KDL-46EX700 (KM v9.19),,,,,,,,,,,,,
+27 00 FE FE FD 00 00 00 00 90 80 00 80 80 80 40 80 C0 80 20 80 A0 80 60 80 E0 80 10 80 48 80 C8 80 28 80 08 80 88 80 A8 80 06 80 A4 80 DC 80 2E 80 AE 80 2C 80 CC 80 A6 80 6C 80 5C 80 C6 80 BD 25 9F 58 C5 E9 6D E9 D0 80,,,,,,,,,,,,,
+KeyMoves,,,,,,,,,,,,,
+ 0C F4 03 E8 59 E9«BS-Play: Bravia Sync»  ¦0B F4 03 E8 D9 E9«BS-Rewind: Bravia Sync»¦0D F4 03 E8 39 E9«BS-FF: Bravia Sync» ¦0E F4 03 E8 19 E9«BS-Stop: Bravia Sync»  ¦10 F4 03 E8 B9 E9«.»¦2A F4 03 E8 BD E9«BS-Next: Bravia Sync»  ¦29 F4 03 E8 3D E9«BS-Prev: Bravia Sync»  ¦25 F4 03 E8 E5 E9«Yellow» ¦26 F4 03 E8 25 E9«Blue»¦27 F4 03 E8 A5 E9«Red» ¦28 F4 03 E8 65 E9«Green»  ¦2D F4 03 E8 DF 58«i-manual»  ¦2E F4 03 E8 1F 58«Scene»  ,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Protocol Code: (Upgrade Req'd),,,,,,,,,,,,,
+Upgrade Protocol 0 = 01 27 (S3C8+) Sony Combo (12/15/20) (KM v9.19),,,,,,,,,,,,,
+3A 8A 42 8B 15 F8 15 05 07 02 58 01 18 01 2C 01 18 57 D0 04 B0 01 18 08 03 08 76 07 01 EB 17 76 08 01 6B 0F E6 28 F9 E6 12 08 08 08 E0 C0 56 C0 03 09 01 E6 24 05 8D 01 49,,,,,,,,,,,,,
+End,,,,,,,,,,,,,
+Key Move Code:,,,198,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+fFunctions,fOBC,fByte2,bButtons,bFunctions,fNotes,Device Combiner,,kFunctions,kBoundDev,kBoundKey,kShift,b$Functions,bBtnCd
+num 0,009,1,0,00 - num 0,,Protocol ID,Fixed Data,,,,,,1F
+num 1,000,1,1,01 - num 1,,,,,,,,,15
+num 2,001,1,2,02 - num 2,,,,,,,,,16
+num 3,002,1,3,03 - num 3,,,,,,,,,17
+num 4,003,1,4,04 - num 4,,,,,,,,,19
+num 5,004,1,5,05 - num 5,,,,,,,,,1A
+num 6,005,1,6,06 - num 6,,,,,,,,,1B
+num 7,006,1,7,07 - num 7,,,,,,,,,1C
+num 8,007,1,8,08 - num 8,,,,,,,,,1D
+num 9,008,1,9,09 - num 9,,,,,,,,,1E
+vol up,018,1,vol up,10 - vol up,,,,,,,,,04
+vol down,019,1,vol down,11 - vol down,,,,,,,,,05
+mute,020,1,mute,12 - mute,,,,,,,,,08
+channel up,016,1,channel up,13 - channel up,,,,,,,,,06
+channel down,017,1,channel down,14 - channel down,,,,,,,,,07
+power,021,1,power,15 - power,,,,,,,,,03
+enter,011,1,enter,16 - enter,,,,,,,,,18
+INPUT,037,1,tv/vid,17 - INPUT,,,,,,,,,20
+JUMP,059,1,prev,18 - JUMP,,,,,,,,,38
+Menu/Home,096,1,menu,19 - Menu/Home,,,,,,,,,14
+exit,099,1,guide,53 - Options,,,,,,,,,36
+joystick UP,116,1,up arrow,21 - joystick UP,,,,,,,,,31
+joystick DOWN,117,1,down arrow,22 - joystick DOWN,,,,,,,,,32
+joystick LEFT,052,1,left arrow,23 - joystick LEFT,,,,,,,,,33
+joystick RIGHT,051,1,right arrow,24 - joystick RIGHT,,,,,,,,,34
+joystick PUSH (select),101,1,select,25 - joystick PUSH (select),,,,,,,,,35
+sleep,054,1,sleep,26 - sleep,,,,,,,,,30
+display,058,1,pip,29 - WIDE toggle,,,,,,,,,3A
+[FAVORITES],118,119,info,27 - display,,,,,,,,,13
+WIDE toggle,061,164,swap,58 - Internet Video,,,,,,,,,3C
+[PIC MODE],100,1,move,52 - Return,,,,,,,,,3B
+Discrete ON,046,1,play,62 - BS-Play,,,,,,,,,0C
+Discrete OFF,047,1,pause,,,,,,,,,,0F
+[RESET] factory defaults,022,1,rewind,61 - BS-Rewind,,,,,,,,,0B
+TV Tuner discrete,036,1,fwd,63 - BS-FF,,,,,,,,,0D
+Video #1 discrete,064,1,stop,66 - BS-Stop,,,,,,,,,0E
+Video #2 discrete,065,1,record,55 - .,,,,,,,,,10
+Audio Effect Toggle,041,1,exit,20 - exit,,,,,,,,,37
+"Sleep, Off Timer",054,1,,,,,,,,,,,
+SONY TEST (Be very careful here),127,1,,,,,,,,,,,
+Component 1,054,164,,,,,,,,,,,
+Component 2,055,164,,,,,,,,,,,
+HDMI 1,090,6 26,,,,,,,,,,,
+HDMI 2,091,6 26,f fwd,67 - BS-Next,,,,,,,,,2A
+HDMI 3,092,6 26,f rew,65 - BS-Prev,,,,,,,,,29
+HDMI 4,093,6 26,,,,,,,,,,,
+PC,067,1,,,,,,,,,,,
+Red,037,151,,,,,,,,,,,
+Green,038,151,,,,,,,,,,,
+Yellow,039,151,,,,,,,,,,,
+Blue,036,151,,,,,,,,,,,
+Guide,091,164,,,,,,,,,,,
+Return,035,151,,,,,,,,,,,
+Options,054,151,,,,,,,,,,,
+Audio,037,6 23,,,,,,,,,,,
+.,029,151,phantom1,,,,,,,,,,3D
+i-manual,123,6 26,phantom2,,,,,,,,,,3E
+Scene,120,6 26,phantom3,,,,,,,,,,3F
+Internet Video,121,6 26,,,,,,,,,,,
+QRIOCITY,125,6 26,,,,,,,,,,,
+BS-Theater,096,119,,,Bravia Sync,,,,,,,,
+BS-Rewind,027,151,,,Bravia Sync,,,,,,,,
+BS-Play,026,151,,,Bravia Sync,,,,,,,,
+BS-FF,028,151,,,Bravia Sync,,,,,,,,
+BS-Sync Menu,088,6 26,,,Bravia Sync,,,,,,,,
+BS-Prev,060,151,setup,,Bravia Sync,,,,,,,,02
+BS-Stop,024,151,light,,Bravia Sync,,,,,,,,39
+BS-Next,061,151,home theater,,Bravia Sync,,,,,,,,24
+,,,M1,56 - i-manual,,,,,,,,,2D
+,,,M2,57 - Scene,,,,,,,,,2E
+,,,M3,,,,,,,,,,2F
+,,,,,,,,,,,,,
+,,,L1,49 - Yellow,,,,,,,,,25
+,,,L2,50 - Blue,,,,,,,,,26
+,,,L3,47 - Red,,,,,,,,,27
+,,,L4,48 - Green,,,,,,,,,28
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,com/skip,,,,,,,,,,2B
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Line Notes:,,,,,,,,,,,,,
+Device upgrade that incorporates a lot of the original remote's,,,,,,,,,,,,,
+functionality for my Sony KV-34XBR800 into my 15-2117.,,,,,,,,,,,,,
+"Since my original remote was turned into a chew toy by my Husky,",,,,,,,,,,,,,
+I included more functions than I needed on the off chance I may,,,,,,,,,,,,,
+need some of them some day.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+I also assigned some discrete functions to some of the phantom,,,,,,,,,,,,,
+buttons for use with some user-friendly macros.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Thank you to Rob and all of those who have made this love-hate,,,,,,,,,,,,,
+relationship possible.,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Update ADR 12/30/04,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+"Update for KDL-36EX700, ADR, 4/18/10",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,EOF Marker - DO NOT DELETE
