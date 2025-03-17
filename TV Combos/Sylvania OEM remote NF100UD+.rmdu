@@ -1,7 +1,7 @@
 Description=Sylvania & Magnavox TV Combo Remotes
 Remote.name=URC-3680
 Remote.signature=369006
-Notes=This upgrade covers\nMagnavox NF102UD (DVD combo), a.k.a.\nSylvania NF100UD,\nSylvania NF107UD,\nMagnavox NF108UD &\nMagnavox NF110UD\n\nand Sylvania NF101UD (VCR combo), a.k.a.\nMagnavox NF104UD,\nMagnavox NF105UD &\nMagnavox NF109UD
+Notes=This upgrade covers\nMagnavox NF102UD (DVD combo), a.k.a.\nSylvania NF100UD,\nSylvania NF107UD,\nMagnavox NF108UD &\nMagnavox NF110UD\n\nand Sylvania NF101UD (VCR combo), a.k.a.\nMagnavox NF104UD,\nSylvania NF105UD &\nMagnavox NF109UD
 SegmentFlags=255
 DeviceType=TV
 DeviceIndex=0
