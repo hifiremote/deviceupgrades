@@ -1,7 +1,7 @@
 Description=Hisense EN2A27/HT
 Remote.name=URC-3680
 Remote.signature=369006
-Notes=A family of Hisense remotes for certain Roku TVs.
+Notes=A family of Hisense remotes for certain non-Roku smart TVs.
 SegmentFlags=255
 DeviceType=TV
 DeviceIndex=0
