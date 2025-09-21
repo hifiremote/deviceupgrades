@@ -349,7 +349,7 @@ Function.125.name=[unknown]
 Function.125.hex=3E
 Function.126.name=[unknown]
 Function.126.hex=BE
-Function.127.name=[WakeWord IR 0]
+Function.127.name=[WakeWord]
 Function.127.hex=7E
 Function.127.notes=No response observed.
 Button.3a=0|App\: The Roku Channel|null
@@ -403,3 +403,4 @@ Button.3b=OK|null|null
 Button.4=Game mode|null|null
 Button.5=App\: Roku Media Player|null|null
 Button.6=Input\: AV Input|null|null
+
