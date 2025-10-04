@@ -22,6 +22,7 @@ Function.4.name=Home
 Function.4.hex=C0
 Function.5.name=Info
 Function.5.hex=86
+Function.5.notes=the * "Options" key
 Function.6.name=Up
 Function.6.hex=98
 Function.6.notes=CH+ in Live TV
@@ -341,3 +342,4 @@ Button.3b=Select [0A]|null|null
 Button.4=Game|null|null
 Button.5=InputUSB|null|null
 Button.6=InputAV1|null|null
+
