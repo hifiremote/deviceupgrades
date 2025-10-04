@@ -3,7 +3,7 @@ Remote.name=URC-3680
 Remote.signature=369006
 Notes=Added additional keys identified through Roku's Key Test sub-menu. More at https\://www.wikihow.com/Roku-Secret-Menu
 SegmentFlags=255
-DeviceType=DVD
+DeviceType=TV
 DeviceIndex=3
 SetupCode=1000
 Protocol=02 1A
@@ -403,3 +403,4 @@ Button.3b=OK|null|null
 Button.4=Game mode|null|null
 Button.5=App\: Roku Media Player|null|null
 Button.6=Input\: AV Input|null|null
+
