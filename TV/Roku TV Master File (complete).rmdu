@@ -178,7 +178,7 @@ Function.74.name=Partner60 (ESPN+)
 Function.74.hex=4E
 Function.75.name=Partner63 (Dazn)
 Function.75.hex=D0
-Function.76.name=Partner64 (TLC Zoom)
+Function.76.name=Partner64 (TCL Zoom)
 Function.76.hex=B0
 Function.76.notes=(not available on all Roku TVs)
 Function.77.name=Partner65 (Disney+)
@@ -342,4 +342,5 @@ Button.3b=Select [0A]|null|null
 Button.4=Game|null|null
 Button.5=InputUSB|null|null
 Button.6=InputAV1|null|null
+
 
