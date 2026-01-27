@@ -1,7 +1,7 @@
 Description=Digital Stream DTX9950REM
 Remote.name=URC-3680
 Remote.signature=369006
-Notes=M\# DTX-9900 uses the same remote, but the "A/D" key acts as an INFO function, and is labelled as such.
+Notes=M\# DTX9900 uses the same remote, but the "A/D" key acts as an INFO function, and is labelled as such.
 SegmentFlags=255
 DeviceType=SAT
 DeviceIndex=1
@@ -125,3 +125,4 @@ Button.39=Dot|null|null
 Button.3b=OK/Info|null|null
 Button.4=Zoom|null|null
 Button.5=Audio|null|null
+
