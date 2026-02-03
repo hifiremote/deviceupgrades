@@ -1,7 +1,7 @@
 Description=Sylvania NF101UD
 Remote.name=URC-3680
 Remote.signature=369006
-Notes=This upgrade covers\nSylvania NF101UD (TV/DVD/VCR combo), a.k.a.\nMagnavox NF104UD,\nSylvania NF105UD &\nMagnavox NF109UD\n\nAlso released under brand names Funai, Symphonic & GFM.\n6719DG, 6720FDG, 6724DG, 6724FDG, 6727DG, CD130MW8, CD130SL8, CD202SL8, CMWC20T6, CT202MW8, CT202SL8, CT202SL8, CT270MW8A, MSD724G, MSD724G/TV, MWC20T6, MWC20T6/TV, MWC20T6A, MWC24T5, MWC24T5A, MWC24T5B, MWC24T5B/TV, RSMWC24T5, SC720FDF, SC724DF, SV063476, V7TVDVDDCB
+Notes=This upgrade covers\nSylvania NF101UD (TV/DVD/VCR combo), a.k.a.\nMagnavox NF104UD,\nSylvania NF105UD &\nMagnavox NF109UD\n\nAlso released under brand names Funai, Magnavox, Symphonic & GFM.\n6719DG, 6720FDG, 6724DG, 6724FDG, 6727DG, CD130MW8, CD130SL8, CD202SL8, CMWC20T6, CT202MW8, CT202SL8, CT202SL8, CT270MW8A, MSD724G, MSD724G/TV, MWC20T6, MWC20T6/TV, MWC20T6A, MWC24T5, MWC24T5A, MWC24T5B, MWC24T5B/TV, RSMWC24T5, SC720FDF, SC724DF, SV063476, V7TVDVDDCB
 SegmentFlags=255
 DeviceType=TV
 DeviceIndex=0
@@ -158,3 +158,4 @@ Button.29=Speed|null|null
 Button.3b=+10 Search|null|null
 Button.4=Pic/Sleep|null|null
 Button.5=TV/VCR Audio|null|null
+
