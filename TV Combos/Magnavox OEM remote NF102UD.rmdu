@@ -1,7 +1,7 @@
 Description=Magnavox NF102UD
 Remote.name=URC-3680
 Remote.signature=369006
-Notes=CRT TV/DVD combo w/extra keys from a URC.\n\nThe Magnavox NF102UD remote is designed for various Magnavox TV/DVD combo models, most notably the MWC13D6, MWC20D6, and their variants. It commonly operates Magnavox, Funai, and Philco CRT TV/DVD combo units from the late 2000s, including\:\nMWC13D6, MWC13D5, CMWC13D6\nMWC20D6, MWC20D5\nCD130SL8, CD202SL8\n6513DG, 6520FDG\nMJ520FDG\n\nEQUIVALENT REMOTES\nSylvania NF100UD,\nSylvania NF107UD,\nMagnavox NF108UD &\nMagnavox NF110UD\n\nCOMPATIBLE MODELS\nAlso released under brand names Funai, Symphonic & GFM.\n6509DD, CD130MW8/DVD, CD130MW9, CD130MW9/TV, MMT8978, MWC13D6/TV, MWC20D6/TV, SC520FDG, SC520FDG20, SSC509D , SV073565, V07PFTV20, V7PFDVD20
+Notes=CRT TV/DVD combo w/extra keys from a URC.\n\nThe Magnavox NF102UD remote is designed for various Magnavox TV/DVD combo models, most notably the MWC13D6, MWC20D6, and their variants. It commonly operates Magnavox, Funai, and Philco CRT TV/DVD combo units from the late 2000s, including\:\nMWC13D6, MWC13D5, CMWC13D6\nMWC20D6, MWC20D5\nCD130SL8, CD202SL8\n6513DG, 6520FDG\nMJ520FDG\n\nEQUIVALENT REMOTES\nSylvania NF100UD,\nSylvania NF107UD,\nMagnavox NF108UD &\nMagnavox NF110UD\n\nCOMPATIBLE MODELS\nAlso released under brand names Funai, Sylvania, Symphonic & GFM.\n6509DD, CD130MW8/DVD, CD130MW9, CD130MW9/TV, MMT8978, MWC13D6/TV, MWC20D6/TV, SC520FDG, SC520FDG20, SSC509D , SV073565, V07PFTV20, V7PFDVD20
 SegmentFlags=255
 DeviceType=TV
 DeviceIndex=0
@@ -163,3 +163,4 @@ Button.2b=TV\:Sleep|null|null
 Button.39=+10 Search|null|null
 Button.3b=Clear|null|null
 Button.4=Pic/Sleep|null|null
+
